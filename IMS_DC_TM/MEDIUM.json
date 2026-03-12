@@ -1,0 +1,1402 @@
+[
+  {
+    "questionnumber": 1,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: IMS is described in the Redbook as being both a. Statement B: A common IMS system service includes. Which design decision best aligns with this Redbook guidance? [Medium-1: ims_nature+sys_services_sec]",
+    "option_1": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_2": "Neither statement is supported by Redbook IMS sections.",
+    "option_3": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_4": "Both statements are consistent with Redbook IMS explanations.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 2,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Which set correctly lists the three IMS product components. Statement B: An IMS subsystem generally runs in. Which interpretation is most accurate? [Medium-2: components+ims_address_spaces]",
+    "option_1": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_2": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_3": "Neither statement is supported by Redbook IMS sections.",
+    "option_4": "Both statements are consistent with Redbook IMS explanations.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 3,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: The IMS Transaction Manager provides users of a network with access to. Statement B: Under IMS asynchronous messaging, IMS may. Which conclusion follows most directly? [Medium-3: tm_role+reply_behavior]",
+    "option_1": "Both statements are consistent with Redbook IMS explanations.",
+    "option_2": "Neither statement is supported by Redbook IMS sections.",
+    "option_3": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 4,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: IMS TM users can be terminals/workstations and also. Statement B: Which is one IMS TM message type listed. Which option best reflects IMS architecture behavior? [Medium-4: users_scope+msg_type_cmd]",
+    "option_1": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_2": "Both statements are consistent with Redbook IMS explanations.",
+    "option_3": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_4": "Neither statement is supported by Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 5,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: A transaction in IMS is defined as. Statement B: IMS normally removes a queued message after. Which design decision best aligns with this Redbook guidance? [Medium-5: transaction_def+queue_delete]",
+    "option_1": "Both statements are consistent with Redbook IMS explanations.",
+    "option_2": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_3": "Neither statement is supported by Redbook IMS sections.",
+    "option_4": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 6,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Which language group is listed for writing IMS application programs. Statement B: IMS creates multiple subtasks so that. Which interpretation is most accurate? [Medium-6: languages+subtask_reason]",
+    "option_1": "Neither statement is supported by Redbook IMS sections.",
+    "option_2": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_3": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_4": "Both statements are consistent with Redbook IMS explanations.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 7,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: A common IMS system service includes. Statement B: A benefit of z/OS subsystem feature use by IMS is interaction with. Which conclusion follows most directly? [Medium-7: sys_services_rr+subsystem_interact]",
+    "option_1": "Neither statement is supported by Redbook IMS sections.",
+    "option_2": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_3": "Both statements are consistent with Redbook IMS explanations.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 8,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: A common IMS system service includes. Statement B: IMS is described in the Redbook as being both a. Which option best reflects IMS architecture behavior? [Medium-8: sys_services_sec+ims_nature]",
+    "option_1": "Both statements are consistent with Redbook IMS explanations.",
+    "option_2": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_3": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_4": "Neither statement is supported by Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 9,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: A common IMS system service includes management of application programs such as. Statement B: IMS TM users can be terminals/workstations and also. Which design decision best aligns with this Redbook guidance? [Medium-9: sys_services_app+users_scope]",
+    "option_1": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_2": "Both statements are consistent with Redbook IMS explanations.",
+    "option_3": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_4": "Neither statement is supported by Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 10,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: IMS system services provide. Statement B: A common IMS system service includes. Which interpretation is most accurate? [Medium-10: sys_services_diag+sys_services_rr]",
+    "option_1": "Both statements are consistent with Redbook IMS explanations.",
+    "option_2": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_3": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_4": "Neither statement is supported by Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 11,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: An IMS subsystem generally runs in. Statement B: IMS system services provide. Which conclusion follows most directly? [Medium-11: ims_address_spaces+sys_services_diag]",
+    "option_1": "Both statements are consistent with Redbook IMS explanations.",
+    "option_2": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_3": "Neither statement is supported by Redbook IMS sections.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 12,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: In Redbook usage, IMS \"region\" corresponds to. Statement B: IMS TM message processing is described as. Which option best reflects IMS architecture behavior? [Medium-12: region_synonym+tm_messages_async]",
+    "option_1": "Neither statement is supported by Redbook IMS sections.",
+    "option_2": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_3": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_4": "Both statements are consistent with Redbook IMS explanations.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 13,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: IMS TM message processing is described as. Statement B: Which is one IMS TM message type listed. Which design decision best aligns with this Redbook guidance? [Medium-13: tm_messages_async+msg_type_dest]",
+    "option_1": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_2": "Neither statement is supported by Redbook IMS sections.",
+    "option_3": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_4": "Both statements are consistent with Redbook IMS explanations.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 14,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Under IMS asynchronous messaging, IMS may. Statement B: If IMS cannot immediately process input or send output, it. Which interpretation is most accurate? [Medium-14: reply_behavior+queue_when]",
+    "option_1": "Neither statement is supported by Redbook IMS sections.",
+    "option_2": "Both statements are consistent with Redbook IMS explanations.",
+    "option_3": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 15,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Which is one IMS TM message type listed. Statement B: Within IMS subsystem architecture, the controlling address space is called. Which conclusion follows most directly? [Medium-15: msg_type_txn+control_region_role]",
+    "option_1": "Neither statement is supported by Redbook IMS sections.",
+    "option_2": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_3": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_4": "Both statements are consistent with Redbook IMS explanations.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 16,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Which is one IMS TM message type listed. Statement B: Using z/OS subsystem feature helps IMS. Which option best reflects IMS architecture behavior? [Medium-16: msg_type_dest+subsystem_detect]",
+    "option_1": "Both statements are consistent with Redbook IMS explanations.",
+    "option_2": "Neither statement is supported by Redbook IMS sections.",
+    "option_3": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 17,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Which is one IMS TM message type listed. Statement B: The Redbook characterizes IMS message queues used for delayed processing as. Which design decision best aligns with this Redbook guidance? [Medium-17: msg_type_cmd+message_queue_external]",
+    "option_1": "Both statements are consistent with Redbook IMS explanations.",
+    "option_2": "Neither statement is supported by Redbook IMS sections.",
+    "option_3": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_4": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 18,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Which IMS TM message type needs special handling because APPC expects synchronous reply. Statement B: The IMS Transaction Manager provides users of a network with access to. Which interpretation is most accurate? [Medium-18: msg_type_appc+tm_role]",
+    "option_1": "Neither statement is supported by Redbook IMS sections.",
+    "option_2": "Both statements are consistent with Redbook IMS explanations.",
+    "option_3": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 19,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: If IMS cannot immediately process input or send output, it. Statement B: Which language group is listed for writing IMS application programs. Which conclusion follows most directly? [Medium-19: queue_when+languages]",
+    "option_1": "Both statements are consistent with Redbook IMS explanations.",
+    "option_2": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_3": "Neither statement is supported by Redbook IMS sections.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 20,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: IMS normally removes a queued message after. Statement B: A common IMS system service includes management of application programs such as. Which option best reflects IMS architecture behavior? [Medium-20: queue_delete+sys_services_app]",
+    "option_1": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_2": "Both statements are consistent with Redbook IMS explanations.",
+    "option_3": "Neither statement is supported by Redbook IMS sections.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 21,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Network input/output to IMS TM takes the form of. Statement B: In Redbook usage, IMS \"region\" corresponds to. Which design decision best aligns with this Redbook guidance? [Medium-21: network_io_form+region_synonym]",
+    "option_1": "Neither statement is supported by Redbook IMS sections.",
+    "option_2": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_3": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_4": "Both statements are consistent with Redbook IMS explanations.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 22,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Within IMS subsystem architecture, the controlling address space is called. Statement B: Which is one IMS TM message type listed. Which interpretation is most accurate? [Medium-22: control_region_role+msg_type_txn]",
+    "option_1": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_2": "Both statements are consistent with Redbook IMS explanations.",
+    "option_3": "Neither statement is supported by Redbook IMS sections.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 23,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: IMS creates multiple subtasks so that. Statement B: Which IMS TM message type needs special handling because APPC expects synchronous reply. Which conclusion follows most directly? [Medium-23: subtask_reason+msg_type_appc]",
+    "option_1": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_2": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_3": "Neither statement is supported by Redbook IMS sections.",
+    "option_4": "Both statements are consistent with Redbook IMS explanations.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 24,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: IMS uses z/OS cross-memory services primarily to. Statement B: Network input/output to IMS TM takes the form of. Which option best reflects IMS architecture behavior? [Medium-24: cross_memory_tm+network_io_form]",
+    "option_1": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_2": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_3": "Neither statement is supported by Redbook IMS sections.",
+    "option_4": "Both statements are consistent with Redbook IMS explanations.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 25,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Using z/OS subsystem feature helps IMS. Statement B: IMS uses z/OS cross-memory services primarily to. Which design decision best aligns with this Redbook guidance? [Medium-25: subsystem_detect+cross_memory_tm]",
+    "option_1": "Both statements are consistent with Redbook IMS explanations.",
+    "option_2": "Neither statement is supported by Redbook IMS sections.",
+    "option_3": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_4": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 26,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: A benefit of z/OS subsystem feature use by IMS is interaction with. Statement B: In sysplex, multiple IMS subsystems can. Which interpretation is most accurate? [Medium-26: subsystem_interact+sysplex_tm]",
+    "option_1": "Neither statement is supported by Redbook IMS sections.",
+    "option_2": "Both statements are consistent with Redbook IMS explanations.",
+    "option_3": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 27,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: In sysplex, multiple IMS subsystems can. Statement B: Which set correctly lists the three IMS product components. Which conclusion follows most directly? [Medium-27: sysplex_tm+components]",
+    "option_1": "Both statements are consistent with Redbook IMS explanations.",
+    "option_2": "Neither statement is supported by Redbook IMS sections.",
+    "option_3": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_4": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 28,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: The Redbook characterizes IMS message queues used for delayed processing as. Statement B: A transaction in IMS is defined as. Which option best reflects IMS architecture behavior? [Medium-28: message_queue_external+transaction_def]",
+    "option_1": "Both statements are consistent with Redbook IMS explanations.",
+    "option_2": "Neither statement is supported by Redbook IMS sections.",
+    "option_3": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 29,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: IMS is described in the Redbook as being both a. Statement B: A common IMS system service includes. Which design decision best aligns with this Redbook guidance? [Medium-29: ims_nature+sys_services_sec]",
+    "option_1": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_2": "Neither statement is supported by Redbook IMS sections.",
+    "option_3": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_4": "Both statements are consistent with Redbook IMS explanations.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 30,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Which set correctly lists the three IMS product components. Statement B: An IMS subsystem generally runs in. Which interpretation is most accurate? [Medium-30: components+ims_address_spaces]",
+    "option_1": "Both statements are consistent with Redbook IMS explanations.",
+    "option_2": "Neither statement is supported by Redbook IMS sections.",
+    "option_3": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 31,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: The IMS Transaction Manager provides users of a network with access to. Statement B: Under IMS asynchronous messaging, IMS may. Which conclusion follows most directly? [Medium-31: tm_role+reply_behavior]",
+    "option_1": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_2": "Neither statement is supported by Redbook IMS sections.",
+    "option_3": "Both statements are consistent with Redbook IMS explanations.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 32,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: IMS TM users can be terminals/workstations and also. Statement B: Which is one IMS TM message type listed. Which option best reflects IMS architecture behavior? [Medium-32: users_scope+msg_type_cmd]",
+    "option_1": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_2": "Neither statement is supported by Redbook IMS sections.",
+    "option_3": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_4": "Both statements are consistent with Redbook IMS explanations.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 33,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: A transaction in IMS is defined as. Statement B: IMS normally removes a queued message after. Which design decision best aligns with this Redbook guidance? [Medium-33: transaction_def+queue_delete]",
+    "option_1": "Both statements are consistent with Redbook IMS explanations.",
+    "option_2": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_3": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_4": "Neither statement is supported by Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 34,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Which language group is listed for writing IMS application programs. Statement B: IMS creates multiple subtasks so that. Which interpretation is most accurate? [Medium-34: languages+subtask_reason]",
+    "option_1": "Neither statement is supported by Redbook IMS sections.",
+    "option_2": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_3": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_4": "Both statements are consistent with Redbook IMS explanations.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 35,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: A common IMS system service includes. Statement B: A benefit of z/OS subsystem feature use by IMS is interaction with. Which conclusion follows most directly? [Medium-35: sys_services_rr+subsystem_interact]",
+    "option_1": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_2": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_3": "Both statements are consistent with Redbook IMS explanations.",
+    "option_4": "Neither statement is supported by Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 36,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: A common IMS system service includes. Statement B: IMS is described in the Redbook as being both a. Which option best reflects IMS architecture behavior? [Medium-36: sys_services_sec+ims_nature]",
+    "option_1": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_2": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_3": "Both statements are consistent with Redbook IMS explanations.",
+    "option_4": "Neither statement is supported by Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 37,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: A common IMS system service includes management of application programs such as. Statement B: IMS TM users can be terminals/workstations and also. Which design decision best aligns with this Redbook guidance? [Medium-37: sys_services_app+users_scope]",
+    "option_1": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_2": "Neither statement is supported by Redbook IMS sections.",
+    "option_3": "Both statements are consistent with Redbook IMS explanations.",
+    "option_4": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 38,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: IMS system services provide. Statement B: A common IMS system service includes. Which interpretation is most accurate? [Medium-38: sys_services_diag+sys_services_rr]",
+    "option_1": "Both statements are consistent with Redbook IMS explanations.",
+    "option_2": "Neither statement is supported by Redbook IMS sections.",
+    "option_3": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_4": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 39,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: An IMS subsystem generally runs in. Statement B: IMS system services provide. Which conclusion follows most directly? [Medium-39: ims_address_spaces+sys_services_diag]",
+    "option_1": "Neither statement is supported by Redbook IMS sections.",
+    "option_2": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_3": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_4": "Both statements are consistent with Redbook IMS explanations.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 40,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: In Redbook usage, IMS \"region\" corresponds to. Statement B: IMS TM message processing is described as. Which option best reflects IMS architecture behavior? [Medium-40: region_synonym+tm_messages_async]",
+    "option_1": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_2": "Both statements are consistent with Redbook IMS explanations.",
+    "option_3": "Neither statement is supported by Redbook IMS sections.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 41,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: IMS TM message processing is described as. Statement B: Which is one IMS TM message type listed. Which design decision best aligns with this Redbook guidance? [Medium-41: tm_messages_async+msg_type_dest]",
+    "option_1": "Neither statement is supported by Redbook IMS sections.",
+    "option_2": "Both statements are consistent with Redbook IMS explanations.",
+    "option_3": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 42,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Under IMS asynchronous messaging, IMS may. Statement B: If IMS cannot immediately process input or send output, it. Which interpretation is most accurate? [Medium-42: reply_behavior+queue_when]",
+    "option_1": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_2": "Both statements are consistent with Redbook IMS explanations.",
+    "option_3": "Neither statement is supported by Redbook IMS sections.",
+    "option_4": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 43,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Which is one IMS TM message type listed. Statement B: Within IMS subsystem architecture, the controlling address space is called. Which conclusion follows most directly? [Medium-43: msg_type_txn+control_region_role]",
+    "option_1": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_2": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_3": "Neither statement is supported by Redbook IMS sections.",
+    "option_4": "Both statements are consistent with Redbook IMS explanations.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 44,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Which is one IMS TM message type listed. Statement B: Using z/OS subsystem feature helps IMS. Which option best reflects IMS architecture behavior? [Medium-44: msg_type_dest+subsystem_detect]",
+    "option_1": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_2": "Both statements are consistent with Redbook IMS explanations.",
+    "option_3": "Neither statement is supported by Redbook IMS sections.",
+    "option_4": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 45,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Which is one IMS TM message type listed. Statement B: The Redbook characterizes IMS message queues used for delayed processing as. Which design decision best aligns with this Redbook guidance? [Medium-45: msg_type_cmd+message_queue_external]",
+    "option_1": "Both statements are consistent with Redbook IMS explanations.",
+    "option_2": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_3": "Neither statement is supported by Redbook IMS sections.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 46,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Which IMS TM message type needs special handling because APPC expects synchronous reply. Statement B: The IMS Transaction Manager provides users of a network with access to. Which interpretation is most accurate? [Medium-46: msg_type_appc+tm_role]",
+    "option_1": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_2": "Both statements are consistent with Redbook IMS explanations.",
+    "option_3": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_4": "Neither statement is supported by Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 47,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: If IMS cannot immediately process input or send output, it. Statement B: Which language group is listed for writing IMS application programs. Which conclusion follows most directly? [Medium-47: queue_when+languages]",
+    "option_1": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_2": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_3": "Neither statement is supported by Redbook IMS sections.",
+    "option_4": "Both statements are consistent with Redbook IMS explanations.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 48,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: IMS normally removes a queued message after. Statement B: A common IMS system service includes management of application programs such as. Which option best reflects IMS architecture behavior? [Medium-48: queue_delete+sys_services_app]",
+    "option_1": "Both statements are consistent with Redbook IMS explanations.",
+    "option_2": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_3": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_4": "Neither statement is supported by Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 49,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Network input/output to IMS TM takes the form of. Statement B: In Redbook usage, IMS \"region\" corresponds to. Which design decision best aligns with this Redbook guidance? [Medium-49: network_io_form+region_synonym]",
+    "option_1": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_2": "Both statements are consistent with Redbook IMS explanations.",
+    "option_3": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_4": "Neither statement is supported by Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 50,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Within IMS subsystem architecture, the controlling address space is called. Statement B: Which is one IMS TM message type listed. Which interpretation is most accurate? [Medium-50: control_region_role+msg_type_txn]",
+    "option_1": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_2": "Both statements are consistent with Redbook IMS explanations.",
+    "option_3": "Neither statement is supported by Redbook IMS sections.",
+    "option_4": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 51,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: IMS creates multiple subtasks so that. Statement B: Which IMS TM message type needs special handling because APPC expects synchronous reply. Which conclusion follows most directly? [Medium-51: subtask_reason+msg_type_appc]",
+    "option_1": "Both statements are consistent with Redbook IMS explanations.",
+    "option_2": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_3": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_4": "Neither statement is supported by Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 52,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: IMS uses z/OS cross-memory services primarily to. Statement B: Network input/output to IMS TM takes the form of. Which option best reflects IMS architecture behavior? [Medium-52: cross_memory_tm+network_io_form]",
+    "option_1": "Neither statement is supported by Redbook IMS sections.",
+    "option_2": "Both statements are consistent with Redbook IMS explanations.",
+    "option_3": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_4": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 53,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Using z/OS subsystem feature helps IMS. Statement B: IMS uses z/OS cross-memory services primarily to. Which design decision best aligns with this Redbook guidance? [Medium-53: subsystem_detect+cross_memory_tm]",
+    "option_1": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_2": "Both statements are consistent with Redbook IMS explanations.",
+    "option_3": "Neither statement is supported by Redbook IMS sections.",
+    "option_4": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 54,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: A benefit of z/OS subsystem feature use by IMS is interaction with. Statement B: In sysplex, multiple IMS subsystems can. Which interpretation is most accurate? [Medium-54: subsystem_interact+sysplex_tm]",
+    "option_1": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_2": "Neither statement is supported by Redbook IMS sections.",
+    "option_3": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_4": "Both statements are consistent with Redbook IMS explanations.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 55,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: In sysplex, multiple IMS subsystems can. Statement B: Which set correctly lists the three IMS product components. Which conclusion follows most directly? [Medium-55: sysplex_tm+components]",
+    "option_1": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_2": "Neither statement is supported by Redbook IMS sections.",
+    "option_3": "Both statements are consistent with Redbook IMS explanations.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 56,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: The Redbook characterizes IMS message queues used for delayed processing as. Statement B: A transaction in IMS is defined as. Which option best reflects IMS architecture behavior? [Medium-56: message_queue_external+transaction_def]",
+    "option_1": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_2": "Both statements are consistent with Redbook IMS explanations.",
+    "option_3": "Neither statement is supported by Redbook IMS sections.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 57,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: IMS is described in the Redbook as being both a. Statement B: A common IMS system service includes. Which design decision best aligns with this Redbook guidance? [Medium-57: ims_nature+sys_services_sec]",
+    "option_1": "Both statements are consistent with Redbook IMS explanations.",
+    "option_2": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_3": "Neither statement is supported by Redbook IMS sections.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 58,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Which set correctly lists the three IMS product components. Statement B: An IMS subsystem generally runs in. Which interpretation is most accurate? [Medium-58: components+ims_address_spaces]",
+    "option_1": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_2": "Neither statement is supported by Redbook IMS sections.",
+    "option_3": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_4": "Both statements are consistent with Redbook IMS explanations.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 59,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: The IMS Transaction Manager provides users of a network with access to. Statement B: Under IMS asynchronous messaging, IMS may. Which conclusion follows most directly? [Medium-59: tm_role+reply_behavior]",
+    "option_1": "Neither statement is supported by Redbook IMS sections.",
+    "option_2": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_3": "Both statements are consistent with Redbook IMS explanations.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 60,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: IMS TM users can be terminals/workstations and also. Statement B: Which is one IMS TM message type listed. Which option best reflects IMS architecture behavior? [Medium-60: users_scope+msg_type_cmd]",
+    "option_1": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_2": "Neither statement is supported by Redbook IMS sections.",
+    "option_3": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_4": "Both statements are consistent with Redbook IMS explanations.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 61,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: A transaction in IMS is defined as. Statement B: IMS normally removes a queued message after. Which design decision best aligns with this Redbook guidance? [Medium-61: transaction_def+queue_delete]",
+    "option_1": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_2": "Neither statement is supported by Redbook IMS sections.",
+    "option_3": "Both statements are consistent with Redbook IMS explanations.",
+    "option_4": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 62,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Which language group is listed for writing IMS application programs. Statement B: IMS creates multiple subtasks so that. Which interpretation is most accurate? [Medium-62: languages+subtask_reason]",
+    "option_1": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_2": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_3": "Neither statement is supported by Redbook IMS sections.",
+    "option_4": "Both statements are consistent with Redbook IMS explanations.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 63,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: A common IMS system service includes. Statement B: A benefit of z/OS subsystem feature use by IMS is interaction with. Which conclusion follows most directly? [Medium-63: sys_services_rr+subsystem_interact]",
+    "option_1": "Neither statement is supported by Redbook IMS sections.",
+    "option_2": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_3": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_4": "Both statements are consistent with Redbook IMS explanations.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 64,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: A common IMS system service includes. Statement B: IMS is described in the Redbook as being both a. Which option best reflects IMS architecture behavior? [Medium-64: sys_services_sec+ims_nature]",
+    "option_1": "Both statements are consistent with Redbook IMS explanations.",
+    "option_2": "Neither statement is supported by Redbook IMS sections.",
+    "option_3": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_4": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 65,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: A common IMS system service includes management of application programs such as. Statement B: IMS TM users can be terminals/workstations and also. Which design decision best aligns with this Redbook guidance? [Medium-65: sys_services_app+users_scope]",
+    "option_1": "Neither statement is supported by Redbook IMS sections.",
+    "option_2": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_3": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_4": "Both statements are consistent with Redbook IMS explanations.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 66,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: IMS system services provide. Statement B: A common IMS system service includes. Which interpretation is most accurate? [Medium-66: sys_services_diag+sys_services_rr]",
+    "option_1": "Neither statement is supported by Redbook IMS sections.",
+    "option_2": "Both statements are consistent with Redbook IMS explanations.",
+    "option_3": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 67,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: An IMS subsystem generally runs in. Statement B: IMS system services provide. Which conclusion follows most directly? [Medium-67: ims_address_spaces+sys_services_diag]",
+    "option_1": "Both statements are consistent with Redbook IMS explanations.",
+    "option_2": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_3": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_4": "Neither statement is supported by Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 68,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: In Redbook usage, IMS \"region\" corresponds to. Statement B: IMS TM message processing is described as. Which option best reflects IMS architecture behavior? [Medium-68: region_synonym+tm_messages_async]",
+    "option_1": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_2": "Neither statement is supported by Redbook IMS sections.",
+    "option_3": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_4": "Both statements are consistent with Redbook IMS explanations.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 69,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: IMS TM message processing is described as. Statement B: Which is one IMS TM message type listed. Which design decision best aligns with this Redbook guidance? [Medium-69: tm_messages_async+msg_type_dest]",
+    "option_1": "Both statements are consistent with Redbook IMS explanations.",
+    "option_2": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_3": "Neither statement is supported by Redbook IMS sections.",
+    "option_4": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 70,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Under IMS asynchronous messaging, IMS may. Statement B: If IMS cannot immediately process input or send output, it. Which interpretation is most accurate? [Medium-70: reply_behavior+queue_when]",
+    "option_1": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_2": "Both statements are consistent with Redbook IMS explanations.",
+    "option_3": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_4": "Neither statement is supported by Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 71,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Which is one IMS TM message type listed. Statement B: Within IMS subsystem architecture, the controlling address space is called. Which conclusion follows most directly? [Medium-71: msg_type_txn+control_region_role]",
+    "option_1": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_2": "Both statements are consistent with Redbook IMS explanations.",
+    "option_3": "Neither statement is supported by Redbook IMS sections.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 72,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Which is one IMS TM message type listed. Statement B: Using z/OS subsystem feature helps IMS. Which option best reflects IMS architecture behavior? [Medium-72: msg_type_dest+subsystem_detect]",
+    "option_1": "Both statements are consistent with Redbook IMS explanations.",
+    "option_2": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_3": "Neither statement is supported by Redbook IMS sections.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 73,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Which is one IMS TM message type listed. Statement B: The Redbook characterizes IMS message queues used for delayed processing as. Which design decision best aligns with this Redbook guidance? [Medium-73: msg_type_cmd+message_queue_external]",
+    "option_1": "Neither statement is supported by Redbook IMS sections.",
+    "option_2": "Both statements are consistent with Redbook IMS explanations.",
+    "option_3": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 74,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Which IMS TM message type needs special handling because APPC expects synchronous reply. Statement B: The IMS Transaction Manager provides users of a network with access to. Which interpretation is most accurate? [Medium-74: msg_type_appc+tm_role]",
+    "option_1": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_2": "Both statements are consistent with Redbook IMS explanations.",
+    "option_3": "Neither statement is supported by Redbook IMS sections.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 75,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: If IMS cannot immediately process input or send output, it. Statement B: Which language group is listed for writing IMS application programs. Which conclusion follows most directly? [Medium-75: queue_when+languages]",
+    "option_1": "Neither statement is supported by Redbook IMS sections.",
+    "option_2": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_3": "Both statements are consistent with Redbook IMS explanations.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 76,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: IMS normally removes a queued message after. Statement B: A common IMS system service includes management of application programs such as. Which option best reflects IMS architecture behavior? [Medium-76: queue_delete+sys_services_app]",
+    "option_1": "Neither statement is supported by Redbook IMS sections.",
+    "option_2": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_3": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_4": "Both statements are consistent with Redbook IMS explanations.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 77,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Network input/output to IMS TM takes the form of. Statement B: In Redbook usage, IMS \"region\" corresponds to. Which design decision best aligns with this Redbook guidance? [Medium-77: network_io_form+region_synonym]",
+    "option_1": "Neither statement is supported by Redbook IMS sections.",
+    "option_2": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_3": "Both statements are consistent with Redbook IMS explanations.",
+    "option_4": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 78,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Within IMS subsystem architecture, the controlling address space is called. Statement B: Which is one IMS TM message type listed. Which interpretation is most accurate? [Medium-78: control_region_role+msg_type_txn]",
+    "option_1": "Neither statement is supported by Redbook IMS sections.",
+    "option_2": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_3": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_4": "Both statements are consistent with Redbook IMS explanations.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 79,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: IMS creates multiple subtasks so that. Statement B: Which IMS TM message type needs special handling because APPC expects synchronous reply. Which conclusion follows most directly? [Medium-79: subtask_reason+msg_type_appc]",
+    "option_1": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_2": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_3": "Both statements are consistent with Redbook IMS explanations.",
+    "option_4": "Neither statement is supported by Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 80,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: IMS uses z/OS cross-memory services primarily to. Statement B: Network input/output to IMS TM takes the form of. Which option best reflects IMS architecture behavior? [Medium-80: cross_memory_tm+network_io_form]",
+    "option_1": "Both statements are consistent with Redbook IMS explanations.",
+    "option_2": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_3": "Neither statement is supported by Redbook IMS sections.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 81,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Using z/OS subsystem feature helps IMS. Statement B: IMS uses z/OS cross-memory services primarily to. Which design decision best aligns with this Redbook guidance? [Medium-81: subsystem_detect+cross_memory_tm]",
+    "option_1": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_2": "Neither statement is supported by Redbook IMS sections.",
+    "option_3": "Both statements are consistent with Redbook IMS explanations.",
+    "option_4": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 82,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: A benefit of z/OS subsystem feature use by IMS is interaction with. Statement B: In sysplex, multiple IMS subsystems can. Which interpretation is most accurate? [Medium-82: subsystem_interact+sysplex_tm]",
+    "option_1": "Both statements are consistent with Redbook IMS explanations.",
+    "option_2": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_3": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_4": "Neither statement is supported by Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 83,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: In sysplex, multiple IMS subsystems can. Statement B: Which set correctly lists the three IMS product components. Which conclusion follows most directly? [Medium-83: sysplex_tm+components]",
+    "option_1": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_2": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_3": "Both statements are consistent with Redbook IMS explanations.",
+    "option_4": "Neither statement is supported by Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 84,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: The Redbook characterizes IMS message queues used for delayed processing as. Statement B: A transaction in IMS is defined as. Which option best reflects IMS architecture behavior? [Medium-84: message_queue_external+transaction_def]",
+    "option_1": "Both statements are consistent with Redbook IMS explanations.",
+    "option_2": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_3": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_4": "Neither statement is supported by Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 85,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: IMS is described in the Redbook as being both a. Statement B: A common IMS system service includes. Which design decision best aligns with this Redbook guidance? [Medium-85: ims_nature+sys_services_sec]",
+    "option_1": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_2": "Neither statement is supported by Redbook IMS sections.",
+    "option_3": "Both statements are consistent with Redbook IMS explanations.",
+    "option_4": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 86,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Which set correctly lists the three IMS product components. Statement B: An IMS subsystem generally runs in. Which interpretation is most accurate? [Medium-86: components+ims_address_spaces]",
+    "option_1": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_2": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_3": "Neither statement is supported by Redbook IMS sections.",
+    "option_4": "Both statements are consistent with Redbook IMS explanations.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 87,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: The IMS Transaction Manager provides users of a network with access to. Statement B: Under IMS asynchronous messaging, IMS may. Which conclusion follows most directly? [Medium-87: tm_role+reply_behavior]",
+    "option_1": "Both statements are consistent with Redbook IMS explanations.",
+    "option_2": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_3": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_4": "Neither statement is supported by Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 88,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: IMS TM users can be terminals/workstations and also. Statement B: Which is one IMS TM message type listed. Which option best reflects IMS architecture behavior? [Medium-88: users_scope+msg_type_cmd]",
+    "option_1": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_2": "Both statements are consistent with Redbook IMS explanations.",
+    "option_3": "Neither statement is supported by Redbook IMS sections.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 89,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: A transaction in IMS is defined as. Statement B: IMS normally removes a queued message after. Which design decision best aligns with this Redbook guidance? [Medium-89: transaction_def+queue_delete]",
+    "option_1": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_2": "Neither statement is supported by Redbook IMS sections.",
+    "option_3": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_4": "Both statements are consistent with Redbook IMS explanations.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 90,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Which language group is listed for writing IMS application programs. Statement B: IMS creates multiple subtasks so that. Which interpretation is most accurate? [Medium-90: languages+subtask_reason]",
+    "option_1": "Both statements are consistent with Redbook IMS explanations.",
+    "option_2": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_3": "Neither statement is supported by Redbook IMS sections.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 91,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: A common IMS system service includes. Statement B: A benefit of z/OS subsystem feature use by IMS is interaction with. Which conclusion follows most directly? [Medium-91: sys_services_rr+subsystem_interact]",
+    "option_1": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_2": "Both statements are consistent with Redbook IMS explanations.",
+    "option_3": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_4": "Neither statement is supported by Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 92,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: A common IMS system service includes. Statement B: IMS is described in the Redbook as being both a. Which option best reflects IMS architecture behavior? [Medium-92: sys_services_sec+ims_nature]",
+    "option_1": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_2": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_3": "Both statements are consistent with Redbook IMS explanations.",
+    "option_4": "Neither statement is supported by Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 93,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: A common IMS system service includes management of application programs such as. Statement B: IMS TM users can be terminals/workstations and also. Which design decision best aligns with this Redbook guidance? [Medium-93: sys_services_app+users_scope]",
+    "option_1": "Both statements are consistent with Redbook IMS explanations.",
+    "option_2": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_3": "Neither statement is supported by Redbook IMS sections.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 94,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: IMS system services provide. Statement B: A common IMS system service includes. Which interpretation is most accurate? [Medium-94: sys_services_diag+sys_services_rr]",
+    "option_1": "Neither statement is supported by Redbook IMS sections.",
+    "option_2": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_3": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_4": "Both statements are consistent with Redbook IMS explanations.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 95,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: An IMS subsystem generally runs in. Statement B: IMS system services provide. Which conclusion follows most directly? [Medium-95: ims_address_spaces+sys_services_diag]",
+    "option_1": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_2": "Both statements are consistent with Redbook IMS explanations.",
+    "option_3": "Neither statement is supported by Redbook IMS sections.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 96,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: In Redbook usage, IMS \"region\" corresponds to. Statement B: IMS TM message processing is described as. Which option best reflects IMS architecture behavior? [Medium-96: region_synonym+tm_messages_async]",
+    "option_1": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_2": "Neither statement is supported by Redbook IMS sections.",
+    "option_3": "Both statements are consistent with Redbook IMS explanations.",
+    "option_4": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 97,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: IMS TM message processing is described as. Statement B: Which is one IMS TM message type listed. Which design decision best aligns with this Redbook guidance? [Medium-97: tm_messages_async+msg_type_dest]",
+    "option_1": "Both statements are consistent with Redbook IMS explanations.",
+    "option_2": "Neither statement is supported by Redbook IMS sections.",
+    "option_3": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 98,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Under IMS asynchronous messaging, IMS may. Statement B: If IMS cannot immediately process input or send output, it. Which interpretation is most accurate? [Medium-98: reply_behavior+queue_when]",
+    "option_1": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_2": "Neither statement is supported by Redbook IMS sections.",
+    "option_3": "Both statements are consistent with Redbook IMS explanations.",
+    "option_4": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 99,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Which is one IMS TM message type listed. Statement B: Within IMS subsystem architecture, the controlling address space is called. Which conclusion follows most directly? [Medium-99: msg_type_txn+control_region_role]",
+    "option_1": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_2": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_3": "Neither statement is supported by Redbook IMS sections.",
+    "option_4": "Both statements are consistent with Redbook IMS explanations.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 100,
+    "topic": "IMS DC/TM",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Which is one IMS TM message type listed. Statement B: Using z/OS subsystem feature helps IMS. Which option best reflects IMS architecture behavior? [Medium-100: msg_type_dest+subsystem_detect]",
+    "option_1": "Both statements are consistent with Redbook IMS explanations.",
+    "option_2": "Neither statement is supported by Redbook IMS sections.",
+    "option_3": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_4": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  }
+]
