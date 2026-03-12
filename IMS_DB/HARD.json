@@ -1,0 +1,1552 @@
+[
+  {
+    "questionnumber": 1,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "An IMS subsystem is being scaled on a multiprocessor CPC. Which actions align with Redbook IMS principles? [Hard-1]",
+    "option_1": "Exploit sysplex to run multiple IMS subsystems against same databases",
+    "option_2": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_3": "Use a control region with dependent address spaces",
+    "option_4": "Eliminate message logs to reduce integrity overhead",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_2",
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 2,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "A failure in one application program must not bring down IMS systems code. Which actions align with Redbook IMS principles? [Hard-2]",
+    "option_1": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_2": "Use a control region with dependent address spaces",
+    "option_3": "Run IMS in multiple address spaces",
+    "option_4": "Eliminate message logs to reduce integrity overhead",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_2",
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 3,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "A DBA needs access path continuity while preserving hierarchical design intent. Which actions align with Redbook IMS principles? [Hard-3]",
+    "option_1": "Place frequently used IMS control blocks in CSA",
+    "option_2": "Use a control region with dependent address spaces",
+    "option_3": "Exploit sysplex to run multiple IMS subsystems against same databases",
+    "option_4": "Treat physical storage layout as mandatory application-level concern",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_2",
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 4,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Operations must continue while one IMS subtask waits for system service. Which actions align with Redbook IMS principles? [Hard-4]",
+    "option_1": "Treat physical storage layout as mandatory application-level concern",
+    "option_2": "Run IMS in multiple address spaces",
+    "option_3": "Exploit sysplex to run multiple IMS subsystems against same databases",
+    "option_4": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_2",
+      "option_3",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 5,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Two IMS subsystems in a sysplex need shared database availability. Which actions align with Redbook IMS principles? [Hard-5]",
+    "option_1": "Exploit sysplex to run multiple IMS subsystems against same databases",
+    "option_2": "Use a control region with dependent address spaces",
+    "option_3": "Force all IMS execution into one address space to maximize isolation",
+    "option_4": "Run IMS in multiple address spaces",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_2",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 6,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "An IMS subsystem is being scaled on a multiprocessor CPC. Which actions align with Redbook IMS principles? [Hard-6]",
+    "option_1": "Use a control region with dependent address spaces",
+    "option_2": "Place frequently used IMS control blocks in CSA",
+    "option_3": "Force all IMS execution into one address space to maximize isolation",
+    "option_4": "Eliminate message logs to reduce integrity overhead",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 7,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "A failure in one application program must not bring down IMS systems code. Which actions align with Redbook IMS principles? [Hard-7]",
+    "option_1": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_2": "Use z/OS cross-memory communication between IMS address spaces",
+    "option_3": "Eliminate message logs to reduce integrity overhead",
+    "option_4": "Replace hierarchical segments with mandatory SQL-only row sets",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 8,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "A DBA needs access path continuity while preserving hierarchical design intent. Which actions align with Redbook IMS principles? [Hard-8]",
+    "option_1": "Treat physical storage layout as mandatory application-level concern",
+    "option_2": "Eliminate message logs to reduce integrity overhead",
+    "option_3": "Place frequently used IMS control blocks in CSA",
+    "option_4": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_3",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 9,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Operations must continue while one IMS subtask waits for system service. Which actions align with Redbook IMS principles? [Hard-9]",
+    "option_1": "Eliminate message logs to reduce integrity overhead",
+    "option_2": "Use z/OS cross-memory communication between IMS address spaces",
+    "option_3": "Place frequently used IMS control blocks in CSA",
+    "option_4": "Exploit sysplex to run multiple IMS subsystems against same databases",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_2",
+      "option_3",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 10,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Two IMS subsystems in a sysplex need shared database availability. Which actions align with Redbook IMS principles? [Hard-10]",
+    "option_1": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_2": "Eliminate message logs to reduce integrity overhead",
+    "option_3": "Force all IMS execution into one address space to maximize isolation",
+    "option_4": "Exploit sysplex to run multiple IMS subsystems against same databases",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 11,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "An IMS subsystem is being scaled on a multiprocessor CPC. Which actions align with Redbook IMS principles? [Hard-11]",
+    "option_1": "Use a control region with dependent address spaces",
+    "option_2": "Force all IMS execution into one address space to maximize isolation",
+    "option_3": "Replace hierarchical segments with mandatory SQL-only row sets",
+    "option_4": "Place frequently used IMS control blocks in CSA",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 12,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "A failure in one application program must not bring down IMS systems code. Which actions align with Redbook IMS principles? [Hard-12]",
+    "option_1": "Use z/OS cross-memory communication between IMS address spaces",
+    "option_2": "Use a control region with dependent address spaces",
+    "option_3": "Place frequently used IMS control blocks in CSA",
+    "option_4": "Treat physical storage layout as mandatory application-level concern",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_2",
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 13,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "A DBA needs access path continuity while preserving hierarchical design intent. Which actions align with Redbook IMS principles? [Hard-13]",
+    "option_1": "Eliminate message logs to reduce integrity overhead",
+    "option_2": "Place frequently used IMS control blocks in CSA",
+    "option_3": "Force all IMS execution into one address space to maximize isolation",
+    "option_4": "Exploit sysplex to run multiple IMS subsystems against same databases",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_2",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 14,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Operations must continue while one IMS subtask waits for system service. Which actions align with Redbook IMS principles? [Hard-14]",
+    "option_1": "Treat physical storage layout as mandatory application-level concern",
+    "option_2": "Use a control region with dependent address spaces",
+    "option_3": "Force all IMS execution into one address space to maximize isolation",
+    "option_4": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_2",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 15,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Two IMS subsystems in a sysplex need shared database availability. Which actions align with Redbook IMS principles? [Hard-15]",
+    "option_1": "Exploit sysplex to run multiple IMS subsystems against same databases",
+    "option_2": "Force all IMS execution into one address space to maximize isolation",
+    "option_3": "Use z/OS cross-memory communication between IMS address spaces",
+    "option_4": "Use a control region with dependent address spaces",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_3",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 16,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "An IMS subsystem is being scaled on a multiprocessor CPC. Which actions align with Redbook IMS principles? [Hard-16]",
+    "option_1": "Treat physical storage layout as mandatory application-level concern",
+    "option_2": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_3": "Run IMS in multiple address spaces",
+    "option_4": "Force all IMS execution into one address space to maximize isolation",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_2",
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 17,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "A failure in one application program must not bring down IMS systems code. Which actions align with Redbook IMS principles? [Hard-17]",
+    "option_1": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_2": "Exploit sysplex to run multiple IMS subsystems against same databases",
+    "option_3": "Run IMS in multiple address spaces",
+    "option_4": "Use z/OS cross-memory communication between IMS address spaces",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_2",
+      "option_3",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 18,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "A DBA needs access path continuity while preserving hierarchical design intent. Which actions align with Redbook IMS principles? [Hard-18]",
+    "option_1": "Run IMS in multiple address spaces",
+    "option_2": "Exploit sysplex to run multiple IMS subsystems against same databases",
+    "option_3": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_4": "Force all IMS execution into one address space to maximize isolation",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_2",
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 19,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Operations must continue while one IMS subtask waits for system service. Which actions align with Redbook IMS principles? [Hard-19]",
+    "option_1": "Use a control region with dependent address spaces",
+    "option_2": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_3": "Run IMS in multiple address spaces",
+    "option_4": "Place frequently used IMS control blocks in CSA",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_2",
+      "option_3",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 20,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Two IMS subsystems in a sysplex need shared database availability. Which actions align with Redbook IMS principles? [Hard-20]",
+    "option_1": "Run IMS in multiple address spaces",
+    "option_2": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_3": "Use z/OS cross-memory communication between IMS address spaces",
+    "option_4": "Replace hierarchical segments with mandatory SQL-only row sets",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_2",
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 21,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "An IMS subsystem is being scaled on a multiprocessor CPC. Which actions align with Redbook IMS principles? [Hard-21]",
+    "option_1": "Eliminate message logs to reduce integrity overhead",
+    "option_2": "Use a control region with dependent address spaces",
+    "option_3": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_4": "Replace hierarchical segments with mandatory SQL-only row sets",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_2",
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 22,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "A failure in one application program must not bring down IMS systems code. Which actions align with Redbook IMS principles? [Hard-22]",
+    "option_1": "Eliminate message logs to reduce integrity overhead",
+    "option_2": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_3": "Use a control region with dependent address spaces",
+    "option_4": "Treat physical storage layout as mandatory application-level concern",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_2",
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 23,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "A DBA needs access path continuity while preserving hierarchical design intent. Which actions align with Redbook IMS principles? [Hard-23]",
+    "option_1": "Use z/OS cross-memory communication between IMS address spaces",
+    "option_2": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_3": "Treat physical storage layout as mandatory application-level concern",
+    "option_4": "Place frequently used IMS control blocks in CSA",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_2",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 24,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Operations must continue while one IMS subtask waits for system service. Which actions align with Redbook IMS principles? [Hard-24]",
+    "option_1": "Treat physical storage layout as mandatory application-level concern",
+    "option_2": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_3": "Exploit sysplex to run multiple IMS subsystems against same databases",
+    "option_4": "Place frequently used IMS control blocks in CSA",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_2",
+      "option_3",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 25,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Two IMS subsystems in a sysplex need shared database availability. Which actions align with Redbook IMS principles? [Hard-25]",
+    "option_1": "Eliminate message logs to reduce integrity overhead",
+    "option_2": "Use a control region with dependent address spaces",
+    "option_3": "Force all IMS execution into one address space to maximize isolation",
+    "option_4": "Use z/OS cross-memory communication between IMS address spaces",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_2",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 26,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "An IMS subsystem is being scaled on a multiprocessor CPC. Which actions align with Redbook IMS principles? [Hard-26]",
+    "option_1": "Treat physical storage layout as mandatory application-level concern",
+    "option_2": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_3": "Run IMS in multiple address spaces",
+    "option_4": "Eliminate message logs to reduce integrity overhead",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_2",
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 27,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "A failure in one application program must not bring down IMS systems code. Which actions align with Redbook IMS principles? [Hard-27]",
+    "option_1": "Place frequently used IMS control blocks in CSA",
+    "option_2": "Eliminate message logs to reduce integrity overhead",
+    "option_3": "Use z/OS cross-memory communication between IMS address spaces",
+    "option_4": "Use a control region with dependent address spaces",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_3",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 28,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "A DBA needs access path continuity while preserving hierarchical design intent. Which actions align with Redbook IMS principles? [Hard-28]",
+    "option_1": "Eliminate message logs to reduce integrity overhead",
+    "option_2": "Use z/OS cross-memory communication between IMS address spaces",
+    "option_3": "Force all IMS execution into one address space to maximize isolation",
+    "option_4": "Place frequently used IMS control blocks in CSA",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_2",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 29,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Operations must continue while one IMS subtask waits for system service. Which actions align with Redbook IMS principles? [Hard-29]",
+    "option_1": "Place frequently used IMS control blocks in CSA",
+    "option_2": "Force all IMS execution into one address space to maximize isolation",
+    "option_3": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_4": "Use z/OS cross-memory communication between IMS address spaces",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_3",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 30,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Two IMS subsystems in a sysplex need shared database availability. Which actions align with Redbook IMS principles? [Hard-30]",
+    "option_1": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_2": "Place frequently used IMS control blocks in CSA",
+    "option_3": "Eliminate message logs to reduce integrity overhead",
+    "option_4": "Replace hierarchical segments with mandatory SQL-only row sets",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 31,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "An IMS subsystem is being scaled on a multiprocessor CPC. Which actions align with Redbook IMS principles? [Hard-31]",
+    "option_1": "Exploit sysplex to run multiple IMS subsystems against same databases",
+    "option_2": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_3": "Run IMS in multiple address spaces",
+    "option_4": "Replace hierarchical segments with mandatory SQL-only row sets",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_2",
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 32,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "A failure in one application program must not bring down IMS systems code. Which actions align with Redbook IMS principles? [Hard-32]",
+    "option_1": "Use z/OS cross-memory communication between IMS address spaces",
+    "option_2": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_3": "Run IMS in multiple address spaces",
+    "option_4": "Place frequently used IMS control blocks in CSA",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_2",
+      "option_3",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 33,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "A DBA needs access path continuity while preserving hierarchical design intent. Which actions align with Redbook IMS principles? [Hard-33]",
+    "option_1": "Use z/OS cross-memory communication between IMS address spaces",
+    "option_2": "Place frequently used IMS control blocks in CSA",
+    "option_3": "Exploit sysplex to run multiple IMS subsystems against same databases",
+    "option_4": "Treat physical storage layout as mandatory application-level concern",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_2",
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 34,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Operations must continue while one IMS subtask waits for system service. Which actions align with Redbook IMS principles? [Hard-34]",
+    "option_1": "Use z/OS cross-memory communication between IMS address spaces",
+    "option_2": "Replace hierarchical segments with mandatory SQL-only row sets",
+    "option_3": "Exploit sysplex to run multiple IMS subsystems against same databases",
+    "option_4": "Force all IMS execution into one address space to maximize isolation",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 35,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Two IMS subsystems in a sysplex need shared database availability. Which actions align with Redbook IMS principles? [Hard-35]",
+    "option_1": "Replace hierarchical segments with mandatory SQL-only row sets",
+    "option_2": "Force all IMS execution into one address space to maximize isolation",
+    "option_3": "Use a control region with dependent address spaces",
+    "option_4": "Use z/OS cross-memory communication between IMS address spaces",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_3",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 36,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "An IMS subsystem is being scaled on a multiprocessor CPC. Which actions align with Redbook IMS principles? [Hard-36]",
+    "option_1": "Replace hierarchical segments with mandatory SQL-only row sets",
+    "option_2": "Run IMS in multiple address spaces",
+    "option_3": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_4": "Place frequently used IMS control blocks in CSA",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_2",
+      "option_3",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 37,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "A failure in one application program must not bring down IMS systems code. Which actions align with Redbook IMS principles? [Hard-37]",
+    "option_1": "Eliminate message logs to reduce integrity overhead",
+    "option_2": "Place frequently used IMS control blocks in CSA",
+    "option_3": "Use z/OS cross-memory communication between IMS address spaces",
+    "option_4": "Run IMS in multiple address spaces",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_2",
+      "option_3",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 38,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "A DBA needs access path continuity while preserving hierarchical design intent. Which actions align with Redbook IMS principles? [Hard-38]",
+    "option_1": "Exploit sysplex to run multiple IMS subsystems against same databases",
+    "option_2": "Eliminate message logs to reduce integrity overhead",
+    "option_3": "Run IMS in multiple address spaces",
+    "option_4": "Use a control region with dependent address spaces",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_3",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 39,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Operations must continue while one IMS subtask waits for system service. Which actions align with Redbook IMS principles? [Hard-39]",
+    "option_1": "Force all IMS execution into one address space to maximize isolation",
+    "option_2": "Run IMS in multiple address spaces",
+    "option_3": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_4": "Treat physical storage layout as mandatory application-level concern",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_2",
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 40,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Two IMS subsystems in a sysplex need shared database availability. Which actions align with Redbook IMS principles? [Hard-40]",
+    "option_1": "Use a control region with dependent address spaces",
+    "option_2": "Treat physical storage layout as mandatory application-level concern",
+    "option_3": "Exploit sysplex to run multiple IMS subsystems against same databases",
+    "option_4": "Eliminate message logs to reduce integrity overhead",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 41,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "An IMS subsystem is being scaled on a multiprocessor CPC. Which actions align with Redbook IMS principles? [Hard-41]",
+    "option_1": "Eliminate message logs to reduce integrity overhead",
+    "option_2": "Force all IMS execution into one address space to maximize isolation",
+    "option_3": "Place frequently used IMS control blocks in CSA",
+    "option_4": "Use z/OS cross-memory communication between IMS address spaces",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_3",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 42,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "A failure in one application program must not bring down IMS systems code. Which actions align with Redbook IMS principles? [Hard-42]",
+    "option_1": "Use z/OS cross-memory communication between IMS address spaces",
+    "option_2": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_3": "Use a control region with dependent address spaces",
+    "option_4": "Replace hierarchical segments with mandatory SQL-only row sets",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_2",
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 43,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "A DBA needs access path continuity while preserving hierarchical design intent. Which actions align with Redbook IMS principles? [Hard-43]",
+    "option_1": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_2": "Use z/OS cross-memory communication between IMS address spaces",
+    "option_3": "Eliminate message logs to reduce integrity overhead",
+    "option_4": "Place frequently used IMS control blocks in CSA",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_2",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 44,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Operations must continue while one IMS subtask waits for system service. Which actions align with Redbook IMS principles? [Hard-44]",
+    "option_1": "Eliminate message logs to reduce integrity overhead",
+    "option_2": "Use a control region with dependent address spaces",
+    "option_3": "Use z/OS cross-memory communication between IMS address spaces",
+    "option_4": "Treat physical storage layout as mandatory application-level concern",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_2",
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 45,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Two IMS subsystems in a sysplex need shared database availability. Which actions align with Redbook IMS principles? [Hard-45]",
+    "option_1": "Eliminate message logs to reduce integrity overhead",
+    "option_2": "Run IMS in multiple address spaces",
+    "option_3": "Exploit sysplex to run multiple IMS subsystems against same databases",
+    "option_4": "Force all IMS execution into one address space to maximize isolation",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_2",
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 46,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "An IMS subsystem is being scaled on a multiprocessor CPC. Which actions align with Redbook IMS principles? [Hard-46]",
+    "option_1": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_2": "Run IMS in multiple address spaces",
+    "option_3": "Eliminate message logs to reduce integrity overhead",
+    "option_4": "Use z/OS cross-memory communication between IMS address spaces",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_2",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 47,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "A failure in one application program must not bring down IMS systems code. Which actions align with Redbook IMS principles? [Hard-47]",
+    "option_1": "Eliminate message logs to reduce integrity overhead",
+    "option_2": "Use a control region with dependent address spaces",
+    "option_3": "Run IMS in multiple address spaces",
+    "option_4": "Force all IMS execution into one address space to maximize isolation",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_2",
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 48,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "A DBA needs access path continuity while preserving hierarchical design intent. Which actions align with Redbook IMS principles? [Hard-48]",
+    "option_1": "Eliminate message logs to reduce integrity overhead",
+    "option_2": "Use a control region with dependent address spaces",
+    "option_3": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_4": "Use z/OS cross-memory communication between IMS address spaces",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_2",
+      "option_3",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 49,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Operations must continue while one IMS subtask waits for system service. Which actions align with Redbook IMS principles? [Hard-49]",
+    "option_1": "Force all IMS execution into one address space to maximize isolation",
+    "option_2": "Exploit sysplex to run multiple IMS subsystems against same databases",
+    "option_3": "Replace hierarchical segments with mandatory SQL-only row sets",
+    "option_4": "Use z/OS cross-memory communication between IMS address spaces",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_2",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 50,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Two IMS subsystems in a sysplex need shared database availability. Which actions align with Redbook IMS principles? [Hard-50]",
+    "option_1": "Use a control region with dependent address spaces",
+    "option_2": "Exploit sysplex to run multiple IMS subsystems against same databases",
+    "option_3": "Treat physical storage layout as mandatory application-level concern",
+    "option_4": "Place frequently used IMS control blocks in CSA",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_2",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 51,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "An IMS subsystem is being scaled on a multiprocessor CPC. Which actions align with Redbook IMS principles? [Hard-51]",
+    "option_1": "Replace hierarchical segments with mandatory SQL-only row sets",
+    "option_2": "Place frequently used IMS control blocks in CSA",
+    "option_3": "Force all IMS execution into one address space to maximize isolation",
+    "option_4": "Use a control region with dependent address spaces",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_2",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 52,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "A failure in one application program must not bring down IMS systems code. Which actions align with Redbook IMS principles? [Hard-52]",
+    "option_1": "Replace hierarchical segments with mandatory SQL-only row sets",
+    "option_2": "Exploit sysplex to run multiple IMS subsystems against same databases",
+    "option_3": "Treat physical storage layout as mandatory application-level concern",
+    "option_4": "Run IMS in multiple address spaces",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_2",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 53,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "A DBA needs access path continuity while preserving hierarchical design intent. Which actions align with Redbook IMS principles? [Hard-53]",
+    "option_1": "Replace hierarchical segments with mandatory SQL-only row sets",
+    "option_2": "Exploit sysplex to run multiple IMS subsystems against same databases",
+    "option_3": "Use z/OS cross-memory communication between IMS address spaces",
+    "option_4": "Use a control region with dependent address spaces",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_2",
+      "option_3",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 54,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Operations must continue while one IMS subtask waits for system service. Which actions align with Redbook IMS principles? [Hard-54]",
+    "option_1": "Treat physical storage layout as mandatory application-level concern",
+    "option_2": "Use z/OS cross-memory communication between IMS address spaces",
+    "option_3": "Use a control region with dependent address spaces",
+    "option_4": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_2",
+      "option_3",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 55,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Two IMS subsystems in a sysplex need shared database availability. Which actions align with Redbook IMS principles? [Hard-55]",
+    "option_1": "Eliminate message logs to reduce integrity overhead",
+    "option_2": "Treat physical storage layout as mandatory application-level concern",
+    "option_3": "Use z/OS cross-memory communication between IMS address spaces",
+    "option_4": "Place frequently used IMS control blocks in CSA",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_3",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 56,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "An IMS subsystem is being scaled on a multiprocessor CPC. Which actions align with Redbook IMS principles? [Hard-56]",
+    "option_1": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_2": "Exploit sysplex to run multiple IMS subsystems against same databases",
+    "option_3": "Run IMS in multiple address spaces",
+    "option_4": "Eliminate message logs to reduce integrity overhead",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_2",
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 57,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "A failure in one application program must not bring down IMS systems code. Which actions align with Redbook IMS principles? [Hard-57]",
+    "option_1": "Exploit sysplex to run multiple IMS subsystems against same databases",
+    "option_2": "Treat physical storage layout as mandatory application-level concern",
+    "option_3": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_4": "Replace hierarchical segments with mandatory SQL-only row sets",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 58,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "A DBA needs access path continuity while preserving hierarchical design intent. Which actions align with Redbook IMS principles? [Hard-58]",
+    "option_1": "Place frequently used IMS control blocks in CSA",
+    "option_2": "Eliminate message logs to reduce integrity overhead",
+    "option_3": "Run IMS in multiple address spaces",
+    "option_4": "Replace hierarchical segments with mandatory SQL-only row sets",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 59,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Operations must continue while one IMS subtask waits for system service. Which actions align with Redbook IMS principles? [Hard-59]",
+    "option_1": "Force all IMS execution into one address space to maximize isolation",
+    "option_2": "Treat physical storage layout as mandatory application-level concern",
+    "option_3": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_4": "Run IMS in multiple address spaces",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_3",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 60,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Two IMS subsystems in a sysplex need shared database availability. Which actions align with Redbook IMS principles? [Hard-60]",
+    "option_1": "Use z/OS cross-memory communication between IMS address spaces",
+    "option_2": "Place frequently used IMS control blocks in CSA",
+    "option_3": "Force all IMS execution into one address space to maximize isolation",
+    "option_4": "Use a control region with dependent address spaces",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_2",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 61,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "An IMS subsystem is being scaled on a multiprocessor CPC. Which actions align with Redbook IMS principles? [Hard-61]",
+    "option_1": "Run IMS in multiple address spaces",
+    "option_2": "Use a control region with dependent address spaces",
+    "option_3": "Use z/OS cross-memory communication between IMS address spaces",
+    "option_4": "Treat physical storage layout as mandatory application-level concern",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_2",
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 62,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "A failure in one application program must not bring down IMS systems code. Which actions align with Redbook IMS principles? [Hard-62]",
+    "option_1": "Use a control region with dependent address spaces",
+    "option_2": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_3": "Use z/OS cross-memory communication between IMS address spaces",
+    "option_4": "Treat physical storage layout as mandatory application-level concern",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_2",
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 63,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "A DBA needs access path continuity while preserving hierarchical design intent. Which actions align with Redbook IMS principles? [Hard-63]",
+    "option_1": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_2": "Force all IMS execution into one address space to maximize isolation",
+    "option_3": "Use z/OS cross-memory communication between IMS address spaces",
+    "option_4": "Exploit sysplex to run multiple IMS subsystems against same databases",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_3",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 64,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Operations must continue while one IMS subtask waits for system service. Which actions align with Redbook IMS principles? [Hard-64]",
+    "option_1": "Exploit sysplex to run multiple IMS subsystems against same databases",
+    "option_2": "Replace hierarchical segments with mandatory SQL-only row sets",
+    "option_3": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_4": "Eliminate message logs to reduce integrity overhead",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 65,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Two IMS subsystems in a sysplex need shared database availability. Which actions align with Redbook IMS principles? [Hard-65]",
+    "option_1": "Eliminate message logs to reduce integrity overhead",
+    "option_2": "Place frequently used IMS control blocks in CSA",
+    "option_3": "Use z/OS cross-memory communication between IMS address spaces",
+    "option_4": "Replace hierarchical segments with mandatory SQL-only row sets",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_2",
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 66,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "An IMS subsystem is being scaled on a multiprocessor CPC. Which actions align with Redbook IMS principles? [Hard-66]",
+    "option_1": "Run IMS in multiple address spaces",
+    "option_2": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_3": "Place frequently used IMS control blocks in CSA",
+    "option_4": "Use a control region with dependent address spaces",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_2",
+      "option_3",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 67,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "A failure in one application program must not bring down IMS systems code. Which actions align with Redbook IMS principles? [Hard-67]",
+    "option_1": "Exploit sysplex to run multiple IMS subsystems against same databases",
+    "option_2": "Treat physical storage layout as mandatory application-level concern",
+    "option_3": "Run IMS in multiple address spaces",
+    "option_4": "Replace hierarchical segments with mandatory SQL-only row sets",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 68,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "A DBA needs access path continuity while preserving hierarchical design intent. Which actions align with Redbook IMS principles? [Hard-68]",
+    "option_1": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_2": "Treat physical storage layout as mandatory application-level concern",
+    "option_3": "Exploit sysplex to run multiple IMS subsystems against same databases",
+    "option_4": "Force all IMS execution into one address space to maximize isolation",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 69,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Operations must continue while one IMS subtask waits for system service. Which actions align with Redbook IMS principles? [Hard-69]",
+    "option_1": "Run IMS in multiple address spaces",
+    "option_2": "Replace hierarchical segments with mandatory SQL-only row sets",
+    "option_3": "Eliminate message logs to reduce integrity overhead",
+    "option_4": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 70,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Two IMS subsystems in a sysplex need shared database availability. Which actions align with Redbook IMS principles? [Hard-70]",
+    "option_1": "Run IMS in multiple address spaces",
+    "option_2": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_3": "Use a control region with dependent address spaces",
+    "option_4": "Eliminate message logs to reduce integrity overhead",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_2",
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 71,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "An IMS subsystem is being scaled on a multiprocessor CPC. Which actions align with Redbook IMS principles? [Hard-71]",
+    "option_1": "Replace hierarchical segments with mandatory SQL-only row sets",
+    "option_2": "Use z/OS cross-memory communication between IMS address spaces",
+    "option_3": "Treat physical storage layout as mandatory application-level concern",
+    "option_4": "Exploit sysplex to run multiple IMS subsystems against same databases",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_2",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 72,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "A failure in one application program must not bring down IMS systems code. Which actions align with Redbook IMS principles? [Hard-72]",
+    "option_1": "Exploit sysplex to run multiple IMS subsystems against same databases",
+    "option_2": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_3": "Run IMS in multiple address spaces",
+    "option_4": "Use a control region with dependent address spaces",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_2",
+      "option_3",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 73,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "A DBA needs access path continuity while preserving hierarchical design intent. Which actions align with Redbook IMS principles? [Hard-73]",
+    "option_1": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_2": "Use a control region with dependent address spaces",
+    "option_3": "Exploit sysplex to run multiple IMS subsystems against same databases",
+    "option_4": "Treat physical storage layout as mandatory application-level concern",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_2",
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 74,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Operations must continue while one IMS subtask waits for system service. Which actions align with Redbook IMS principles? [Hard-74]",
+    "option_1": "Place frequently used IMS control blocks in CSA",
+    "option_2": "Use a control region with dependent address spaces",
+    "option_3": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_4": "Replace hierarchical segments with mandatory SQL-only row sets",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_2",
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 75,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Two IMS subsystems in a sysplex need shared database availability. Which actions align with Redbook IMS principles? [Hard-75]",
+    "option_1": "Treat physical storage layout as mandatory application-level concern",
+    "option_2": "Eliminate message logs to reduce integrity overhead",
+    "option_3": "Use z/OS cross-memory communication between IMS address spaces",
+    "option_4": "Use a control region with dependent address spaces",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_3",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 76,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "An IMS subsystem is being scaled on a multiprocessor CPC. Which actions align with Redbook IMS principles? [Hard-76]",
+    "option_1": "Use z/OS cross-memory communication between IMS address spaces",
+    "option_2": "Treat physical storage layout as mandatory application-level concern",
+    "option_3": "Force all IMS execution into one address space to maximize isolation",
+    "option_4": "Place frequently used IMS control blocks in CSA",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 77,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "A failure in one application program must not bring down IMS systems code. Which actions align with Redbook IMS principles? [Hard-77]",
+    "option_1": "Use z/OS cross-memory communication between IMS address spaces",
+    "option_2": "Treat physical storage layout as mandatory application-level concern",
+    "option_3": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_4": "Force all IMS execution into one address space to maximize isolation",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 78,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "A DBA needs access path continuity while preserving hierarchical design intent. Which actions align with Redbook IMS principles? [Hard-78]",
+    "option_1": "Run IMS in multiple address spaces",
+    "option_2": "Force all IMS execution into one address space to maximize isolation",
+    "option_3": "Treat physical storage layout as mandatory application-level concern",
+    "option_4": "Use z/OS cross-memory communication between IMS address spaces",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 79,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Operations must continue while one IMS subtask waits for system service. Which actions align with Redbook IMS principles? [Hard-79]",
+    "option_1": "Run IMS in multiple address spaces",
+    "option_2": "Treat physical storage layout as mandatory application-level concern",
+    "option_3": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_4": "Use z/OS cross-memory communication between IMS address spaces",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_3",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 80,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Two IMS subsystems in a sysplex need shared database availability. Which actions align with Redbook IMS principles? [Hard-80]",
+    "option_1": "Treat physical storage layout as mandatory application-level concern",
+    "option_2": "Force all IMS execution into one address space to maximize isolation",
+    "option_3": "Use a control region with dependent address spaces",
+    "option_4": "Place frequently used IMS control blocks in CSA",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_3",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 81,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "An IMS subsystem is being scaled on a multiprocessor CPC. Which actions align with Redbook IMS principles? [Hard-81]",
+    "option_1": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_2": "Force all IMS execution into one address space to maximize isolation",
+    "option_3": "Place frequently used IMS control blocks in CSA",
+    "option_4": "Eliminate message logs to reduce integrity overhead",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 82,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "A failure in one application program must not bring down IMS systems code. Which actions align with Redbook IMS principles? [Hard-82]",
+    "option_1": "Force all IMS execution into one address space to maximize isolation",
+    "option_2": "Eliminate message logs to reduce integrity overhead",
+    "option_3": "Run IMS in multiple address spaces",
+    "option_4": "Place frequently used IMS control blocks in CSA",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_3",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 83,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "A DBA needs access path continuity while preserving hierarchical design intent. Which actions align with Redbook IMS principles? [Hard-83]",
+    "option_1": "Treat physical storage layout as mandatory application-level concern",
+    "option_2": "Eliminate message logs to reduce integrity overhead",
+    "option_3": "Run IMS in multiple address spaces",
+    "option_4": "Use a control region with dependent address spaces",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_3",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 84,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Operations must continue while one IMS subtask waits for system service. Which actions align with Redbook IMS principles? [Hard-84]",
+    "option_1": "Use a control region with dependent address spaces",
+    "option_2": "Eliminate message logs to reduce integrity overhead",
+    "option_3": "Use z/OS cross-memory communication between IMS address spaces",
+    "option_4": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_3",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 85,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Two IMS subsystems in a sysplex need shared database availability. Which actions align with Redbook IMS principles? [Hard-85]",
+    "option_1": "Eliminate message logs to reduce integrity overhead",
+    "option_2": "Run IMS in multiple address spaces",
+    "option_3": "Exploit sysplex to run multiple IMS subsystems against same databases",
+    "option_4": "Replace hierarchical segments with mandatory SQL-only row sets",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_2",
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 86,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "An IMS subsystem is being scaled on a multiprocessor CPC. Which actions align with Redbook IMS principles? [Hard-86]",
+    "option_1": "Place frequently used IMS control blocks in CSA",
+    "option_2": "Replace hierarchical segments with mandatory SQL-only row sets",
+    "option_3": "Eliminate message logs to reduce integrity overhead",
+    "option_4": "Exploit sysplex to run multiple IMS subsystems against same databases",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 87,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "A failure in one application program must not bring down IMS systems code. Which actions align with Redbook IMS principles? [Hard-87]",
+    "option_1": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_2": "Treat physical storage layout as mandatory application-level concern",
+    "option_3": "Exploit sysplex to run multiple IMS subsystems against same databases",
+    "option_4": "Use a control region with dependent address spaces",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_3",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 88,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "A DBA needs access path continuity while preserving hierarchical design intent. Which actions align with Redbook IMS principles? [Hard-88]",
+    "option_1": "Treat physical storage layout as mandatory application-level concern",
+    "option_2": "Run IMS in multiple address spaces",
+    "option_3": "Use a control region with dependent address spaces",
+    "option_4": "Replace hierarchical segments with mandatory SQL-only row sets",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_2",
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 89,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Operations must continue while one IMS subtask waits for system service. Which actions align with Redbook IMS principles? [Hard-89]",
+    "option_1": "Replace hierarchical segments with mandatory SQL-only row sets",
+    "option_2": "Force all IMS execution into one address space to maximize isolation",
+    "option_3": "Place frequently used IMS control blocks in CSA",
+    "option_4": "Run IMS in multiple address spaces",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_3",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 90,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Two IMS subsystems in a sysplex need shared database availability. Which actions align with Redbook IMS principles? [Hard-90]",
+    "option_1": "Use a control region with dependent address spaces",
+    "option_2": "Place frequently used IMS control blocks in CSA",
+    "option_3": "Exploit sysplex to run multiple IMS subsystems against same databases",
+    "option_4": "Force all IMS execution into one address space to maximize isolation",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_2",
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 91,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "An IMS subsystem is being scaled on a multiprocessor CPC. Which actions align with Redbook IMS principles? [Hard-91]",
+    "option_1": "Force all IMS execution into one address space to maximize isolation",
+    "option_2": "Exploit sysplex to run multiple IMS subsystems against same databases",
+    "option_3": "Run IMS in multiple address spaces",
+    "option_4": "Treat physical storage layout as mandatory application-level concern",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_2",
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 92,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "A failure in one application program must not bring down IMS systems code. Which actions align with Redbook IMS principles? [Hard-92]",
+    "option_1": "Force all IMS execution into one address space to maximize isolation",
+    "option_2": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_3": "Replace hierarchical segments with mandatory SQL-only row sets",
+    "option_4": "Run IMS in multiple address spaces",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_2",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 93,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "A DBA needs access path continuity while preserving hierarchical design intent. Which actions align with Redbook IMS principles? [Hard-93]",
+    "option_1": "Treat physical storage layout as mandatory application-level concern",
+    "option_2": "Exploit sysplex to run multiple IMS subsystems against same databases",
+    "option_3": "Use z/OS cross-memory communication between IMS address spaces",
+    "option_4": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_2",
+      "option_3",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 94,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Operations must continue while one IMS subtask waits for system service. Which actions align with Redbook IMS principles? [Hard-94]",
+    "option_1": "Exploit sysplex to run multiple IMS subsystems against same databases",
+    "option_2": "Use a control region with dependent address spaces",
+    "option_3": "Force all IMS execution into one address space to maximize isolation",
+    "option_4": "Replace hierarchical segments with mandatory SQL-only row sets",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 95,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Two IMS subsystems in a sysplex need shared database availability. Which actions align with Redbook IMS principles? [Hard-95]",
+    "option_1": "Eliminate message logs to reduce integrity overhead",
+    "option_2": "Exploit sysplex to run multiple IMS subsystems against same databases",
+    "option_3": "Treat physical storage layout as mandatory application-level concern",
+    "option_4": "Use z/OS cross-memory communication between IMS address spaces",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_2",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 96,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "An IMS subsystem is being scaled on a multiprocessor CPC. Which actions align with Redbook IMS principles? [Hard-96]",
+    "option_1": "Force all IMS execution into one address space to maximize isolation",
+    "option_2": "Treat physical storage layout as mandatory application-level concern",
+    "option_3": "Run IMS in multiple address spaces",
+    "option_4": "Use a control region with dependent address spaces",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_3",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 97,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "A failure in one application program must not bring down IMS systems code. Which actions align with Redbook IMS principles? [Hard-97]",
+    "option_1": "Use a control region with dependent address spaces",
+    "option_2": "Eliminate message logs to reduce integrity overhead",
+    "option_3": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_4": "Exploit sysplex to run multiple IMS subsystems against same databases",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_3",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 98,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "A DBA needs access path continuity while preserving hierarchical design intent. Which actions align with Redbook IMS principles? [Hard-98]",
+    "option_1": "Treat physical storage layout as mandatory application-level concern",
+    "option_2": "Place frequently used IMS control blocks in CSA",
+    "option_3": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_4": "Replace hierarchical segments with mandatory SQL-only row sets",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_2",
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 99,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Operations must continue while one IMS subtask waits for system service. Which actions align with Redbook IMS principles? [Hard-99]",
+    "option_1": "Use z/OS subsystem registration for failure detection and subsystem interaction",
+    "option_2": "Force all IMS execution into one address space to maximize isolation",
+    "option_3": "Use a control region with dependent address spaces",
+    "option_4": "Eliminate message logs to reduce integrity overhead",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 100,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Two IMS subsystems in a sysplex need shared database availability. Which actions align with Redbook IMS principles? [Hard-100]",
+    "option_1": "Run IMS in multiple address spaces",
+    "option_2": "Use a control region with dependent address spaces",
+    "option_3": "Replace hierarchical segments with mandatory SQL-only row sets",
+    "option_4": "Force all IMS execution into one address space to maximize isolation",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_2"
+    ]
+  }
+]
