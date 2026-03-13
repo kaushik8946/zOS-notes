@@ -420,19 +420,19 @@
 
 ---
 
-### Q27. The Redbook figure labels IMS DB/DC subsystem with DBRC and RECONs together with:
+### Q27. In an IMS application, what is the purpose of the key feedback area in the PCB?
 
 **Type:** Single Choice
 
-**A.** Only HTML repositories
+**A.** To store program variables
 
-**B.** Only RACF exits
+**B.** To return the concatenated key of the segment just accessed
 
-**C.** IMS message queues and logs
+**C.** To store error messages
 
-**D.** Only JVM classpaths
+**D.** To hold the next segment to process
 
-**Correct Answer:** C
+**Correct Answer:** B
 
 ---
 
@@ -852,19 +852,19 @@
 
 ---
 
-### Q54. According to the z/OS Basics Redbook, The Redbook figure labels IMS DB/DC subsystem with DBRC and RECONs together with:
+### Q54. An IMS program issues ISRT for a child segment but gets status code 'II'. What does this mean?
 
 **Type:** Single Choice
 
-**A.** IMS message queues and logs
+**A.** Insert successful
 
-**B.** Only RACF exits
+**B.** Duplicate key - segment with same key already exists
 
-**C.** Only HTML repositories
+**C.** Invalid insert sequence
 
-**D.** Only JVM classpaths
+**D.** Insufficient storage
 
-**Correct Answer:** A
+**Correct Answer:** B
 
 ---
 
@@ -1284,19 +1284,19 @@
 
 ---
 
-### Q81. In IMS context described by the Redbook, The Redbook figure labels IMS DB/DC subsystem with DBRC and RECONs together with:
+### Q81. What happens when an IMS program issues GN without SSA after retrieving a parent segment?
 
 **Type:** Single Choice
 
-**A.** Only JVM classpaths
+**A.** Error occurs
 
-**B.** Only RACF exits
+**B.** Returns the first child of the current parent, or next segment in hierarchy
 
-**C.** IMS message queues and logs
+**C.** Returns another parent
 
-**D.** Only HTML repositories
+**D.** Database position is lost
 
-**Correct Answer:** C
+**Correct Answer:** B
 
 ---
 
@@ -1812,17 +1812,17 @@
 
 ---
 
-### Q114. A team is reviewing IMS architecture. Statement A: Dependent IMS address spaces primarily. Statement B: The Redbook figure labels IMS DB/DC subsystem with DBRC and RECONs together with. Which design decision best aligns with this Redbook guidance?
+### Q114. An IMS program needs to update every CUSTOMER where STATUS='ACTIVE'. What is the best approach?
 
 **Type:** Single Choice
 
-**A.** Neither statement is supported by Redbook IMS sections.
+**A.** GU for each CUSTOMER by key
 
-**B.** Both statements are consistent with Redbook IMS explanations.
+**B.** Loop: GU/GN with qualified SSA CUSTOMER(STATUS='ACTIVE'), modify, REPL, repeat
 
-**C.** Only Statement A is consistent; Statement B contradicts Redbook IMS sections.
+**C.** DLET all and ISRT new ones
 
-**D.** Only Statement B is consistent; Statement A contradicts Redbook IMS sections.
+**D.** Cannot be done
 
 **Correct Answer:** B
 
@@ -1956,19 +1956,19 @@
 
 ---
 
-### Q123. A team is reviewing IMS architecture. Statement A: The Redbook figure labels IMS DB/DC subsystem with DBRC and RECONs together with. Statement B: According to the Redbook, what is the maximum number of segment types in one IMS hierarchical data structure. Which option best reflects IMS architecture behavior?
+### Q123. In a COBOL IMS program, what is CBLTDLI?
 
 **Type:** Single Choice
 
-**A.** Neither statement is supported by Redbook IMS sections.
+**A.** A database name
 
-**B.** Only Statement B is consistent; Statement A contradicts Redbook IMS sections.
+**B.** The COBOL language interface routine for DL/I calls
 
-**C.** Both statements are consistent with Redbook IMS explanations.
+**C.** A segment type
 
-**D.** Only Statement A is consistent; Statement B contradicts Redbook IMS sections.
+**D.** A status code
 
-**Correct Answer:** C
+**Correct Answer:** B
 
 ---
 
@@ -1984,7 +1984,7 @@
 
 **D.** Treat physical storage layout as mandatory application-level concern
 
-**Correct Answers:** A, B, C
+**Correct Answer:** A, B, C
 
 ---
 
@@ -2000,7 +2000,7 @@
 
 **D.** Run IMS in multiple address spaces
 
-**Correct Answers:** A, B, D
+**Correct Answer:** A, B, D
 
 ---
 

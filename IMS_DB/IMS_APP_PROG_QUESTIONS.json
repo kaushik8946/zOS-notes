@@ -366,15 +366,15 @@
   {
     "questionnumber": 27,
     "topic": "IMS DB",
-    "difficulty": "Easy",
-    "question": "The Redbook figure labels IMS DB/DC subsystem with DBRC and RECONs together with:",
-    "option_1": "Only HTML repositories",
-    "option_2": "Only RACF exits",
-    "option_3": "IMS message queues and logs",
-    "option_4": "Only JVM classpaths",
+    "difficulty": "Medium",
+    "question": "In an IMS application, what is the purpose of the key feedback area in the PCB?",
+    "option_1": "To store program variables",
+    "option_2": "To return the concatenated key of the segment just accessed",
+    "option_3": "To store error messages",
+    "option_4": "To hold the next segment to process",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_3"
+      "option_2"
     ]
   },
   {
@@ -744,15 +744,15 @@
   {
     "questionnumber": 54,
     "topic": "IMS DB",
-    "difficulty": "Easy",
-    "question": "According to the z/OS Basics Redbook, The Redbook figure labels IMS DB/DC subsystem with DBRC and RECONs together with:",
-    "option_1": "IMS message queues and logs",
-    "option_2": "Only RACF exits",
-    "option_3": "Only HTML repositories",
-    "option_4": "Only JVM classpaths",
+    "difficulty": "Hard",
+    "question": "An IMS program issues ISRT for a child segment but gets status code 'II'. What does this mean?",
+    "option_1": "Insert successful",
+    "option_2": "Duplicate key - segment with same key already exists",
+    "option_3": "Invalid insert sequence",
+    "option_4": "Insufficient storage",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -1122,15 +1122,15 @@
   {
     "questionnumber": 81,
     "topic": "IMS DB",
-    "difficulty": "Easy",
-    "question": "In IMS context described by the Redbook, The Redbook figure labels IMS DB/DC subsystem with DBRC and RECONs together with:",
-    "option_1": "Only JVM classpaths",
-    "option_2": "Only RACF exits",
-    "option_3": "IMS message queues and logs",
-    "option_4": "Only HTML repositories",
+    "difficulty": "Medium",
+    "question": "What happens when an IMS program issues GN without SSA after retrieving a parent segment?",
+    "option_1": "Error occurs",
+    "option_2": "Returns the first child of the current parent, or next segment in hierarchy",
+    "option_3": "Returns another parent",
+    "option_4": "Database position is lost",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_3"
+      "option_2"
     ]
   },
   {
@@ -1584,12 +1584,12 @@
   {
     "questionnumber": 114,
     "topic": "IMS DB",
-    "difficulty": "Medium",
-    "question": "A team is reviewing IMS architecture. Statement A: Dependent IMS address spaces primarily. Statement B: The Redbook figure labels IMS DB/DC subsystem with DBRC and RECONs together with. Which design decision best aligns with this Redbook guidance?",
-    "option_1": "Neither statement is supported by Redbook IMS sections.",
-    "option_2": "Both statements are consistent with Redbook IMS explanations.",
-    "option_3": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
-    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "difficulty": "Hard",
+    "question": "An IMS program needs to update every CUSTOMER where STATUS='ACTIVE'. What is the best approach?",
+    "option_1": "GU for each CUSTOMER by key",
+    "option_2": "Loop: GU/GN with qualified SSA CUSTOMER(STATUS='ACTIVE'), modify, REPL, repeat",
+    "option_3": "DLET all and ISRT new ones",
+    "option_4": "Cannot be done",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_2"
@@ -1711,14 +1711,14 @@
     "questionnumber": 123,
     "topic": "IMS DB",
     "difficulty": "Medium",
-    "question": "A team is reviewing IMS architecture. Statement A: The Redbook figure labels IMS DB/DC subsystem with DBRC and RECONs together with. Statement B: According to the Redbook, what is the maximum number of segment types in one IMS hierarchical data structure. Which option best reflects IMS architecture behavior?",
-    "option_1": "Neither statement is supported by Redbook IMS sections.",
-    "option_2": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
-    "option_3": "Both statements are consistent with Redbook IMS explanations.",
-    "option_4": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "question": "In a COBOL IMS program, what is CBLTDLI?",
+    "option_1": "A database name",
+    "option_2": "The COBOL language interface routine for DL/I calls",
+    "option_3": "A segment type",
+    "option_4": "A status code",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_3"
+      "option_2"
     ]
   },
   {
