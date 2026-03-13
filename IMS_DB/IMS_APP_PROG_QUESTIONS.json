@@ -1,0 +1,4206 @@
+[
+  {
+    "questionnumber": 1,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "Which IMS component provides a central point of control and access to application data?",
+    "option_1": "IMS Message Queue Interface",
+    "option_2": "IMS Database Manager",
+    "option_3": "IMS Channel Initiator",
+    "option_4": "IMS Transaction Manager",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 2,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "Which data model is used by IMS Database Manager as its basic storage method?",
+    "option_1": "Document model",
+    "option_2": "Network model",
+    "option_3": "Relational model",
+    "option_4": "Hierarchical model",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 3,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "In IMS hierarchical design, entity types are implemented as what?",
+    "option_1": "Rows",
+    "option_2": "Partitions",
+    "option_3": "Segments",
+    "option_4": "Pages",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 4,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "What is the basic building element of an IMS hierarchical data structure?",
+    "option_1": "Parent/child relationship",
+    "option_2": "Table/view relationship",
+    "option_3": "Primary/foreign key pair",
+    "option_4": "Schema/catalog relationship",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 5,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "According to the Redbook, what is the maximum number of segment types in one IMS hierarchical data structure?",
+    "option_1": "127",
+    "option_2": "255",
+    "option_3": "512",
+    "option_4": "99",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 6,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "According to the Redbook, what is the maximum number of segment levels in one IMS hierarchical data structure?",
+    "option_1": "12",
+    "option_2": "32",
+    "option_3": "15",
+    "option_4": "10",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 7,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "How does IMS describe hierarchical traversal sequence?",
+    "option_1": "Front to back, right to left, bottom to top",
+    "option_2": "Top to bottom, left to right, front to back",
+    "option_3": "Left to right, top to bottom, back to front",
+    "option_4": "Bottom to top, left to right, front to back",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 8,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "The hierarchy shown to an IMS application program represents what?",
+    "option_1": "Logical database record view",
+    "option_2": "Tape block sequence",
+    "option_3": "Exact physical disk layout",
+    "option_4": "JES spool structure",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 9,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "The IMS Database Manager allows multiple batch or online tasks to update data while retaining:",
+    "option_1": "Only throughput",
+    "option_2": "Data integrity",
+    "option_3": "Only response time",
+    "option_4": "Only catalog statistics",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 10,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "Which capability is explicitly listed for IMS Database Manager?",
+    "option_1": "TCP socket termination",
+    "option_2": "UNIX shell scheduling",
+    "option_3": "HTML rendering",
+    "option_4": "Database backup and recovery facilities",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 11,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "IMS Database Manager tuning includes which actions?",
+    "option_1": "Replacing all segments with XML",
+    "option_2": "Auto-generating SQL views only",
+    "option_3": "Eliminating all logs",
+    "option_4": "Reorganizing and restructuring databases",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 12,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "IMS databases are organized internally using:",
+    "option_1": "Only z/OS UNIX files",
+    "option_2": "Only relational clustering indexes",
+    "option_3": "IMS database organization access methods",
+    "option_4": "Only VSAM KSDS",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 13,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "IMS database data is stored on disk using:",
+    "option_1": "Only queue manager files",
+    "option_2": "Normal operating system access methods",
+    "option_3": "Only IMS proprietary hardware microcode",
+    "option_4": "Only APPC buffers",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 14,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "In IMS terminology, a \"database\" commonly describes:",
+    "option_1": "Only the logging subsystem",
+    "option_2": "A queue manager instance",
+    "option_3": "Implementation of one hierarchy",
+    "option_4": "All hierarchies in the enterprise at once",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 15,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "Compared with the relational model, one IMS database is approximately equivalent to:",
+    "option_1": "A trigger",
+    "option_2": "A table",
+    "option_3": "A plan",
+    "option_4": "A schema",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 16,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "The core of an IMS subsystem runs in which region?",
+    "option_1": "Spool region",
+    "option_2": "Utility region",
+    "option_3": "Sort region",
+    "option_4": "Control region",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 17,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "Dependent IMS address spaces primarily:",
+    "option_1": "Provide services and run application programs",
+    "option_2": "Store only JES output",
+    "option_3": "Host only TCP stacks",
+    "option_4": "Replace the control region",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 18,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "Some IMS applications/utilities can run in separate batch address spaces that are:",
+    "option_1": "Separate and with no connection to control region",
+    "option_2": "Limited to APPC only",
+    "option_3": "Always connected to control region",
+    "option_4": "Required to be in CSA",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 19,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "In IMS documentation, the term \"region\" is commonly used as a synonym for:",
+    "option_1": "Control interval",
+    "option_2": "JCL procedure",
+    "option_3": "z/OS address space",
+    "option_4": "Job step",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 20,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "A stated IMS use of z/OS is to run in:",
+    "option_1": "Single thread only",
+    "option_2": "Multiple address spaces",
+    "option_3": "Only virtual machine guests",
+    "option_4": "Only one dependent task",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 21,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "IMS communication between its address spaces uses:",
+    "option_1": "Cross-memory services",
+    "option_2": "Only TSO pipes",
+    "option_3": "Only FTP channels",
+    "option_4": "Only JES readers",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 22,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "IMS stores frequently accessed control blocks in CSA to:",
+    "option_1": "Minimize impact of multiple address spaces",
+    "option_2": "Disable sysplex support",
+    "option_3": "Replace all logs",
+    "option_4": "Increase page faults",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 23,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "IMS dynamically registers as a z/OS subsystem mainly to:",
+    "option_1": "Create SQL triggers",
+    "option_2": "Eliminate control blocks",
+    "option_3": "Format COBOL copybooks",
+    "option_4": "Detect dependent space failures and interact with subsystems",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 24,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "IMS can exploit z/OS sysplex to allow:",
+    "option_1": "Removal of all logging",
+    "option_2": "Only one subsystem total",
+    "option_3": "Multiple subsystems accessing same IMS databases",
+    "option_4": "Exclusive batch-only operation",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 25,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "One sysplex benefit cited for IMS is:",
+    "option_1": "Increased availability via switch in/out without service interruption",
+    "option_2": "No need for control region",
+    "option_3": "Reduced data integrity",
+    "option_4": "Removal of dependent regions",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 26,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "Another sysplex benefit for IMS is:",
+    "option_1": "Automatic SQL normalization",
+    "option_2": "No use of address spaces",
+    "option_3": "Increased processing capacity through multiple subsystems",
+    "option_4": "Lower aggregate processing volume",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 27,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "The Redbook figure labels IMS DB/DC subsystem with DBRC and RECONs together with:",
+    "option_1": "Only HTML repositories",
+    "option_2": "Only RACF exits",
+    "option_3": "IMS message queues and logs",
+    "option_4": "Only JVM classpaths",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 28,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "According to the z/OS Basics Redbook, Which IMS component provides a central point of control and access to application data?",
+    "option_1": "IMS Channel Initiator",
+    "option_2": "IMS Database Manager",
+    "option_3": "IMS Transaction Manager",
+    "option_4": "IMS Message Queue Interface",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 29,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "According to the z/OS Basics Redbook, Which data model is used by IMS Database Manager as its basic storage method?",
+    "option_1": "Relational model",
+    "option_2": "Hierarchical model",
+    "option_3": "Network model",
+    "option_4": "Document model",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 30,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "According to the z/OS Basics Redbook, In IMS hierarchical design, entity types are implemented as what?",
+    "option_1": "Segments",
+    "option_2": "Pages",
+    "option_3": "Partitions",
+    "option_4": "Rows",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 31,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "According to the z/OS Basics Redbook, What is the basic building element of an IMS hierarchical data structure?",
+    "option_1": "Primary/foreign key pair",
+    "option_2": "Schema/catalog relationship",
+    "option_3": "Table/view relationship",
+    "option_4": "Parent/child relationship",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 32,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "According to the z/OS Basics Redbook, According to the Redbook, what is the maximum number of segment types in one IMS hierarchical data structure?",
+    "option_1": "99",
+    "option_2": "127",
+    "option_3": "255",
+    "option_4": "512",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 33,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "According to the z/OS Basics Redbook, According to the Redbook, what is the maximum number of segment levels in one IMS hierarchical data structure?",
+    "option_1": "12",
+    "option_2": "32",
+    "option_3": "10",
+    "option_4": "15",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 34,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "According to the z/OS Basics Redbook, How does IMS describe hierarchical traversal sequence?",
+    "option_1": "Top to bottom, left to right, front to back",
+    "option_2": "Front to back, right to left, bottom to top",
+    "option_3": "Left to right, top to bottom, back to front",
+    "option_4": "Bottom to top, left to right, front to back",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 35,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "According to the z/OS Basics Redbook, The hierarchy shown to an IMS application program represents what?",
+    "option_1": "Logical database record view",
+    "option_2": "JES spool structure",
+    "option_3": "Tape block sequence",
+    "option_4": "Exact physical disk layout",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 36,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "According to the z/OS Basics Redbook, The IMS Database Manager allows multiple batch or online tasks to update data while retaining:",
+    "option_1": "Only response time",
+    "option_2": "Only throughput",
+    "option_3": "Data integrity",
+    "option_4": "Only catalog statistics",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 37,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "According to the z/OS Basics Redbook, Which capability is explicitly listed for IMS Database Manager?",
+    "option_1": "HTML rendering",
+    "option_2": "TCP socket termination",
+    "option_3": "Database backup and recovery facilities",
+    "option_4": "UNIX shell scheduling",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 38,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "According to the z/OS Basics Redbook, IMS Database Manager tuning includes which actions?",
+    "option_1": "Auto-generating SQL views only",
+    "option_2": "Reorganizing and restructuring databases",
+    "option_3": "Eliminating all logs",
+    "option_4": "Replacing all segments with XML",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 39,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "According to the z/OS Basics Redbook, IMS databases are organized internally using:",
+    "option_1": "Only z/OS UNIX files",
+    "option_2": "IMS database organization access methods",
+    "option_3": "Only relational clustering indexes",
+    "option_4": "Only VSAM KSDS",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 40,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "According to the z/OS Basics Redbook, IMS database data is stored on disk using:",
+    "option_1": "Only queue manager files",
+    "option_2": "Normal operating system access methods",
+    "option_3": "Only IMS proprietary hardware microcode",
+    "option_4": "Only APPC buffers",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 41,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "According to the z/OS Basics Redbook, In IMS terminology, a \"database\" commonly describes:",
+    "option_1": "Only the logging subsystem",
+    "option_2": "Implementation of one hierarchy",
+    "option_3": "All hierarchies in the enterprise at once",
+    "option_4": "A queue manager instance",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 42,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "According to the z/OS Basics Redbook, Compared with the relational model, one IMS database is approximately equivalent to:",
+    "option_1": "A plan",
+    "option_2": "A table",
+    "option_3": "A schema",
+    "option_4": "A trigger",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 43,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "According to the z/OS Basics Redbook, The core of an IMS subsystem runs in which region?",
+    "option_1": "Spool region",
+    "option_2": "Utility region",
+    "option_3": "Sort region",
+    "option_4": "Control region",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 44,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "According to the z/OS Basics Redbook, Dependent IMS address spaces primarily:",
+    "option_1": "Provide services and run application programs",
+    "option_2": "Replace the control region",
+    "option_3": "Store only JES output",
+    "option_4": "Host only TCP stacks",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 45,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "According to the z/OS Basics Redbook, Some IMS applications/utilities can run in separate batch address spaces that are:",
+    "option_1": "Required to be in CSA",
+    "option_2": "Always connected to control region",
+    "option_3": "Limited to APPC only",
+    "option_4": "Separate and with no connection to control region",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 46,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "According to the z/OS Basics Redbook, In IMS documentation, the term \"region\" is commonly used as a synonym for:",
+    "option_1": "Control interval",
+    "option_2": "z/OS address space",
+    "option_3": "JCL procedure",
+    "option_4": "Job step",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 47,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "According to the z/OS Basics Redbook, A stated IMS use of z/OS is to run in:",
+    "option_1": "Multiple address spaces",
+    "option_2": "Only virtual machine guests",
+    "option_3": "Single thread only",
+    "option_4": "Only one dependent task",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 48,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "According to the z/OS Basics Redbook, IMS communication between its address spaces uses:",
+    "option_1": "Only JES readers",
+    "option_2": "Only FTP channels",
+    "option_3": "Only TSO pipes",
+    "option_4": "Cross-memory services",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 49,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "According to the z/OS Basics Redbook, IMS stores frequently accessed control blocks in CSA to:",
+    "option_1": "Disable sysplex support",
+    "option_2": "Minimize impact of multiple address spaces",
+    "option_3": "Replace all logs",
+    "option_4": "Increase page faults",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 50,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "According to the z/OS Basics Redbook, IMS dynamically registers as a z/OS subsystem mainly to:",
+    "option_1": "Detect dependent space failures and interact with subsystems",
+    "option_2": "Eliminate control blocks",
+    "option_3": "Create SQL triggers",
+    "option_4": "Format COBOL copybooks",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 51,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "According to the z/OS Basics Redbook, IMS can exploit z/OS sysplex to allow:",
+    "option_1": "Only one subsystem total",
+    "option_2": "Exclusive batch-only operation",
+    "option_3": "Removal of all logging",
+    "option_4": "Multiple subsystems accessing same IMS databases",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 52,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "According to the z/OS Basics Redbook, One sysplex benefit cited for IMS is:",
+    "option_1": "Reduced data integrity",
+    "option_2": "Removal of dependent regions",
+    "option_3": "No need for control region",
+    "option_4": "Increased availability via switch in/out without service interruption",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 53,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "According to the z/OS Basics Redbook, Another sysplex benefit for IMS is:",
+    "option_1": "Automatic SQL normalization",
+    "option_2": "Lower aggregate processing volume",
+    "option_3": "No use of address spaces",
+    "option_4": "Increased processing capacity through multiple subsystems",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 54,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "According to the z/OS Basics Redbook, The Redbook figure labels IMS DB/DC subsystem with DBRC and RECONs together with:",
+    "option_1": "IMS message queues and logs",
+    "option_2": "Only RACF exits",
+    "option_3": "Only HTML repositories",
+    "option_4": "Only JVM classpaths",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 55,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "In IMS context described by the Redbook, Which IMS component provides a central point of control and access to application data?",
+    "option_1": "IMS Transaction Manager",
+    "option_2": "IMS Database Manager",
+    "option_3": "IMS Message Queue Interface",
+    "option_4": "IMS Channel Initiator",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 56,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "In IMS context described by the Redbook, Which data model is used by IMS Database Manager as its basic storage method?",
+    "option_1": "Hierarchical model",
+    "option_2": "Network model",
+    "option_3": "Document model",
+    "option_4": "Relational model",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 57,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "In IMS context described by the Redbook, In IMS hierarchical design, entity types are implemented as what?",
+    "option_1": "Segments",
+    "option_2": "Partitions",
+    "option_3": "Rows",
+    "option_4": "Pages",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 58,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "In IMS context described by the Redbook, What is the basic building element of an IMS hierarchical data structure?",
+    "option_1": "Schema/catalog relationship",
+    "option_2": "Primary/foreign key pair",
+    "option_3": "Table/view relationship",
+    "option_4": "Parent/child relationship",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 59,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "In IMS context described by the Redbook, According to the Redbook, what is the maximum number of segment types in one IMS hierarchical data structure?",
+    "option_1": "127",
+    "option_2": "255",
+    "option_3": "512",
+    "option_4": "99",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 60,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "In IMS context described by the Redbook, According to the Redbook, what is the maximum number of segment levels in one IMS hierarchical data structure?",
+    "option_1": "32",
+    "option_2": "15",
+    "option_3": "10",
+    "option_4": "12",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 61,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "In IMS context described by the Redbook, How does IMS describe hierarchical traversal sequence?",
+    "option_1": "Top to bottom, left to right, front to back",
+    "option_2": "Bottom to top, left to right, front to back",
+    "option_3": "Left to right, top to bottom, back to front",
+    "option_4": "Front to back, right to left, bottom to top",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 62,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "In IMS context described by the Redbook, The hierarchy shown to an IMS application program represents what?",
+    "option_1": "Exact physical disk layout",
+    "option_2": "Logical database record view",
+    "option_3": "Tape block sequence",
+    "option_4": "JES spool structure",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 63,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "In IMS context described by the Redbook, The IMS Database Manager allows multiple batch or online tasks to update data while retaining:",
+    "option_1": "Only catalog statistics",
+    "option_2": "Only throughput",
+    "option_3": "Data integrity",
+    "option_4": "Only response time",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 64,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "In IMS context described by the Redbook, Which capability is explicitly listed for IMS Database Manager?",
+    "option_1": "TCP socket termination",
+    "option_2": "Database backup and recovery facilities",
+    "option_3": "HTML rendering",
+    "option_4": "UNIX shell scheduling",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 65,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "In IMS context described by the Redbook, IMS Database Manager tuning includes which actions?",
+    "option_1": "Auto-generating SQL views only",
+    "option_2": "Replacing all segments with XML",
+    "option_3": "Reorganizing and restructuring databases",
+    "option_4": "Eliminating all logs",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 66,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "In IMS context described by the Redbook, IMS databases are organized internally using:",
+    "option_1": "Only z/OS UNIX files",
+    "option_2": "IMS database organization access methods",
+    "option_3": "Only relational clustering indexes",
+    "option_4": "Only VSAM KSDS",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 67,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "In IMS context described by the Redbook, IMS database data is stored on disk using:",
+    "option_1": "Only IMS proprietary hardware microcode",
+    "option_2": "Only queue manager files",
+    "option_3": "Normal operating system access methods",
+    "option_4": "Only APPC buffers",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 68,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "In IMS context described by the Redbook, In IMS terminology, a \"database\" commonly describes:",
+    "option_1": "Implementation of one hierarchy",
+    "option_2": "All hierarchies in the enterprise at once",
+    "option_3": "Only the logging subsystem",
+    "option_4": "A queue manager instance",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 69,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "In IMS context described by the Redbook, Compared with the relational model, one IMS database is approximately equivalent to:",
+    "option_1": "A schema",
+    "option_2": "A table",
+    "option_3": "A plan",
+    "option_4": "A trigger",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 70,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "In IMS context described by the Redbook, The core of an IMS subsystem runs in which region?",
+    "option_1": "Control region",
+    "option_2": "Spool region",
+    "option_3": "Utility region",
+    "option_4": "Sort region",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 71,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "In IMS context described by the Redbook, Dependent IMS address spaces primarily:",
+    "option_1": "Host only TCP stacks",
+    "option_2": "Store only JES output",
+    "option_3": "Replace the control region",
+    "option_4": "Provide services and run application programs",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 72,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "In IMS context described by the Redbook, Some IMS applications/utilities can run in separate batch address spaces that are:",
+    "option_1": "Required to be in CSA",
+    "option_2": "Always connected to control region",
+    "option_3": "Limited to APPC only",
+    "option_4": "Separate and with no connection to control region",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 73,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "In IMS context described by the Redbook, In IMS documentation, the term \"region\" is commonly used as a synonym for:",
+    "option_1": "Control interval",
+    "option_2": "Job step",
+    "option_3": "z/OS address space",
+    "option_4": "JCL procedure",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 74,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "In IMS context described by the Redbook, A stated IMS use of z/OS is to run in:",
+    "option_1": "Only virtual machine guests",
+    "option_2": "Only one dependent task",
+    "option_3": "Multiple address spaces",
+    "option_4": "Single thread only",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 75,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "In IMS context described by the Redbook, IMS communication between its address spaces uses:",
+    "option_1": "Only JES readers",
+    "option_2": "Only FTP channels",
+    "option_3": "Only TSO pipes",
+    "option_4": "Cross-memory services",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 76,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "In IMS context described by the Redbook, IMS stores frequently accessed control blocks in CSA to:",
+    "option_1": "Increase page faults",
+    "option_2": "Replace all logs",
+    "option_3": "Minimize impact of multiple address spaces",
+    "option_4": "Disable sysplex support",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 77,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "In IMS context described by the Redbook, IMS dynamically registers as a z/OS subsystem mainly to:",
+    "option_1": "Create SQL triggers",
+    "option_2": "Format COBOL copybooks",
+    "option_3": "Eliminate control blocks",
+    "option_4": "Detect dependent space failures and interact with subsystems",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 78,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "In IMS context described by the Redbook, IMS can exploit z/OS sysplex to allow:",
+    "option_1": "Removal of all logging",
+    "option_2": "Only one subsystem total",
+    "option_3": "Exclusive batch-only operation",
+    "option_4": "Multiple subsystems accessing same IMS databases",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 79,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "In IMS context described by the Redbook, One sysplex benefit cited for IMS is:",
+    "option_1": "Reduced data integrity",
+    "option_2": "Removal of dependent regions",
+    "option_3": "Increased availability via switch in/out without service interruption",
+    "option_4": "No need for control region",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 80,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "In IMS context described by the Redbook, Another sysplex benefit for IMS is:",
+    "option_1": "Lower aggregate processing volume",
+    "option_2": "Automatic SQL normalization",
+    "option_3": "Increased processing capacity through multiple subsystems",
+    "option_4": "No use of address spaces",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 81,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "In IMS context described by the Redbook, The Redbook figure labels IMS DB/DC subsystem with DBRC and RECONs together with:",
+    "option_1": "Only JVM classpaths",
+    "option_2": "Only RACF exits",
+    "option_3": "IMS message queues and logs",
+    "option_4": "Only HTML repositories",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 82,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "From the IMS sections of the Redbook, Which IMS component provides a central point of control and access to application data?",
+    "option_1": "IMS Channel Initiator",
+    "option_2": "IMS Message Queue Interface",
+    "option_3": "IMS Transaction Manager",
+    "option_4": "IMS Database Manager",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 83,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "From the IMS sections of the Redbook, Which data model is used by IMS Database Manager as its basic storage method?",
+    "option_1": "Hierarchical model",
+    "option_2": "Document model",
+    "option_3": "Relational model",
+    "option_4": "Network model",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 84,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "From the IMS sections of the Redbook, In IMS hierarchical design, entity types are implemented as what?",
+    "option_1": "Rows",
+    "option_2": "Pages",
+    "option_3": "Segments",
+    "option_4": "Partitions",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 85,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "From the IMS sections of the Redbook, What is the basic building element of an IMS hierarchical data structure?",
+    "option_1": "Parent/child relationship",
+    "option_2": "Schema/catalog relationship",
+    "option_3": "Table/view relationship",
+    "option_4": "Primary/foreign key pair",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 86,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "From the IMS sections of the Redbook, According to the Redbook, what is the maximum number of segment types in one IMS hierarchical data structure?",
+    "option_1": "512",
+    "option_2": "255",
+    "option_3": "99",
+    "option_4": "127",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 87,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "From the IMS sections of the Redbook, According to the Redbook, what is the maximum number of segment levels in one IMS hierarchical data structure?",
+    "option_1": "15",
+    "option_2": "10",
+    "option_3": "32",
+    "option_4": "12",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 88,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "From the IMS sections of the Redbook, How does IMS describe hierarchical traversal sequence?",
+    "option_1": "Bottom to top, left to right, front to back",
+    "option_2": "Left to right, top to bottom, back to front",
+    "option_3": "Front to back, right to left, bottom to top",
+    "option_4": "Top to bottom, left to right, front to back",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 89,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "From the IMS sections of the Redbook, The hierarchy shown to an IMS application program represents what?",
+    "option_1": "Tape block sequence",
+    "option_2": "JES spool structure",
+    "option_3": "Logical database record view",
+    "option_4": "Exact physical disk layout",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 90,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "From the IMS sections of the Redbook, The IMS Database Manager allows multiple batch or online tasks to update data while retaining:",
+    "option_1": "Only catalog statistics",
+    "option_2": "Only response time",
+    "option_3": "Only throughput",
+    "option_4": "Data integrity",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 91,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "From the IMS sections of the Redbook, Which capability is explicitly listed for IMS Database Manager?",
+    "option_1": "HTML rendering",
+    "option_2": "TCP socket termination",
+    "option_3": "UNIX shell scheduling",
+    "option_4": "Database backup and recovery facilities",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 92,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "From the IMS sections of the Redbook, IMS Database Manager tuning includes which actions?",
+    "option_1": "Reorganizing and restructuring databases",
+    "option_2": "Eliminating all logs",
+    "option_3": "Replacing all segments with XML",
+    "option_4": "Auto-generating SQL views only",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 93,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "From the IMS sections of the Redbook, IMS databases are organized internally using:",
+    "option_1": "Only relational clustering indexes",
+    "option_2": "Only VSAM KSDS",
+    "option_3": "IMS database organization access methods",
+    "option_4": "Only z/OS UNIX files",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 94,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "From the IMS sections of the Redbook, IMS database data is stored on disk using:",
+    "option_1": "Only APPC buffers",
+    "option_2": "Only queue manager files",
+    "option_3": "Normal operating system access methods",
+    "option_4": "Only IMS proprietary hardware microcode",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 95,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "From the IMS sections of the Redbook, In IMS terminology, a \"database\" commonly describes:",
+    "option_1": "Implementation of one hierarchy",
+    "option_2": "A queue manager instance",
+    "option_3": "Only the logging subsystem",
+    "option_4": "All hierarchies in the enterprise at once",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 96,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "From the IMS sections of the Redbook, Compared with the relational model, one IMS database is approximately equivalent to:",
+    "option_1": "A plan",
+    "option_2": "A table",
+    "option_3": "A trigger",
+    "option_4": "A schema",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 97,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "From the IMS sections of the Redbook, The core of an IMS subsystem runs in which region?",
+    "option_1": "Sort region",
+    "option_2": "Control region",
+    "option_3": "Spool region",
+    "option_4": "Utility region",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 98,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Which IMS component provides a central point of control and access to application data. Statement B: The hierarchy shown to an IMS application program represents what. Which design decision best aligns with this Redbook guidance?",
+    "option_1": "Neither statement is supported by Redbook IMS sections.",
+    "option_2": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_3": "Both statements are consistent with Redbook IMS explanations.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 99,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Which data model is used by IMS Database Manager as its basic storage method. Statement B: IMS Database Manager tuning includes which actions. Which interpretation is most accurate?",
+    "option_1": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_2": "Both statements are consistent with Redbook IMS explanations.",
+    "option_3": "Neither statement is supported by Redbook IMS sections.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 100,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: In IMS hierarchical design, entity types are implemented as what. Statement B: In IMS terminology, a \"database\" commonly describes. Which conclusion follows most directly?",
+    "option_1": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_2": "Both statements are consistent with Redbook IMS explanations.",
+    "option_3": "Neither statement is supported by Redbook IMS sections.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 101,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: What is the basic building element of an IMS hierarchical data structure. Statement B: Dependent IMS address spaces primarily. Which option best reflects IMS architecture behavior?",
+    "option_1": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_2": "Both statements are consistent with Redbook IMS explanations.",
+    "option_3": "Neither statement is supported by Redbook IMS sections.",
+    "option_4": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 102,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: According to the Redbook, what is the maximum number of segment types in one IMS hierarchical data structure. Statement B: A stated IMS use of z/OS is to run in. Which design decision best aligns with this Redbook guidance?",
+    "option_1": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_2": "Neither statement is supported by Redbook IMS sections.",
+    "option_3": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_4": "Both statements are consistent with Redbook IMS explanations.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 103,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: According to the Redbook, what is the maximum number of segment levels in one IMS hierarchical data structure. Statement B: IMS stores frequently accessed control blocks in CSA to. Which interpretation is most accurate?",
+    "option_1": "Neither statement is supported by Redbook IMS sections.",
+    "option_2": "Both statements are consistent with Redbook IMS explanations.",
+    "option_3": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 104,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: How does IMS describe hierarchical traversal sequence. Statement B: One sysplex benefit cited for IMS is. Which conclusion follows most directly?",
+    "option_1": "Neither statement is supported by Redbook IMS sections.",
+    "option_2": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_3": "Both statements are consistent with Redbook IMS explanations.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 105,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: The hierarchy shown to an IMS application program represents what. Statement B: Which IMS component provides a central point of control and access to application data. Which option best reflects IMS architecture behavior?",
+    "option_1": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_2": "Both statements are consistent with Redbook IMS explanations.",
+    "option_3": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_4": "Neither statement is supported by Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 106,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: The IMS Database Manager allows multiple batch or online tasks to update data while retaining. Statement B: What is the basic building element of an IMS hierarchical data structure. Which design decision best aligns with this Redbook guidance?",
+    "option_1": "Neither statement is supported by Redbook IMS sections.",
+    "option_2": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_3": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_4": "Both statements are consistent with Redbook IMS explanations.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 107,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Which capability is explicitly listed for IMS Database Manager. Statement B: How does IMS describe hierarchical traversal sequence. Which interpretation is most accurate?",
+    "option_1": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_2": "Neither statement is supported by Redbook IMS sections.",
+    "option_3": "Both statements are consistent with Redbook IMS explanations.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 108,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: IMS Database Manager tuning includes which actions. Statement B: Which capability is explicitly listed for IMS Database Manager. Which conclusion follows most directly?",
+    "option_1": "Neither statement is supported by Redbook IMS sections.",
+    "option_2": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_3": "Both statements are consistent with Redbook IMS explanations.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 109,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: IMS databases are organized internally using. Statement B: IMS database data is stored on disk using. Which option best reflects IMS architecture behavior?",
+    "option_1": "Both statements are consistent with Redbook IMS explanations.",
+    "option_2": "Neither statement is supported by Redbook IMS sections.",
+    "option_3": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_4": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 110,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: IMS database data is stored on disk using. Statement B: The core of an IMS subsystem runs in which region. Which design decision best aligns with this Redbook guidance?",
+    "option_1": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_2": "Both statements are consistent with Redbook IMS explanations.",
+    "option_3": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_4": "Neither statement is supported by Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 111,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: In IMS terminology, a \"database\" commonly describes. Statement B: In IMS documentation, the term \"region\" is commonly used as a synonym for. Which interpretation is most accurate?",
+    "option_1": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_2": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_3": "Neither statement is supported by Redbook IMS sections.",
+    "option_4": "Both statements are consistent with Redbook IMS explanations.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 112,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Compared with the relational model, one IMS database is approximately equivalent to. Statement B: IMS communication between its address spaces uses. Which conclusion follows most directly?",
+    "option_1": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_2": "Neither statement is supported by Redbook IMS sections.",
+    "option_3": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_4": "Both statements are consistent with Redbook IMS explanations.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 113,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: The core of an IMS subsystem runs in which region. Statement B: IMS can exploit z/OS sysplex to allow. Which option best reflects IMS architecture behavior?",
+    "option_1": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_2": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_3": "Both statements are consistent with Redbook IMS explanations.",
+    "option_4": "Neither statement is supported by Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 114,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Dependent IMS address spaces primarily. Statement B: The Redbook figure labels IMS DB/DC subsystem with DBRC and RECONs together with. Which design decision best aligns with this Redbook guidance?",
+    "option_1": "Neither statement is supported by Redbook IMS sections.",
+    "option_2": "Both statements are consistent with Redbook IMS explanations.",
+    "option_3": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 115,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Some IMS applications/utilities can run in separate batch address spaces that are. Statement B: In IMS hierarchical design, entity types are implemented as what. Which interpretation is most accurate?",
+    "option_1": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_2": "Neither statement is supported by Redbook IMS sections.",
+    "option_3": "Both statements are consistent with Redbook IMS explanations.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 116,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: In IMS documentation, the term \"region\" is commonly used as a synonym for. Statement B: According to the Redbook, what is the maximum number of segment levels in one IMS hierarchical data structure. Which conclusion follows most directly?",
+    "option_1": "Neither statement is supported by Redbook IMS sections.",
+    "option_2": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_3": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_4": "Both statements are consistent with Redbook IMS explanations.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 117,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: A stated IMS use of z/OS is to run in. Statement B: The IMS Database Manager allows multiple batch or online tasks to update data while retaining. Which option best reflects IMS architecture behavior?",
+    "option_1": "Neither statement is supported by Redbook IMS sections.",
+    "option_2": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_3": "Both statements are consistent with Redbook IMS explanations.",
+    "option_4": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 118,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: IMS communication between its address spaces uses. Statement B: Compared with the relational model, one IMS database is approximately equivalent to. Which interpretation is most accurate?",
+    "option_1": "Both statements are consistent with Redbook IMS explanations.",
+    "option_2": "Neither statement is supported by Redbook IMS sections.",
+    "option_3": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_4": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 119,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: IMS stores frequently accessed control blocks in CSA to. Statement B: Some IMS applications/utilities can run in separate batch address spaces that are. Which conclusion follows most directly?",
+    "option_1": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_2": "Both statements are consistent with Redbook IMS explanations.",
+    "option_3": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_4": "Neither statement is supported by Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 120,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: IMS can exploit z/OS sysplex to allow. Statement B: IMS dynamically registers as a z/OS subsystem mainly to. Which design decision best aligns with this Redbook guidance?",
+    "option_1": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_2": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_3": "Both statements are consistent with Redbook IMS explanations.",
+    "option_4": "Neither statement is supported by Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 121,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: One sysplex benefit cited for IMS is. Statement B: Another sysplex benefit for IMS is. Which interpretation is most accurate?",
+    "option_1": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_2": "Neither statement is supported by Redbook IMS sections.",
+    "option_3": "Both statements are consistent with Redbook IMS explanations.",
+    "option_4": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 122,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: Another sysplex benefit for IMS is. Statement B: Which data model is used by IMS Database Manager as its basic storage method. Which conclusion follows most directly?",
+    "option_1": "Neither statement is supported by Redbook IMS sections.",
+    "option_2": "Both statements are consistent with Redbook IMS explanations.",
+    "option_3": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 123,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "A team is reviewing IMS architecture. Statement A: The Redbook figure labels IMS DB/DC subsystem with DBRC and RECONs together with. Statement B: According to the Redbook, what is the maximum number of segment types in one IMS hierarchical data structure. Which option best reflects IMS architecture behavior?",
+    "option_1": "Neither statement is supported by Redbook IMS sections.",
+    "option_2": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "option_3": "Both statements are consistent with Redbook IMS explanations.",
+    "option_4": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 124,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "A DBA needs access path continuity while preserving hierarchical design intent. Which actions align with Redbook IMS principles?",
+    "option_1": "Place frequently used IMS control blocks in CSA",
+    "option_2": "Use a control region with dependent address spaces",
+    "option_3": "Exploit sysplex to run multiple IMS subsystems against same databases",
+    "option_4": "Treat physical storage layout as mandatory application-level concern",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_2",
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 125,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Two IMS subsystems in a sysplex need shared database availability. Which actions align with Redbook IMS principles?",
+    "option_1": "Exploit sysplex to run multiple IMS subsystems against same databases",
+    "option_2": "Use a control region with dependent address spaces",
+    "option_3": "Force all IMS execution into one address space to maximize isolation",
+    "option_4": "Run IMS in multiple address spaces",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_2",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 126,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "What is the primary purpose of the GU (Get Unique) DL/I call in an IMS application program?",
+    "option_1": "To retrieve all segments in hierarchical sequence",
+    "option_2": "To retrieve the first segment occurrence that satisfies the SSA criteria",
+    "option_3": "To retrieve the next segment under the current parent",
+    "option_4": "To retrieve all twin segments at once",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 127,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "When an IMS application program issues a GN (Get Next) call, what segment does it retrieve?",
+    "option_1": "The first segment in the database",
+    "option_2": "The next segment occurrence under the same parent",
+    "option_3": "The next segment in hierarchical sequence from current position",
+    "option_4": "The next root segment only",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 128,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "How does GNP (Get Next within Parent) differ from GN in IMS application programming?",
+    "option_1": "GNP retrieves only root segments while GN retrieves all segments",
+    "option_2": "GNP retrieves next segment under same parent while GN continues hierarchical sequence",
+    "option_3": "GNP requires qualified SSA while GN requires unqualified SSA",
+    "option_4": "GNP is faster but retrieves fewer segments than GN",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 129,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "What does the ISRT DL/I call do in an IMS application program?",
+    "option_1": "Deletes a segment from the database",
+    "option_2": "Updates an existing segment",
+    "option_3": "Inserts a new segment into the database",
+    "option_4": "Retrieves a segment for processing",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 130,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "What is the purpose of the REPL DL/I call?",
+    "option_1": "To insert a new segment",
+    "option_2": "To replace or update an existing segment",
+    "option_3": "To delete a segment",
+    "option_4": "To retrieve a segment",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 131,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "What happens when an IMS application program issues a DLET (Delete) call on a parent segment?",
+    "option_1": "Only the parent segment is deleted",
+    "option_2": "The parent and all its dependent child segments are deleted",
+    "option_3": "The operation fails with an error",
+    "option_4": "Only the child segments are deleted",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 132,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "Before an IMS application program can issue a REPL call, what must it do first?",
+    "option_1": "Issue an ISRT call",
+    "option_2": "Issue a DLET call",
+    "option_3": "Issue a GU or GN call to establish position",
+    "option_4": "Issue a GNP call",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 133,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "An IMS application needs to retrieve all ORDER segments for a specific CUSTOMER. Which DL/I calls should be used?",
+    "option_1": "GU for the CUSTOMER, then GN calls for each ORDER",
+    "option_2": "GU for the CUSTOMER, then GNP calls for each ORDER",
+    "option_3": "Multiple GU calls for each ORDER",
+    "option_4": "GN calls only without initial GU",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 134,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "What does SSA stand for in IMS application programming?",
+    "option_1": "System Segment Address",
+    "option_2": "Segment Search Argument",
+    "option_3": "Sequential Storage Access",
+    "option_4": "Structured Segment Array",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 135,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "What is the difference between a qualified and unqualified SSA in IMS?",
+    "option_1": "Qualified SSA includes field conditions, unqualified specifies only segment type",
+    "option_2": "Qualified SSA is faster, unqualified is slower",
+    "option_3": "Qualified SSA can only be used with GU, unqualified with GN",
+    "option_4": "There is no difference",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 136,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "In an IMS application program, what is the format of a qualified SSA?",
+    "option_1": "SEGNAME",
+    "option_2": "SEGNAME(FIELDNAME operator value)",
+    "option_3": "SEGNAME.FIELDNAME=value",
+    "option_4": "SEGNAME/FIELDNAME/value",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 137,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "An IMS COBOL program needs to retrieve a CUSTOMER segment where CUSTNO = 12345. Which SSA is correct?",
+    "option_1": "CUSTOMER",
+    "option_2": "CUSTOMER(CUSTNO=12345)",
+    "option_3": "CUSTOMER*CUSTNO*12345",
+    "option_4": "CUSTOMER.CUSTNO.EQ.12345",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 138,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "What operators can be used in a qualified SSA in IMS application programs?",
+    "option_1": "Only = (equal)",
+    "option_2": "=, >, <, >=, <=, \u00ac= (not equal)",
+    "option_3": "Only = and <>",
+    "option_4": "=, >, <, LIKE, IN",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 139,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "In an IMS hierarchical database, what is a root segment?",
+    "option_1": "The last segment in the hierarchy",
+    "option_2": "The top-level segment in the hierarchy",
+    "option_3": "Any segment with child segments",
+    "option_4": "The segment with the most fields",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 140,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "What are twin segments in IMS?",
+    "option_1": "Two segments with identical data",
+    "option_2": "Multiple occurrences of the same segment type under one parent",
+    "option_3": "Segments at the same level in the hierarchy",
+    "option_4": "Backup copies of segments",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 141,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "In IMS hierarchical processing, what sequence is used to traverse segments?",
+    "option_1": "Bottom to top, right to left, back to front",
+    "option_2": "Top to bottom, left to right, front to back",
+    "option_3": "Left to right, top to bottom, back to front",
+    "option_4": "Random access based on key fields",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 142,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "What is a database record in IMS from an application programmer's perspective?",
+    "option_1": "A single segment occurrence",
+    "option_2": "All segments of the same type",
+    "option_3": "One root segment occurrence and all its dependent segments",
+    "option_4": "A collection of related tables",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 143,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "In IMS, what determines the order of twin segments?",
+    "option_1": "The order they were inserted",
+    "option_2": "The sequence field value",
+    "option_3": "Alphabetical order of segment name",
+    "option_4": "Random order",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 144,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "What does PCB stand for in IMS application programming?",
+    "option_1": "Program Control Block",
+    "option_2": "Program Communication Block",
+    "option_3": "Process Control Buffer",
+    "option_4": "Primary Control Block",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 145,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "What information does a PCB provide to an IMS application program?",
+    "option_1": "Only the database name",
+    "option_2": "Only the segment types",
+    "option_3": "The database view including sensitive segments and processing options",
+    "option_4": "Only the status codes",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 146,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "After a DL/I call, where does an IMS application program find the status code?",
+    "option_1": "In the segment I/O area",
+    "option_2": "In the PCB status code field",
+    "option_3": "In the DBD",
+    "option_4": "In a global variable",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 147,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "What does a status code of 'GE' indicate in an IMS application program after a DL/I call?",
+    "option_1": "Segment found successfully",
+    "option_2": "Segment not found (end of database)",
+    "option_3": "Duplicate key error",
+    "option_4": "Security violation",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 148,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "What processing options can be specified in a PCB for an IMS application program?",
+    "option_1": "Only G (Get)",
+    "option_2": "G (Get), I (Insert), R (Replace), D (Delete)",
+    "option_3": "Only I (Insert) and D (Delete)",
+    "option_4": "Only G (Get) and R (Replace)",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 149,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "What does DBD stand for in IMS?",
+    "option_1": "Database Description",
+    "option_2": "Database Definition",
+    "option_3": "Data Block Description",
+    "option_4": "Direct Block Definition",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 150,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "What does PSB stand for in IMS application programming?",
+    "option_1": "Program Storage Block",
+    "option_2": "Program Specification Block",
+    "option_3": "Process Segment Buffer",
+    "option_4": "Primary System Block",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 151,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "What is the relationship between DBD and PSB in IMS?",
+    "option_1": "DBD describes physical structure; PSB describes program's view of database",
+    "option_2": "DBD is for batch programs; PSB is for online programs",
+    "option_3": "DBD and PSB are identical",
+    "option_4": "DBD is created by programmers; PSB is created by DBAs",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 152,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "What are sensitive segments in an IMS PSB?",
+    "option_1": "Segments that contain confidential data",
+    "option_2": "Segments that are accessible to the application program",
+    "option_3": "Segments that cannot be modified",
+    "option_4": "Segments that are encrypted",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 153,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "If an IMS application program tries to access a segment that is not defined as sensitive in its PSB, what happens?",
+    "option_1": "The segment is returned successfully",
+    "option_2": "A status code error is returned",
+    "option_3": "The program abends",
+    "option_4": "The segment is returned but marked as read-only",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 154,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "What is a segment in IMS hierarchical database?",
+    "option_1": "A collection of related tables",
+    "option_2": "A basic unit of data containing related fields",
+    "option_3": "A database index",
+    "option_4": "A pointer to another segment",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 155,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "What is a key field in an IMS segment?",
+    "option_1": "The first field in the segment",
+    "option_2": "A field used to uniquely identify and sequence segment occurrences",
+    "option_3": "A field that cannot be updated",
+    "option_4": "A field that references another segment",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 156,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "Can an IMS segment exist without a key field?",
+    "option_1": "No, all segments must have a key field",
+    "option_2": "Yes, key fields are optional in IMS segments",
+    "option_3": "Only root segments require key fields",
+    "option_4": "Only child segments require key fields",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 157,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "What is the purpose of a sequence field in IMS segments?",
+    "option_1": "To generate sequence numbers automatically",
+    "option_2": "To determine the order in which twin segments are stored and retrieved",
+    "option_3": "To count the number of segments",
+    "option_4": "To validate segment data",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 158,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "In an IMS application program, how are segment fields accessed?",
+    "option_1": "Through SQL SELECT statements",
+    "option_2": "Through the segment I/O area after a successful DL/I call",
+    "option_3": "Through direct memory pointers",
+    "option_4": "Through XML parsing",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 159,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "What happens to database position after a successful GU call in an IMS program?",
+    "option_1": "Position is set to the beginning of the database",
+    "option_2": "Position is set to the retrieved segment",
+    "option_3": "Position is not changed",
+    "option_4": "Position is set to the root segment",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 160,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "An IMS program issues: GU on root, GN on child1, GN on child2. What is the next segment retrieved by another GN?",
+    "option_1": "Another child2 twin",
+    "option_2": "The next segment in hierarchical sequence after child2",
+    "option_3": "The root segment",
+    "option_4": "Another child1 segment",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 161,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "What is sequential processing in IMS application programming?",
+    "option_1": "Processing segments in random order",
+    "option_2": "Processing segments in hierarchical sequence",
+    "option_3": "Processing only root segments",
+    "option_4": "Processing segments in reverse order",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 162,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "An IMS program needs to process all ITEM segments under a specific ORDER. After GU to the ORDER, which approach is correct?",
+    "option_1": "Use GN calls until status code GE",
+    "option_2": "Use GNP calls until status code GE",
+    "option_3": "Use GU calls for each ITEM",
+    "option_4": "Use ISRT calls",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 163,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "What status code indicates a successful DL/I call in an IMS program?",
+    "option_1": "OK",
+    "option_2": "00 (spaces)",
+    "option_3": "GE",
+    "option_4": "GA",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 164,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "What does the status code 'GB' mean in an IMS application program?",
+    "option_1": "Segment found successfully",
+    "option_2": "End of database reached",
+    "option_3": "End of database record (reached end of current path)",
+    "option_4": "Duplicate key error",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 165,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "In an IMS program, what status code indicates a duplicate key error during ISRT?",
+    "option_1": "GE",
+    "option_2": "II",
+    "option_3": "DK",
+    "option_4": "DA",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 166,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "Which programming languages can be used to write IMS application programs?",
+    "option_1": "Only COBOL",
+    "option_2": "COBOL, Java, PL/I, C, C++, Assembler",
+    "option_3": "Only COBOL and Assembler",
+    "option_4": "Only Java",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 167,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "In a COBOL IMS program, where is the PCB defined?",
+    "option_1": "In the WORKING-STORAGE SECTION",
+    "option_2": "In the LINKAGE SECTION",
+    "option_3": "In the FILE SECTION",
+    "option_4": "In the CONFIGURATION SECTION",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 168,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "In a COBOL IMS program, where is the segment I/O area typically defined?",
+    "option_1": "In the LINKAGE SECTION",
+    "option_2": "In the WORKING-STORAGE SECTION",
+    "option_3": "In the FILE SECTION",
+    "option_4": "In the PROCEDURE DIVISION",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 169,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "What is the correct COBOL syntax for a DL/I call in an IMS program?",
+    "option_1": "EXEC DLI GU PCB SSA SEGMENT",
+    "option_2": "CALL 'CBLTDLI' USING function, PCB, segment-io-area, SSA",
+    "option_3": "PERFORM DLI-GU USING PCB SSA",
+    "option_4": "INVOKE DLI-CALL WITH GU PCB SEGMENT",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 170,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "When an IMS application deletes a parent segment, what happens to its children?",
+    "option_1": "Children remain unchanged",
+    "option_2": "Children are automatically deleted (cascade delete)",
+    "option_3": "Children become root segments",
+    "option_4": "Operation fails with an error",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 171,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "Before inserting a child segment in an IMS program, what must exist?",
+    "option_1": "The parent segment must already exist in the database",
+    "option_2": "All sibling segments must exist",
+    "option_3": "The root segment of a different hierarchy",
+    "option_4": "No prerequisites are needed",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 172,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "An IMS program inserts segments in this order: ROOT, CHILDA, CHILDB. If CHILDA is under ROOT and CHILDB is under CHILDA, what is the result?",
+    "option_1": "All insertions succeed creating a 3-level hierarchy",
+    "option_2": "CHILDB insertion fails because position is not set correctly",
+    "option_3": "Only ROOT insertion succeeds",
+    "option_4": "All insertions succeed but in wrong hierarchy level",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 173,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "What is a path call in IMS application programming?",
+    "option_1": "A call that retrieves only the root segment",
+    "option_2": "A call that retrieves multiple segments in a path with a single DL/I call",
+    "option_3": "A call that updates multiple segments",
+    "option_4": "A call that defines the navigation path",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 174,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "When would an IMS application programmer use a path call instead of multiple GN calls?",
+    "option_1": "When better performance is needed by reducing DL/I call overhead",
+    "option_2": "When only root segments are needed",
+    "option_3": "When deleting segments",
+    "option_4": "Path calls cannot be used in application programs",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 175,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "What is an IMS batch program?",
+    "option_1": "A program that runs online with user interaction",
+    "option_2": "A program that accesses IMS databases offline without online requirements",
+    "option_3": "A program that only reads data",
+    "option_4": "A program that runs in the control region",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 176,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "What is a BMP (Batch Message Program) in IMS?",
+    "option_1": "A batch program with no message processing capability",
+    "option_2": "A batch program that can also process messages",
+    "option_3": "An online program only",
+    "option_4": "A system utility program",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 177,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "Can IMS batch programs update the database?",
+    "option_1": "No, batch programs are read-only",
+    "option_2": "Yes, if the PSB grants Insert, Replace, or Delete processing options",
+    "option_3": "Only during offline hours",
+    "option_4": "Only with special system permissions",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 178,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "What is the significance of hierarchical sequence in IMS application programming?",
+    "option_1": "It determines the physical storage location",
+    "option_2": "It defines the order in which segments are retrieved during sequential processing",
+    "option_3": "It has no significance for application programs",
+    "option_4": "It only applies to batch programs",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 179,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "When an IMS application program retrieves a segment, where is the data placed?",
+    "option_1": "In the PCB",
+    "option_2": "In the segment I/O area defined by the program",
+    "option_3": "In the DBD",
+    "option_4": "In the PSB",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 180,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "In IMS, what is the maximum number of segment levels in a hierarchical structure?",
+    "option_1": "10",
+    "option_2": "15",
+    "option_3": "20",
+    "option_4": "Unlimited",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 181,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "What is the maximum number of segment types in an IMS hierarchical structure?",
+    "option_1": "127",
+    "option_2": "255",
+    "option_3": "512",
+    "option_4": "1024",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 182,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "What is the purpose of the DL/I interface in IMS application programs?",
+    "option_1": "To compile the program",
+    "option_2": "To provide a standard interface for database access operations",
+    "option_3": "To create the database",
+    "option_4": "To manage system resources",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 183,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "If an IMS program issues a REPL call without first retrieving the segment, what happens?",
+    "option_1": "The replace succeeds on the last segment position",
+    "option_2": "A status code error is returned (no current position)",
+    "option_3": "A random segment is replaced",
+    "option_4": "The program abends",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 184,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "Can an IMS application program access multiple databases in a single execution?",
+    "option_1": "No, only one database per program",
+    "option_2": "Yes, if multiple PCBs are defined in the PSB",
+    "option_3": "Only in batch mode",
+    "option_4": "Only with special system authorization",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 185,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "What is the entry point parameter in an IMS application program?",
+    "option_1": "The database name",
+    "option_2": "The pointer to the PCB list",
+    "option_3": "The program name",
+    "option_4": "The segment name",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 186,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "An IMS program retrieves a parent segment and then issues ISRT for a child. The child ISRT uses a qualified SSA. What must be ensured?",
+    "option_1": "The SSA qualification matches the parent key",
+    "option_2": "The parent segment was the last segment retrieved (position is established)",
+    "option_3": "The child key field is unique",
+    "option_4": "The database must be reorganized first",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 187,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "What happens if an IMS program tries to insert a root segment with a duplicate key?",
+    "option_1": "The insertion succeeds with a twin created",
+    "option_2": "Status code 'II' is returned indicating duplicate key",
+    "option_3": "The old segment is automatically replaced",
+    "option_4": "The program abends",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 188,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "What are sensitive fields in an IMS PSB?",
+    "option_1": "Fields that contain sensitive data like passwords",
+    "option_2": "Fields that the application program can access",
+    "option_3": "Fields that cannot be modified",
+    "option_4": "Fields that trigger security alerts",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 189,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "If a segment has 10 fields but only 5 are defined as sensitive in the PSB, what does the IMS program see?",
+    "option_1": "All 10 fields",
+    "option_2": "Only the 5 sensitive fields",
+    "option_3": "No fields",
+    "option_4": "An error is returned",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 190,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "What is the purpose of checkpoint calls in IMS batch programs?",
+    "option_1": "To test the database connection",
+    "option_2": "To save program position for potential restart after failure",
+    "option_3": "To delete all processed segments",
+    "option_4": "To create backups of the database",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 191,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "After an IMS batch program restart from a checkpoint, where does execution resume?",
+    "option_1": "At the beginning of the program",
+    "option_2": "At the last checkpoint position",
+    "option_3": "At a random position",
+    "option_4": "At the end of the database",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 192,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "What are command codes in IMS SSAs?",
+    "option_1": "Codes that identify the DL/I call type",
+    "option_2": "Special processing options specified in the SSA",
+    "option_3": "Error codes returned by DL/I",
+    "option_4": "Database security codes",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 193,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "What does the 'F' command code do in an IMS SSA?",
+    "option_1": "Forces a database reorganization",
+    "option_2": "Indicates this is the first segment in the path",
+    "option_3": "Skips to the first occurrence of the segment",
+    "option_4": "Filters out deleted segments",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 194,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "What does the 'D' command code do in an IMS SSA?",
+    "option_1": "Deletes the segment",
+    "option_2": "Specifies this is a dependent segment",
+    "option_3": "Uses a path call to retrieve this segment and all its dependents",
+    "option_4": "Disables security checking",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 195,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "What is the purpose of a secondary index in IMS from an application perspective?",
+    "option_1": "To create backup copies of data",
+    "option_2": "To provide an alternate access path to segments using non-key fields",
+    "option_3": "To improve system performance only",
+    "option_4": "To encrypt sensitive data",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 196,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "When an IMS application uses a secondary index, how does it affect the program's view of the hierarchy?",
+    "option_1": "No effect, hierarchy remains the same",
+    "option_2": "The indexed segment appears as the root in the program's view",
+    "option_3": "All segments become root segments",
+    "option_4": "The hierarchy is inverted",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 197,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "What is a logical relationship in IMS databases?",
+    "option_1": "A physical link between two segments",
+    "option_2": "A logical connection between segments in different physical hierarchies",
+    "option_3": "A parent-child relationship",
+    "option_4": "A security relationship",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 198,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "From an IMS application programmer's perspective, how are logical relationships accessed?",
+    "option_1": "Through special system calls",
+    "option_2": "Through normal DL/I calls as if they were physical children",
+    "option_3": "Through SQL queries",
+    "option_4": "They cannot be accessed by application programs",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 199,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "What is database positioning in IMS application programming?",
+    "option_1": "The physical location of data on disk",
+    "option_2": "The current location in the hierarchy after the last successful DL/I call",
+    "option_3": "The beginning of the database",
+    "option_4": "The end of the database",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 200,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "If an IMS program issues GU for a root, then GN for a child, and the child GN fails with status 'GE', what is the position?",
+    "option_1": "At the root segment",
+    "option_2": "Position is undefined after an unsuccessful call",
+    "option_3": "At the beginning of the database",
+    "option_4": "At the end of the database",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 201,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "What is a concatenated key in IMS?",
+    "option_1": "Two fields joined in one segment",
+    "option_2": "The combination of key fields from the root down to a specific segment",
+    "option_3": "A compound primary key",
+    "option_4": "Multiple segments with the same key",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 202,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Why are concatenated keys important for IMS application programmers?",
+    "option_1": "They are not important",
+    "option_2": "They uniquely identify a segment occurrence in the entire database",
+    "option_3": "They improve system performance",
+    "option_4": "They reduce storage requirements",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 203,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "How does an IMS application program commit database changes?",
+    "option_1": "Explicitly with a COMMIT call",
+    "option_2": "Changes are committed when the program terminates normally",
+    "option_3": "With a SAVE call",
+    "option_4": "Changes are committed immediately after each DL/I call",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 204,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "What happens to database changes if an IMS program abnormally terminates?",
+    "option_1": "All changes are committed",
+    "option_2": "All changes are rolled back (backed out)",
+    "option_3": "Changes are partially committed",
+    "option_4": "The database becomes corrupted",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 205,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "In an IMS qualified SSA, what character is used to enclose the qualification statement?",
+    "option_1": "Square brackets []",
+    "option_2": "Parentheses ()",
+    "option_3": "Curly braces {}",
+    "option_4": "Angle brackets <>",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 206,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "An IMS program needs to find CUSTOMER where CITY='NEW YORK' and STATE='NY'. How should the SSA be constructed?",
+    "option_1": "CUSTOMER(CITY='NEW YORK'&STATE='NY')",
+    "option_2": "CUSTOMER(CITY='NEW YORK',STATE='NY')",
+    "option_3": "Two separate SSAs are required",
+    "option_4": "This cannot be done in one SSA",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 207,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "What character is used in IMS SSA to specify AND logic between multiple conditions?",
+    "option_1": "& (ampersand)",
+    "option_2": "+ (plus)",
+    "option_3": "* (asterisk)",
+    "option_4": ", (comma)",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 208,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "What character is used in IMS SSA to specify OR logic between multiple conditions?",
+    "option_1": "& (ampersand)",
+    "option_2": "+ (plus)",
+    "option_3": "| (pipe)",
+    "option_4": ", (comma)",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 209,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "In an IMS unqualified SSA, what information is specified?",
+    "option_1": "Only the segment name",
+    "option_2": "Segment name and field values",
+    "option_3": "Only field conditions",
+    "option_4": "Database name and segment name",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 210,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "An IMS program issues GU for ROOT, then GNP for CHILD. If no CHILD exists, what status code is returned?",
+    "option_1": "GE (segment not found)",
+    "option_2": "GB (end of database record)",
+    "option_3": "GK (wrong segment type)",
+    "option_4": "II (duplicate insert)",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 211,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "What is the function parameter for a GU call in CBLTDLI?",
+    "option_1": "'GU' (with quotes)",
+    "option_2": "GU (without quotes)",
+    "option_3": "'GU  ' (4-character field)",
+    "option_4": "1 (numeric code)",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 212,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "How many SSAs can be specified in a single DL/I call?",
+    "option_1": "Only one",
+    "option_2": "Up to 15 (matching the maximum hierarchy depth)",
+    "option_3": "Exactly two",
+    "option_4": "Unlimited",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 213,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "In an IMS GU call with multiple SSAs, what does each SSA represent?",
+    "option_1": "Different databases",
+    "option_2": "Different programs",
+    "option_3": "A level in the hierarchical path to the target segment",
+    "option_4": "Alternative search criteria",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_3"
+    ]
+  },
+  {
+    "questionnumber": 214,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "Which DL/I call would an IMS program use to retrieve the first CUSTOMER segment?",
+    "option_1": "GN",
+    "option_2": "GU",
+    "option_3": "GNP",
+    "option_4": "ISRT",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 215,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "After successfully retrieving a segment with GU, which call retrieves the next segment in sequence?",
+    "option_1": "Another GU",
+    "option_2": "GN",
+    "option_3": "GNP",
+    "option_4": "REPL",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 216,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "An IMS program processes orders: GU for CUSTOMER, then loop GNP for ORDER segments. What happens when no more ORDERs exist for that CUSTOMER?",
+    "option_1": "Status code 'GE' is returned",
+    "option_2": "Status code 'GB' is returned",
+    "option_3": "The program abends",
+    "option_4": "The next CUSTOMER's orders are returned",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 217,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "Can an IMS application program issue multiple GU calls in succession?",
+    "option_1": "No, only one GU per program execution",
+    "option_2": "Yes, GU can be issued multiple times",
+    "option_3": "Only in batch programs",
+    "option_4": "Only for root segments",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 218,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "In an IMS hierarchy, what is the relationship between a segment and the segment directly above it?",
+    "option_1": "Sibling relationship",
+    "option_2": "Parent-child relationship",
+    "option_3": "Twin relationship",
+    "option_4": "Peer relationship",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 219,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "What are segments at the same level under the same parent called in IMS?",
+    "option_1": "Twins",
+    "option_2": "Siblings",
+    "option_3": "Peers",
+    "option_4": "Cousins",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 220,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "In an IMS database with a root segment PATIENT, can there be multiple PATIENT occurrences?",
+    "option_1": "No, only one root allowed",
+    "option_2": "Yes, there can be multiple root segment occurrences (database records)",
+    "option_3": "Only if they have different keys",
+    "option_4": "Only in batch mode",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 221,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "If an IMS hierarchy has segments A(root), B(child of A), C(child of B), what is C's relationship to A?",
+    "option_1": "Direct child",
+    "option_2": "Grandchild (descendant)",
+    "option_3": "Twin",
+    "option_4": "No relationship",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 222,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "Can an IMS segment have more than one parent?",
+    "option_1": "Yes, segments can have multiple parents",
+    "option_2": "No, each segment has only one physical parent",
+    "option_3": "Only root segments can have multiple parents",
+    "option_4": "Only with special configuration",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 223,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "What determines the hierarchical structure shown to an IMS application program?",
+    "option_1": "The physical storage method",
+    "option_2": "The PSB definition (which segments are sensitive)",
+    "option_3": "The program logic",
+    "option_4": "The operating system",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 224,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "What is the typical size limit for an IMS segment?",
+    "option_1": "No limit",
+    "option_2": "Maximum of several thousand bytes",
+    "option_3": "Exactly 256 bytes",
+    "option_4": "Maximum of 80 bytes",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 225,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "Can an IMS segment contain repeating groups of fields?",
+    "option_1": "No, fields cannot repeat within a segment",
+    "option_2": "Yes, segments can contain repeating field groups",
+    "option_3": "Only in root segments",
+    "option_4": "Only with special database options",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 226,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "In IMS, what is a segment occurrence?",
+    "option_1": "A segment type definition",
+    "option_2": "One specific instance of a segment type with actual data",
+    "option_3": "A segment that occurs only once",
+    "option_4": "A deleted segment",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 227,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "Can different segment types in an IMS hierarchy have different lengths?",
+    "option_1": "No, all segments must be the same length",
+    "option_2": "Yes, each segment type can have its own length",
+    "option_3": "Only if they are at the same level",
+    "option_4": "Only root segments can have different lengths",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 228,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "After each DL/I call, what should an IMS application program check first?",
+    "option_1": "The segment data",
+    "option_2": "The status code in the PCB",
+    "option_3": "The database name",
+    "option_4": "The PSB name",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 229,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "What status code indicates that an IMS program tried to access a segment not defined in its PSB?",
+    "option_1": "GE",
+    "option_2": "GK",
+    "option_3": "GA",
+    "option_4": "AM",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 230,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "What information is available in the PCB after a successful GU call?",
+    "option_1": "Only the status code",
+    "option_2": "Status code, segment level, and key feedback area",
+    "option_3": "Only the segment name",
+    "option_4": "Only the database name",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 231,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "Where is the key feedback area located in IMS?",
+    "option_1": "In the segment I/O area",
+    "option_2": "In the PCB",
+    "option_3": "In the DBD",
+    "option_4": "In the PSB",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 232,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "What is stored in the key feedback area after a successful retrieve call?",
+    "option_1": "The entire segment",
+    "option_2": "The concatenated key of the retrieved segment",
+    "option_3": "Only the root key",
+    "option_4": "The status code",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 233,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "When inserting a new root segment, what must an IMS program provide?",
+    "option_1": "Parent segment key",
+    "option_2": "The complete segment data in the I/O area",
+    "option_3": "Previous root segment reference",
+    "option_4": "Database password",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 234,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "To insert a new child segment, an IMS program must first establish position at which level?",
+    "option_1": "At the root segment",
+    "option_2": "At the immediate parent of the segment to be inserted",
+    "option_3": "At any segment in the hierarchy",
+    "option_4": "Position is not required for insert",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 235,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "If multiple twin segments exist, where is a new twin inserted when ISRT is issued?",
+    "option_1": "At the beginning of the twin chain",
+    "option_2": "In sequence based on the key field value",
+    "option_3": "At the end of the twin chain",
+    "option_4": "At a random position",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 236,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "Can an IMS program insert a segment without a key field?",
+    "option_1": "No, all segments must have keys",
+    "option_2": "Yes, if the segment type is defined without a key in the DBD",
+    "option_3": "Only root segments require keys",
+    "option_4": "Only for batch programs",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 237,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "Before issuing a DLET call, what must an IMS program do?",
+    "option_1": "Issue a checkpoint",
+    "option_2": "Successfully retrieve the segment to be deleted",
+    "option_3": "Retrieve all child segments",
+    "option_4": "Issue a REPL call first",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 238,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "An IMS program has a hierarchy: ROOT-CHILD1-CHILD2. If it deletes CHILD1, what happens to CHILD2?",
+    "option_1": "CHILD2 remains and becomes a child of ROOT",
+    "option_2": "CHILD2 is also deleted (cascade delete)",
+    "option_3": "The delete fails",
+    "option_4": "CHILD2 becomes an orphan segment",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 239,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "Can an IMS program delete the root segment?",
+    "option_1": "No, root segments cannot be deleted",
+    "option_2": "Yes, if the program has delete authority in its PSB",
+    "option_3": "Only by system programmers",
+    "option_4": "Only in batch mode",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 240,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "Can an IMS program use REPL to change a segment's key field?",
+    "option_1": "Yes, any field can be changed including the key",
+    "option_2": "No, key fields cannot be changed with REPL",
+    "option_3": "Only in root segments",
+    "option_4": "Only if the key is not unique",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 241,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "To change a segment's key field, what should an IMS application program do?",
+    "option_1": "Use REPL with a special flag",
+    "option_2": "Delete the segment and insert a new one with the new key",
+    "option_3": "Use a special UPDKEY call",
+    "option_4": "Key fields can never be changed",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 242,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "After a REPL call, what is the database position?",
+    "option_1": "At the root segment",
+    "option_2": "At the replaced segment",
+    "option_3": "Position is lost",
+    "option_4": "At the next segment",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 243,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "What is sequential processing in an IMS application program?",
+    "option_1": "Processing segments in physical storage order",
+    "option_2": "Processing segments one after another in hierarchical sequence",
+    "option_3": "Processing segments in reverse order",
+    "option_4": "Processing only root segments",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 244,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "What is direct access processing in IMS?",
+    "option_1": "Accessing segments without using DL/I",
+    "option_2": "Accessing a specific segment directly using qualified SSAs",
+    "option_3": "Accessing only root segments",
+    "option_4": "Accessing segments in random order",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 245,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "An IMS program processes all segments sequentially using GN. How does it know when to stop?",
+    "option_1": "When the program counter reaches maximum",
+    "option_2": "When status code 'GB' or 'GE' is returned",
+    "option_3": "When 1000 segments are processed",
+    "option_4": "The program must manually count segments",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 246,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "In a COBOL IMS program, what is CBLTDLI?",
+    "option_1": "The segment name",
+    "option_2": "The DL/I interface module name for COBOL programs",
+    "option_3": "A status code",
+    "option_4": "A database name",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 247,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "In a COBOL IMS program, what length should the function parameter be?",
+    "option_1": "2 characters",
+    "option_2": "4 characters",
+    "option_3": "8 characters",
+    "option_4": "Variable length",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 248,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "In a COBOL IMS program, which data division section contains the PCB mask?",
+    "option_1": "WORKING-STORAGE SECTION",
+    "option_2": "LINKAGE SECTION",
+    "option_3": "FILE SECTION",
+    "option_4": "LOCAL-STORAGE SECTION",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 249,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "In a COBOL IMS program, how is the entry parm (PCB list address) received?",
+    "option_1": "Through ACCEPT statement",
+    "option_2": "Through the ENTRY statement parameter or PROCEDURE DIVISION USING",
+    "option_3": "Through an environment variable",
+    "option_4": "Through a file",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 250,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "What does DL/I stand for in IMS?",
+    "option_1": "Data Language Interface",
+    "option_2": "Data Language/I (Input)",
+    "option_3": "Database Language Interface",
+    "option_4": "Data Link Interface",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 251,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "Can an IMS application program mix database and message processing?",
+    "option_1": "No, they must be separate programs",
+    "option_2": "Yes, IMS programs can use both database and message PCBs",
+    "option_3": "Only in batch programs",
+    "option_4": "Only in online programs",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 252,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "If an IMS PSB has multiple database PCBs, how does the program access a specific database?",
+    "option_1": "By specifying the database name in each call",
+    "option_2": "By using the appropriate PCB pointer/reference in the DL/I call",
+    "option_3": "By issuing a SELECT DATABASE call first",
+    "option_4": "All databases are accessed simultaneously",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 253,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "What is the I/O area in an IMS application program?",
+    "option_1": "A file buffer",
+    "option_2": "The memory area where segment data is passed between program and DL/I",
+    "option_3": "The PCB",
+    "option_4": "The SSA",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 254,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "Must the I/O area in an IMS program match the segment length exactly?",
+    "option_1": "Yes, it must match exactly",
+    "option_2": "No, it can be larger (only needed data is moved)",
+    "option_3": "It can only be larger, never smaller",
+    "option_4": "It must be exactly 256 bytes",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 255,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "In IMS, can a child segment exist without its parent?",
+    "option_1": "Yes, child segments are independent",
+    "option_2": "No, a parent must exist before its children can be inserted",
+    "option_3": "Only for root children",
+    "option_4": "Only in batch mode",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 256,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "After retrieving segment A at level 2, an IMS program issues GN. Which segment is retrieved next?",
+    "option_1": "The next twin of A",
+    "option_2": "The first child of A if it exists, otherwise the next segment in hierarchical sequence",
+    "option_3": "The parent of A",
+    "option_4": "The root segment",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 257,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Can an IMS program issue DL/I calls against multiple databases in one execution?",
+    "option_1": "No, only one database per execution",
+    "option_2": "Yes, if the PSB includes PCBs for multiple databases",
+    "option_3": "Only if databases are in the same DBDGEN",
+    "option_4": "Only in online mode",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 258,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "If a PCB has processing option 'G' only, which DL/I calls can the program use?",
+    "option_1": "All DL/I calls",
+    "option_2": "Only GU, GN, and GNP (retrieval calls)",
+    "option_3": "Only ISRT and DLET",
+    "option_4": "Only REPL",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 259,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "What should an IMS application program do when it receives an unexpected status code?",
+    "option_1": "Ignore it and continue",
+    "option_2": "Check the status code and handle the error appropriately",
+    "option_3": "Always abend the program",
+    "option_4": "Retry the call indefinitely",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 260,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "An IMS program needs to find an ORDER with ORDERNO=5000. If ORDERs are sequenced by ORDERNO, which is more efficient?",
+    "option_1": "GN calls until ORDERNO=5000 is found",
+    "option_2": "GU with qualified SSA: ORDER(ORDERNO=5000)",
+    "option_3": "Both are equally efficient",
+    "option_4": "Sequential scan is always faster",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 261,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "In an IMS batch program, when are database updates physically written?",
+    "option_1": "Immediately after each DL/I call",
+    "option_2": "At commit points (checkpoint or program termination)",
+    "option_3": "Every 100 calls",
+    "option_4": "Only when the database is closed",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 262,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "Who defines the length of an IMS segment?",
+    "option_1": "The application programmer in the program",
+    "option_2": "The DBA in the DBD (Database Description)",
+    "option_3": "It is always 256 bytes",
+    "option_4": "The operating system",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 263,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "Can IMS segment fields contain different data types (numeric, character, etc.)?",
+    "option_1": "No, all fields must be character",
+    "option_2": "Yes, fields can be various types (character, packed, binary, etc.)",
+    "option_3": "Only numeric types",
+    "option_4": "Only character types",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 264,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "How does an IMS application program specify which PSB to use?",
+    "option_1": "In the program code",
+    "option_2": "Through JCL or scheduling parameters when the program is executed",
+    "option_3": "It is hardcoded in the DBD",
+    "option_4": "Through a configuration file",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 265,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "An IMS program needs to retrieve all segments in the database. Which approach is appropriate?",
+    "option_1": "Issue GU for first root, then GN calls until status GE",
+    "option_2": "Multiple GU calls for each root",
+    "option_3": "GNP calls only",
+    "option_4": "ISRT calls",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 266,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "An IMS hierarchy has ROOT-LEVEL1-LEVEL2-LEVEL3. To retrieve a LEVEL3 segment directly, how many SSAs are needed in the GU call?",
+    "option_1": "One SSA for LEVEL3 only",
+    "option_2": "Four SSAs (ROOT, LEVEL1, LEVEL2, LEVEL3)",
+    "option_3": "Three SSAs (LEVEL1, LEVEL2, LEVEL3)",
+    "option_4": "Two SSAs (ROOT and LEVEL3)",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 267,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "To update a segment field value, which sequence of DL/I calls should an IMS program use?",
+    "option_1": "ISRT the segment with new data",
+    "option_2": "GU/GN to retrieve, modify in I/O area, then REPL",
+    "option_3": "DLET then ISRT",
+    "option_4": "Direct memory update",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 268,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "An IMS program retrieves a segment, modifies data in the I/O area, but doesn't issue REPL. What happens?",
+    "option_1": "Changes are automatically saved",
+    "option_2": "No changes are made to the database",
+    "option_3": "The segment is deleted",
+    "option_4": "A status code error occurs",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 269,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "In what order must segments be inserted in IMS when building a new database record?",
+    "option_1": "Any order is acceptable",
+    "option_2": "In hierarchical order (parent before children)",
+    "option_3": "Bottom-up (children before parents)",
+    "option_4": "Alphabetical order",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 270,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "Can an IMS program insert multiple root segments in one execution?",
+    "option_1": "No, only one root per execution",
+    "option_2": "Yes, multiple root segments (database records) can be inserted",
+    "option_3": "Only in batch mode",
+    "option_4": "Only with special authorization",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 271,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "What type of SSA should be used to retrieve a specific segment by key value?",
+    "option_1": "Unqualified SSA",
+    "option_2": "Qualified SSA with key field condition",
+    "option_3": "No SSA needed",
+    "option_4": "Command code SSA",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 272,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "An IMS program uses GU with SSA: ORDER(ORDERNO>1000). Which ORDER is retrieved?",
+    "option_1": "The first ORDER with ORDERNO>1000 in hierarchical sequence",
+    "option_2": "All ORDERs with ORDERNO>1000",
+    "option_3": "The last ORDER with ORDERNO>1000",
+    "option_4": "A random ORDER with ORDERNO>1000",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 273,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "Can an IMS program mix retrieval and update operations in the same execution?",
+    "option_1": "No, separate executions required",
+    "option_2": "Yes, programs can issue both retrieval (GU/GN) and update (ISRT/REPL/DLET) calls",
+    "option_3": "Only in batch programs",
+    "option_4": "Only with multiple PCBs",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 274,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "Does an IMS application program directly manage file I/O and storage?",
+    "option_1": "Yes, programs must manage physical storage",
+    "option_2": "No, DL/I and IMS Database Manager handle physical storage",
+    "option_3": "Only for batch programs",
+    "option_4": "Only for root segments",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 275,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "Must an IMS application program open and close the database?",
+    "option_1": "Yes, like regular files",
+    "option_2": "No, IMS handles database open/close automatically",
+    "option_3": "Only batch programs must do this",
+    "option_4": "Only for multiple databases",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 276,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "How does an IMS application program know which database it's accessing?",
+    "option_1": "From the JCL DD statements",
+    "option_2": "From the PCB which identifies the database",
+    "option_3": "From environment variables",
+    "option_4": "From the program name",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 277,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "When a DL/I call fails, what information is available to help diagnose the problem?",
+    "option_1": "Only the status code",
+    "option_2": "Status code, segment level, and sometimes key feedback area",
+    "option_3": "An error message is displayed",
+    "option_4": "Nothing, the program just abends",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 278,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "What should an IMS program do after a failed DL/I call (status not spaces)?",
+    "option_1": "Continue with the next call",
+    "option_2": "Check the status code and handle the error condition",
+    "option_3": "Abend immediately",
+    "option_4": "Retry the same call indefinitely",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 279,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "Can an IMS program access a grandchild segment directly without retrieving intervening levels?",
+    "option_1": "No, must retrieve each level sequentially",
+    "option_2": "Yes, by specifying SSAs for each level in the path including unqualified SSAs for intermediate levels",
+    "option_3": "Only in batch mode",
+    "option_4": "Never allowed",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 280,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "An IMS program needs a specific LEVEL3 segment but doesn't know the parent keys. What approach is needed?",
+    "option_1": "Cannot be done",
+    "option_2": "Use qualified SSA for LEVEL3 with unqualified SSAs for parent levels",
+    "option_3": "Use GN calls only",
+    "option_4": "Use secondary index or sequential scan",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 281,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "If an IMS PSB has 3 database PCBs, how does the program distinguish between them?",
+    "option_1": "By database name in the DL/I call",
+    "option_2": "By using the appropriate PCB pointer (PCB1, PCB2, PCB3)",
+    "option_3": "By issuing a SELECT call first",
+    "option_4": "All PCBs are accessed simultaneously",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 282,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "In an IMS batch program, what defines a transaction boundary (commit point)?",
+    "option_1": "Every 100 DL/I calls",
+    "option_2": "Checkpoint calls or program termination",
+    "option_3": "Every GU call",
+    "option_4": "Every 10 seconds",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 283,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "In a COBOL IMS program, how are segment fields typically defined?",
+    "option_1": "As individual variables",
+    "option_2": "As a group item in WORKING-STORAGE matching the segment layout",
+    "option_3": "In the FILE SECTION",
+    "option_4": "As SQL columns",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 284,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "After a successful retrieve call, how does the program access individual fields?",
+    "option_1": "Through SQL syntax",
+    "option_2": "By referencing field names in the I/O area structure",
+    "option_3": "Through pointer arithmetic",
+    "option_4": "Fields are not accessible",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 285,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "An IMS program processes CUSTOMERs where BALANCE>1000. After retrieving one, how to get the next matching CUSTOMER?",
+    "option_1": "GU with the same qualified SSA",
+    "option_2": "GN with qualified SSA: CUSTOMER(BALANCE>1000)",
+    "option_3": "GNP with the same SSA",
+    "option_4": "Must use sequential scan and test each",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 286,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "Before inserting ORDER segments under a CUSTOMER, what must an IMS program ensure?",
+    "option_1": "The database is empty",
+    "option_2": "The CUSTOMER segment is the last segment retrieved (parentage established)",
+    "option_3": "All other ORDERs are deleted",
+    "option_4": "The program has read authority",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 287,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "Can an IMS program insert multiple child segments under one parent in a single execution?",
+    "option_1": "No, only one child per execution",
+    "option_2": "Yes, after positioning at the parent, multiple ISRTs can be issued",
+    "option_3": "Only with special calls",
+    "option_4": "Only in batch mode",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 288,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "How does an IMS hierarchical segment compare to a relational table row?",
+    "option_1": "They are identical concepts",
+    "option_2": "A segment is like a row, but exists within a hierarchy not a flat table",
+    "option_3": "Segments are larger than rows",
+    "option_4": "No comparison is possible",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 289,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "In a qualified SSA, how are character field values specified?",
+    "option_1": "Without quotes: CUSTNAME=SMITH",
+    "option_2": "With single quotes: CUSTNAME='SMITH'",
+    "option_3": "With double quotes: CUSTNAME=\"SMITH\"",
+    "option_4": "With backticks: CUSTNAME=`SMITH`",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 290,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "How many root segments can exist in one IMS database record?",
+    "option_1": "Exactly one per database record",
+    "option_2": "Multiple roots per database record",
+    "option_3": "No root needed",
+    "option_4": "Depends on the DBD",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 291,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "Is there a limit on the number of child segments under one parent in IMS?",
+    "option_1": "Yes, maximum of 15",
+    "option_2": "No limit except physical constraints",
+    "option_3": "Yes, maximum of 255",
+    "option_4": "Yes, maximum of 100",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 292,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "Is the DL/I interface specific to COBOL or available for other languages?",
+    "option_1": "Only for COBOL",
+    "option_2": "Available for COBOL, PL/I, C, C++, Java, Assembler",
+    "option_3": "Only for COBOL and Assembler",
+    "option_4": "Only for Java",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 293,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "Is it mandatory to check the status code after every DL/I call?",
+    "option_1": "No, status check is optional",
+    "option_2": "Yes, status should always be checked to ensure call success",
+    "option_3": "Only for ISRT calls",
+    "option_4": "Only for DLET calls",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 294,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "When should an IMS program use unqualified SSAs?",
+    "option_1": "Never, always use qualified",
+    "option_2": "When retrieving segments in sequence without specific field criteria",
+    "option_3": "Only for root segments",
+    "option_4": "Only for batch programs",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 295,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "For an IMS application, which is generally more efficient for finding a specific segment?",
+    "option_1": "Sequential scan with GN calls",
+    "option_2": "Direct access with GU and qualified SSA",
+    "option_3": "Both are equally efficient",
+    "option_4": "Depends only on database size",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 296,
+    "topic": "IMS DB",
+    "difficulty": "Easy",
+    "question": "Can an IMS program retrieve a segment without modifying it?",
+    "option_1": "No, all retrieves require updates",
+    "option_2": "Yes, GU and GN calls retrieve without modifying",
+    "option_3": "Only with special PCB options",
+    "option_4": "Only for root segments",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 297,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "After deleting a segment with DLET, what is the database position?",
+    "option_1": "At the deleted segment location",
+    "option_2": "Position is undefined/lost after DLET",
+    "option_3": "At the next segment",
+    "option_4": "At the parent segment",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 298,
+    "topic": "IMS DB",
+    "difficulty": "Hard",
+    "question": "An IMS program needs to insert a 3-level structure: ROOT, CHILD, GRANDCHILD. What is the minimum number of ISRT calls?",
+    "option_1": "One call can insert all levels",
+    "option_2": "Three separate ISRT calls required",
+    "option_3": "Two calls minimum",
+    "option_4": "Depends on the database options",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 299,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "In a hierarchy with ROOT, CHILD-A, CHILD-B (both under ROOT), GRANDCHILD (under CHILD-A), what is the hierarchical sequence?",
+    "option_1": "ROOT, CHILD-A, CHILD-B, GRANDCHILD",
+    "option_2": "ROOT, CHILD-A, GRANDCHILD, CHILD-B",
+    "option_3": "ROOT, GRANDCHILD, CHILD-A, CHILD-B",
+    "option_4": "ROOT, CHILD-B, CHILD-A, GRANDCHILD",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  },
+  {
+    "questionnumber": 300,
+    "topic": "IMS DB",
+    "difficulty": "Medium",
+    "question": "How does an IMS program process all twin segments under a parent?",
+    "option_1": "One GU call retrieves all twins",
+    "option_2": "Loop with GNP calls until status code GE",
+    "option_3": "Twins are processed automatically",
+    "option_4": "Use a special TWIN call",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_2"
+    ]
+  }
+]
