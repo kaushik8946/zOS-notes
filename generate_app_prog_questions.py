@@ -145,7 +145,10 @@ def remove_duplicates(questions):
 def main():
     # Load all questions
     print("Loading questions from IMS_DB directory...")
-    questions = load_questions('.')
+    # Use directory where script is located for better portability
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    ims_db_dir = os.path.join(script_dir, 'IMS_DB')
+    questions = load_questions(ims_db_dir if os.path.exists(ims_db_dir) else '.')
     print(f"Total questions loaded: {len(questions)}")
     
     # Filter for Application Programming questions

@@ -2512,7 +2512,11 @@ def generate_all_additional_questions():
 if __name__ == '__main__':
     questions = generate_all_additional_questions()
     print(f"Generated {len(questions)} additional questions")
-    print(f"Question numbers: {questions[0]['questionnumber']} to {questions[-1]['questionnumber']}")
+    
+    if questions:  # Safety check for empty list
+        print(f"Question numbers: {questions[0]['questionnumber']} to {questions[-1]['questionnumber']}")
+    else:
+        print("Warning: No questions generated")
     
     # Save to file
     with open('additional_questions.json', 'w') as f:

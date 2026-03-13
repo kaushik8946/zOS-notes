@@ -3495,7 +3495,7 @@
     "difficulty": "Easy",
     "question": "What does DL/I stand for in IMS?",
     "option_1": "Data Language Interface",
-    "option_2": "Data Language/I (Input)",
+    "option_2": "Data Language/I",
     "option_3": "Database Language Interface",
     "option_4": "Data Link Interface",
     "choice_type": "Single Choice",
