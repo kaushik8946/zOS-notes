@@ -143,14 +143,14 @@
     "questionnumber": 11,
     "topic": "IMS DB",
     "difficulty": "Easy",
-    "question": "IMS Database Manager tuning includes which actions?",
-    "option_1": "Replacing all segments with XML",
-    "option_2": "Auto-generating SQL views only",
-    "option_3": "Eliminating all logs",
-    "option_4": "Reorganizing and restructuring databases",
+    "question": "What does GNP stand for in DL/I call terminology?",
+    "option_1": "Get Next Program",
+    "option_2": "Get Next within Parent",
+    "option_3": "Get New Process",
+    "option_4": "Get Node Position",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_4"
+      "option_2"
     ]
   },
   {
@@ -520,12 +520,12 @@
   {
     "questionnumber": 38,
     "topic": "IMS DB",
-    "difficulty": "Easy",
-    "question": "According to the z/OS Basics Redbook, IMS Database Manager tuning includes which actions?",
-    "option_1": "Auto-generating SQL views only",
-    "option_2": "Reorganizing and restructuring databases",
-    "option_3": "Eliminating all logs",
-    "option_4": "Replacing all segments with XML",
+    "difficulty": "Medium",
+    "question": "In an IMS program, what does it mean when a segment is 'sensitive' in the PSB?",
+    "option_1": "The segment contains sensitive data",
+    "option_2": "The program can access that segment type",
+    "option_3": "The segment is encrypted",
+    "option_4": "The segment is read-only",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_2"
@@ -898,15 +898,15 @@
   {
     "questionnumber": 65,
     "topic": "IMS DB",
-    "difficulty": "Easy",
-    "question": "In IMS context described by the Redbook, IMS Database Manager tuning includes which actions?",
-    "option_1": "Auto-generating SQL views only",
-    "option_2": "Replacing all segments with XML",
-    "option_3": "Reorganizing and restructuring databases",
-    "option_4": "Eliminating all logs",
+    "difficulty": "Hard",
+    "question": "If an IMS program has a PCB with only 'G' (Get) processing option, what happens when it tries to ISRT?",
+    "option_1": "Insert proceeds normally",
+    "option_2": "Status code indicates operation not authorized",
+    "option_3": "Program abends immediately",
+    "option_4": "Insert is queued for later",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_3"
+      "option_2"
     ]
   },
   {
@@ -1276,15 +1276,15 @@
   {
     "questionnumber": 92,
     "topic": "IMS DB",
-    "difficulty": "Easy",
-    "question": "From the IMS sections of the Redbook, IMS Database Manager tuning includes which actions?",
-    "option_1": "Reorganizing and restructuring databases",
-    "option_2": "Eliminating all logs",
-    "option_3": "Replacing all segments with XML",
-    "option_4": "Auto-generating SQL views only",
+    "difficulty": "Medium",
+    "question": "Can an IMS application program create new segment types dynamically?",
+    "option_1": "Yes, using special DL/I calls",
+    "option_2": "No, segment types are defined in DBD, not modifiable by programs",
+    "option_3": "Only in batch mode",
+    "option_4": "Only with system authorization",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -1374,12 +1374,12 @@
   {
     "questionnumber": 99,
     "topic": "IMS DB",
-    "difficulty": "Medium",
-    "question": "A team is reviewing IMS architecture. Statement A: Which data model is used by IMS Database Manager as its basic storage method. Statement B: IMS Database Manager tuning includes which actions. Which interpretation is most accurate?",
-    "option_1": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
-    "option_2": "Both statements are consistent with Redbook IMS explanations.",
-    "option_3": "Neither statement is supported by Redbook IMS sections.",
-    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "difficulty": "Easy",
+    "question": "What data model does IMS Database use?",
+    "option_1": "Relational model",
+    "option_2": "Hierarchical model",
+    "option_3": "Network model",
+    "option_4": "Object-oriented model",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_2"
@@ -1501,14 +1501,14 @@
     "questionnumber": 108,
     "topic": "IMS DB",
     "difficulty": "Medium",
-    "question": "A team is reviewing IMS architecture. Statement A: IMS Database Manager tuning includes which actions. Statement B: Which capability is explicitly listed for IMS Database Manager. Which conclusion follows most directly?",
-    "option_1": "Neither statement is supported by Redbook IMS sections.",
-    "option_2": "Only Statement A is consistent; Statement B contradicts Redbook IMS sections.",
-    "option_3": "Both statements are consistent with Redbook IMS explanations.",
-    "option_4": "Only Statement B is consistent; Statement A contradicts Redbook IMS sections.",
+    "question": "In an IMS hierarchical database, which segment type serves as the entry point?",
+    "option_1": "Leaf segment",
+    "option_2": "Root segment",
+    "option_3": "Parent segment",
+    "option_4": "Index segment",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_3"
+      "option_2"
     ]
   },
   {
@@ -3436,12 +3436,12 @@
   {
     "questionnumber": 246,
     "topic": "IMS DB",
-    "difficulty": "Easy",
-    "question": "In a COBOL IMS program, what is CBLTDLI?",
-    "option_1": "The segment name",
-    "option_2": "The DL/I interface module name for COBOL programs",
-    "option_3": "A status code",
-    "option_4": "A database name",
+    "difficulty": "Hard",
+    "question": "In a path call, what determines which segments are returned to the I/O area?",
+    "option_1": "All segments in the path automatically",
+    "option_2": "Only segments with the 'D' command code in their SSAs",
+    "option_3": "Only the target segment",
+    "option_4": "All dependent segments",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_2"

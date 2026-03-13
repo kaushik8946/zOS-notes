@@ -164,19 +164,19 @@
 
 ---
 
-### Q11. IMS Database Manager tuning includes which actions?
+### Q11. What does GNP stand for in DL/I call terminology?
 
 **Type:** Single Choice
 
-**A.** Replacing all segments with XML
+**A.** Get Next Program
 
-**B.** Auto-generating SQL views only
+**B.** Get Next within Parent
 
-**C.** Eliminating all logs
+**C.** Get New Process
 
-**D.** Reorganizing and restructuring databases
+**D.** Get Node Position
 
-**Correct Answer:** D
+**Correct Answer:** B
 
 ---
 
@@ -596,17 +596,17 @@
 
 ---
 
-### Q38. According to the z/OS Basics Redbook, IMS Database Manager tuning includes which actions?
+### Q38. In an IMS program, what does it mean when a segment is 'sensitive' in the PSB?
 
 **Type:** Single Choice
 
-**A.** Auto-generating SQL views only
+**A.** The segment contains sensitive data
 
-**B.** Reorganizing and restructuring databases
+**B.** The program can access that segment type
 
-**C.** Eliminating all logs
+**C.** The segment is encrypted
 
-**D.** Replacing all segments with XML
+**D.** The segment is read-only
 
 **Correct Answer:** B
 
@@ -1028,19 +1028,19 @@
 
 ---
 
-### Q65. In IMS context described by the Redbook, IMS Database Manager tuning includes which actions?
+### Q65. If an IMS program has a PCB with only 'G' (Get) processing option, what happens when it tries to ISRT?
 
 **Type:** Single Choice
 
-**A.** Auto-generating SQL views only
+**A.** Insert proceeds normally
 
-**B.** Replacing all segments with XML
+**B.** Status code indicates operation not authorized
 
-**C.** Reorganizing and restructuring databases
+**C.** Program abends immediately
 
-**D.** Eliminating all logs
+**D.** Insert is queued for later
 
-**Correct Answer:** C
+**Correct Answer:** B
 
 ---
 
@@ -1460,19 +1460,19 @@
 
 ---
 
-### Q92. From the IMS sections of the Redbook, IMS Database Manager tuning includes which actions?
+### Q92. Can an IMS application program create new segment types dynamically?
 
 **Type:** Single Choice
 
-**A.** Reorganizing and restructuring databases
+**A.** Yes, using special DL/I calls
 
-**B.** Eliminating all logs
+**B.** No, segment types are defined in DBD, not modifiable by programs
 
-**C.** Replacing all segments with XML
+**C.** Only in batch mode
 
-**D.** Auto-generating SQL views only
+**D.** Only with system authorization
 
-**Correct Answer:** A
+**Correct Answer:** B
 
 ---
 
@@ -1572,17 +1572,17 @@
 
 ---
 
-### Q99. A team is reviewing IMS architecture. Statement A: Which data model is used by IMS Database Manager as its basic storage method. Statement B: IMS Database Manager tuning includes which actions. Which interpretation is most accurate?
+### Q99. What data model does IMS Database use?
 
 **Type:** Single Choice
 
-**A.** Only Statement A is consistent; Statement B contradicts Redbook IMS sections.
+**A.** Relational model
 
-**B.** Both statements are consistent with Redbook IMS explanations.
+**B.** Hierarchical model
 
-**C.** Neither statement is supported by Redbook IMS sections.
+**C.** Network model
 
-**D.** Only Statement B is consistent; Statement A contradicts Redbook IMS sections.
+**D.** Object-oriented model
 
 **Correct Answer:** B
 
@@ -1716,19 +1716,19 @@
 
 ---
 
-### Q108. A team is reviewing IMS architecture. Statement A: IMS Database Manager tuning includes which actions. Statement B: Which capability is explicitly listed for IMS Database Manager. Which conclusion follows most directly?
+### Q108. In an IMS hierarchical database, which segment type serves as the entry point?
 
 **Type:** Single Choice
 
-**A.** Neither statement is supported by Redbook IMS sections.
+**A.** Leaf segment
 
-**B.** Only Statement A is consistent; Statement B contradicts Redbook IMS sections.
+**B.** Root segment
 
-**C.** Both statements are consistent with Redbook IMS explanations.
+**C.** Parent segment
 
-**D.** Only Statement B is consistent; Statement A contradicts Redbook IMS sections.
+**D.** Index segment
 
-**Correct Answer:** C
+**Correct Answer:** B
 
 ---
 
@@ -3924,17 +3924,17 @@
 
 ---
 
-### Q246. In a COBOL IMS program, what is CBLTDLI?
+### Q246. In a path call, what determines which segments are returned to the I/O area?
 
 **Type:** Single Choice
 
-**A.** The segment name
+**A.** All segments in the path automatically
 
-**B.** The DL/I interface module name for COBOL programs
+**B.** Only segments with the 'D' command code in their SSAs
 
-**C.** A status code
+**C.** Only the target segment
 
-**D.** A database name
+**D.** All dependent segments
 
 **Correct Answer:** B
 
