@@ -1,0 +1,4202 @@
+[
+  {
+    "questionnumber": 1,
+    "topic": "IMS DB - Hierarchical Structures",
+    "difficulty": "Easy",
+    "question": "What is the top segment in an IMS hierarchy called?",
+    "option_1": "Root segment",
+    "option_2": "Parent segment",
+    "option_3": "Master segment",
+    "option_4": "Top segment",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 2,
+    "topic": "IMS DB - Hierarchical Structures",
+    "difficulty": "Easy",
+    "question": "How many root segments can a database have?",
+    "option_1": "Only one",
+    "option_2": "Two",
+    "option_3": "Unlimited",
+    "option_4": "Depends on DBD",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 3,
+    "topic": "IMS DB - Hierarchical Structures",
+    "difficulty": "Easy",
+    "question": "What is a twin segment?",
+    "option_1": "Segments with same parent and segment type",
+    "option_2": "Identical segments",
+    "option_3": "Duplicate segments",
+    "option_4": "Backup segments",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 4,
+    "topic": "IMS DB - Hierarchical Structures",
+    "difficulty": "Medium",
+    "question": "What defines parent-child relationship?",
+    "option_1": "Physical child pointer",
+    "option_2": "Logical pointer",
+    "option_3": "DBD specification",
+    "option_4": "PSB mapping",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 5,
+    "topic": "IMS DB - Hierarchical Structures",
+    "difficulty": "Easy",
+    "question": "What is a dependent segment?",
+    "option_1": "A segment below root in hierarchy",
+    "option_2": "A deleted segment",
+    "option_3": "A backup segment",
+    "option_4": "An indexed segment",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 6,
+    "topic": "IMS DB - Hierarchical Structures",
+    "difficulty": "Medium",
+    "question": "Maximum hierarchy levels in IMS?",
+    "option_1": "15",
+    "option_2": "20",
+    "option_3": "10",
+    "option_4": "255",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 7,
+    "topic": "IMS DB - Hierarchical Structures",
+    "difficulty": "Easy",
+    "question": "What is a physical child?",
+    "option_1": "Segment directly connected in DBD",
+    "option_2": "Any descendant",
+    "option_3": "Root segment",
+    "option_4": "Indexed segment",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 8,
+    "topic": "IMS DB - Hierarchical Structures",
+    "difficulty": "Easy",
+    "question": "Hierarchical path means?",
+    "option_1": "Route from root to target segment",
+    "option_2": "All segments",
+    "option_3": "Database structure",
+    "option_4": "Index path",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 9,
+    "topic": "IMS DB - Hierarchical Structures",
+    "difficulty": "Easy",
+    "question": "What is segment occurrence?",
+    "option_1": "Instance of segment type",
+    "option_2": "Segment definition",
+    "option_3": "Segment pointer",
+    "option_4": "Segment buffer",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 10,
+    "topic": "IMS DB - Hierarchical Structures",
+    "difficulty": "Medium",
+    "question": "How are twins ordered?",
+    "option_1": "By sequence field or insertion",
+    "option_2": "Randomly",
+    "option_3": "By size",
+    "option_4": "Alphabetically",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 11,
+    "topic": "IMS DB - Hierarchical Structures",
+    "difficulty": "Easy",
+    "question": "What is a child segment?",
+    "option_1": "Segment one level below parent",
+    "option_2": "Any dependent",
+    "option_3": "Root segment",
+    "option_4": "Last segment",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 12,
+    "topic": "IMS DB - Hierarchical Structures",
+    "difficulty": "Medium",
+    "question": "Hierarchical sequence means?",
+    "option_1": "Top to bottom, left to right order",
+    "option_2": "Random order",
+    "option_3": "Size order",
+    "option_4": "Time order",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 13,
+    "topic": "IMS DB - Hierarchical Structures",
+    "difficulty": "Medium",
+    "question": "What determines segment position?",
+    "option_1": "Sequence field or FIRST/LAST/HERE",
+    "option_2": "Random",
+    "option_3": "Size",
+    "option_4": "Creation time",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 14,
+    "topic": "IMS DB - Hierarchical Structures",
+    "difficulty": "Easy",
+    "question": "Leaf segment is?",
+    "option_1": "Segment with no children",
+    "option_2": "Root segment",
+    "option_3": "First segment",
+    "option_4": "Deleted segment",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 15,
+    "topic": "IMS DB - Hierarchical Structures",
+    "difficulty": "Easy",
+    "question": "Sibling segments are?",
+    "option_1": "Segments sharing same parent",
+    "option_2": "Any related segments",
+    "option_3": "Root segments",
+    "option_4": "Deleted segments",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 16,
+    "topic": "IMS DB - Hierarchical Structures",
+    "difficulty": "Medium",
+    "question": "What is database record?",
+    "option_1": "Root and all dependents",
+    "option_2": "Single segment",
+    "option_3": "Database definition",
+    "option_4": "PCB entry",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 17,
+    "topic": "IMS DB - Hierarchical Structures",
+    "difficulty": "Easy",
+    "question": "Descendant segment is?",
+    "option_1": "Any segment below in hierarchy",
+    "option_2": "Direct child only",
+    "option_3": "Root segment",
+    "option_4": "Peer segment",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 18,
+    "topic": "IMS DB - Hierarchical Structures",
+    "difficulty": "Medium",
+    "question": "What maintains hierarchy?",
+    "option_1": "Pointer systems in database",
+    "option_2": "DBD only",
+    "option_3": "PSB only",
+    "option_4": "Application code",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 19,
+    "topic": "IMS DB - Hierarchical Structures",
+    "difficulty": "Medium",
+    "question": "Parent-child link uses?",
+    "option_1": "Physical or logical pointers",
+    "option_2": "Keys only",
+    "option_3": "Names only",
+    "option_4": "Indexes",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 20,
+    "topic": "IMS DB - Hierarchical Structures",
+    "difficulty": "Hard",
+    "question": "Multiple parents possible?",
+    "option_1": "Yes, with logical relationships",
+    "option_2": "No, never",
+    "option_3": "Only for root",
+    "option_4": "Only in HDAM",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 21,
+    "topic": "IMS DB - Hierarchical Structures",
+    "difficulty": "Medium",
+    "question": "Hierarchical precedence is?",
+    "option_1": "Processing order in hierarchy",
+    "option_2": "Segment priority",
+    "option_3": "Access method",
+    "option_4": "Database type",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 22,
+    "topic": "IMS DB - Hierarchical Structures",
+    "difficulty": "Easy",
+    "question": "What is segment level?",
+    "option_1": "Distance from root",
+    "option_2": "Segment size",
+    "option_3": "Number of children",
+    "option_4": "Processing order",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 23,
+    "topic": "IMS DB - Hierarchical Structures",
+    "difficulty": "Easy",
+    "question": "Root segment count per record?",
+    "option_1": "Always one",
+    "option_2": "Multiple allowed",
+    "option_3": "Zero allowed",
+    "option_4": "Depends on organization",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 24,
+    "topic": "IMS DB - Hierarchical Structures",
+    "difficulty": "Medium",
+    "question": "How to identify twins?",
+    "option_1": "Sequence field value",
+    "option_2": "Memory address",
+    "option_3": "Creation time",
+    "option_4": "Segment name",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 25,
+    "topic": "IMS DB - Hierarchical Structures",
+    "difficulty": "Easy",
+    "question": "Hierarchical structure stored in?",
+    "option_1": "DBD",
+    "option_2": "PSB",
+    "option_3": "PCB",
+    "option_4": "ACB",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 26,
+    "topic": "IMS DB - Hierarchical Structures",
+    "difficulty": "Medium",
+    "question": "Physical parent is?",
+    "option_1": "Segment defined as parent in DBD",
+    "option_2": "Any ancestor",
+    "option_3": "Root segment",
+    "option_4": "Previous segment",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 27,
+    "topic": "IMS DB - Hierarchical Structures",
+    "difficulty": "Easy",
+    "question": "What is segment type?",
+    "option_1": "Segment name definition in DBD",
+    "option_2": "Segment instance",
+    "option_3": "Segment value",
+    "option_4": "Segment pointer",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 28,
+    "topic": "IMS DB - Hierarchical Structures",
+    "difficulty": "Easy",
+    "question": "Sequence field purpose?",
+    "option_1": "Order twins uniquely",
+    "option_2": "Index database",
+    "option_3": "Point to parent",
+    "option_4": "Store data",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 29,
+    "topic": "IMS DB - Hierarchical Structures",
+    "difficulty": "Hard",
+    "question": "Concatenated key is?",
+    "option_1": "All sequence fields from root to segment",
+    "option_2": "Multiple keys",
+    "option_3": "Compound key",
+    "option_4": "Foreign key",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 30,
+    "topic": "IMS DB - Hierarchical Structures",
+    "difficulty": "Medium",
+    "question": "How many children types allowed?",
+    "option_1": "Multiple segment types",
+    "option_2": "Only one",
+    "option_3": "Two maximum",
+    "option_4": "Depends on DBDGEN",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 31,
+    "topic": "IMS DB - Hierarchical Structures",
+    "difficulty": "Medium",
+    "question": "Hierarchical integrity means?",
+    "option_1": "Parent-child relationships maintained",
+    "option_2": "No duplicates",
+    "option_3": "Indexed properly",
+    "option_4": "Backed up",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 32,
+    "topic": "IMS DB - Hierarchical Structures",
+    "difficulty": "Medium",
+    "question": "Delete root deletes?",
+    "option_1": "All dependents automatically",
+    "option_2": "Root only",
+    "option_3": "Nothing",
+    "option_4": "Requires manual deletion",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 33,
+    "topic": "IMS DB - Hierarchical Structures",
+    "difficulty": "Hard",
+    "question": "Position in hierarchy affects?",
+    "option_1": "Access path and DL/I calls needed",
+    "option_2": "Segment size",
+    "option_3": "Segment name",
+    "option_4": "Nothing",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 34,
+    "topic": "IMS DB - Hierarchical Structures",
+    "difficulty": "Hard",
+    "question": "Fully concatenated key includes?",
+    "option_1": "All keys from root to segment",
+    "option_2": "Segment key only",
+    "option_3": "Parent key only",
+    "option_4": "All segment keys",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 35,
+    "topic": "IMS DB - Hierarchical Structures",
+    "difficulty": "Medium",
+    "question": "Hierarchical pointers maintain?",
+    "option_1": "Parent-child and twin relationships",
+    "option_2": "Data only",
+    "option_3": "Index only",
+    "option_4": "Nothing",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 36,
+    "topic": "IMS DB - Hierarchical Structures",
+    "difficulty": "Hard",
+    "question": "Path call retrieves?",
+    "option_1": "Segment and all ancestors",
+    "option_2": "Segment only",
+    "option_3": "All descendants",
+    "option_4": "Root only",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 37,
+    "topic": "IMS DB - Hierarchical Structures",
+    "difficulty": "Medium",
+    "question": "Insert segment requires?",
+    "option_1": "Parent must exist",
+    "option_2": "Root exists only",
+    "option_3": "Nothing",
+    "option_4": "Index exists",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 38,
+    "topic": "IMS DB - Hierarchical Structures",
+    "difficulty": "Hard",
+    "question": "Twin chain is?",
+    "option_1": "Linked list of same segment type under parent",
+    "option_2": "Any segments",
+    "option_3": "Root segments",
+    "option_4": "Index entries",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 39,
+    "topic": "IMS DB - Hierarchical Structures",
+    "difficulty": "Medium",
+    "question": "Hierarchical access means?",
+    "option_1": "Must traverse from root",
+    "option_2": "Direct access only",
+    "option_3": "Random access",
+    "option_4": "Sequential only",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 40,
+    "topic": "IMS DB - Hierarchical Structures",
+    "difficulty": "Hard",
+    "question": "Segment sensitivity in PSB affects?",
+    "option_1": "Which segments application can access",
+    "option_2": "Segment size",
+    "option_3": "Segment location",
+    "option_4": "Nothing",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 41,
+    "topic": "IMS DB - Control Blocks (DBD/PSB/PCB)",
+    "difficulty": "Easy",
+    "question": "What does DBD stand for?",
+    "option_1": "Database Description",
+    "option_2": "Database Definition",
+    "option_3": "Data Block Description",
+    "option_4": "Direct Block Data",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 42,
+    "topic": "IMS DB - Control Blocks (DBD/PSB/PCB)",
+    "difficulty": "Easy",
+    "question": "What does PSB stand for?",
+    "option_1": "Program Specification Block",
+    "option_2": "Program Structure Block",
+    "option_3": "Processing Segment Block",
+    "option_4": "Program Status Block",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 43,
+    "topic": "IMS DB - Control Blocks (DBD/PSB/PCB)",
+    "difficulty": "Easy",
+    "question": "What does PCB stand for?",
+    "option_1": "Program Communication Block",
+    "option_2": "Program Control Block",
+    "option_3": "Processing Control Block",
+    "option_4": "Program Code Block",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 44,
+    "topic": "IMS DB - Control Blocks (DBD/PSB/PCB)",
+    "difficulty": "Easy",
+    "question": "DBD is created using?",
+    "option_1": "DBDGEN utility",
+    "option_2": "PSBGEN utility",
+    "option_3": "ACBGEN utility",
+    "option_4": "Compiler",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 45,
+    "topic": "IMS DB - Control Blocks (DBD/PSB/PCB)",
+    "difficulty": "Easy",
+    "question": "PSB is created using?",
+    "option_1": "PSBGEN utility",
+    "option_2": "DBDGEN utility",
+    "option_3": "Compiler",
+    "option_4": "Linkage editor",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 46,
+    "topic": "IMS DB - Control Blocks (DBD/PSB/PCB)",
+    "difficulty": "Easy",
+    "question": "PCB is contained in?",
+    "option_1": "PSB",
+    "option_2": "DBD",
+    "option_3": "ACB",
+    "option_4": "Application code",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 47,
+    "topic": "IMS DB - Control Blocks (DBD/PSB/PCB)",
+    "difficulty": "Easy",
+    "question": "DBD defines?",
+    "option_1": "Physical database structure",
+    "option_2": "Program view",
+    "option_3": "Application logic",
+    "option_4": "Processing options",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 48,
+    "topic": "IMS DB - Control Blocks (DBD/PSB/PCB)",
+    "difficulty": "Easy",
+    "question": "PSB defines?",
+    "option_1": "Application's view of database",
+    "option_2": "Physical structure",
+    "option_3": "Storage method",
+    "option_4": "Access method",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 49,
+    "topic": "IMS DB - Control Blocks (DBD/PSB/PCB)",
+    "difficulty": "Medium",
+    "question": "How many PCBs in a PSB?",
+    "option_1": "One or more",
+    "option_2": "Always one",
+    "option_3": "Exactly two",
+    "option_4": "Maximum five",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 50,
+    "topic": "IMS DB - Control Blocks (DBD/PSB/PCB)",
+    "difficulty": "Medium",
+    "question": "PCB defines?",
+    "option_1": "Database view for specific processing",
+    "option_2": "Physical structure",
+    "option_3": "All databases",
+    "option_4": "Storage allocation",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 51,
+    "topic": "IMS DB - Control Blocks (DBD/PSB/PCB)",
+    "difficulty": "Easy",
+    "question": "SENSEG in PSB means?",
+    "option_1": "Sensitive segment",
+    "option_2": "Sensor segment",
+    "option_3": "Sequential segment",
+    "option_4": "Secondary segment",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 52,
+    "topic": "IMS DB - Control Blocks (DBD/PSB/PCB)",
+    "difficulty": "Medium",
+    "question": "Processing options in SENSEG?",
+    "option_1": "G, I, R, D, A",
+    "option_2": "Read, Write",
+    "option_3": "Input, Output",
+    "option_4": "Get, Put",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 53,
+    "topic": "IMS DB - Control Blocks (DBD/PSB/PCB)",
+    "difficulty": "Easy",
+    "question": "What is PROCOPT=G?",
+    "option_1": "Get (read only)",
+    "option_2": "Get and Insert",
+    "option_3": "General processing",
+    "option_4": "Generate",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 54,
+    "topic": "IMS DB - Control Blocks (DBD/PSB/PCB)",
+    "difficulty": "Medium",
+    "question": "What is PROCOPT=GI?",
+    "option_1": "Get and Insert",
+    "option_2": "Get Index",
+    "option_3": "General Insert",
+    "option_4": "Get Information",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 55,
+    "topic": "IMS DB - Control Blocks (DBD/PSB/PCB)",
+    "difficulty": "Medium",
+    "question": "What is PROCOPT=GIRD?",
+    "option_1": "Get, Insert, Replace, Delete",
+    "option_2": "General processing",
+    "option_3": "Get Index Read Delete",
+    "option_4": "Get Insert Retrieve Data",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 56,
+    "topic": "IMS DB - Control Blocks (DBD/PSB/PCB)",
+    "difficulty": "Easy",
+    "question": "ACB stands for?",
+    "option_1": "Application Control Block",
+    "option_2": "Access Control Block",
+    "option_3": "Active Control Block",
+    "option_4": "Application Code Block",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 57,
+    "topic": "IMS DB - Control Blocks (DBD/PSB/PCB)",
+    "difficulty": "Medium",
+    "question": "ACB is created from?",
+    "option_1": "DBD and PSB",
+    "option_2": "DBD only",
+    "option_3": "PSB only",
+    "option_4": "Application source",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 58,
+    "topic": "IMS DB - Control Blocks (DBD/PSB/PCB)",
+    "difficulty": "Easy",
+    "question": "PSBGEN combines?",
+    "option_1": "PCB definitions",
+    "option_2": "DBD definitions",
+    "option_3": "Segments",
+    "option_4": "Applications",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 59,
+    "topic": "IMS DB - Control Blocks (DBD/PSB/PCB)",
+    "difficulty": "Medium",
+    "question": "Key feedback area in PCB?",
+    "option_1": "Returns concatenated key",
+    "option_2": "Returns status code",
+    "option_3": "Returns segment name",
+    "option_4": "Returns nothing",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 60,
+    "topic": "IMS DB - Control Blocks (DBD/PSB/PCB)",
+    "difficulty": "Easy",
+    "question": "Status code returned where?",
+    "option_1": "PCB status code field",
+    "option_2": "Working storage",
+    "option_3": "Linkage section",
+    "option_4": "File section",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 61,
+    "topic": "IMS DB - Control Blocks (DBD/PSB/PCB)",
+    "difficulty": "Easy",
+    "question": "Successful call status?",
+    "option_1": "Blank or spaces",
+    "option_2": "OK",
+    "option_3": "00",
+    "option_4": "SUCCESS",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 62,
+    "topic": "IMS DB - Control Blocks (DBD/PSB/PCB)",
+    "difficulty": "Medium",
+    "question": "GE status code means?",
+    "option_1": "Segment not found",
+    "option_2": "Get error",
+    "option_3": "General error",
+    "option_4": "Good entry",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 63,
+    "topic": "IMS DB - Control Blocks (DBD/PSB/PCB)",
+    "difficulty": "Medium",
+    "question": "GB status code means?",
+    "option_1": "End of database",
+    "option_2": "Get blank",
+    "option_3": "Good batch",
+    "option_4": "Go back",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 64,
+    "topic": "IMS DB - Control Blocks (DBD/PSB/PCB)",
+    "difficulty": "Hard",
+    "question": "II status code means?",
+    "option_1": "Insert error - segment exists",
+    "option_2": "Invalid insert",
+    "option_3": "Index issue",
+    "option_4": "Insert incomplete",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 65,
+    "topic": "IMS DB - Control Blocks (DBD/PSB/PCB)",
+    "difficulty": "Easy",
+    "question": "DBD NAME specifies?",
+    "option_1": "Database name",
+    "option_2": "Dataset name",
+    "option_3": "Program name",
+    "option_4": "Segment name",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 66,
+    "topic": "IMS DB - Control Blocks (DBD/PSB/PCB)",
+    "difficulty": "Medium",
+    "question": "SEGM statement in DBD defines?",
+    "option_1": "Segment type",
+    "option_2": "Processing option",
+    "option_3": "Program view",
+    "option_4": "Storage size",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 67,
+    "topic": "IMS DB - Control Blocks (DBD/PSB/PCB)",
+    "difficulty": "Medium",
+    "question": "FIELD statement in DBD defines?",
+    "option_1": "Field within segment",
+    "option_2": "Entire segment",
+    "option_3": "Database",
+    "option_4": "Processing option",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 68,
+    "topic": "IMS DB - Control Blocks (DBD/PSB/PCB)",
+    "difficulty": "Medium",
+    "question": "DATASET in DBD specifies?",
+    "option_1": "Physical dataset name",
+    "option_2": "Logical dataset",
+    "option_3": "Program name",
+    "option_4": "Segment name",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 69,
+    "topic": "IMS DB - Control Blocks (DBD/PSB/PCB)",
+    "difficulty": "Medium",
+    "question": "PCB mask in COBOL is?",
+    "option_1": "01 level structure in linkage",
+    "option_2": "Working storage field",
+    "option_3": "File definition",
+    "option_4": "Procedure division item",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 70,
+    "topic": "IMS DB - Control Blocks (DBD/PSB/PCB)",
+    "difficulty": "Easy",
+    "question": "How many DBDs for one database?",
+    "option_1": "One",
+    "option_2": "Two",
+    "option_3": "Multiple",
+    "option_4": "Depends on size",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 71,
+    "topic": "IMS DB - Control Blocks (DBD/PSB/PCB)",
+    "difficulty": "Medium",
+    "question": "How many PSBs for one DBD?",
+    "option_1": "Multiple allowed",
+    "option_2": "One only",
+    "option_3": "Two only",
+    "option_4": "None",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 72,
+    "topic": "IMS DB - Control Blocks (DBD/PSB/PCB)",
+    "difficulty": "Hard",
+    "question": "PROCOPT=A means?",
+    "option_1": "All processing options",
+    "option_2": "Add only",
+    "option_3": "Alter only",
+    "option_4": "Access only",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 73,
+    "topic": "IMS DB - Control Blocks (DBD/PSB/PCB)",
+    "difficulty": "Medium",
+    "question": "Sensitive segment means?",
+    "option_1": "Application can access it",
+    "option_2": "Segment is protected",
+    "option_3": "Segment is indexed",
+    "option_4": "Segment is deleted",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 74,
+    "topic": "IMS DB - Control Blocks (DBD/PSB/PCB)",
+    "difficulty": "Medium",
+    "question": "Non-sensitive segment means?",
+    "option_1": "Application cannot access it",
+    "option_2": "Segment is public",
+    "option_3": "Segment is unprotected",
+    "option_4": "Segment is optional",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 75,
+    "topic": "IMS DB - Control Blocks (DBD/PSB/PCB)",
+    "difficulty": "Hard",
+    "question": "DBD ACCESS specifies?",
+    "option_1": "Database organization type",
+    "option_2": "Processing option",
+    "option_3": "Application access",
+    "option_4": "Security level",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 76,
+    "topic": "IMS DB - Control Blocks (DBD/PSB/PCB)",
+    "difficulty": "Hard",
+    "question": "LCHILD in DBD defines?",
+    "option_1": "Logical child relationship",
+    "option_2": "Last child",
+    "option_3": "Linked child",
+    "option_4": "Lower child",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 77,
+    "topic": "IMS DB - Control Blocks (DBD/PSB/PCB)",
+    "difficulty": "Hard",
+    "question": "XDFLD in DBD defines?",
+    "option_1": "Secondary index field",
+    "option_2": "Extra field",
+    "option_3": "Extended field",
+    "option_4": "External field",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 78,
+    "topic": "IMS DB - Control Blocks (DBD/PSB/PCB)",
+    "difficulty": "Medium",
+    "question": "PSB language parameter?",
+    "option_1": "COBOL, PL/I, ASSEM, etc.",
+    "option_2": "English only",
+    "option_3": "Any language",
+    "option_4": "Compiled language",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 79,
+    "topic": "IMS DB - Control Blocks (DBD/PSB/PCB)",
+    "difficulty": "Medium",
+    "question": "Multiple database PCBs?",
+    "option_1": "Allowed in one PSB",
+    "option_2": "Not allowed",
+    "option_3": "Maximum two",
+    "option_4": "Requires special DBDGEN",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 80,
+    "topic": "IMS DB - Control Blocks (DBD/PSB/PCB)",
+    "difficulty": "Easy",
+    "question": "I/O area purpose?",
+    "option_1": "Hold segment data for DL/I call",
+    "option_2": "Store PCB",
+    "option_3": "Store DBD",
+    "option_4": "Store status",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 81,
+    "topic": "IMS DB - COBOL DL/I Programming",
+    "difficulty": "Easy",
+    "question": "DL/I call format in COBOL?",
+    "option_1": "CALL 'CBLTDLI' USING...",
+    "option_2": "CALL 'DLITCBL' USING...",
+    "option_3": "EXEC DLI",
+    "option_4": "CALL DLI",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 82,
+    "topic": "IMS DB - COBOL DL/I Programming",
+    "difficulty": "Easy",
+    "question": "First parameter in DL/I call?",
+    "option_1": "Function code",
+    "option_2": "PCB",
+    "option_3": "I/O area",
+    "option_4": "SSA",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 83,
+    "topic": "IMS DB - COBOL DL/I Programming",
+    "difficulty": "Easy",
+    "question": "Second parameter in DL/I call?",
+    "option_1": "PCB mask",
+    "option_2": "Function code",
+    "option_3": "I/O area",
+    "option_4": "SSA",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 84,
+    "topic": "IMS DB - COBOL DL/I Programming",
+    "difficulty": "Easy",
+    "question": "Third parameter in DL/I call?",
+    "option_1": "I/O area",
+    "option_2": "Function code",
+    "option_3": "PCB",
+    "option_4": "SSA",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 85,
+    "topic": "IMS DB - COBOL DL/I Programming",
+    "difficulty": "Easy",
+    "question": "PCB mask defined in?",
+    "option_1": "LINKAGE SECTION",
+    "option_2": "WORKING-STORAGE",
+    "option_3": "PROCEDURE DIVISION",
+    "option_4": "FILE SECTION",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 86,
+    "topic": "IMS DB - COBOL DL/I Programming",
+    "difficulty": "Easy",
+    "question": "I/O area defined in?",
+    "option_1": "WORKING-STORAGE SECTION",
+    "option_2": "LINKAGE SECTION",
+    "option_3": "PROCEDURE DIVISION",
+    "option_4": "FILE SECTION",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 87,
+    "topic": "IMS DB - COBOL DL/I Programming",
+    "difficulty": "Medium",
+    "question": "Entry parameter list contains?",
+    "option_1": "PCB addresses",
+    "option_2": "PCB values",
+    "option_3": "Segment data",
+    "option_4": "Status codes",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 88,
+    "topic": "IMS DB - COBOL DL/I Programming",
+    "difficulty": "Medium",
+    "question": "ENTRY statement in DL/I program?",
+    "option_1": "Receives PCB pointers from IMS",
+    "option_2": "Defines entry point",
+    "option_3": "Calls DL/I",
+    "option_4": "Exits program",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 89,
+    "topic": "IMS DB - COBOL DL/I Programming",
+    "difficulty": "Easy",
+    "question": "GOBACK statement in DL/I?",
+    "option_1": "Returns control to IMS",
+    "option_2": "Goes to previous call",
+    "option_3": "Restarts program",
+    "option_4": "Calls subroutine",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 90,
+    "topic": "IMS DB - COBOL DL/I Programming",
+    "difficulty": "Easy",
+    "question": "Status code checked after?",
+    "option_1": "Every DL/I call",
+    "option_2": "Program start only",
+    "option_3": "End of program",
+    "option_4": "Not required",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 91,
+    "topic": "IMS DB - COBOL DL/I Programming",
+    "difficulty": "Easy",
+    "question": "Successful status code?",
+    "option_1": "Spaces or blank",
+    "option_2": "Zero",
+    "option_3": "OK",
+    "option_4": "00",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 92,
+    "topic": "IMS DB - COBOL DL/I Programming",
+    "difficulty": "Medium",
+    "question": "How to check status in COBOL?",
+    "option_1": "IF DB-STATUS = SPACES",
+    "option_2": "IF STATUS = 0",
+    "option_3": "IF RC = 0",
+    "option_4": "IF DLI-OK",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 93,
+    "topic": "IMS DB - COBOL DL/I Programming",
+    "difficulty": "Medium",
+    "question": "I/O area must be?",
+    "option_1": "01 level in WORKING-STORAGE",
+    "option_2": "77 level field",
+    "option_3": "In LINKAGE",
+    "option_4": "In FILE SECTION",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 94,
+    "topic": "IMS DB - COBOL DL/I Programming",
+    "difficulty": "Medium",
+    "question": "PCB mask structure?",
+    "option_1": "01 level with defined fields",
+    "option_2": "77 level field",
+    "option_3": "Array",
+    "option_4": "Table",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 95,
+    "topic": "IMS DB - COBOL DL/I Programming",
+    "difficulty": "Hard",
+    "question": "DBD name in PCB mask?",
+    "option_1": "PIC X(8) field",
+    "option_2": "PIC X(4) field",
+    "option_3": "PIC 9(8) field",
+    "option_4": "PIC X(16)",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 96,
+    "topic": "IMS DB - COBOL DL/I Programming",
+    "difficulty": "Hard",
+    "question": "Segment level in PCB?",
+    "option_1": "PIC XX field",
+    "option_2": "PIC 9(4) field",
+    "option_3": "PIC X(4) field",
+    "option_4": "PIC S9(4)",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 97,
+    "topic": "IMS DB - COBOL DL/I Programming",
+    "difficulty": "Medium",
+    "question": "Status code field in PCB?",
+    "option_1": "PIC XX field",
+    "option_2": "PIC X(4) field",
+    "option_3": "PIC 9(2) field",
+    "option_4": "PIC S9(4)",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 98,
+    "topic": "IMS DB - COBOL DL/I Programming",
+    "difficulty": "Hard",
+    "question": "Processing options in PCB mask?",
+    "option_1": "PIC X(4) field",
+    "option_2": "PIC XX field",
+    "option_3": "PIC 9(4) field",
+    "option_4": "PIC X(8)",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 99,
+    "topic": "IMS DB - COBOL DL/I Programming",
+    "difficulty": "Hard",
+    "question": "Key feedback area length?",
+    "option_1": "PIC S9(4) COMP",
+    "option_2": "PIC X(4)",
+    "option_3": "PIC 9(4)",
+    "option_4": "PIC XX",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 100,
+    "topic": "IMS DB - COBOL DL/I Programming",
+    "difficulty": "Medium",
+    "question": "SSA defined as?",
+    "option_1": "PIC X field in WORKING-STORAGE",
+    "option_2": "In LINKAGE",
+    "option_3": "In PCB",
+    "option_4": "In I/O area",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 101,
+    "topic": "IMS DB - COBOL DL/I Programming",
+    "difficulty": "Medium",
+    "question": "Unqualified SSA length?",
+    "option_1": "9 bytes",
+    "option_2": "8 bytes",
+    "option_3": "10 bytes",
+    "option_4": "Variable",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 102,
+    "topic": "IMS DB - COBOL DL/I Programming",
+    "difficulty": "Hard",
+    "question": "Qualified SSA structure?",
+    "option_1": "Segment-name + open-paren + qualification + close-paren",
+    "option_2": "Segment-name only",
+    "option_3": "Qualification only",
+    "option_4": "Command code only",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 103,
+    "topic": "IMS DB - COBOL DL/I Programming",
+    "difficulty": "Medium",
+    "question": "Function code length?",
+    "option_1": "4 bytes",
+    "option_2": "2 bytes",
+    "option_3": "8 bytes",
+    "option_4": "Variable",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 104,
+    "topic": "IMS DB - COBOL DL/I Programming",
+    "difficulty": "Easy",
+    "question": "GU function code?",
+    "option_1": "'GU  '",
+    "option_2": "'GET '",
+    "option_3": "'GETU'",
+    "option_4": "'GNUN'",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 105,
+    "topic": "IMS DB - COBOL DL/I Programming",
+    "difficulty": "Easy",
+    "question": "GN function code?",
+    "option_1": "'GN  '",
+    "option_2": "'GNET'",
+    "option_3": "'GNXT'",
+    "option_4": "'NEXT'",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 106,
+    "topic": "IMS DB - COBOL DL/I Programming",
+    "difficulty": "Easy",
+    "question": "ISRT function code?",
+    "option_1": "'ISRT'",
+    "option_2": "'INS '",
+    "option_3": "'ADD '",
+    "option_4": "'PUT '",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 107,
+    "topic": "IMS DB - COBOL DL/I Programming",
+    "difficulty": "Hard",
+    "question": "How to pass SSA count?",
+    "option_1": "Implicitly by number of SSAs",
+    "option_2": "Explicit count parameter",
+    "option_3": "In PCB",
+    "option_4": "In function code",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 108,
+    "topic": "IMS DB - COBOL DL/I Programming",
+    "difficulty": "Medium",
+    "question": "Compiler option for DL/I?",
+    "option_1": "None specific required",
+    "option_2": "DYNAM",
+    "option_3": "DLI",
+    "option_4": "IMS",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 109,
+    "topic": "IMS DB - COBOL DL/I Programming",
+    "difficulty": "Hard",
+    "question": "Link-edit with what stub?",
+    "option_1": "DFSLI000 or appropriate stub",
+    "option_2": "ILBDLI00",
+    "option_3": "CBLDLI",
+    "option_4": "IMSDLI",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 110,
+    "topic": "IMS DB - COBOL DL/I Programming",
+    "difficulty": "Medium",
+    "question": "Where to code ENTRY?",
+    "option_1": "PROCEDURE DIVISION USING",
+    "option_2": "WORKING-STORAGE",
+    "option_3": "LINKAGE SECTION",
+    "option_4": "IDENTIFICATION DIVISION",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 111,
+    "topic": "IMS DB - COBOL DL/I Programming",
+    "difficulty": "Hard",
+    "question": "Multiple PCBs referenced by?",
+    "option_1": "Position in ENTRY USING list",
+    "option_2": "PCB name",
+    "option_3": "PCB number",
+    "option_4": "DBD name",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 112,
+    "topic": "IMS DB - COBOL DL/I Programming",
+    "difficulty": "Hard",
+    "question": "AIB alternative to?",
+    "option_1": "PCB list in ENTRY",
+    "option_2": "I/O area",
+    "option_3": "SSA",
+    "option_4": "Function code",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 113,
+    "topic": "IMS DB - COBOL DL/I Programming",
+    "difficulty": "Medium",
+    "question": "COBOL COMP for length fields?",
+    "option_1": "Binary numeric",
+    "option_2": "Packed decimal",
+    "option_3": "Display numeric",
+    "option_4": "ASCII",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 114,
+    "topic": "IMS DB - COBOL DL/I Programming",
+    "difficulty": "Hard",
+    "question": "Standard sequence for call?",
+    "option_1": "Function, PCB, I/O area, SSAs",
+    "option_2": "PCB, Function, I/O, SSAs",
+    "option_3": "I/O, PCB, Function, SSAs",
+    "option_4": "SSAs, Function, PCB, I/O",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 115,
+    "topic": "IMS DB - COBOL DL/I Programming",
+    "difficulty": "Medium",
+    "question": "Return code location?",
+    "option_1": "DB-PCB-STATUS in PCB mask",
+    "option_2": "RETURN-CODE special register",
+    "option_3": "I/O area",
+    "option_4": "SSA",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 116,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Easy",
+    "question": "SSA stands for?",
+    "option_1": "Segment Search Argument",
+    "option_2": "Segment Selection Area",
+    "option_3": "System Search Argument",
+    "option_4": "Sequential Search Area",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 117,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Easy",
+    "question": "Unqualified SSA contains?",
+    "option_1": "Segment name only",
+    "option_2": "Segment name and qualification",
+    "option_3": "Qualification only",
+    "option_4": "Command codes only",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 118,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Easy",
+    "question": "Qualified SSA contains?",
+    "option_1": "Segment name and field qualification",
+    "option_2": "Segment name only",
+    "option_3": "Command codes only",
+    "option_4": "Nothing",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 119,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Medium",
+    "question": "SSA segment name length?",
+    "option_1": "8 bytes",
+    "option_2": "4 bytes",
+    "option_3": "10 bytes",
+    "option_4": "Variable",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 120,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Medium",
+    "question": "Unqualified SSA format?",
+    "option_1": "SEGNAME + space",
+    "option_2": "SEGNAME*",
+    "option_3": "SEGNAME()",
+    "option_4": "SEGNAME",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 121,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Medium",
+    "question": "Qualified SSA starts with?",
+    "option_1": "Segment name + left paren",
+    "option_2": "Segment name + asterisk",
+    "option_3": "Segment name + space",
+    "option_4": "Just field name",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 122,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Medium",
+    "question": "Qualified SSA ends with?",
+    "option_1": "Right paren + space",
+    "option_2": "Right paren only",
+    "option_3": "Space only",
+    "option_4": "Asterisk",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 123,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Medium",
+    "question": "SSA qualification format?",
+    "option_1": "FIELDNAME OPERATOR VALUE",
+    "option_2": "OPERATOR FIELDNAME VALUE",
+    "option_3": "VALUE OPERATOR FIELDNAME",
+    "option_4": "FIELDNAME VALUE",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 124,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Easy",
+    "question": "Equal operator in SSA?",
+    "option_1": "= (EQ)",
+    "option_2": "EQ only",
+    "option_3": "== (EQ)",
+    "option_4": ".EQ.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 125,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Easy",
+    "question": "Greater than operator?",
+    "option_1": "> (GT)",
+    "option_2": "GT only",
+    "option_3": ".GT.",
+    "option_4": "=>",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 126,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Easy",
+    "question": "Less than operator?",
+    "option_1": "< (LT)",
+    "option_2": "LT only",
+    "option_3": ".LT.",
+    "option_4": "=<",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 127,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Easy",
+    "question": "Greater or equal operator?",
+    "option_1": ">= (GE)",
+    "option_2": "GE only",
+    "option_3": ".GE.",
+    "option_4": "=>",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 128,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Easy",
+    "question": "Less or equal operator?",
+    "option_1": "<= (LE)",
+    "option_2": "LE only",
+    "option_3": ".LE.",
+    "option_4": "=<",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 129,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Medium",
+    "question": "Not equal operator?",
+    "option_1": "\u00ac= (NE)",
+    "option_2": "NE only",
+    "option_3": ".NE.",
+    "option_4": "<>",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 130,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Medium",
+    "question": "Command code position?",
+    "option_1": "After segment name, before paren",
+    "option_2": "Before segment name",
+    "option_3": "After paren",
+    "option_4": "At end",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 131,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Easy",
+    "question": "Command code indicator?",
+    "option_1": "Asterisk (*)",
+    "option_2": "Ampersand (&)",
+    "option_3": "Percent (%)",
+    "option_4": "Hash (#)",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 132,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Medium",
+    "question": "Multiple command codes separated by?",
+    "option_1": "No separator, consecutive",
+    "option_2": "Comma",
+    "option_3": "Space",
+    "option_4": "Semicolon",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 133,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Easy",
+    "question": "F command code means?",
+    "option_1": "First occurrence",
+    "option_2": "Find",
+    "option_3": "Forward",
+    "option_4": "Fast",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 134,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Easy",
+    "question": "L command code means?",
+    "option_1": "Last occurrence",
+    "option_2": "Locate",
+    "option_3": "Link",
+    "option_4": "Loop",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 135,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Medium",
+    "question": "D command code means?",
+    "option_1": "Path call",
+    "option_2": "Delete",
+    "option_3": "Direct",
+    "option_4": "Data",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 136,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Hard",
+    "question": "P command code means?",
+    "option_1": "Set parentage",
+    "option_2": "Path",
+    "option_3": "Parent",
+    "option_4": "Position",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 137,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Hard",
+    "question": "U command code means?",
+    "option_1": "Maintain position",
+    "option_2": "Update",
+    "option_3": "Unload",
+    "option_4": "Unique",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 138,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Hard",
+    "question": "V command code means?",
+    "option_1": "Use current position",
+    "option_2": "Verify",
+    "option_3": "Value",
+    "option_4": "View",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 139,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Hard",
+    "question": "C command code means?",
+    "option_1": "Concatenated key",
+    "option_2": "Continue",
+    "option_3": "Check",
+    "option_4": "Count",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 140,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Hard",
+    "question": "N command code means?",
+    "option_1": "Path call, this level only",
+    "option_2": "Next",
+    "option_3": "Null",
+    "option_4": "Navigate",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 141,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Hard",
+    "question": "Q command code means?",
+    "option_1": "Enqueue segment",
+    "option_2": "Query",
+    "option_3": "Queue",
+    "option_4": "Qualified",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 142,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Hard",
+    "question": "Multiple qualifications use?",
+    "option_1": "Boolean operators",
+    "option_2": "Comma separator",
+    "option_3": "AND implied",
+    "option_4": "OR operator",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 143,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Hard",
+    "question": "Boolean AND operator?",
+    "option_1": "* (ampersand &)",
+    "option_2": "AND",
+    "option_3": "+",
+    "option_4": ".AND.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 144,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Hard",
+    "question": "Boolean OR operator?",
+    "option_1": "+ (plus)",
+    "option_2": "OR",
+    "option_3": "|",
+    "option_4": ".OR.",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 145,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Medium",
+    "question": "SSA field name length?",
+    "option_1": "8 bytes",
+    "option_2": "4 bytes",
+    "option_3": "10 bytes",
+    "option_4": "Variable",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 146,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Medium",
+    "question": "Qualification value length?",
+    "option_1": "Variable, field dependent",
+    "option_2": "Fixed 8 bytes",
+    "option_3": "Fixed 4 bytes",
+    "option_4": "Fixed 10 bytes",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 147,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Hard",
+    "question": "Generic search uses?",
+    "option_1": "*= operator",
+    "option_2": "%= operator",
+    "option_3": "~= operator",
+    "option_4": "&= operator",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 148,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Easy",
+    "question": "SSA for root segment?",
+    "option_1": "Root segment name",
+    "option_2": "Empty SSA",
+    "option_3": "NULL",
+    "option_4": "Not required",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 149,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Medium",
+    "question": "Second SSA is for?",
+    "option_1": "Child under previously specified segment",
+    "option_2": "Any segment",
+    "option_3": "Root only",
+    "option_4": "Last segment",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 150,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Medium",
+    "question": "SSA hierarchy matches?",
+    "option_1": "Database hierarchy",
+    "option_2": "PSB hierarchy",
+    "option_3": "PCB hierarchy",
+    "option_4": "Application hierarchy",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 151,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Medium",
+    "question": "Invalid SSA causes?",
+    "option_1": "Status code error",
+    "option_2": "Compilation error",
+    "option_3": "Runtime crash",
+    "option_4": "Warning only",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 152,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Medium",
+    "question": "SSA qualification field must be?",
+    "option_1": "Defined in DBD",
+    "option_2": "In PCB",
+    "option_3": "In PSB",
+    "option_4": "In I/O area",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 153,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Medium",
+    "question": "Multiple SSAs in one call?",
+    "option_1": "Specifies hierarchical path",
+    "option_2": "Not allowed",
+    "option_3": "Optional only",
+    "option_4": "For parallel processing",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 154,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Hard",
+    "question": "No SSA provided means?",
+    "option_1": "Use current position",
+    "option_2": "Get root",
+    "option_3": "Error",
+    "option_4": "Get all",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 155,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Easy",
+    "question": "SSA with GU call?",
+    "option_1": "Positions in database",
+    "option_2": "Updates segment",
+    "option_3": "Deletes segment",
+    "option_4": "Inserts segment",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 156,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Medium",
+    "question": "SSA with GN call?",
+    "option_1": "Continues sequential retrieval",
+    "option_2": "Gets unique",
+    "option_3": "Gets next root",
+    "option_4": "Gets parent",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 157,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Medium",
+    "question": "Unqualified SSA with GN?",
+    "option_1": "Gets next occurrence of segment type",
+    "option_2": "Gets specific segment",
+    "option_3": "Gets root",
+    "option_4": "Gets all",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 158,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Hard",
+    "question": "Command code position in qualified SSA?",
+    "option_1": "After segment name, before paren",
+    "option_2": "Before segment name",
+    "option_3": "After value",
+    "option_4": "In qualification",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 159,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Hard",
+    "question": "SSA blank padding?",
+    "option_1": "Required to fill segment name field",
+    "option_2": "Not required",
+    "option_3": "Optional",
+    "option_4": "Forbidden",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 160,
+    "topic": "IMS DB - Segment Search Arguments (SSAs)",
+    "difficulty": "Medium",
+    "question": "Case sensitivity in SSA?",
+    "option_1": "Segment names must match DBD",
+    "option_2": "Case insensitive",
+    "option_3": "Upper case only",
+    "option_4": "Lower case only",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 161,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Easy",
+    "question": "GU stands for?",
+    "option_1": "Get Unique",
+    "option_2": "Get Unit",
+    "option_3": "General Update",
+    "option_4": "Get Universal",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 162,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Easy",
+    "question": "GN stands for?",
+    "option_1": "Get Next",
+    "option_2": "Get New",
+    "option_3": "General Navigation",
+    "option_4": "Get Now",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 163,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Easy",
+    "question": "GNP stands for?",
+    "option_1": "Get Next within Parent",
+    "option_2": "Get Next Path",
+    "option_3": "Get Next Position",
+    "option_4": "Get New Parent",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 164,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Medium",
+    "question": "GHU stands for?",
+    "option_1": "Get Hold Unique",
+    "option_2": "Get Hold Unit",
+    "option_3": "General Hold Update",
+    "option_4": "Get High Unique",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 165,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Medium",
+    "question": "GHN stands for?",
+    "option_1": "Get Hold Next",
+    "option_2": "Get Hold New",
+    "option_3": "Get High Next",
+    "option_4": "General Hold Navigation",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 166,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Medium",
+    "question": "GHNP stands for?",
+    "option_1": "Get Hold Next within Parent",
+    "option_2": "Get Hold Next Path",
+    "option_3": "Get Hold New Position",
+    "option_4": "Get High Next Parent",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 167,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Easy",
+    "question": "GU call establishes?",
+    "option_1": "Initial position in database",
+    "option_2": "Update mode",
+    "option_3": "Insert position",
+    "option_4": "Delete position",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 168,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Easy",
+    "question": "GN call continues?",
+    "option_1": "Sequential retrieval from current position",
+    "option_2": "From start",
+    "option_3": "From end",
+    "option_4": "Random retrieval",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 169,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Medium",
+    "question": "GNP retrieves within?",
+    "option_1": "Current parent's children",
+    "option_2": "All database",
+    "option_3": "Current level",
+    "option_4": "Root segments",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 170,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Medium",
+    "question": "GU without SSA?",
+    "option_1": "Gets next root segment",
+    "option_2": "Causes error",
+    "option_3": "Gets any segment",
+    "option_4": "Gets first root",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 171,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Medium",
+    "question": "GN without SSA?",
+    "option_1": "Gets next segment in hierarchical sequence",
+    "option_2": "Causes error",
+    "option_3": "Gets root",
+    "option_4": "Gets random segment",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 172,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Easy",
+    "question": "Hold call purpose?",
+    "option_1": "Enables subsequent update/delete",
+    "option_2": "Holds position only",
+    "option_3": "Locks database",
+    "option_4": "Holds memory",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 173,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Medium",
+    "question": "GHU allows?",
+    "option_1": "REPL or DLET of retrieved segment",
+    "option_2": "Retrieval only",
+    "option_3": "Insert only",
+    "option_4": "Nothing special",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 174,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Medium",
+    "question": "After successful GU?",
+    "option_1": "Position set at retrieved segment",
+    "option_2": "Position at root",
+    "option_3": "Position unchanged",
+    "option_4": "Position undefined",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 175,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Medium",
+    "question": "After successful GN?",
+    "option_1": "Position advances in hierarchical order",
+    "option_2": "Position at root",
+    "option_3": "Position unchanged",
+    "option_4": "Position at end",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 176,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Easy",
+    "question": "GN after GU?",
+    "option_1": "Gets next segment in sequence",
+    "option_2": "Gets same segment",
+    "option_3": "Causes error",
+    "option_4": "Restarts from root",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 177,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Medium",
+    "question": "GNP boundary is?",
+    "option_1": "Current parent's children only",
+    "option_2": "Entire database",
+    "option_3": "Current level",
+    "option_4": "All descendants",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 178,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Hard",
+    "question": "GNP crossing parent?",
+    "option_1": "Returns GB status code",
+    "option_2": "Continues to next parent",
+    "option_3": "Causes error",
+    "option_4": "Wraps to start",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 179,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Easy",
+    "question": "GB status code means?",
+    "option_1": "End of database/parent boundary",
+    "option_2": "Good batch",
+    "option_3": "Get blank",
+    "option_4": "Go back",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 180,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Easy",
+    "question": "GE status code means?",
+    "option_1": "Segment not found",
+    "option_2": "General error",
+    "option_3": "Get error",
+    "option_4": "Good entry",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 181,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Easy",
+    "question": "Sequential processing uses?",
+    "option_1": "GU followed by GN calls",
+    "option_2": "Multiple GU calls",
+    "option_3": "GNP only",
+    "option_4": "Random GU calls",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 182,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Hard",
+    "question": "Path call retrieves?",
+    "option_1": "Segment and all parents",
+    "option_2": "Segment only",
+    "option_3": "All children",
+    "option_4": "Nothing special",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 183,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Hard",
+    "question": "D command code in retrieval?",
+    "option_1": "Returns segment and parents in I/O area",
+    "option_2": "Deletes segment",
+    "option_3": "Direct access",
+    "option_4": "Data only",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 184,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Medium",
+    "question": "Qualified SSA with GU?",
+    "option_1": "Retrieves specific segment matching criteria",
+    "option_2": "Retrieves any segment",
+    "option_3": "Causes error",
+    "option_4": "Retrieves root",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 185,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Medium",
+    "question": "Multiple SSAs with GU?",
+    "option_1": "Establishes hierarchical path to target",
+    "option_2": "Not allowed",
+    "option_3": "Optional",
+    "option_4": "For multiple segments",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 186,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Medium",
+    "question": "GN with qualified SSA?",
+    "option_1": "Gets next matching segment",
+    "option_2": "Gets any next",
+    "option_3": "Causes error",
+    "option_4": "Resets position",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 187,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Medium",
+    "question": "Current position maintained?",
+    "option_1": "After successful retrieval",
+    "option_2": "Always reset",
+    "option_3": "Never maintained",
+    "option_4": "Only with U command",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 188,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Easy",
+    "question": "Hierarchical sequence is?",
+    "option_1": "Root to leaf, left to right",
+    "option_2": "Random",
+    "option_3": "Reverse",
+    "option_4": "By size",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 189,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Medium",
+    "question": "Retrieving twins?",
+    "option_1": "Sequential GN calls",
+    "option_2": "Multiple GU calls",
+    "option_3": "Special command",
+    "option_4": "Not possible",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 190,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Medium",
+    "question": "F command code with GU?",
+    "option_1": "Gets first occurrence of twin",
+    "option_2": "Fast retrieval",
+    "option_3": "Full retrieval",
+    "option_4": "Forward only",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 191,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Medium",
+    "question": "L command code with GU?",
+    "option_1": "Gets last occurrence of twin",
+    "option_2": "Locked retrieval",
+    "option_3": "Leaf only",
+    "option_4": "Last in database",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 192,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Hard",
+    "question": "After unsuccessful GU?",
+    "option_1": "Position undefined",
+    "option_2": "Position unchanged",
+    "option_3": "Position at root",
+    "option_4": "Position at end",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 193,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Easy",
+    "question": "GN at end of database?",
+    "option_1": "Returns GB status",
+    "option_2": "Wraps to start",
+    "option_3": "Causes error",
+    "option_4": "Returns blank",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 194,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Medium",
+    "question": "Retrieve by key?",
+    "option_1": "GU with qualified SSA on key field",
+    "option_2": "GN with key",
+    "option_3": "Special call",
+    "option_4": "Not supported",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 195,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Hard",
+    "question": "Concatenated key in SSA?",
+    "option_1": "C command code required",
+    "option_2": "Automatically handled",
+    "option_3": "Not supported",
+    "option_4": "Optional",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 196,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Hard",
+    "question": "Position after GNP boundary?",
+    "option_1": "Unchanged from before GNP",
+    "option_2": "At next parent",
+    "option_3": "At root",
+    "option_4": "Undefined",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 197,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Hard",
+    "question": "Retrieve all children of parent?",
+    "option_1": "GU parent, then GNP loop",
+    "option_2": "Multiple GU",
+    "option_3": "GN loop",
+    "option_4": "Special call",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 198,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Hard",
+    "question": "Get segment count?",
+    "option_1": "Count with loop, check GB",
+    "option_2": "COUNT function",
+    "option_3": "Special call",
+    "option_4": "Not possible",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 199,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Medium",
+    "question": "Retrieve backwards?",
+    "option_1": "Not directly supported by calls",
+    "option_2": "GN with reverse",
+    "option_3": "Special call",
+    "option_4": "GNPREV call",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 200,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Medium",
+    "question": "Retrieve same segment again?",
+    "option_1": "Issue same call again",
+    "option_2": "Not possible",
+    "option_3": "Special call",
+    "option_4": "Use cache",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 201,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Hard",
+    "question": "Hold followed by Get?",
+    "option_1": "Releases hold",
+    "option_2": "Maintains hold",
+    "option_3": "Causes error",
+    "option_4": "Undefined",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 202,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Medium",
+    "question": "Key feedback area contains?",
+    "option_1": "Concatenated key of retrieved segment",
+    "option_2": "Segment data",
+    "option_3": "Status code",
+    "option_4": "Position",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 203,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Easy",
+    "question": "Get with PROCOPT=G?",
+    "option_1": "Allowed",
+    "option_2": "Not allowed",
+    "option_3": "Causes warning",
+    "option_4": "Conditional",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 204,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Medium",
+    "question": "Hold with PROCOPT=G?",
+    "option_1": "Not allowed, requires R",
+    "option_2": "Allowed",
+    "option_3": "Causes warning",
+    "option_4": "Conditional",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 205,
+    "topic": "IMS DB - Data Retrieval (GU/GN/GNP/GHU/GHN/GHNP)",
+    "difficulty": "Hard",
+    "question": "Get deleted segment?",
+    "option_1": "Returns GE status",
+    "option_2": "Returns segment",
+    "option_3": "Causes error",
+    "option_4": "Returns GB",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 206,
+    "topic": "IMS DB - Database Modification (ISRT/REPL/DLET)",
+    "difficulty": "Easy",
+    "question": "ISRT stands for?",
+    "option_1": "Insert",
+    "option_2": "Initial Set Record Transaction",
+    "option_3": "Insert Sorted Record Transaction",
+    "option_4": "Initialize Record",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 207,
+    "topic": "IMS DB - Database Modification (ISRT/REPL/DLET)",
+    "difficulty": "Easy",
+    "question": "REPL stands for?",
+    "option_1": "Replace",
+    "option_2": "Replicate",
+    "option_3": "Reply",
+    "option_4": "Report",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 208,
+    "topic": "IMS DB - Database Modification (ISRT/REPL/DLET)",
+    "difficulty": "Easy",
+    "question": "DLET stands for?",
+    "option_1": "Delete",
+    "option_2": "Detail",
+    "option_3": "Delay",
+    "option_4": "Deliver",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 209,
+    "topic": "IMS DB - Database Modification (ISRT/REPL/DLET)",
+    "difficulty": "Easy",
+    "question": "ISRT requires PROCOPT?",
+    "option_1": "I (Insert)",
+    "option_2": "G (Get)",
+    "option_3": "R (Replace)",
+    "option_4": "D (Delete)",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 210,
+    "topic": "IMS DB - Database Modification (ISRT/REPL/DLET)",
+    "difficulty": "Easy",
+    "question": "REPL requires PROCOPT?",
+    "option_1": "R (Replace)",
+    "option_2": "I (Insert)",
+    "option_3": "G (Get)",
+    "option_4": "D (Delete)",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 211,
+    "topic": "IMS DB - Database Modification (ISRT/REPL/DLET)",
+    "difficulty": "Easy",
+    "question": "DLET requires PROCOPT?",
+    "option_1": "D (Delete)",
+    "option_2": "I (Insert)",
+    "option_3": "R (Replace)",
+    "option_4": "G (Get)",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 212,
+    "topic": "IMS DB - Database Modification (ISRT/REPL/DLET)",
+    "difficulty": "Easy",
+    "question": "Before REPL must issue?",
+    "option_1": "Get Hold call",
+    "option_2": "Get call",
+    "option_3": "Insert call",
+    "option_4": "Nothing",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 213,
+    "topic": "IMS DB - Database Modification (ISRT/REPL/DLET)",
+    "difficulty": "Easy",
+    "question": "Before DLET must issue?",
+    "option_1": "Get Hold call",
+    "option_2": "Get call",
+    "option_3": "Insert call",
+    "option_4": "Nothing",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 214,
+    "topic": "IMS DB - Database Modification (ISRT/REPL/DLET)",
+    "difficulty": "Medium",
+    "question": "ISRT segment requires?",
+    "option_1": "Parent must exist",
+    "option_2": "Nothing",
+    "option_3": "Root exists",
+    "option_4": "Index exists",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 215,
+    "topic": "IMS DB - Database Modification (ISRT/REPL/DLET)",
+    "difficulty": "Medium",
+    "question": "ISRT root segment?",
+    "option_1": "Creates new database record",
+    "option_2": "Requires existing root",
+    "option_3": "Not allowed",
+    "option_4": "Special processing",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 216,
+    "topic": "IMS DB - Database Modification (ISRT/REPL/DLET)",
+    "difficulty": "Hard",
+    "question": "ISRT dependent segment needs?",
+    "option_1": "Qualified SSA path to parent",
+    "option_2": "Root SSA only",
+    "option_3": "No SSA",
+    "option_4": "Delete old parent",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 217,
+    "topic": "IMS DB - Database Modification (ISRT/REPL/DLET)",
+    "difficulty": "Hard",
+    "question": "Multiple SSAs with ISRT?",
+    "option_1": "Specifies where to insert in hierarchy",
+    "option_2": "Not allowed",
+    "option_3": "Optional",
+    "option_4": "For multiple inserts",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 218,
+    "topic": "IMS DB - Database Modification (ISRT/REPL/DLET)",
+    "difficulty": "Medium",
+    "question": "ISRT with duplicate key?",
+    "option_1": "Returns II status code",
+    "option_2": "Overwrites",
+    "option_3": "Causes error",
+    "option_4": "Returns GB",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 219,
+    "topic": "IMS DB - Database Modification (ISRT/REPL/DLET)",
+    "difficulty": "Easy",
+    "question": "II status code means?",
+    "option_1": "Insert failed, duplicate",
+    "option_2": "Insert incomplete",
+    "option_3": "Invalid insert",
+    "option_4": "Insert index",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 220,
+    "topic": "IMS DB - Database Modification (ISRT/REPL/DLET)",
+    "difficulty": "Hard",
+    "question": "REPL can change?",
+    "option_1": "Data fields only, not key",
+    "option_2": "Everything including key",
+    "option_3": "Nothing",
+    "option_4": "Key only",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 221,
+    "topic": "IMS DB - Database Modification (ISRT/REPL/DLET)",
+    "difficulty": "Hard",
+    "question": "REPL changing key field?",
+    "option_1": "Causes LK status code error",
+    "option_2": "Allowed if unique",
+    "option_3": "Allowed always",
+    "option_4": "Deletes segment",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 222,
+    "topic": "IMS DB - Database Modification (ISRT/REPL/DLET)",
+    "difficulty": "Hard",
+    "question": "LK status code means?",
+    "option_1": "Key field change attempted in REPL",
+    "option_2": "Lock error",
+    "option_3": "Link error",
+    "option_4": "Last key",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 223,
+    "topic": "IMS DB - Database Modification (ISRT/REPL/DLET)",
+    "difficulty": "Medium",
+    "question": "DLET deletes?",
+    "option_1": "Segment and all dependents",
+    "option_2": "Segment only",
+    "option_3": "Nothing",
+    "option_4": "Parent also",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 224,
+    "topic": "IMS DB - Database Modification (ISRT/REPL/DLET)",
+    "difficulty": "Medium",
+    "question": "DLET root segment?",
+    "option_1": "Deletes entire database record",
+    "option_2": "Deletes root only",
+    "option_3": "Not allowed",
+    "option_4": "Requires parameter",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 225,
+    "topic": "IMS DB - Database Modification (ISRT/REPL/DLET)",
+    "difficulty": "Easy",
+    "question": "Hold call before REPL?",
+    "option_1": "Required",
+    "option_2": "Optional",
+    "option_3": "Not allowed",
+    "option_4": "Recommended",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 226,
+    "topic": "IMS DB - Database Modification (ISRT/REPL/DLET)",
+    "difficulty": "Easy",
+    "question": "Hold call before DLET?",
+    "option_1": "Required",
+    "option_2": "Optional",
+    "option_3": "Not allowed",
+    "option_4": "Recommended",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 227,
+    "topic": "IMS DB - Database Modification (ISRT/REPL/DLET)",
+    "difficulty": "Medium",
+    "question": "DA status code means?",
+    "option_1": "No segment found for DLET/REPL",
+    "option_2": "Data available",
+    "option_3": "Direct access",
+    "option_4": "Delete all",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 228,
+    "topic": "IMS DB - Database Modification (ISRT/REPL/DLET)",
+    "difficulty": "Hard",
+    "question": "ISRT position rules?",
+    "option_1": "FIRST, LAST, HERE options",
+    "option_2": "Random only",
+    "option_3": "Automatic",
+    "option_4": "Not controllable",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 229,
+    "topic": "IMS DB - Database Modification (ISRT/REPL/DLET)",
+    "difficulty": "Medium",
+    "question": "RULES=FIRST means?",
+    "option_1": "Insert at start of twin chain",
+    "option_2": "Insert rule one",
+    "option_3": "Insert first segment",
+    "option_4": "Insert in root",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 230,
+    "topic": "IMS DB - Database Modification (ISRT/REPL/DLET)",
+    "difficulty": "Medium",
+    "question": "RULES=LAST means?",
+    "option_1": "Insert at end of twin chain",
+    "option_2": "Insert last segment",
+    "option_3": "Insert rule last",
+    "option_4": "Insert in leaf",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 231,
+    "topic": "IMS DB - Database Modification (ISRT/REPL/DLET)",
+    "difficulty": "Medium",
+    "question": "RULES=HERE means?",
+    "option_1": "Insert at current position",
+    "option_2": "Insert here now",
+    "option_3": "Insert rule here",
+    "option_4": "Insert in middle",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 232,
+    "topic": "IMS DB - Database Modification (ISRT/REPL/DLET)",
+    "difficulty": "Hard",
+    "question": "Sequence field in ISRT?",
+    "option_1": "Must be unique for keyed insertion",
+    "option_2": "Not required",
+    "option_3": "Optional",
+    "option_4": "Ignored",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 233,
+    "topic": "IMS DB - Database Modification (ISRT/REPL/DLET)",
+    "difficulty": "Medium",
+    "question": "REPL without hold?",
+    "option_1": "Returns DA status code",
+    "option_2": "Allowed",
+    "option_3": "Causes error",
+    "option_4": "Updates next segment",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 234,
+    "topic": "IMS DB - Database Modification (ISRT/REPL/DLET)",
+    "difficulty": "Medium",
+    "question": "DLET without hold?",
+    "option_1": "Returns DA status code",
+    "option_2": "Allowed",
+    "option_3": "Causes error",
+    "option_4": "Deletes next segment",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 235,
+    "topic": "IMS DB - Database Modification (ISRT/REPL/DLET)",
+    "difficulty": "Easy",
+    "question": "I/O area for ISRT contains?",
+    "option_1": "Data for segment to insert",
+    "option_2": "Nothing",
+    "option_3": "Key only",
+    "option_4": "Parent data",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 236,
+    "topic": "IMS DB - Database Modification (ISRT/REPL/DLET)",
+    "difficulty": "Easy",
+    "question": "I/O area for REPL contains?",
+    "option_1": "New segment data",
+    "option_2": "Nothing",
+    "option_3": "Key only",
+    "option_4": "Status",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 237,
+    "topic": "IMS DB - Database Modification (ISRT/REPL/DLET)",
+    "difficulty": "Medium",
+    "question": "I/O area for DLET contains?",
+    "option_1": "Not used",
+    "option_2": "Segment to delete",
+    "option_3": "Key",
+    "option_4": "Status",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 238,
+    "topic": "IMS DB - Database Modification (ISRT/REPL/DLET)",
+    "difficulty": "Medium",
+    "question": "SSAs for REPL?",
+    "option_1": "Not required (uses held segment)",
+    "option_2": "Required",
+    "option_3": "Optional",
+    "option_4": "For multiple replaces",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 239,
+    "topic": "IMS DB - Database Modification (ISRT/REPL/DLET)",
+    "difficulty": "Medium",
+    "question": "SSAs for DLET?",
+    "option_1": "Not required (uses held segment)",
+    "option_2": "Required",
+    "option_3": "Optional",
+    "option_4": "For multiple deletes",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 240,
+    "topic": "IMS DB - Database Modification (ISRT/REPL/DLET)",
+    "difficulty": "Medium",
+    "question": "Insert twins with key?",
+    "option_1": "Must provide unique values",
+    "option_2": "Random values",
+    "option_3": "Not possible",
+    "option_4": "Automatic",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 241,
+    "topic": "IMS DB - Database Modification (ISRT/REPL/DLET)",
+    "difficulty": "Hard",
+    "question": "Update committed when?",
+    "option_1": "At checkpoint or termination",
+    "option_2": "Immediately",
+    "option_3": "At COMMIT call",
+    "option_4": "Never auto",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 242,
+    "topic": "IMS DB - Database Modification (ISRT/REPL/DLET)",
+    "difficulty": "Hard",
+    "question": "Rollback updates?",
+    "option_1": "Checkpoint/restart facilities",
+    "option_2": "ROLLBACK call",
+    "option_3": "Not possible",
+    "option_4": "Automatic",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 243,
+    "topic": "IMS DB - Database Modification (ISRT/REPL/DLET)",
+    "difficulty": "Medium",
+    "question": "PROCOPT=A includes?",
+    "option_1": "All operations I, R, D, G",
+    "option_2": "Get only",
+    "option_3": "Insert only",
+    "option_4": "Delete only",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 244,
+    "topic": "IMS DB - Database Modification (ISRT/REPL/DLET)",
+    "difficulty": "Easy",
+    "question": "Modify in batch program?",
+    "option_1": "Same calls as online",
+    "option_2": "Different calls",
+    "option_3": "Not allowed",
+    "option_4": "Special mode",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 245,
+    "topic": "IMS DB - Database Modification (ISRT/REPL/DLET)",
+    "difficulty": "Hard",
+    "question": "Segment change reflected?",
+    "option_1": "After commit point",
+    "option_2": "Immediately visible",
+    "option_3": "After program end",
+    "option_4": "After restart",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 246,
+    "topic": "IMS DB - Secondary Indexing",
+    "difficulty": "Easy",
+    "question": "Secondary index purpose?",
+    "option_1": "Alternate access path to data",
+    "option_2": "Backup index",
+    "option_3": "Second copy of data",
+    "option_4": "Security feature",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 247,
+    "topic": "IMS DB - Secondary Indexing",
+    "difficulty": "Medium",
+    "question": "Secondary index defined in?",
+    "option_1": "DBD using XDFLD",
+    "option_2": "PSB",
+    "option_3": "PCB",
+    "option_4": "Application",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 248,
+    "topic": "IMS DB - Secondary Indexing",
+    "difficulty": "Medium",
+    "question": "XDFLD statement defines?",
+    "option_1": "Index source field",
+    "option_2": "External field",
+    "option_3": "Extra field",
+    "option_4": "Index dataset",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 249,
+    "topic": "IMS DB - Secondary Indexing",
+    "difficulty": "Hard",
+    "question": "Index pointer segment?",
+    "option_1": "Points to target data segment",
+    "option_2": "Stores index data",
+    "option_3": "Root segment",
+    "option_4": "Control segment",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 250,
+    "topic": "IMS DB - Secondary Indexing",
+    "difficulty": "Medium",
+    "question": "Index source field can be in?",
+    "option_1": "Any segment in hierarchy",
+    "option_2": "Root only",
+    "option_3": "Leaf only",
+    "option_4": "Parent only",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 251,
+    "topic": "IMS DB - Secondary Indexing",
+    "difficulty": "Medium",
+    "question": "Secondary index allows?",
+    "option_1": "Direct access by non-key field",
+    "option_2": "Faster sequential access",
+    "option_3": "Data duplication",
+    "option_4": "Security",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 252,
+    "topic": "IMS DB - Secondary Indexing",
+    "difficulty": "Hard",
+    "question": "Index database is?",
+    "option_1": "Separate physical database",
+    "option_2": "Part of data database",
+    "option_3": "Logical database",
+    "option_4": "Virtual database",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 253,
+    "topic": "IMS DB - Secondary Indexing",
+    "difficulty": "Medium",
+    "question": "Index maintenance is?",
+    "option_1": "Automatic by IMS",
+    "option_2": "Manual by program",
+    "option_3": "Batch only",
+    "option_4": "Optional",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 254,
+    "topic": "IMS DB - Secondary Indexing",
+    "difficulty": "Easy",
+    "question": "Access via index uses?",
+    "option_1": "Standard DL/I calls",
+    "option_2": "Special index calls",
+    "option_3": "SQL queries",
+    "option_4": "Utility",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 255,
+    "topic": "IMS DB - Secondary Indexing",
+    "difficulty": "Hard",
+    "question": "PSB for indexed database?",
+    "option_1": "Can specify index or data DBD",
+    "option_2": "Must specify both",
+    "option_3": "Index DBD only",
+    "option_4": "Data DBD only",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 256,
+    "topic": "IMS DB - Secondary Indexing",
+    "difficulty": "Hard",
+    "question": "Index segment contains?",
+    "option_1": "Key value and pointer",
+    "option_2": "Complete data",
+    "option_3": "Key only",
+    "option_4": "Pointer only",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 257,
+    "topic": "IMS DB - Secondary Indexing",
+    "difficulty": "Medium",
+    "question": "Multiple secondary indexes?",
+    "option_1": "Allowed on same database",
+    "option_2": "Only one allowed",
+    "option_3": "Maximum two",
+    "option_4": "Not supported",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 258,
+    "topic": "IMS DB - Secondary Indexing",
+    "difficulty": "Medium",
+    "question": "Index update occurs?",
+    "option_1": "When source field changes",
+    "option_2": "Manual only",
+    "option_3": "Batch only",
+    "option_4": "Never auto",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 259,
+    "topic": "IMS DB - Secondary Indexing",
+    "difficulty": "Medium",
+    "question": "Duplicate index keys?",
+    "option_1": "Allowed",
+    "option_2": "Not allowed",
+    "option_3": "Causes error",
+    "option_4": "Merged",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 260,
+    "topic": "IMS DB - Secondary Indexing",
+    "difficulty": "Easy",
+    "question": "Index improves?",
+    "option_1": "Direct retrieval performance",
+    "option_2": "Sequential performance",
+    "option_3": "Update performance",
+    "option_4": "Delete performance",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 261,
+    "topic": "IMS DB - Secondary Indexing",
+    "difficulty": "Hard",
+    "question": "XDFLD NAME is?",
+    "option_1": "Index database name",
+    "option_2": "Field name",
+    "option_3": "Segment name",
+    "option_4": "Dataset name",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 262,
+    "topic": "IMS DB - Secondary Indexing",
+    "difficulty": "Hard",
+    "question": "Sparse index contains?",
+    "option_1": "Subset of segments",
+    "option_2": "All segments",
+    "option_3": "Root only",
+    "option_4": "No segments",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 263,
+    "topic": "IMS DB - Secondary Indexing",
+    "difficulty": "Medium",
+    "question": "Index drawback?",
+    "option_1": "Overhead on updates",
+    "option_2": "Slower retrieval",
+    "option_3": "More storage",
+    "option_4": "Both 1 and 3",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 264,
+    "topic": "IMS DB - Secondary Indexing",
+    "difficulty": "Hard",
+    "question": "Application view of index?",
+    "option_1": "Transparent or explicit based on PCB",
+    "option_2": "Always transparent",
+    "option_3": "Always explicit",
+    "option_4": "Not visible",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 265,
+    "topic": "IMS DB - Secondary Indexing",
+    "difficulty": "Hard",
+    "question": "Index on concatenated field?",
+    "option_1": "Supported with XDFLD",
+    "option_2": "Not supported",
+    "option_3": "Manual only",
+    "option_4": "Requires utility",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 266,
+    "topic": "IMS DB - Logical Databases",
+    "difficulty": "Easy",
+    "question": "Logical database purpose?",
+    "option_1": "Combine multiple physical databases",
+    "option_2": "Backup database",
+    "option_3": "Logical view only",
+    "option_4": "Index database",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 267,
+    "topic": "IMS DB - Logical Databases",
+    "difficulty": "Medium",
+    "question": "Logical relationship connects?",
+    "option_1": "Segments across physical databases",
+    "option_2": "Segments in same database",
+    "option_3": "Databases to files",
+    "option_4": "Applications to data",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 268,
+    "topic": "IMS DB - Logical Databases",
+    "difficulty": "Medium",
+    "question": "Logical child is?",
+    "option_1": "Segment with logical parent",
+    "option_2": "Virtual segment",
+    "option_3": "Index segment",
+    "option_4": "Backup segment",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 269,
+    "topic": "IMS DB - Logical Databases",
+    "difficulty": "Medium",
+    "question": "Logical parent in?",
+    "option_1": "Different physical database",
+    "option_2": "Same database",
+    "option_3": "Index database",
+    "option_4": "No parent",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 270,
+    "topic": "IMS DB - Logical Databases",
+    "difficulty": "Hard",
+    "question": "DBD for logical database?",
+    "option_1": "Combines multiple physical DBDs",
+    "option_2": "Standard DBD",
+    "option_3": "Special LDBDGEN",
+    "option_4": "Not needed",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 271,
+    "topic": "IMS DB - Logical Databases",
+    "difficulty": "Medium",
+    "question": "Application accesses logical DB?",
+    "option_1": "Using standard DL/I calls",
+    "option_2": "Special logical calls",
+    "option_3": "SQL only",
+    "option_4": "Read-only",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 272,
+    "topic": "IMS DB - Logical Databases",
+    "difficulty": "Hard",
+    "question": "Logical relationship defined?",
+    "option_1": "In both physical DBDs",
+    "option_2": "In PSB",
+    "option_3": "In PCB",
+    "option_4": "In application",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 273,
+    "topic": "IMS DB - Logical Databases",
+    "difficulty": "Hard",
+    "question": "Bidirectional relationship?",
+    "option_1": "Supported with paired segments",
+    "option_2": "Not supported",
+    "option_3": "One way only",
+    "option_4": "Automatic",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 274,
+    "topic": "IMS DB - Logical Databases",
+    "difficulty": "Hard",
+    "question": "Logical twin chain?",
+    "option_1": "Twins via logical relationship",
+    "option_2": "Physical twins",
+    "option_3": "Index twins",
+    "option_4": "Virtual twins",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 275,
+    "topic": "IMS DB - Logical Databases",
+    "difficulty": "Medium",
+    "question": "Logical database advantage?",
+    "option_1": "Data independence and integration",
+    "option_2": "Faster access",
+    "option_3": "Less storage",
+    "option_4": "Simplified DBD",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 276,
+    "topic": "IMS DB - Recovery and Restart",
+    "difficulty": "Medium",
+    "question": "Checkpoint call?",
+    "option_1": "CHKP or SYMCHKP",
+    "option_2": "CKPT",
+    "option_3": "CHECKPOINT",
+    "option_4": "SYNC",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 277,
+    "topic": "IMS DB - Recovery and Restart",
+    "difficulty": "Hard",
+    "question": "XRST call purpose?",
+    "option_1": "Extended restart",
+    "option_2": "Extra restart",
+    "option_3": "Execute restart",
+    "option_4": "Exit restart",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 278,
+    "topic": "IMS DB - Recovery and Restart",
+    "difficulty": "Easy",
+    "question": "Checkpoint establishes?",
+    "option_1": "Point for restart",
+    "option_2": "Backup",
+    "option_3": "Lock",
+    "option_4": "Commit",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 279,
+    "topic": "IMS DB - Recovery and Restart",
+    "difficulty": "Medium",
+    "question": "Application checkpoint frequency?",
+    "option_1": "Programmer determined",
+    "option_2": "Automatic only",
+    "option_3": "Not needed",
+    "option_4": "Fixed interval",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 280,
+    "topic": "IMS DB - Recovery and Restart",
+    "difficulty": "Easy",
+    "question": "Restart after abend?",
+    "option_1": "From last checkpoint",
+    "option_2": "From beginning",
+    "option_3": "Not possible",
+    "option_4": "Manual only",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 281,
+    "topic": "IMS DB - Recovery and Restart",
+    "difficulty": "Medium",
+    "question": "Checkpoint data stored?",
+    "option_1": "In checkpoint dataset",
+    "option_2": "In database",
+    "option_3": "In log",
+    "option_4": "In PSB",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 282,
+    "topic": "IMS DB - Recovery and Restart",
+    "difficulty": "Hard",
+    "question": "XRST retrieves?",
+    "option_1": "Checkpoint data",
+    "option_2": "Restart point",
+    "option_3": "Status codes",
+    "option_4": "Database position",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 283,
+    "topic": "IMS DB - Recovery and Restart",
+    "difficulty": "Hard",
+    "question": "ROLL or ROLB call?",
+    "option_1": "Dynamic backout",
+    "option_2": "Roll forward",
+    "option_3": "Rollback all",
+    "option_4": "Rotate log",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 284,
+    "topic": "IMS DB - Recovery and Restart",
+    "difficulty": "Easy",
+    "question": "Log records used for?",
+    "option_1": "Recovery and restart",
+    "option_2": "Performance",
+    "option_3": "Security",
+    "option_4": "Reporting",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 285,
+    "topic": "IMS DB - Recovery and Restart",
+    "difficulty": "Medium",
+    "question": "Application responsibility?",
+    "option_1": "Issue CHKP and handle restart logic",
+    "option_2": "Nothing, automatic",
+    "option_3": "Manual recovery",
+    "option_4": "Log management",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 286,
+    "topic": "IMS DB - Database Organizations",
+    "difficulty": "Medium",
+    "question": "HDAM uses?",
+    "option_1": "Randomizing routine",
+    "option_2": "Sequential",
+    "option_3": "Index",
+    "option_4": "Linked list",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 287,
+    "topic": "IMS DB - Database Organizations",
+    "difficulty": "Medium",
+    "question": "HIDAM uses?",
+    "option_1": "Index on root key",
+    "option_2": "Randomizing",
+    "option_3": "Sequential only",
+    "option_4": "Hash",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 288,
+    "topic": "IMS DB - Database Organizations",
+    "difficulty": "Hard",
+    "question": "HISAM uses?",
+    "option_1": "ISAM access method",
+    "option_2": "VSAM",
+    "option_3": "Hash",
+    "option_4": "Direct",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 289,
+    "topic": "IMS DB - Database Organizations",
+    "difficulty": "Easy",
+    "question": "HSAM uses?",
+    "option_1": "Sequential access",
+    "option_2": "Hash",
+    "option_3": "Index",
+    "option_4": "Random",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 290,
+    "topic": "IMS DB - Database Organizations",
+    "difficulty": "Medium",
+    "question": "Direct access organization?",
+    "option_1": "HDAM and HIDAM",
+    "option_2": "HISAM only",
+    "option_3": "HSAM only",
+    "option_4": "All types",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 291,
+    "topic": "IMS DB - Database Organizations",
+    "difficulty": "Easy",
+    "question": "Sequential organization?",
+    "option_1": "HSAM",
+    "option_2": "HDAM",
+    "option_3": "HIDAM",
+    "option_4": "All types",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 292,
+    "topic": "IMS DB - Database Organizations",
+    "difficulty": "Hard",
+    "question": "Root addressable?",
+    "option_1": "HDAM and HIDAM",
+    "option_2": "HISAM and HSAM",
+    "option_3": "All types",
+    "option_4": "None",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 293,
+    "topic": "IMS DB - Database Organizations",
+    "difficulty": "Medium",
+    "question": "Application sees organization?",
+    "option_1": "No, DL/I abstracts it",
+    "option_2": "Yes, affects calls",
+    "option_3": "Only for tuning",
+    "option_4": "Yes, must code differently",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 294,
+    "topic": "IMS DB - Database Organizations",
+    "difficulty": "Hard",
+    "question": "Fastest direct access?",
+    "option_1": "HDAM with good randomizer",
+    "option_2": "HIDAM",
+    "option_3": "HISAM",
+    "option_4": "HSAM",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 295,
+    "topic": "IMS DB - Database Organizations",
+    "difficulty": "Medium",
+    "question": "Index required?",
+    "option_1": "HIDAM",
+    "option_2": "HDAM",
+    "option_3": "HSAM",
+    "option_4": "All types",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 296,
+    "topic": "IMS DB - Advanced Features",
+    "difficulty": "Hard",
+    "question": "Field level sensitivity?",
+    "option_1": "Control access to specific fields",
+    "option_2": "Segment sensitivity",
+    "option_3": "Database sensitivity",
+    "option_4": "PCB sensitivity",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 297,
+    "topic": "IMS DB - Advanced Features",
+    "difficulty": "Hard",
+    "question": "Multiple positioning?",
+    "option_1": "Multiple concurrent positions in DB",
+    "option_2": "One position only",
+    "option_3": "Position stacking",
+    "option_4": "No positioning",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 298,
+    "topic": "IMS DB - Advanced Features",
+    "difficulty": "Hard",
+    "question": "Message processing?",
+    "option_1": "Get next message (GN)",
+    "option_2": "Standard DL/I calls",
+    "option_3": "Special calls",
+    "option_4": "Not in DL/I",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 299,
+    "topic": "IMS DB - Advanced Features",
+    "difficulty": "Hard",
+    "question": "Data capture exit?",
+    "option_1": "User exit for database changes",
+    "option_2": "Entry point",
+    "option_3": "Exit program",
+    "option_4": "Checkpoint",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 300,
+    "topic": "IMS DB - Advanced Features",
+    "difficulty": "Hard",
+    "question": "GSAM database?",
+    "option_1": "Sequential dataset access via DL/I",
+    "option_2": "IMS database type",
+    "option_3": "Security module",
+    "option_4": "Utility",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  }
+]
