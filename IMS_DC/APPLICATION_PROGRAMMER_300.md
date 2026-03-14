@@ -1,4524 +1,5426 @@
 # IMS DC Application Programmer - 300 Questions
 
-**Total Questions:** 300
+This file contains 300 questions covering IMS DC (Data Communications) topics for application programmers.
 
-**Distribution by Topic:**
-- IMS DC - Additional Concepts: 17 questions
-- IMS DC - Advanced Features: 22 questions
-- IMS DC - COBOL Programming: 20 questions
-- IMS DC - Conversational vs Non-conversational: 17 questions
-- IMS DC - DL/I Calls for Message Processing: 20 questions
-- IMS DC - Fundamentals and Concepts: 14 questions
-- IMS DC - I/O PCB: 20 questions
-- IMS DC - Message Formats and Structure: 20 questions
-- IMS DC - Message Processing Programs: 17 questions
-- IMS DC - Message Queues: 17 questions
-- IMS DC - Online Program Types: 20 questions
-- IMS DC - PCB Masks: 26 questions
-- IMS DC - Status Codes and Error Handling: 13 questions
-- IMS DC - Testing and Debugging: 26 questions
-- IMS DC - Transaction Codes and Processing: 14 questions
-- IMS DC - Transaction Scheduling: 17 questions
+## Topics Covered
+- IMS DC Fundamentals and Concepts
+- Message Processing Programs (MPP)
+- Transaction Processing
+- Message Queuing
+- I/O PCB (Program Communication Block)
+- Message Format Services (MFS)
+- Screen Handling and Formatting
+- Message Field Editing
+- Multi-segment Message Handling
+- Error Recovery Procedures
+- Program-to-Program Switching
+- Transaction Restart/Recovery
+- Data Validation Techniques
+- COBOL Program Structure
+- PCB Mask Field Details
+- Status Code Handling
+- Real-world Application Scenarios
+- Best Practices and Common Pitfalls
 
 ---
 
-### Q1. What does IMS DC stand for?
+## Question 1
 
-**Topic:** IMS DC - Fundamentals and Concepts
-**Difficulty:** Easy
+**Topic:** IMS DC - Fundamentals and Concepts  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** What does IMS DC stand for?
+
+**Options:**
 1. Data Communications
 2. Database Control
 3. Direct Connection
 4. Data Center
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q2. What is the primary purpose of IMS DC?
+## Question 2
 
-**Topic:** IMS DC - Fundamentals and Concepts
-**Difficulty:** Easy
+**Topic:** IMS DC - Fundamentals and Concepts  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** What is the primary purpose of IMS DC?
+
+**Options:**
 1. Online transaction processing
 2. Batch processing only
 3. File management
 4. Network routing
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q3. Which component manages message flow in IMS DC?
+## Question 3
 
-**Topic:** IMS DC - Fundamentals and Concepts
-**Difficulty:** Medium
+**Topic:** IMS DC - Fundamentals and Concepts  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** Which component manages message flow in IMS DC?
+
+**Options:**
 1. IMS Control Region
 2. Message Processing Region
 3. Batch Message Processing
 4. Transaction Manager
 
-**Correct Answer:** Option 4
+**Correct Answer:** 4
 
 ---
 
-### Q4. What is a terminal in IMS DC context?
+## Question 4
 
-**Topic:** IMS DC - Fundamentals and Concepts
-**Difficulty:** Easy
+**Topic:** IMS DC - Fundamentals and Concepts  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** What is a terminal in IMS DC context?
+
+**Options:**
 1. Any input/output device
 2. Only physical terminals
 3. Logical unit of work
 4. Database connection
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q5. IMS DC supports which processing modes?
+## Question 5
 
-**Topic:** IMS DC - Fundamentals and Concepts
-**Difficulty:** Easy
+**Topic:** IMS DC - Fundamentals and Concepts  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** IMS DC supports which processing modes?
+
+**Options:**
 1. Online only
 2. Batch only
 3. Both online and batch
 4. Real-time only
 
-**Correct Answer:** Option 3
+**Correct Answer:** 3
 
 ---
 
-### Q6. What is the IMS DC environment primarily designed for?
+## Question 6
 
-**Topic:** IMS DC - Fundamentals and Concepts
-**Difficulty:** Easy
+**Topic:** IMS DC - Fundamentals and Concepts  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** What is the IMS DC environment primarily designed for?
+
+**Options:**
 1. High-volume transaction processing
 2. Report generation
 3. Data warehousing
 4. File transfers
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q7. Which layer handles communication with terminals?
+## Question 7
 
-**Topic:** IMS DC - Fundamentals and Concepts
-**Difficulty:** Medium
+**Topic:** IMS DC - Fundamentals and Concepts  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** Which layer handles communication with terminals?
+
+**Options:**
 1. Application layer
 2. Communication layer
 3. Database layer
 4. Control layer
 
-**Correct Answer:** Option 2
+**Correct Answer:** 2
 
 ---
 
-### Q8. What does LTERM represent?
+## Question 8
 
-**Topic:** IMS DC - Fundamentals and Concepts
-**Difficulty:** Medium
+**Topic:** IMS DC - Fundamentals and Concepts  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What does LTERM represent?
+
+**Options:**
 1. Logical terminal
 2. Last terminal
 3. Local terminal
 4. Link terminal
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q9. What is the purpose of transaction codes?
+## Question 9
 
-**Topic:** IMS DC - Fundamentals and Concepts
-**Difficulty:** Easy
+**Topic:** IMS DC - Fundamentals and Concepts  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** What is the purpose of transaction codes?
+
+**Options:**
 1. Identify and route transactions to appropriate programs
 2. Encrypt messages
 3. Validate user credentials
 4. Store transaction history
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q10. IMS DC can process how many transactions?
+## Question 10
 
-**Topic:** IMS DC - Fundamentals and Concepts
-**Difficulty:** Easy
+**Topic:** IMS DC - Fundamentals and Concepts  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** IMS DC can process how many transactions?
+
+**Options:**
 1. Thousands per second
 2. Hundreds per minute
 3. Tens per hour
 4. One at a time
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q11. What does MPP stand for in IMS DC?
+## Question 11
 
-**Topic:** IMS DC - Message Processing Programs
-**Difficulty:** Easy
+**Topic:** IMS DC - Message Processing Programs  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** What does MPP stand for in IMS DC?
+
+**Options:**
 1. Message Processing Program
 2. Multiple Program Processing
 3. Master Program Processor
 4. Message Protocol Program
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q12. What is the primary function of an MPP?
+## Question 12
 
-**Topic:** IMS DC - Message Processing Programs
-**Difficulty:** Easy
+**Topic:** IMS DC - Message Processing Programs  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** What is the primary function of an MPP?
+
+**Options:**
 1. Process online transactions
 2. Generate reports
 3. Backup databases
 4. Manage security
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q13. How does an MPP receive input?
+## Question 13
 
-**Topic:** IMS DC - Message Processing Programs
-**Difficulty:** Medium
+**Topic:** IMS DC - Message Processing Programs  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** How does an MPP receive input?
+
+**Options:**
 1. Through message queues
 2. Direct terminal access
 3. File input
 4. Command line
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q14. Can an MPP update databases?
+## Question 14
 
-**Topic:** IMS DC - Message Processing Programs
-**Difficulty:** Easy
+**Topic:** IMS DC - Message Processing Programs  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** Can an MPP update databases?
+
+**Options:**
 1. Yes, using DL/I calls
 2. No, read-only access
 3. Only with special authorization
 4. Only in batch mode
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q15. What happens when an MPP completes processing?
+## Question 15
 
-**Topic:** IMS DC - Message Processing Programs
-**Difficulty:** Medium
+**Topic:** IMS DC - Message Processing Programs  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What happens when an MPP completes processing?
+
+**Options:**
 1. Sends response to output queue
 2. Terminates immediately
 3. Waits for next transaction
 4. Restarts the system
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q16. Which PCB does an MPP use for message I/O?
+## Question 16
 
-**Topic:** IMS DC - Message Processing Programs
-**Difficulty:** Medium
+**Topic:** IMS DC - Message Processing Programs  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** Which PCB does an MPP use for message I/O?
+
+**Options:**
 1. I/O PCB
 2. DB PCB
 3. Alternate PCB
 4. Express PCB
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q17. Can multiple MPPs process the same transaction code?
+## Question 17
 
-**Topic:** IMS DC - Message Processing Programs
-**Difficulty:** Medium
+**Topic:** IMS DC - Message Processing Programs  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** Can multiple MPPs process the same transaction code?
+
+**Options:**
 1. Yes, for load balancing
 2. No, only one MPP per transaction
 3. Only in test environments
 4. Only with system approval
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q18. What is the main difference between MPP and BMP?
+## Question 18
 
-**Topic:** IMS DC - Message Processing Programs
-**Difficulty:** Medium
+**Topic:** IMS DC - Message Processing Programs  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is the main difference between MPP and BMP?
+
+**Options:**
 1. MPP processes online messages, BMP runs in batch
 2. MPP is faster
 3. BMP has priority
 4. No difference
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q19. How does IMS DC schedule MPPs?
+## Question 19
 
-**Topic:** IMS DC - Message Processing Programs
-**Difficulty:** Medium
+**Topic:** IMS DC - Message Processing Programs  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** How does IMS DC schedule MPPs?
+
+**Options:**
 1. Based on message queue depth and priority
 2. First-come, first-served
 3. Random selection
 4. Alphabetically by name
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q20. What DL/I call retrieves input messages in MPP?
+## Question 20
 
-**Topic:** IMS DC - Message Processing Programs
-**Difficulty:** Medium
+**Topic:** IMS DC - Message Processing Programs  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What DL/I call retrieves input messages in MPP?
+
+**Options:**
 1. GU (Get Unique)
 2. GN (Get Next)
 3. ISRT (Insert)
 4. REPL (Replace)
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q21. What is the maximum length of a transaction code?
+## Question 21
 
-**Topic:** IMS DC - Transaction Codes and Processing
-**Difficulty:** Medium
+**Topic:** IMS DC - Transaction Codes and Processing  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is the maximum length of a transaction code?
+
+**Options:**
 1. 8 characters
 2. 4 characters
 3. 16 characters
 4. 32 characters
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q22. Where is the transaction code placed in a message?
+## Question 22
 
-**Topic:** IMS DC - Transaction Codes and Processing
-**Difficulty:** Easy
+**Topic:** IMS DC - Transaction Codes and Processing  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** Where is the transaction code placed in a message?
+
+**Options:**
 1. At the beginning
 2. At the end
 3. In the middle
 4. Anywhere
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q23. What determines which program processes a transaction?
+## Question 23
 
-**Topic:** IMS DC - Transaction Codes and Processing
-**Difficulty:** Easy
+**Topic:** IMS DC - Transaction Codes and Processing  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** What determines which program processes a transaction?
+
+**Options:**
 1. Transaction code definition
 2. Message content
 3. Terminal ID
 4. User preference
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q24. Can a transaction code be associated with multiple programs?
+## Question 24
 
-**Topic:** IMS DC - Transaction Codes and Processing
-**Difficulty:** Medium
+**Topic:** IMS DC - Transaction Codes and Processing  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** Can a transaction code be associated with multiple programs?
+
+**Options:**
 1. No, one-to-one relationship
 2. Yes, many-to-many
 3. Yes, but not recommended
 4. Only in test mode
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q25. What is transaction priority?
+## Question 25
 
-**Topic:** IMS DC - Transaction Codes and Processing
-**Difficulty:** Medium
+**Topic:** IMS DC - Transaction Codes and Processing  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is transaction priority?
+
+**Options:**
 1. Determines processing order
 2. Security level
 3. Message size limit
 4. Response time requirement
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q26. What happens if an invalid transaction code is entered?
+## Question 26
 
-**Topic:** IMS DC - Transaction Codes and Processing
-**Difficulty:** Easy
+**Topic:** IMS DC - Transaction Codes and Processing  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** What happens if an invalid transaction code is entered?
+
+**Options:**
 1. Error message returned to terminal
 2. System crash
 3. Transaction ignored
 4. Default program executed
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q27. Can transaction codes be defined dynamically?
+## Question 27
 
-**Topic:** IMS DC - Transaction Codes and Processing
-**Difficulty:** Medium
+**Topic:** IMS DC - Transaction Codes and Processing  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** Can transaction codes be defined dynamically?
+
+**Options:**
 1. No, must be pre-defined in system definition
 2. Yes, at runtime
 3. Yes, by any user
 4. Only by system administrator
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q28. What is a conversational transaction?
+## Question 28
 
-**Topic:** IMS DC - Transaction Codes and Processing
-**Difficulty:** Medium
+**Topic:** IMS DC - Transaction Codes and Processing  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is a conversational transaction?
+
+**Options:**
 1. Maintains state between messages
 2. Processes multiple messages
 3. Uses conversation API
 4. Requires user confirmation
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q29. What is transaction class?
+## Question 29
 
-**Topic:** IMS DC - Transaction Codes and Processing
-**Difficulty:** Medium
+**Topic:** IMS DC - Transaction Codes and Processing  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is transaction class?
+
+**Options:**
 1. Groups transactions for scheduling
 2. Security classification
 3. Message format type
 4. Program language
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q30. What is a fast path transaction?
+## Question 30
 
-**Topic:** IMS DC - Transaction Codes and Processing
-**Difficulty:** Hard
+**Topic:** IMS DC - Transaction Codes and Processing  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What is a fast path transaction?
+
+**Options:**
 1. High-performance transaction with optimizations
 2. Quick response transaction
 3. Express delivery transaction
 4. Shortened transaction code
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q31. Where are input messages stored before processing?
+## Question 31
 
-**Topic:** IMS DC - Message Queues
-**Difficulty:** Easy
+**Topic:** IMS DC - Message Queues  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** Where are input messages stored before processing?
+
+**Options:**
 1. Input message queue
 2. Database
 3. Memory buffer
 4. Log file
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q32. What determines message processing order?
+## Question 32
 
-**Topic:** IMS DC - Message Queues
-**Difficulty:** Medium
+**Topic:** IMS DC - Message Queues  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What determines message processing order?
+
+**Options:**
 1. Priority and arrival time
 2. Message size
 3. Alphabetical order
 4. Random selection
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q33. What happens to output messages?
+## Question 33
 
-**Topic:** IMS DC - Message Queues
-**Difficulty:** Easy
+**Topic:** IMS DC - Message Queues  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** What happens to output messages?
+
+**Options:**
 1. Placed in output queue for delivery
 2. Sent immediately
 3. Stored in database
 4. Discarded after viewing
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q34. Can messages have different priorities?
+## Question 34
 
-**Topic:** IMS DC - Message Queues
-**Difficulty:** Medium
+**Topic:** IMS DC - Message Queues  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** Can messages have different priorities?
+
+**Options:**
 1. Yes, 0-9 or 0-15 depending on system
 2. No, all equal priority
 3. Yes, low/medium/high only
 4. Only in batch mode
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q35. What is message queuing?
+## Question 35
 
-**Topic:** IMS DC - Message Queues
-**Difficulty:** Easy
+**Topic:** IMS DC - Message Queues  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** What is message queuing?
+
+**Options:**
 1. Temporarily storing messages for processing
 2. Sorting messages
 3. Encrypting messages
 4. Archiving messages
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q36. Where are queues physically stored?
+## Question 36
 
-**Topic:** IMS DC - Message Queues
-**Difficulty:** Medium
+**Topic:** IMS DC - Message Queues  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** Where are queues physically stored?
+
+**Options:**
 1. In IMS queue datasets
 2. In memory only
 3. On tape
 4. In user files
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q37. What is a scratch pad area (SPA)?
+## Question 37
 
-**Topic:** IMS DC - Message Queues
-**Difficulty:** Hard
+**Topic:** IMS DC - Message Queues  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What is a scratch pad area (SPA)?
+
+**Options:**
 1. Storage for conversational transaction data
 2. Temporary work area
 3. Message buffer
 4. Error log
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q38. Can messages be retrieved from queues non-destructively?
+## Question 38
 
-**Topic:** IMS DC - Message Queues
-**Difficulty:** Medium
+**Topic:** IMS DC - Message Queues  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** Can messages be retrieved from queues non-destructively?
+
+**Options:**
 1. Yes, using browse functions
 2. No, always destructive
 3. Only in test mode
 4. Only by operators
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q39. What is message flooding?
+## Question 39
 
-**Topic:** IMS DC - Message Queues
-**Difficulty:** Medium
+**Topic:** IMS DC - Message Queues  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is message flooding?
+
+**Options:**
 1. Queue overflow condition
 2. Multiple duplicate messages
 3. Rapid message arrival
 4. Message corruption
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q40. How long can messages remain in queues?
+## Question 40
 
-**Topic:** IMS DC - Message Queues
-**Difficulty:** Medium
+**Topic:** IMS DC - Message Queues  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** How long can messages remain in queues?
+
+**Options:**
 1. Until processed or expired
 2. Maximum 24 hours
 3. Maximum 1 hour
 4. Until system restart
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q41. What does I/O PCB stand for?
+## Question 41
 
-**Topic:** IMS DC - I/O PCB
-**Difficulty:** Easy
+**Topic:** IMS DC - I/O PCB  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** What does I/O PCB stand for?
+
+**Options:**
 1. Input/Output Program Communication Block
 2. Interface Output Process Control Block
 3. Internal Operation PCB
 4. Intelligent Output PCB
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q42. What is the primary use of I/O PCB?
+## Question 42
 
-**Topic:** IMS DC - I/O PCB
-**Difficulty:** Easy
+**Topic:** IMS DC - I/O PCB  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** What is the primary use of I/O PCB?
+
+**Options:**
 1. Message input and output
 2. Database access
 3. File operations
 4. Program control
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q43. Which field in I/O PCB contains the logical terminal name?
+## Question 43
 
-**Topic:** IMS DC - I/O PCB
-**Difficulty:** Medium
+**Topic:** IMS DC - I/O PCB  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** Which field in I/O PCB contains the logical terminal name?
+
+**Options:**
 1. LTERM field
 2. NAME field
 3. TERM field
 4. ID field
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q44. What status code indicates successful message retrieval?
+## Question 44
 
-**Topic:** IMS DC - I/O PCB
-**Difficulty:** Medium
+**Topic:** IMS DC - I/O PCB  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What status code indicates successful message retrieval?
+
+**Options:**
 1. Spaces or blank
 2. 00
 3. OK
 4. SUCCESS
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q45. Which field indicates message length in I/O PCB?
+## Question 45
 
-**Topic:** IMS DC - I/O PCB
-**Difficulty:** Medium
+**Topic:** IMS DC - I/O PCB  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** Which field indicates message length in I/O PCB?
+
+**Options:**
 1. Segment length field
 2. Message length field
 3. Data length field
 4. Size field
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q46. Can I/O PCB be used for database operations?
+## Question 46
 
-**Topic:** IMS DC - I/O PCB
-**Difficulty:** Easy
+**Topic:** IMS DC - I/O PCB  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** Can I/O PCB be used for database operations?
+
+**Options:**
 1. No, only for message I/O
 2. Yes, for any operation
 3. Only for read operations
 4. Only with special setup
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q47. What is the status code field length in I/O PCB?
+## Question 47
 
-**Topic:** IMS DC - I/O PCB
-**Difficulty:** Hard
+**Topic:** IMS DC - I/O PCB  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What is the status code field length in I/O PCB?
+
+**Options:**
 1. 2 bytes
 2. 4 bytes
 3. 8 bytes
 4. 1 byte
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q48. Which field identifies the originating terminal?
+## Question 48
 
-**Topic:** IMS DC - I/O PCB
-**Difficulty:** Medium
+**Topic:** IMS DC - I/O PCB  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** Which field identifies the originating terminal?
+
+**Options:**
 1. LTERM name
 2. Terminal ID
 3. User ID
 4. Source field
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q49. What does QC status code indicate?
+## Question 49
 
-**Topic:** IMS DC - I/O PCB
-**Difficulty:** Hard
+**Topic:** IMS DC - I/O PCB  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What does QC status code indicate?
+
+**Options:**
 1. No more messages in queue
 2. Queue corrupted
 3. Quick complete
 4. Query complete
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q50. How many I/O PCBs can a program have?
+## Question 50
 
-**Topic:** IMS DC - I/O PCB
-**Difficulty:** Medium
+**Topic:** IMS DC - I/O PCB  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** How many I/O PCBs can a program have?
+
+**Options:**
 1. Typically one, but can have alternate PCBs
 2. Unlimited
 3. Maximum of 5
 4. Exactly one
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q51. Which DL/I call retrieves the input message?
+## Question 51
 
-**Topic:** IMS DC - DL/I Calls for Message Processing
-**Difficulty:** Easy
+**Topic:** IMS DC - DL/I Calls for Message Processing  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** Which DL/I call retrieves the input message?
+
+**Options:**
 1. GU (Get Unique)
 2. GN (Get Next)
 3. ISRT (Insert)
 4. REPL (Replace)
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q52. Which DL/I call sends output to terminal?
+## Question 52
 
-**Topic:** IMS DC - DL/I Calls for Message Processing
-**Difficulty:** Easy
+**Topic:** IMS DC - DL/I Calls for Message Processing  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** Which DL/I call sends output to terminal?
+
+**Options:**
 1. ISRT to I/O PCB
 2. REPL to I/O PCB
 3. GU from I/O PCB
 4. PUT to I/O PCB
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q53. What is the purpose of GU call against I/O PCB?
+## Question 53
 
-**Topic:** IMS DC - DL/I Calls for Message Processing
-**Difficulty:** Medium
+**Topic:** IMS DC - DL/I Calls for Message Processing  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is the purpose of GU call against I/O PCB?
+
+**Options:**
 1. Retrieve input message from queue
 2. Get user information
 3. General update
 4. Get unique record
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q54. Can GN be used with I/O PCB?
+## Question 54
 
-**Topic:** IMS DC - DL/I Calls for Message Processing
-**Difficulty:** Medium
+**Topic:** IMS DC - DL/I Calls for Message Processing  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** Can GN be used with I/O PCB?
+
+**Options:**
 1. Yes, to retrieve multiple message segments
 2. No, only GU is allowed
 3. Yes, but deprecated
 4. Only in batch mode
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q55. How do you send a message to a specific terminal?
+## Question 55
 
-**Topic:** IMS DC - DL/I Calls for Message Processing
-**Difficulty:** Hard
+**Topic:** IMS DC - DL/I Calls for Message Processing  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** How do you send a message to a specific terminal?
+
+**Options:**
 1. ISRT with modified LTERM in I/O PCB
 2. GU to terminal
 3. SEND command
 4. WRITE to terminal
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q56. What happens if ISRT fails on I/O PCB?
+## Question 56
 
-**Topic:** IMS DC - DL/I Calls for Message Processing
-**Difficulty:** Medium
+**Topic:** IMS DC - DL/I Calls for Message Processing  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What happens if ISRT fails on I/O PCB?
+
+**Options:**
 1. Status code set in I/O PCB
 2. Program abends
 3. Message lost
 4. System restart
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q57. Can you use REPL with I/O PCB?
+## Question 57
 
-**Topic:** IMS DC - DL/I Calls for Message Processing
-**Difficulty:** Medium
+**Topic:** IMS DC - DL/I Calls for Message Processing  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** Can you use REPL with I/O PCB?
+
+**Options:**
 1. No, not applicable for messages
 2. Yes, to replace messages
 3. Yes, for updates
 4. Only in conversational mode
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q58. What is required before issuing GU to I/O PCB?
+## Question 58
 
-**Topic:** IMS DC - DL/I Calls for Message Processing
-**Difficulty:** Easy
+**Topic:** IMS DC - DL/I Calls for Message Processing  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** What is required before issuing GU to I/O PCB?
+
+**Options:**
 1. Nothing, just issue the call
 2. Open the PCB
 3. Initialize message area
 4. Set terminal ID
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q59. How many ISRT calls can send one logical message?
+## Question 59
 
-**Topic:** IMS DC - DL/I Calls for Message Processing
-**Difficulty:** Medium
+**Topic:** IMS DC - DL/I Calls for Message Processing  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** How many ISRT calls can send one logical message?
+
+**Options:**
 1. Multiple ISRTs for multi-segment messages
 2. Only one ISRT per message
 3. Maximum of 10
 4. Depends on terminal type
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q60. What indicates end of input message segments?
+## Question 60
 
-**Topic:** IMS DC - DL/I Calls for Message Processing
-**Difficulty:** Hard
+**Topic:** IMS DC - DL/I Calls for Message Processing  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What indicates end of input message segments?
+
+**Options:**
 1. QC status code on GN
 2. EOF indicator
 3. Null segment
 4. Zero length
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q61. What is a non-conversational transaction?
+## Question 61
 
-**Topic:** IMS DC - Conversational vs Non-conversational
-**Difficulty:** Easy
+**Topic:** IMS DC - Conversational vs Non-conversational  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** What is a non-conversational transaction?
+
+**Options:**
 1. Completes in single input/output cycle
 2. Requires multiple interactions
 3. Has no output
 4. Runs in background
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q62. What characterizes a conversational transaction?
+## Question 62
 
-**Topic:** IMS DC - Conversational vs Non-conversational
-**Difficulty:** Easy
+**Topic:** IMS DC - Conversational vs Non-conversational  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** What characterizes a conversational transaction?
+
+**Options:**
 1. Maintains data between interactions
 2. Processes faster
 3. Uses less memory
 4. Requires no database
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q63. Where is conversation state stored?
+## Question 63
 
-**Topic:** IMS DC - Conversational vs Non-conversational
-**Difficulty:** Medium
+**Topic:** IMS DC - Conversational vs Non-conversational  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** Where is conversation state stored?
+
+**Options:**
 1. Scratch Pad Area (SPA)
 2. Database
 3. Program memory
 4. Terminal buffer
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q64. Which mode is more resource efficient?
+## Question 64
 
-**Topic:** IMS DC - Conversational vs Non-conversational
-**Difficulty:** Medium
+**Topic:** IMS DC - Conversational vs Non-conversational  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** Which mode is more resource efficient?
+
+**Options:**
 1. Non-conversational
 2. Conversational
 3. Both equal
 4. Depends on transaction
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q65. How does SPA get passed between conversations?
+## Question 65
 
-**Topic:** IMS DC - Conversational vs Non-conversational
-**Difficulty:** Hard
+**Topic:** IMS DC - Conversational vs Non-conversational  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** How does SPA get passed between conversations?
+
+**Options:**
 1. IMS automatically includes it in messages
 2. Program must explicitly pass it
 3. Stored in database
 4. Via global memory
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q66. What is a typical use for conversational transactions?
+## Question 66
 
-**Topic:** IMS DC - Conversational vs Non-conversational
-**Difficulty:** Medium
+**Topic:** IMS DC - Conversational vs Non-conversational  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is a typical use for conversational transactions?
+
+**Options:**
 1. Multi-screen data entry
 2. Simple inquiries
 3. High-volume processing
 4. Batch updates
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q67. Can a program switch between conversational modes?
+## Question 67
 
-**Topic:** IMS DC - Conversational vs Non-conversational
-**Difficulty:** Medium
+**Topic:** IMS DC - Conversational vs Non-conversational  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** Can a program switch between conversational modes?
+
+**Options:**
 1. No, determined by transaction definition
 2. Yes, dynamically
 3. Yes, with special flag
 4. Only once per session
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q68. What happens if user abandons a conversation?
+## Question 68
 
-**Topic:** IMS DC - Conversational vs Non-conversational
-**Difficulty:** Medium
+**Topic:** IMS DC - Conversational vs Non-conversational  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What happens if user abandons a conversation?
+
+**Options:**
 1. SPA eventually purged by IMS
 2. Resources held indefinitely
 3. Automatic rollback
 4. System error
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q69. How is SPA defined?
+## Question 69
 
-**Topic:** IMS DC - Conversational vs Non-conversational
-**Difficulty:** Medium
+**Topic:** IMS DC - Conversational vs Non-conversational  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** How is SPA defined?
+
+**Options:**
 1. In the transaction definition
 2. In the program
 3. At runtime
 4. In terminal definition
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q70. What is the disadvantage of conversational transactions?
+## Question 70
 
-**Topic:** IMS DC - Conversational vs Non-conversational
-**Difficulty:** Easy
+**Topic:** IMS DC - Conversational vs Non-conversational  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** What is the disadvantage of conversational transactions?
+
+**Options:**
 1. Higher resource consumption
 2. Slower response time
 3. Less functionality
 4. More complex programming
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q71. What is a message segment?
+## Question 71
 
-**Topic:** IMS DC - Message Formats and Structure
-**Difficulty:** Easy
+**Topic:** IMS DC - Message Formats and Structure  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** What is a message segment?
+
+**Options:**
 1. A logical unit of message data
 2. Transaction code
 3. Terminal identifier
 4. Timestamp
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q72. What is the maximum message segment size?
+## Question 72
 
-**Topic:** IMS DC - Message Formats and Structure
-**Difficulty:** Hard
+**Topic:** IMS DC - Message Formats and Structure  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What is the maximum message segment size?
+
+**Options:**
 1. System dependent, typically up to 32KB
 2. 64KB
 3. 1MB
 4. No limit
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q73. How are multi-segment messages identified?
+## Question 73
 
-**Topic:** IMS DC - Message Formats and Structure
-**Difficulty:** Medium
+**Topic:** IMS DC - Message Formats and Structure  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** How are multi-segment messages identified?
+
+**Options:**
 1. By IMS internally, transparent to application
 2. Sequence numbers
 3. Segment IDs
 4. Message headers
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q74. What is message edit/routing?
+## Question 74
 
-**Topic:** IMS DC - Message Formats and Structure
-**Difficulty:** Medium
+**Topic:** IMS DC - Message Formats and Structure  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is message edit/routing?
+
+**Options:**
 1. Validating and directing messages
 2. Formatting output
 3. Encrypting data
 4. Compressing messages
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q75. Can message format be defined?
+## Question 75
 
-**Topic:** IMS DC - Message Formats and Structure
-**Difficulty:** Medium
+**Topic:** IMS DC - Message Formats and Structure  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** Can message format be defined?
+
+**Options:**
 1. Yes, using MFS (Message Format Service)
 2. No, always free format
 3. Yes, but not recommended
 4. Only for output
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q76. What is the purpose of LL ZZ fields?
+## Question 76
 
-**Topic:** IMS DC - Message Formats and Structure
-**Difficulty:** Hard
+**Topic:** IMS DC - Message Formats and Structure  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What is the purpose of LL ZZ fields?
+
+**Options:**
 1. Length and reserved fields in message segments
 2. Logical link zones
 3. Load level zones
 4. Location labels
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q77. Where is transaction code in message structure?
+## Question 77
 
-**Topic:** IMS DC - Message Formats and Structure
-**Difficulty:** Medium
+**Topic:** IMS DC - Message Formats and Structure  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** Where is transaction code in message structure?
+
+**Options:**
 1. First field after LL ZZ
 2. At the end
 3. In message header
 4. Variable position
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q78. What is message switching?
+## Question 78
 
-**Topic:** IMS DC - Message Formats and Structure
-**Difficulty:** Medium
+**Topic:** IMS DC - Message Formats and Structure  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is message switching?
+
+**Options:**
 1. Routing messages to different destinations
 2. Changing message format
 3. Swapping message segments
 4. Message encryption
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q79. Can a message contain binary data?
+## Question 79
 
-**Topic:** IMS DC - Message Formats and Structure
-**Difficulty:** Medium
+**Topic:** IMS DC - Message Formats and Structure  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** Can a message contain binary data?
+
+**Options:**
 1. Yes, but requires proper handling
 2. No, text only
 3. Yes, but not recommended
 4. Only in file transfers
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q80. What is message class?
+## Question 80
 
-**Topic:** IMS DC - Message Formats and Structure
-**Difficulty:** Medium
+**Topic:** IMS DC - Message Formats and Structure  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is message class?
+
+**Options:**
 1. Categorization for processing
 2. Priority level
 3. Format type
 4. Security classification
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q81. How is I/O PCB defined in COBOL?
+## Question 81
 
-**Topic:** IMS DC - COBOL Programming
-**Difficulty:** Medium
+**Topic:** IMS DC - COBOL Programming  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** How is I/O PCB defined in COBOL?
+
+**Options:**
 1. In LINKAGE SECTION
 2. In WORKING-STORAGE
 3. In FILE SECTION
 4. In PROCEDURE DIVISION
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q82. What is the ENTRY statement for IMS program?
+## Question 82
 
-**Topic:** IMS DC - COBOL Programming
-**Difficulty:** Hard
+**Topic:** IMS DC - COBOL Programming  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What is the ENTRY statement for IMS program?
+
+**Options:**
 1. DLITCBL for DL/I programs
 2. MAIN
 3. START
 4. BEGIN
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q83. How to issue DL/I call in COBOL?
+## Question 83
 
-**Topic:** IMS DC - COBOL Programming
-**Difficulty:** Medium
+**Topic:** IMS DC - COBOL Programming  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** How to issue DL/I call in COBOL?
+
+**Options:**
 1. CALL 'CBLTDLI' USING parameters
 2. EXEC DLI command
 3. DLI statement
 4. PERFORM DLI-CALL
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q84. What parameters are passed to CBLTDLI?
+## Question 84
 
-**Topic:** IMS DC - COBOL Programming
-**Difficulty:** Medium
+**Topic:** IMS DC - COBOL Programming  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What parameters are passed to CBLTDLI?
+
+**Options:**
 1. Function code, PCB, I/O area, SSAs
 2. PCB only
 3. Function and I/O area
 4. All PCBs
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q85. How is message I/O area defined?
+## Question 85
 
-**Topic:** IMS DC - COBOL Programming
-**Difficulty:** Easy
+**Topic:** IMS DC - COBOL Programming  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** How is message I/O area defined?
+
+**Options:**
 1. In WORKING-STORAGE or LINKAGE
 2. FILE SECTION
 3. SPECIAL-NAMES
 4. CONFIGURATION SECTION
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q86. What COBOL level for PCB mask?
+## Question 86
 
-**Topic:** IMS DC - COBOL Programming
-**Difficulty:** Easy
+**Topic:** IMS DC - COBOL Programming  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** What COBOL level for PCB mask?
+
+**Options:**
 1. 01 level
 2. 05 level
 3. 77 level
 4. 88 level
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q87. How to check status code in COBOL?
+## Question 87
 
-**Topic:** IMS DC - COBOL Programming
-**Difficulty:** Easy
+**Topic:** IMS DC - COBOL Programming  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** How to check status code in COBOL?
+
+**Options:**
 1. Test status field in PCB
 2. CHECK STATUS statement
 3. IF DLI-STATUS
 4. INSPECT STATUS
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q88. What is the PCB mask pointer?
+## Question 88
 
-**Topic:** IMS DC - COBOL Programming
-**Difficulty:** Hard
+**Topic:** IMS DC - COBOL Programming  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What is the PCB mask pointer?
+
+**Options:**
 1. Address pointer to PCB in LINKAGE
 2. PCB identifier
 3. PCB counter
 4. PCB flag
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q89. How to handle multiple output segments?
+## Question 89
 
-**Topic:** IMS DC - COBOL Programming
-**Difficulty:** Medium
+**Topic:** IMS DC - COBOL Programming  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** How to handle multiple output segments?
+
+**Options:**
 1. Multiple ISRT calls
 2. Single ISRT with array
 3. WRITE-MULTIPLE
 4. SEND-ALL
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q90. What is GOBACK used for?
+## Question 90
 
-**Topic:** IMS DC - COBOL Programming
-**Difficulty:** Easy
+**Topic:** IMS DC - COBOL Programming  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** What is GOBACK used for?
+
+**Options:**
 1. Return control to IMS
 2. Go back in processing
 3. Return to caller
 4. Exit program
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q91. What does blank status code mean?
+## Question 91
 
-**Topic:** IMS DC - Status Codes and Error Handling
-**Difficulty:** Easy
+**Topic:** IMS DC - Status Codes and Error Handling  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** What does blank status code mean?
+
+**Options:**
 1. Successful operation
 2. No status available
 3. Unknown error
 4. Not processed
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q92. What does QD status code mean?
+## Question 92
 
-**Topic:** IMS DC - Status Codes and Error Handling
-**Difficulty:** Medium
+**Topic:** IMS DC - Status Codes and Error Handling  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What does QD status code mean?
+
+**Options:**
 1. Message not found in queue
 2. Queue destroyed
 3. Quick delete
 4. Query denied
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q93. What is AI status code?
+## Question 93
 
-**Topic:** IMS DC - Status Codes and Error Handling
-**Difficulty:** Hard
+**Topic:** IMS DC - Status Codes and Error Handling  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What is AI status code?
+
+**Options:**
 1. Indicates potential data integrity issue
 2. All inserted
 3. Application interface error
 4. Automatic insert
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q94. How should programs handle error status codes?
+## Question 94
 
-**Topic:** IMS DC - Status Codes and Error Handling
-**Difficulty:** Easy
+**Topic:** IMS DC - Status Codes and Error Handling  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** How should programs handle error status codes?
+
+**Options:**
 1. Check after each call and take appropriate action
 2. Ignore non-critical errors
 3. Let IMS handle all errors
 4. Log and continue
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q95. What does AM status code indicate?
+## Question 95
 
-**Topic:** IMS DC - Status Codes and Error Handling
-**Difficulty:** Hard
+**Topic:** IMS DC - Status Codes and Error Handling  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What does AM status code indicate?
+
+**Options:**
 1. Message format error
 2. Access method error
 3. All messages processed
 4. Automatic mode
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q96. When should program issue rollback?
+## Question 96
 
-**Topic:** IMS DC - Status Codes and Error Handling
-**Difficulty:** Medium
+**Topic:** IMS DC - Status Codes and Error Handling  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** When should program issue rollback?
+
+**Options:**
 1. When unrecoverable error occurs
 2. After every transaction
 3. Only at end of day
 4. Never, IMS handles it
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q97. What is the purpose of checkpoint?
+## Question 97
 
-**Topic:** IMS DC - Status Codes and Error Handling
-**Difficulty:** Medium
+**Topic:** IMS DC - Status Codes and Error Handling  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is the purpose of checkpoint?
+
+**Options:**
 1. Save transaction state for recovery
 2. Check program status
 3. Verify data
 4. Control program flow
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q98. How to issue rollback call?
+## Question 98
 
-**Topic:** IMS DC - Status Codes and Error Handling
-**Difficulty:** Medium
+**Topic:** IMS DC - Status Codes and Error Handling  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** How to issue rollback call?
+
+**Options:**
 1. CALL 'CBLTDLI' with ROLL function
 2. EXEC CICS ROLLBACK
 3. ROLLBACK statement
 4. UNDO command
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q99. What happens on abnormal termination?
+## Question 99
 
-**Topic:** IMS DC - Status Codes and Error Handling
-**Difficulty:** Medium
+**Topic:** IMS DC - Status Codes and Error Handling  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What happens on abnormal termination?
+
+**Options:**
 1. IMS automatically backs out changes
 2. Changes committed
 3. Database locked
 4. System restart required
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q100. What is the best way to test DC programs?
+## Question 100
 
-**Topic:** IMS DC - Testing and Debugging
-**Difficulty:** Easy
+**Topic:** IMS DC - Testing and Debugging  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** What is the best way to test DC programs?
+
+**Options:**
 1. Use IMS test environment with test terminals
 2. Test in production
 3. Unit test only
 4. No testing needed
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q101. How can you simulate terminal input?
+## Question 101
 
-**Topic:** IMS DC - Testing and Debugging
-**Difficulty:** Medium
+**Topic:** IMS DC - Testing and Debugging  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** How can you simulate terminal input?
+
+**Options:**
 1. Use test harness or automation tools
 2. Manual typing only
 3. Not possible
 4. Batch simulation
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q102. What debugging techniques are available?
+## Question 102
 
-**Topic:** IMS DC - Testing and Debugging
-**Difficulty:** Easy
+**Topic:** IMS DC - Testing and Debugging  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** What debugging techniques are available?
+
+**Options:**
 1. Source debuggers, dumps, and traces
 2. Printf only
 3. No debugging available
 4. Manual inspection
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q103. How to trace DL/I calls?
+## Question 103
 
-**Topic:** IMS DC - Testing and Debugging
-**Difficulty:** Medium
+**Topic:** IMS DC - Testing and Debugging  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** How to trace DL/I calls?
+
+**Options:**
 1. Enable IMS tracing facilities
 2. Add DISPLAY statements
 3. Use system logs
 4. Not possible
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q104. What is a common cause of program failures?
+## Question 104
 
-**Topic:** IMS DC - Testing and Debugging
-**Difficulty:** Medium
+**Topic:** IMS DC - Testing and Debugging  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is a common cause of program failures?
+
+**Options:**
 1. Incorrect status code handling
 2. Too many ISRT calls
 3. Message too small
 4. Terminal disconnected
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q105. How to test error conditions?
+## Question 105
 
-**Topic:** IMS DC - Testing and Debugging
-**Difficulty:** Easy
+**Topic:** IMS DC - Testing and Debugging  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** How to test error conditions?
+
+**Options:**
 1. Simulate error scenarios
 2. Wait for real errors
 3. Not necessary
 4. Only in production
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q106. What is program isolation test?
+## Question 106
 
-**Topic:** IMS DC - Testing and Debugging
-**Difficulty:** Medium
+**Topic:** IMS DC - Testing and Debugging  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is program isolation test?
+
+**Options:**
 1. Testing program without affecting production
 2. Testing in isolation ward
 3. Solo testing
 4. Disconnected test
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q107. How to verify message format?
+## Question 107
 
-**Topic:** IMS DC - Testing and Debugging
-**Difficulty:** Medium
+**Topic:** IMS DC - Testing and Debugging  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** How to verify message format?
+
+**Options:**
 1. Inspect message segments with debugging tools
 2. Visual inspection
 3. Automated check
 4. Not necessary
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q108. What should be tested for conversational transactions?
+## Question 108
 
-**Topic:** IMS DC - Testing and Debugging
-**Difficulty:** Medium
+**Topic:** IMS DC - Testing and Debugging  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What should be tested for conversational transactions?
+
+**Options:**
 1. State preservation across interactions
 2. Speed only
 3. Output format
 4. User interface
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q109. How to test transaction load?
+## Question 109
 
-**Topic:** IMS DC - Testing and Debugging
-**Difficulty:** Medium
+**Topic:** IMS DC - Testing and Debugging  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** How to test transaction load?
+
+**Options:**
 1. Use load testing tools
 2. One transaction at a time
 3. Not necessary
 4. Production monitoring
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q110. What is an inquiry program?
+## Question 110
 
-**Topic:** IMS DC - Online Program Types
-**Difficulty:** Easy
+**Topic:** IMS DC - Online Program Types  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** What is an inquiry program?
+
+**Options:**
 1. Read-only program that displays data
 2. Program that asks questions
 3. Update program
 4. Delete program
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q111. What characterizes a data entry program?
+## Question 111
 
-**Topic:** IMS DC - Online Program Types
-**Difficulty:** Easy
+**Topic:** IMS DC - Online Program Types  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** What characterizes a data entry program?
+
+**Options:**
 1. Accepts and validates input data
 2. Displays reports
 3. Processes batch files
 4. Manages terminals
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q112. What is a maintenance program?
+## Question 112
 
-**Topic:** IMS DC - Online Program Types
-**Difficulty:** Easy
+**Topic:** IMS DC - Online Program Types  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** What is a maintenance program?
+
+**Options:**
 1. Updates, inserts, or deletes data
 2. Repairs databases
 3. Maintains terminals
 4. Backs up data
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q113. What is a menu-driven program?
+## Question 113
 
-**Topic:** IMS DC - Online Program Types
-**Difficulty:** Easy
+**Topic:** IMS DC - Online Program Types  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** What is a menu-driven program?
+
+**Options:**
 1. Presents options for user selection
 2. Processes menu data
 3. Food ordering system
 4. List display program
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q114. What is typical of high-volume programs?
+## Question 114
 
-**Topic:** IMS DC - Online Program Types
-**Difficulty:** Medium
+**Topic:** IMS DC - Online Program Types  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is typical of high-volume programs?
+
+**Options:**
 1. Optimized for performance
 2. Complex logic
 3. Large messages
 4. Long running
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q115. What is a composite transaction?
+## Question 115
 
-**Topic:** IMS DC - Online Program Types
-**Difficulty:** Medium
+**Topic:** IMS DC - Online Program Types  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is a composite transaction?
+
+**Options:**
 1. Combines multiple operations
 2. Complex format
 3. Multiple terminals
 4. Long duration
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q116. What security is needed for update programs?
+## Question 116
 
-**Topic:** IMS DC - Online Program Types
-**Difficulty:** Easy
+**Topic:** IMS DC - Online Program Types  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** What security is needed for update programs?
+
+**Options:**
 1. Proper authorization and validation
 2. Password only
 3. None needed
 4. Terminal lock
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q117. What validation should data entry program perform?
+## Question 117
 
-**Topic:** IMS DC - Online Program Types
-**Difficulty:** Easy
+**Topic:** IMS DC - Online Program Types  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** What validation should data entry program perform?
+
+**Options:**
 1. Field format, range, and business rules
 2. Syntax only
 3. No validation needed
 4. User identity only
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q118. What is a report program in DC?
+## Question 118
 
-**Topic:** IMS DC - Online Program Types
-**Difficulty:** Medium
+**Topic:** IMS DC - Online Program Types  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is a report program in DC?
+
+**Options:**
 1. Generates formatted output for display
 2. Batch reporting
 3. Prints reports
 4. Logs activities
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q119. What is the difference between inquiry and maintenance?
+## Question 119
 
-**Topic:** IMS DC - Online Program Types
-**Difficulty:** Easy
+**Topic:** IMS DC - Online Program Types  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** What is the difference between inquiry and maintenance?
+
+**Options:**
 1. Inquiry reads only, maintenance updates
 2. No difference
 3. Inquiry is faster
 4. Maintenance is simpler
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q120. What is alternate PCB?
+## Question 120
 
-**Topic:** IMS DC - Advanced Features
-**Difficulty:** Hard
+**Topic:** IMS DC - Advanced Features  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What is alternate PCB?
+
+**Options:**
 1. Additional I/O PCB for message routing
 2. Backup PCB
 3. Alternative database PCB
 4. Secondary PCB
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q121. What is express PCB?
+## Question 121
 
-**Topic:** IMS DC - Advanced Features
-**Difficulty:** Hard
+**Topic:** IMS DC - Advanced Features  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What is express PCB?
+
+**Options:**
 1. PCB for urgent high-priority messages
 2. Fast processing PCB
 3. Quick response PCB
 4. Expedited PCB
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q122. What is program-to-program message switching?
+## Question 122
 
-**Topic:** IMS DC - Advanced Features
-**Difficulty:** Hard
+**Topic:** IMS DC - Advanced Features  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What is program-to-program message switching?
+
+**Options:**
 1. One program sending message to another program
 2. Inter-program communication
 3. Message forwarding
 4. Program linking
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q123. What is asynchronous output?
+## Question 123
 
-**Topic:** IMS DC - Advanced Features
-**Difficulty:** Hard
+**Topic:** IMS DC - Advanced Features  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What is asynchronous output?
+
+**Options:**
 1. Output sent after program completion
 2. Non-blocking output
 3. Delayed output
 4. Background output
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q124. What is command code usage in DC?
+## Question 124
 
-**Topic:** IMS DC - Advanced Features
-**Difficulty:** Medium
+**Topic:** IMS DC - Advanced Features  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is command code usage in DC?
+
+**Options:**
 1. Special processing options for calls
 2. Transaction codes
 3. System commands
 4. Terminal commands
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q125. What is dynamic transaction routing?
+## Question 125
 
-**Topic:** IMS DC - Advanced Features
-**Difficulty:** Hard
+**Topic:** IMS DC - Advanced Features  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What is dynamic transaction routing?
+
+**Options:**
 1. Runtime determination of transaction destination
 2. Fast routing
 3. Automatic routing
 4. Backup routing
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q126. What is transaction affinity?
+## Question 126
 
-**Topic:** IMS DC - Advanced Features
-**Difficulty:** Hard
+**Topic:** IMS DC - Advanced Features  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What is transaction affinity?
+
+**Options:**
 1. Related transactions processed by same region
 2. Transaction preference
 3. User preference
 4. Terminal binding
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q127. What is a security exit in IMS DC?
+## Question 127
 
-**Topic:** IMS DC - Advanced Features
-**Difficulty:** Hard
+**Topic:** IMS DC - Advanced Features  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What is a security exit in IMS DC?
+
+**Options:**
 1. Custom security validation routine
 2. Emergency exit
 3. Logout function
 4. Backup path
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q128. What is message edit exit?
+## Question 128
 
-**Topic:** IMS DC - Advanced Features
-**Difficulty:** Hard
+**Topic:** IMS DC - Advanced Features  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What is message edit exit?
+
+**Options:**
 1. Custom routine for message validation
 2. Message formatting
 3. Message correction
 4. Message deletion
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q129. How does IMS schedule transactions?
+## Question 129
 
-**Topic:** IMS DC - Transaction Scheduling
-**Difficulty:** Medium
+**Topic:** IMS DC - Transaction Scheduling  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** How does IMS schedule transactions?
+
+**Options:**
 1. Based on priority, class, and availability
 2. First-in-first-out
 3. Random
 4. Alphabetical
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q130. What is transaction class scheduling?
+## Question 130
 
-**Topic:** IMS DC - Transaction Scheduling
-**Difficulty:** Medium
+**Topic:** IMS DC - Transaction Scheduling  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is transaction class scheduling?
+
+**Options:**
 1. Groups transactions for resource management
 2. Priority classification
 3. Type classification
 4. User classification
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q131. What affects transaction throughput?
+## Question 131
 
-**Topic:** IMS DC - Transaction Scheduling
-**Difficulty:** Medium
+**Topic:** IMS DC - Transaction Scheduling  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What affects transaction throughput?
+
+**Options:**
 1. Number of regions, priorities, resources
 2. Network speed only
 3. Terminal count
 4. Program size
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q132. What is transaction queuing?
+## Question 132
 
-**Topic:** IMS DC - Transaction Scheduling
-**Difficulty:** Easy
+**Topic:** IMS DC - Transaction Scheduling  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** What is transaction queuing?
+
+**Options:**
 1. Waiting for processing resources
 2. Message queuing
 3. Terminal queuing
 4. Data queuing
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q133. How can transaction performance be monitored?
+## Question 133
 
-**Topic:** IMS DC - Transaction Scheduling
-**Difficulty:** Medium
+**Topic:** IMS DC - Transaction Scheduling  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** How can transaction performance be monitored?
+
+**Options:**
 1. IMS monitoring tools and statistics
 2. Manual observation
 3. User feedback
 4. Not possible
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q134. What is transaction load balancing?
+## Question 134
 
-**Topic:** IMS DC - Transaction Scheduling
-**Difficulty:** Medium
+**Topic:** IMS DC - Transaction Scheduling  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is transaction load balancing?
+
+**Options:**
 1. Distributing work across regions
 2. Message distribution
 3. User distribution
 4. Terminal balancing
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q135. What is a transaction timeout?
+## Question 135
 
-**Topic:** IMS DC - Transaction Scheduling
-**Difficulty:** Medium
+**Topic:** IMS DC - Transaction Scheduling  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is a transaction timeout?
+
+**Options:**
 1. Maximum execution time limit
 2. User wait time
 3. Queue wait time
 4. Response time
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q136. What happens when transaction times out?
+## Question 136
 
-**Topic:** IMS DC - Transaction Scheduling
-**Difficulty:** Medium
+**Topic:** IMS DC - Transaction Scheduling  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What happens when transaction times out?
+
+**Options:**
 1. IMS may abend the transaction
 2. Automatic retry
 3. Extended time granted
 4. Nothing
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q137. What is parallel transaction processing?
+## Question 137
 
-**Topic:** IMS DC - Transaction Scheduling
-**Difficulty:** Easy
+**Topic:** IMS DC - Transaction Scheduling  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** What is parallel transaction processing?
+
+**Options:**
 1. Multiple transactions executing simultaneously
 2. Sequential processing
 3. Batch processing
 4. Single threading
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q138. What is a PCB mask?
+## Question 138
 
-**Topic:** IMS DC - PCB Masks
-**Difficulty:** Medium
+**Topic:** IMS DC - PCB Masks  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is a PCB mask?
+
+**Options:**
 1. COBOL structure mapping PCB fields
 2. PCB security
 3. PCB filter
 4. PCB template
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q139. What fields are in I/O PCB mask?
+## Question 139
 
-**Topic:** IMS DC - PCB Masks
-**Difficulty:** Medium
+**Topic:** IMS DC - PCB Masks  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What fields are in I/O PCB mask?
+
+**Options:**
 1. LTERM, status code, date/time, message length
 2. Only status code
 3. All database fields
 4. User information
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q140. Why define PCB mask in LINKAGE SECTION?
+## Question 140
 
-**Topic:** IMS DC - PCB Masks
-**Difficulty:** Hard
+**Topic:** IMS DC - PCB Masks  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** Why define PCB mask in LINKAGE SECTION?
+
+**Options:**
 1. IMS provides PCB address at runtime
 2. Saves memory
 3. Required by COBOL
 4. Better performance
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q141. What is the typical size of I/O PCB?
+## Question 141
 
-**Topic:** IMS DC - PCB Masks
-**Difficulty:** Hard
+**Topic:** IMS DC - PCB Masks  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What is the typical size of I/O PCB?
+
+**Options:**
 1. 148 bytes
 2. 100 bytes
 3. 200 bytes
 4. Variable
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q142. Can PCB mask be modified by program?
+## Question 142
 
-**Topic:** IMS DC - PCB Masks
-**Difficulty:** Medium
+**Topic:** IMS DC - PCB Masks  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** Can PCB mask be modified by program?
+
+**Options:**
 1. Should not modify, except for routing
 2. Yes, freely
 3. No, read-only
 4. Only status code
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q143. What is the status code field type?
+## Question 143
 
-**Topic:** IMS DC - PCB Masks
-**Difficulty:** Medium
+**Topic:** IMS DC - PCB Masks  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is the status code field type?
+
+**Options:**
 1. Character field (PIC XX)
 2. Numeric field
 3. Binary field
 4. Alphanumeric
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q144. How to reference PCB fields in COBOL?
+## Question 144
 
-**Topic:** IMS DC - PCB Masks
-**Difficulty:** Easy
+**Topic:** IMS DC - PCB Masks  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** How to reference PCB fields in COBOL?
+
+**Options:**
 1. Through mask variable name
 2. Direct PCB reference
 3. Using POINTER
 4. Not possible
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q145. What is PCB list?
+## Question 145
 
-**Topic:** IMS DC - PCB Masks
-**Difficulty:** Medium
+**Topic:** IMS DC - PCB Masks  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is PCB list?
+
+**Options:**
 1. Collection of PCBs passed to program
 2. Array of PCBs
 3. PCB directory
 4. PCB index
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q146. How many PCBs can a program access?
+## Question 146
 
-**Topic:** IMS DC - PCB Masks
-**Difficulty:** Medium
+**Topic:** IMS DC - PCB Masks  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** How many PCBs can a program access?
+
+**Options:**
 1. One I/O PCB plus multiple DB PCBs
 2. Only one
 3. Unlimited
 4. Maximum 10
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q147. What is modifiable alternate PCB field?
+## Question 147
 
-**Topic:** IMS DC - PCB Masks
-**Difficulty:** Hard
+**Topic:** IMS DC - PCB Masks  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What is modifiable alternate PCB field?
+
+**Options:**
 1. LTERM for message routing
 2. Status code
 3. Date/time
 4. User ID
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q148. What is a response mode transaction?
+## Question 148
 
-**Topic:** IMS DC - Additional Concepts
-**Difficulty:** Medium
+**Topic:** IMS DC - Additional Concepts  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is a response mode transaction?
+
+**Options:**
 1. Transaction that sends response to originating terminal
 2. Fast response transaction
 3. Acknowledged transaction
 4. Interactive transaction
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q149. What is a single mode transaction?
+## Question 149
 
-**Topic:** IMS DC - Additional Concepts
-**Difficulty:** Medium
+**Topic:** IMS DC - Additional Concepts  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is a single mode transaction?
+
+**Options:**
 1. Processes one message at a time
 2. Has one function
 3. Uses one PCB
 4. Runs once
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q150. What is multiple mode transaction?
+## Question 150
 
-**Topic:** IMS DC - Additional Concepts
-**Difficulty:** Hard
+**Topic:** IMS DC - Additional Concepts  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What is multiple mode transaction?
+
+**Options:**
 1. Can process multiple messages per schedule
 2. Has multiple functions
 3. Uses multiple PCBs
 4. Runs multiple times
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q151. What is transaction commit point?
+## Question 151
 
-**Topic:** IMS DC - Additional Concepts
-**Difficulty:** Medium
+**Topic:** IMS DC - Additional Concepts  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is transaction commit point?
+
+**Options:**
 1. Point where changes are made permanent
 2. End of transaction
 3. Beginning of transaction
 4. Checkpoint
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q152. What is transaction recovery?
+## Question 152
 
-**Topic:** IMS DC - Additional Concepts
-**Difficulty:** Medium
+**Topic:** IMS DC - Additional Concepts  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is transaction recovery?
+
+**Options:**
 1. Restoring transaction state after failure
 2. Getting transaction back
 3. Fixing transaction errors
 4. Restarting transaction
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q153. What is a WFI transaction?
+## Question 153
 
-**Topic:** IMS DC - Additional Concepts
-**Difficulty:** Hard
+**Topic:** IMS DC - Additional Concepts  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What is a WFI transaction?
+
+**Options:**
 1. Wait-for-input transaction
 2. Write file input
 3. Work flow item
 4. Wait for initialization
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q154. What is transaction code security?
+## Question 154
 
-**Topic:** IMS DC - Additional Concepts
-**Difficulty:** Medium
+**Topic:** IMS DC - Additional Concepts  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is transaction code security?
+
+**Options:**
 1. Authorization control for transactions
 2. Transaction encryption
 3. Code protection
 4. Terminal security
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q155. What is transaction serialization?
+## Question 155
 
-**Topic:** IMS DC - Additional Concepts
-**Difficulty:** Hard
+**Topic:** IMS DC - Additional Concepts  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What is transaction serialization?
+
+**Options:**
 1. Ensuring sequential access to resources
 2. Converting to serial format
 3. Transaction logging
 4. Numbering transactions
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q156. What is transaction coupling?
+## Question 156
 
-**Topic:** IMS DC - Additional Concepts
-**Difficulty:** Hard
+**Topic:** IMS DC - Additional Concepts  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What is transaction coupling?
+
+**Options:**
 1. Relationship between transactions
 2. Transaction joining
 3. Transaction linking
 4. Transaction dependency
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q157. What is transaction integrity?
+## Question 157
 
-**Topic:** IMS DC - Additional Concepts
-**Difficulty:** Medium
+**Topic:** IMS DC - Additional Concepts  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is transaction integrity?
+
+**Options:**
 1. ACID properties compliance
 2. Data validation
 3. Security check
 4. Error checking
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q158. What is the role of IMS Control Region?
+## Question 158
 
-**Topic:** IMS DC - Fundamentals and Concepts
-**Difficulty:** Medium
+**Topic:** IMS DC - Fundamentals and Concepts  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is the role of IMS Control Region?
+
+**Options:**
 1. Manages overall IMS DC operations
 2. Controls terminals only
 3. Manages databases
 4. Handles security
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q159. What is a dependent region in IMS DC?
+## Question 159
 
-**Topic:** IMS DC - Fundamentals and Concepts
-**Difficulty:** Medium
+**Topic:** IMS DC - Fundamentals and Concepts  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is a dependent region in IMS DC?
+
+**Options:**
 1. Region that processes applications
 2. Backup region
 3. Secondary region
 4. Test region
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q160. What is BMP in IMS?
+## Question 160
 
-**Topic:** IMS DC - Message Processing Programs
-**Difficulty:** Medium
+**Topic:** IMS DC - Message Processing Programs  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is BMP in IMS?
+
+**Options:**
 1. Batch Message Processing program
 2. Basic MPP
 3. Backup Message Program
 4. Best Message Processor
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q161. Can an MPP access multiple databases?
+## Question 161
 
-**Topic:** IMS DC - Message Processing Programs
-**Difficulty:** Medium
+**Topic:** IMS DC - Message Processing Programs  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** Can an MPP access multiple databases?
+
+**Options:**
 1. Yes, through multiple DB PCBs
 2. No, only one database
 3. Yes, but not recommended
 4. Only in batch mode
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q162. What is a transaction synonym?
+## Question 162
 
-**Topic:** IMS DC - Transaction Codes and Processing
-**Difficulty:** Medium
+**Topic:** IMS DC - Transaction Codes and Processing  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is a transaction synonym?
+
+**Options:**
 1. Alternate name for same transaction
 2. Similar transaction
 3. Backup transaction
 4. Related transaction
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q163. Can transaction codes contain special characters?
+## Question 163
 
-**Topic:** IMS DC - Transaction Codes and Processing
-**Difficulty:** Hard
+**Topic:** IMS DC - Transaction Codes and Processing  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** Can transaction codes contain special characters?
+
+**Options:**
 1. Limited special characters allowed
 2. No, alphanumeric only
 3. Yes, any character
 4. Only underscore
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q164. What is the system queue in IMS DC?
+## Question 164
 
-**Topic:** IMS DC - Message Queues
-**Difficulty:** Medium
+**Topic:** IMS DC - Message Queues  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is the system queue in IMS DC?
+
+**Options:**
 1. IMS internal queue for messages
 2. User queue
 3. Database queue
 4. Terminal queue
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q165. Can messages be prioritized within a queue?
+## Question 165
 
-**Topic:** IMS DC - Message Queues
-**Difficulty:** Easy
+**Topic:** IMS DC - Message Queues  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** Can messages be prioritized within a queue?
+
+**Options:**
 1. Yes, using priority values
 2. No, FIFO only
 3. Only manually
 4. Only by operators
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q166. What is MOD name in PCB?
+## Question 166
 
-**Topic:** IMS DC - I/O PCB
-**Difficulty:** Hard
+**Topic:** IMS DC - I/O PCB  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What is MOD name in PCB?
+
+**Options:**
 1. Message Output Descriptor
 2. Module name
 3. Mode name
 4. Modify name
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q167. How is destination determined for output?
+## Question 167
 
-**Topic:** IMS DC - I/O PCB
-**Difficulty:** Medium
+**Topic:** IMS DC - I/O PCB  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** How is destination determined for output?
+
+**Options:**
 1. From LTERM field in I/O PCB
 2. User specification
 3. System default
 4. Random assignment
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q168. What is PURG call used for?
+## Question 168
 
-**Topic:** IMS DC - DL/I Calls for Message Processing
-**Difficulty:** Hard
+**Topic:** IMS DC - DL/I Calls for Message Processing  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What is PURG call used for?
+
+**Options:**
 1. Flush output messages immediately
 2. Purge input messages
 3. Delete transactions
 4. Clear buffers
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q169. What is CHNG call?
+## Question 169
 
-**Topic:** IMS DC - DL/I Calls for Message Processing
-**Difficulty:** Hard
+**Topic:** IMS DC - DL/I Calls for Message Processing  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What is CHNG call?
+
+**Options:**
 1. Change output destination
 2. Change transaction
 3. Change priority
 4. Change format
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q170. How is SPA size defined?
+## Question 170
 
-**Topic:** IMS DC - Conversational vs Non-conversational
-**Difficulty:** Medium
+**Topic:** IMS DC - Conversational vs Non-conversational  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** How is SPA size defined?
+
+**Options:**
 1. In transaction definition
 2. At runtime
 3. In program
 4. System default
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q171. Can SPA be encrypted?
+## Question 171
 
-**Topic:** IMS DC - Conversational vs Non-conversational
-**Difficulty:** Hard
+**Topic:** IMS DC - Conversational vs Non-conversational  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** Can SPA be encrypted?
+
+**Options:**
 1. Program can encrypt data in SPA
 2. Automatic encryption
 3. No encryption possible
 4. System encrypts SPA
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q172. What is MFS?
+## Question 172
 
-**Topic:** IMS DC - Message Formats and Structure
-**Difficulty:** Medium
+**Topic:** IMS DC - Message Formats and Structure  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is MFS?
+
+**Options:**
 1. Message Format Service
 2. Message File System
 3. Multiple Format Structure
 4. Master Format Service
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q173. What is the purpose of MFS?
+## Question 173
 
-**Topic:** IMS DC - Message Formats and Structure
-**Difficulty:** Medium
+**Topic:** IMS DC - Message Formats and Structure  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is the purpose of MFS?
+
+**Options:**
 1. Format messages for screen display
 2. Store messages
 3. Route messages
 4. Validate messages
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q174. How many parameters in ENTRY statement?
+## Question 174
 
-**Topic:** IMS DC - COBOL Programming
-**Difficulty:** Hard
+**Topic:** IMS DC - COBOL Programming  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** How many parameters in ENTRY statement?
+
+**Options:**
 1. Varies, typically 2 or more
 2. Always 1
 3. Always 5
 4. No parameters
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q175. What is PCB address list?
+## Question 175
 
-**Topic:** IMS DC - COBOL Programming
-**Difficulty:** Hard
+**Topic:** IMS DC - COBOL Programming  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What is PCB address list?
+
+**Options:**
 1. List of pointers to PCBs
 2. PCB names
 3. PCB contents
 4. PCB structure
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q176. What is GA status code?
+## Question 176
 
-**Topic:** IMS DC - Status Codes and Error Handling
-**Difficulty:** Hard
+**Topic:** IMS DC - Status Codes and Error Handling  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What is GA status code?
+
+**Options:**
 1. Segment not found at specified level
 2. Get again
 3. General access
 4. Good answer
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q177. What is GE status code?
+## Question 177
 
-**Topic:** IMS DC - Status Codes and Error Handling
-**Difficulty:** Medium
+**Topic:** IMS DC - Status Codes and Error Handling  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is GE status code?
+
+**Options:**
 1. End of database
 2. General error
 3. Get error
 4. Good end
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q178. What is IMS Test Tool?
+## Question 178
 
-**Topic:** IMS DC - Testing and Debugging
-**Difficulty:** Medium
+**Topic:** IMS DC - Testing and Debugging  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is IMS Test Tool?
+
+**Options:**
 1. Tool for testing IMS applications
 2. Terminal test
 3. Database test
 4. Performance test
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q179. How to generate test transactions?
+## Question 179
 
-**Topic:** IMS DC - Testing and Debugging
-**Difficulty:** Medium
+**Topic:** IMS DC - Testing and Debugging  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** How to generate test transactions?
+
+**Options:**
 1. Use terminal emulator or test tools
 2. Manual entry only
 3. Batch generation
 4. Automatic generation
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q180. What validation is critical for maintenance programs?
+## Question 180
 
-**Topic:** IMS DC - Online Program Types
-**Difficulty:** Medium
+**Topic:** IMS DC - Online Program Types  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What validation is critical for maintenance programs?
+
+**Options:**
 1. Authorization, data validity, referential integrity
 2. Syntax only
 3. Format only
 4. Length only
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q181. Should inquiry programs use database updates?
+## Question 181
 
-**Topic:** IMS DC - Online Program Types
-**Difficulty:** Easy
+**Topic:** IMS DC - Online Program Types  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** Should inquiry programs use database updates?
+
+**Options:**
 1. No, read-only access
 2. Yes, for logging
 3. Sometimes
 4. Not applicable
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q182. What is AOI in IMS DC?
+## Question 182
 
-**Topic:** IMS DC - Advanced Features
-**Difficulty:** Hard
+**Topic:** IMS DC - Advanced Features  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What is AOI in IMS DC?
+
+**Options:**
 1. Automated Operator Interface
 2. Application Output Interface
 3. Advanced Online Interface
 4. Automatic Operation Initiator
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q183. What are command codes?
+## Question 183
 
-**Topic:** IMS DC - Advanced Features
-**Difficulty:** Medium
+**Topic:** IMS DC - Advanced Features  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What are command codes?
+
+**Options:**
 1. Special indicators for DL/I processing options
 2. Transaction codes
 3. Security codes
 4. Format codes
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q184. What is WFI time?
+## Question 184
 
-**Topic:** IMS DC - Transaction Scheduling
-**Difficulty:** Hard
+**Topic:** IMS DC - Transaction Scheduling  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What is WFI time?
+
+**Options:**
 1. Wait-for-input timeout period
 2. Work flow interval
 3. Wait for initialization
 4. Work finish indicator
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q185. How does IMS handle transaction backlog?
+## Question 185
 
-**Topic:** IMS DC - Transaction Scheduling
-**Difficulty:** Medium
+**Topic:** IMS DC - Transaction Scheduling  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** How does IMS handle transaction backlog?
+
+**Options:**
 1. Queues and schedules based on priority
 2. Rejects new transactions
 3. Increases resources automatically
 4. Waits indefinitely
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q186. What is the IOPCB in COBOL programs?
+## Question 186
 
-**Topic:** IMS DC - PCB Masks
-**Difficulty:** Medium
+**Topic:** IMS DC - PCB Masks  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is the IOPCB in COBOL programs?
+
+**Options:**
 1. First PCB for message I/O
 2. Input Only PCB
 3. Internal Operation PCB
 4. Interactive Online PCB
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q187. Can programs define their own PCB structure?
+## Question 187
 
-**Topic:** IMS DC - PCB Masks
-**Difficulty:** Medium
+**Topic:** IMS DC - PCB Masks  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** Can programs define their own PCB structure?
+
+**Options:**
 1. No, must match IMS-provided structure
 2. Yes, freely
 3. Yes, with restrictions
 4. Only in test
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q188. What is transaction step?
+## Question 188
 
-**Topic:** IMS DC - Additional Concepts
-**Difficulty:** Medium
+**Topic:** IMS DC - Additional Concepts  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is transaction step?
+
+**Options:**
 1. Unit of work within transaction
 2. Transaction phase
 3. Processing stage
 4. Commit point
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q189. What is dynamic allocation in IMS DC?
+## Question 189
 
-**Topic:** IMS DC - Additional Concepts
-**Difficulty:** Hard
+**Topic:** IMS DC - Additional Concepts  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What is dynamic allocation in IMS DC?
+
+**Options:**
 1. Runtime resource assignment
 2. Memory allocation
 3. Terminal assignment
 4. Database allocation
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q190. What is VTAM in IMS DC context?
+## Question 190
 
-**Topic:** IMS DC - Fundamentals and Concepts
-**Difficulty:** Medium
+**Topic:** IMS DC - Fundamentals and Concepts  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is VTAM in IMS DC context?
+
+**Options:**
 1. Virtual Telecommunications Access Method
 2. Virtual Terminal Access Manager
 3. Variable Transaction Access Mode
 4. Visual Terminal Application Manager
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q191. What is a PTERM?
+## Question 191
 
-**Topic:** IMS DC - Fundamentals and Concepts
-**Difficulty:** Medium
+**Topic:** IMS DC - Fundamentals and Concepts  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is a PTERM?
+
+**Options:**
 1. Physical terminal
 2. Program terminal
 3. Primary terminal
 4. Process terminal
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q192. What is the transaction manager in IMS?
+## Question 192
 
-**Topic:** IMS DC - Message Processing Programs
-**Difficulty:** Medium
+**Topic:** IMS DC - Message Processing Programs  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is the transaction manager in IMS?
+
+**Options:**
 1. Component that controls transaction execution
 2. User manager
 3. Database manager
 4. Terminal manager
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q193. Can MPP programs be debugged online?
+## Question 193
 
-**Topic:** IMS DC - Message Processing Programs
-**Difficulty:** Medium
+**Topic:** IMS DC - Message Processing Programs  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** Can MPP programs be debugged online?
+
+**Options:**
 1. Yes, using appropriate debugging tools
 2. No, batch only
 3. Only in test environment
 4. Not recommended
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q194. What is transaction response time?
+## Question 194
 
-**Topic:** IMS DC - Transaction Codes and Processing
-**Difficulty:** Easy
+**Topic:** IMS DC - Transaction Codes and Processing  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** What is transaction response time?
+
+**Options:**
 1. Time from input to output delivery
 2. Processing time only
 3. Queue time only
 4. Network time
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q195. What factors affect transaction performance?
+## Question 195
 
-**Topic:** IMS DC - Transaction Codes and Processing
-**Difficulty:** Medium
+**Topic:** IMS DC - Transaction Codes and Processing  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What factors affect transaction performance?
+
+**Options:**
 1. Program efficiency, database access, queue depth, system load
 2. Program only
 3. Database only
 4. Network only
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q196. What is a shared queue?
+## Question 196
 
-**Topic:** IMS DC - Message Queues
-**Difficulty:** Hard
+**Topic:** IMS DC - Message Queues  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What is a shared queue?
+
+**Options:**
 1. Queue accessible by multiple regions
 2. Common queue
 3. Public queue
 4. Open queue
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q197. Can messages expire in queues?
+## Question 197
 
-**Topic:** IMS DC - Message Queues
-**Difficulty:** Medium
+**Topic:** IMS DC - Message Queues  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** Can messages expire in queues?
+
+**Options:**
 1. Yes, based on age or system limits
 2. No, permanent
 3. Only after 24 hours
 4. Only manually
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q198. What information does date/time field provide?
+## Question 198
 
-**Topic:** IMS DC - I/O PCB
-**Difficulty:** Easy
+**Topic:** IMS DC - I/O PCB  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** What information does date/time field provide?
+
+**Options:**
 1. Current system date and time
 2. Transaction timestamp
 3. Message arrival time
 4. Processing time
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q199. What is the user ID field in I/O PCB?
+## Question 199
 
-**Topic:** IMS DC - I/O PCB
-**Difficulty:** Medium
+**Topic:** IMS DC - I/O PCB  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is the user ID field in I/O PCB?
+
+**Options:**
 1. Identifies user or terminal
 2. Program ID
 3. Transaction ID
 4. System ID
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q200. What is GCMD call?
+## Question 200
 
-**Topic:** IMS DC - DL/I Calls for Message Processing
-**Difficulty:** Hard
+**Topic:** IMS DC - DL/I Calls for Message Processing  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What is GCMD call?
+
+**Options:**
 1. Get Command - for message retrieval
 2. General command
 3. Get command mode
 4. Global command
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q201. Can you issue database calls and message calls in same program?
+## Question 201
 
-**Topic:** IMS DC - DL/I Calls for Message Processing
-**Difficulty:** Easy
+**Topic:** IMS DC - DL/I Calls for Message Processing  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** Can you issue database calls and message calls in same program?
+
+**Options:**
 1. Yes, using appropriate PCBs
 2. No, separate programs
 3. Only in batch
 4. Not recommended
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q202. What is pseudo-conversational processing?
+## Question 202
 
-**Topic:** IMS DC - Conversational vs Non-conversational
-**Difficulty:** Hard
+**Topic:** IMS DC - Conversational vs Non-conversational  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What is pseudo-conversational processing?
+
+**Options:**
 1. Simulates conversation without holding resources
 2. Fake conversation
 3. Test conversation
 4. Virtual conversation
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q203. When is conversational mode appropriate?
+## Question 203
 
-**Topic:** IMS DC - Conversational vs Non-conversational
-**Difficulty:** Medium
+**Topic:** IMS DC - Conversational vs Non-conversational  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** When is conversational mode appropriate?
+
+**Options:**
 1. When user interaction requires context
 2. Never
 3. Always
 4. Only for testing
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q204. What is device format in MFS?
+## Question 204
 
-**Topic:** IMS DC - Message Formats and Structure
-**Difficulty:** Medium
+**Topic:** IMS DC - Message Formats and Structure  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is device format in MFS?
+
+**Options:**
 1. Screen layout definition
 2. Terminal type
 3. Message format
 4. Data format
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q205. What is message input descriptor (MID)?
+## Question 205
 
-**Topic:** IMS DC - Message Formats and Structure
-**Difficulty:** Hard
+**Topic:** IMS DC - Message Formats and Structure  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What is message input descriptor (MID)?
+
+**Options:**
 1. Defines input message format
 2. Message ID
 3. Message indicator
 4. Message identification
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q206. How to declare message I/O area?
+## Question 206
 
-**Topic:** IMS DC - COBOL Programming
-**Difficulty:** Easy
+**Topic:** IMS DC - COBOL Programming  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** How to declare message I/O area?
+
+**Options:**
 1. 01 level in WORKING-STORAGE
 2. 05 level
 3. 77 level
 4. 88 level
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q207. What is the function code parameter?
+## Question 207
 
-**Topic:** IMS DC - COBOL Programming
-**Difficulty:** Medium
+**Topic:** IMS DC - COBOL Programming  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is the function code parameter?
+
+**Options:**
 1. First parameter specifying DL/I operation
 2. Program function
 3. Transaction code
 4. Status code
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q208. What does II status code mean?
+## Question 208
 
-**Topic:** IMS DC - Status Codes and Error Handling
-**Difficulty:** Hard
+**Topic:** IMS DC - Status Codes and Error Handling  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What does II status code mean?
+
+**Options:**
 1. Segment already exists (duplicate key)
 2. Information incomplete
 3. Invalid input
 4. Insert ignored
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q209. What is AJ status code?
+## Question 209
 
-**Topic:** IMS DC - Status Codes and Error Handling
-**Difficulty:** Hard
+**Topic:** IMS DC - Status Codes and Error Handling  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What is AJ status code?
+
+**Options:**
 1. Invalid concatenated key
 2. Automatic jump
 3. After job
 4. All joined
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q210. What is regression testing for IMS DC?
+## Question 210
 
-**Topic:** IMS DC - Testing and Debugging
-**Difficulty:** Easy
+**Topic:** IMS DC - Testing and Debugging  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** What is regression testing for IMS DC?
+
+**Options:**
 1. Retesting after changes
 2. Performance testing
 3. Load testing
 4. Security testing
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q211. How to test concurrent transaction processing?
+## Question 211
 
-**Topic:** IMS DC - Testing and Debugging
-**Difficulty:** Medium
+**Topic:** IMS DC - Testing and Debugging  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** How to test concurrent transaction processing?
+
+**Options:**
 1. Multi-user or load testing tools
 2. Single user test
 3. Not possible
 4. Manual testing
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q212. What is a help transaction?
+## Question 212
 
-**Topic:** IMS DC - Online Program Types
-**Difficulty:** Easy
+**Topic:** IMS DC - Online Program Types  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
+**Question:** What is a help transaction?
+
+**Options:**
 1. Provides user assistance information
 2. System help
 3. Technical support
 4. Error help
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q213. What is audit trail in maintenance programs?
+## Question 213
 
-**Topic:** IMS DC - Online Program Types
-**Difficulty:** Medium
+**Topic:** IMS DC - Online Program Types  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is audit trail in maintenance programs?
+
+**Options:**
 1. Logging of all changes made
 2. Program trace
 3. Debug log
 4. Error log
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q214. What is OTMA?
+## Question 214
 
-**Topic:** IMS DC - Advanced Features
-**Difficulty:** Hard
+**Topic:** IMS DC - Advanced Features  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What is OTMA?
+
+**Options:**
 1. Open Transaction Manager Access
 2. Online Terminal Manager Access
 3. Output Transaction Management
 4. Operational Task Management
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q215. What is program restart capability?
+## Question 215
 
-**Topic:** IMS DC - Advanced Features
-**Difficulty:** Medium
+**Topic:** IMS DC - Advanced Features  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is program restart capability?
+
+**Options:**
 1. Resume processing after failure
 2. Rerun program
 3. Reload program
 4. Reset program
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q216. What is message region?
+## Question 216
 
-**Topic:** IMS DC - Transaction Scheduling
-**Difficulty:** Medium
+**Topic:** IMS DC - Transaction Scheduling  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is message region?
+
+**Options:**
 1. Region where MPPs execute
 2. Message storage
 3. Message area
 4. Message buffer
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q217. How many message regions can IMS support?
+## Question 217
 
-**Topic:** IMS DC - Transaction Scheduling
-**Difficulty:** Medium
+**Topic:** IMS DC - Transaction Scheduling  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** How many message regions can IMS support?
+
+**Options:**
 1. Multiple, based on configuration
 2. Only one
 3. Maximum 10
 4. Unlimited
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q218. What is segment name field in DB PCB?
+## Question 218
 
-**Topic:** IMS DC - PCB Masks
-**Difficulty:** Medium
+**Topic:** IMS DC - PCB Masks  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is segment name field in DB PCB?
+
+**Options:**
 1. Name of last accessed segment
 2. Current segment
 3. Target segment
 4. Root segment
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q219. What is key feedback area?
+## Question 219
 
-**Topic:** IMS DC - PCB Masks
-**Difficulty:** Hard
+**Topic:** IMS DC - PCB Masks  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What is key feedback area?
+
+**Options:**
 1. Contains concatenated key of current position
 2. Error feedback
 3. Status feedback
 4. Result feedback
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q220. What is security profile in IMS DC?
+## Question 220
 
-**Topic:** IMS DC - Additional Concepts
-**Difficulty:** Medium
+**Topic:** IMS DC - Additional Concepts  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
+**Question:** What is security profile in IMS DC?
+
+**Options:**
 1. Defines access authorizations
 2. User profile
 3. System profile
 4. Network profile
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q221. What is terminal preemption?
+## Question 221
 
-**Topic:** IMS DC - Additional Concepts
-**Difficulty:** Hard
+**Topic:** IMS DC - Additional Concepts  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
+**Question:** What is terminal preemption?
+
+**Options:**
 1. Taking over terminal for urgent message
 2. Terminal disconnect
 3. Terminal reset
 4. Terminal lock
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q222. In IMS DC programming, what is transaction commit point?
+## Question 222
 
-**Topic:** IMS DC - Additional Concepts
-**Difficulty:** Medium
+**Topic:** IMS DC - Message Format Services (MFS)  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
-1. Point where changes are made permanent
-2. End of transaction
-3. Beginning of transaction
-4. Checkpoint
+**Question:** What is the primary purpose of Message Format Services (MFS) in IMS DC?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Format messages between application programs and terminals
+2. Store messages in databases
+3. Route messages to appropriate programs
+4. Compress message data
+
+**Correct Answer:** 1
 
 ---
 
-### Q223. Which statement is true about Point where changes are made permanent?
+## Question 223
 
-**Topic:** IMS DC - Additional Concepts
-**Difficulty:** Medium
+**Topic:** IMS DC - Message Format Services (MFS)  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
-1. It is correctly described in the question
-2. It is not related to IMS DC
-3. It is obsolete
-4. It is optional
+**Question:** Which MFS control block defines the physical terminal characteristics?
 
-**Correct Answer:** Option 1
+**Options:**
+1. DIF (Device Input Format)
+2. DOF (Device Output Format)
+3. MID (Message Input Descriptor)
+4. MOD (Message Output Descriptor)
+
+**Correct Answer:** 1
 
 ---
 
-### Q224. What is the correct description of point where changes are made permanent?
+## Question 224
 
-**Topic:** IMS DC - Additional Concepts
-**Difficulty:** Medium
+**Topic:** IMS DC - Message Format Services (MFS)  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
-1. What is transaction commit point?
-2. Unrelated concept
-3. Deprecated feature
-4. System-only feature
+**Question:** What does MOD stand for in MFS?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Message Output Descriptor
+2. Module Definition
+3. Message Organizational Data
+4. Multiple Output Device
+
+**Correct Answer:** 1
 
 ---
 
-### Q225. In IMS DC programming, what is a menu-driven program?
+## Question 225
 
-**Topic:** IMS DC - Online Program Types
-**Difficulty:** Easy
+**Topic:** IMS DC - Message Format Services (MFS)  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
-1. Presents options for user selection
-2. Processes menu data
-3. Food ordering system
-4. List display program
+**Question:** Which MFS control block maps the application program's view of a message?
 
-**Correct Answer:** Option 1
+**Options:**
+1. MID (Message Input Descriptor)
+2. DIF (Device Input Format)
+3. FMT (Format)
+4. PCB (Program Communication Block)
+
+**Correct Answer:** 1
 
 ---
 
-### Q226. Which statement is true about Presents options for user selection?
+## Question 226
 
-**Topic:** IMS DC - Online Program Types
-**Difficulty:** Easy
+**Topic:** IMS DC - Message Format Services (MFS)  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
-1. It is correctly described in the question
-2. It is not related to IMS DC
-3. It is obsolete
-4. It is optional
+**Question:** In MFS, what is the purpose of the DFLD (Device Field) statement?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Define physical field location on screen
+2. Define database field mapping
+3. Define field validation rules
+4. Define field compression
+
+**Correct Answer:** 1
 
 ---
 
-### Q227. What is the correct description of presents options for user selection?
+## Question 227
 
-**Topic:** IMS DC - Online Program Types
-**Difficulty:** Easy
+**Topic:** IMS DC - Message Format Services (MFS)  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
-1. What is a menu-driven program?
-2. Unrelated concept
-3. Deprecated feature
-4. System-only feature
+**Question:** What MFS statement defines the logical message field for the application?
 
-**Correct Answer:** Option 1
+**Options:**
+1. MFLD (Message Field)
+2. DFLD (Device Field)
+3. LFLD (Logical Field)
+4. AFLD (Application Field)
+
+**Correct Answer:** 1
 
 ---
 
-### Q228. In IMS DC programming, how to trace dl/i calls?
+## Question 228
 
-**Topic:** IMS DC - Testing and Debugging
-**Difficulty:** Medium
+**Topic:** IMS DC - Message Format Services (MFS)  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
-1. Enable IMS tracing facilities
-2. Add DISPLAY statements
-3. Use system logs
-4. Not possible
+**Question:** Which attribute controls whether a field is protected or unprotected on a 3270 screen?
 
-**Correct Answer:** Option 1
+**Options:**
+1. ATTR parameter
+2. PROT parameter
+3. FIELD parameter
+4. SECURE parameter
+
+**Correct Answer:** 1
 
 ---
 
-### Q229. Which statement is true about Enable IMS tracing facilities?
+## Question 229
 
-**Topic:** IMS DC - Testing and Debugging
-**Difficulty:** Medium
+**Topic:** IMS DC - Message Format Services (MFS)  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
-1. It is correctly described in the question
-2. It is not related to IMS DC
-3. It is obsolete
-4. It is optional
+**Question:** What does the FILL parameter in MFS specify?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Character to fill unused field positions
+2. Default value for empty fields
+3. Field justification
+4. Field alignment
+
+**Correct Answer:** 1
 
 ---
 
-### Q230. What is the correct description of enable ims tracing facilities?
+## Question 230
 
-**Topic:** IMS DC - Testing and Debugging
-**Difficulty:** Medium
+**Topic:** IMS DC - Message Format Services (MFS)  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
-1. How to trace DL/I calls?
-2. Unrelated concept
-3. Deprecated feature
-4. System-only feature
+**Question:** Which MFS format is used for output messages?
 
-**Correct Answer:** Option 1
+**Options:**
+1. DOF and MOD
+2. DIF and MID
+3. FMT and MSG
+4. OUT and DISP
+
+**Correct Answer:** 1
 
 ---
 
-### Q231. In IMS DC programming, what is the disadvantage of conversational transactions?
+## Question 231
 
-**Topic:** IMS DC - Conversational vs Non-conversational
-**Difficulty:** Easy
+**Topic:** IMS DC - Message Format Services (MFS)  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
-1. Higher resource consumption
-2. Slower response time
-3. Less functionality
-4. More complex programming
+**Question:** What tool is used to compile MFS source definitions?
 
-**Correct Answer:** Option 1
+**Options:**
+1. MFS Language Utility
+2. IMS Compiler
+3. COBOL Compiler
+4. Assembler
+
+**Correct Answer:** 1
 
 ---
 
-### Q232. Which statement is true about Higher resource consumption?
+## Question 232
 
-**Topic:** IMS DC - Conversational vs Non-conversational
-**Difficulty:** Easy
+**Topic:** IMS DC - Message Format Services (MFS)  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
-1. It is correctly described in the question
-2. It is not related to IMS DC
-3. It is obsolete
-4. It is optional
+**Question:** Where are compiled MFS formats stored?
 
-**Correct Answer:** Option 1
+**Options:**
+1. IMS Format Library
+2. IMS Database
+3. Application Library
+4. System Catalog
+
+**Correct Answer:** 1
 
 ---
 
-### Q233. What is the correct description of higher resource consumption?
+## Question 233
 
-**Topic:** IMS DC - Conversational vs Non-conversational
-**Difficulty:** Easy
+**Topic:** IMS DC - Message Format Services (MFS)  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
-1. What is the disadvantage of conversational transactions?
-2. Unrelated concept
-3. Deprecated feature
-4. System-only feature
+**Question:** What is the purpose of the LITERAL parameter in DFLD?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Display constant text on screen
+2. Define literal values for comparison
+3. Create literal database fields
+4. Generate literal documentation
+
+**Correct Answer:** 1
 
 ---
 
-### Q234. In IMS DC programming, what is express pcb?
+## Question 234
 
-**Topic:** IMS DC - Advanced Features
-**Difficulty:** Hard
+**Topic:** IMS DC - Message Format Services (MFS)  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
-1. PCB for urgent high-priority messages
-2. Fast processing PCB
-3. Quick response PCB
-4. Expedited PCB
+**Question:** Can MFS perform automatic data type conversion?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Yes, between character and numeric formats
+2. No, program must do all conversions
+3. Yes, but only for dates
+4. Only with special hardware
+
+**Correct Answer:** 1
 
 ---
 
-### Q235. Which statement is true about PCB for urgent high-priority messages?
+## Question 235
 
-**Topic:** IMS DC - Advanced Features
-**Difficulty:** Hard
+**Topic:** IMS DC - Message Format Services (MFS)  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
-1. It is correctly described in the question
-2. It is not related to IMS DC
-3. It is obsolete
-4. It is optional
+**Question:** What does the JUSTIFY parameter control in MFLD?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Left or right justification of data in field
+2. Vertical alignment on screen
+3. Field validation method
+4. Error message positioning
+
+**Correct Answer:** 1
 
 ---
 
-### Q236. What is the correct description of pcb for urgent high-priority messages?
+## Question 236
 
-**Topic:** IMS DC - Advanced Features
-**Difficulty:** Hard
+**Topic:** IMS DC - Screen Handling  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
-1. What is express PCB?
-2. Unrelated concept
-3. Deprecated feature
-4. System-only feature
+**Question:** What is the standard screen size for a 3270 terminal model 2?
 
-**Correct Answer:** Option 1
+**Options:**
+1. 24 rows by 80 columns
+2. 25 rows by 80 columns
+3. 24 rows by 132 columns
+4. 32 rows by 80 columns
+
+**Correct Answer:** 1
 
 ---
 
-### Q237. In IMS DC programming, how is i/o pcb defined in cobol?
+## Question 237
 
-**Topic:** IMS DC - COBOL Programming
-**Difficulty:** Medium
+**Topic:** IMS DC - Screen Handling  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
-1. In LINKAGE SECTION
-2. In WORKING-STORAGE
-3. In FILE SECTION
-4. In PROCEDURE DIVISION
+**Question:** What does the MDT (Modified Data Tag) attribute indicate?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Field has been modified by user
+2. Field contains master data
+3. Field is mandatory
+4. Field is for date entry
+
+**Correct Answer:** 1
 
 ---
 
-### Q238. Which statement is true about In LINKAGE SECTION?
+## Question 238
 
-**Topic:** IMS DC - COBOL Programming
-**Difficulty:** Medium
+**Topic:** IMS DC - Screen Handling  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
-1. It is correctly described in the question
-2. It is not related to IMS DC
-3. It is obsolete
-4. It is optional
+**Question:** Which 3270 attribute makes a field invisible to the user?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Dark/Non-display attribute
+2. Hidden attribute
+3. Protected attribute
+4. Masked attribute
+
+**Correct Answer:** 1
 
 ---
 
-### Q239. What is the correct description of in linkage section?
+## Question 239
 
-**Topic:** IMS DC - COBOL Programming
-**Difficulty:** Medium
+**Topic:** IMS DC - Screen Handling  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
-1. How is I/O PCB defined in COBOL?
-2. Unrelated concept
-3. Deprecated feature
-4. System-only feature
+**Question:** What happens when a user presses ENTER on a 3270 screen?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Only fields with MDT on are transmitted
+2. All fields are transmitted
+3. Only unprotected fields are transmitted
+4. Only modified unprotected fields are transmitted
+
+**Correct Answer:** 1
 
 ---
 
-### Q240. In IMS DC programming, what fields are in i/o pcb mask?
+## Question 240
 
-**Topic:** IMS DC - PCB Masks
-**Difficulty:** Medium
+**Topic:** IMS DC - Screen Handling  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
-1. LTERM, status code, date/time, message length
-2. Only status code
-3. All database fields
-4. User information
+**Question:** How can a program clear the entire screen?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Send ERASE WRITE command via MFS or control characters
+2. Use CLEAR PCB call
+3. Issue DELETE SCREEN command
+4. Send blank message
+
+**Correct Answer:** 1
 
 ---
 
-### Q241. Which statement is true about LTERM, status code, date/time, message length?
+## Question 241
 
-**Topic:** IMS DC - PCB Masks
-**Difficulty:** Medium
+**Topic:** IMS DC - Screen Handling  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
-1. It is correctly described in the question
-2. It is not related to IMS DC
-3. It is obsolete
-4. It is optional
+**Question:** What is cursor positioning in IMS DC screen handling?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Placing cursor at specific screen location for user input
+2. Moving cursor automatically through fields
+3. Cursor blinking control
+4. Cursor shape definition
+
+**Correct Answer:** 1
 
 ---
 
-### Q242. What is the correct description of lterm, status code, date/time, message length?
+## Question 242
 
-**Topic:** IMS DC - PCB Masks
-**Difficulty:** Medium
+**Topic:** IMS DC - Screen Handling  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
-1. What fields are in I/O PCB mask?
-2. Unrelated concept
-3. Deprecated feature
-4. System-only feature
+**Question:** Which MFS parameter positions the cursor on a screen?
 
-**Correct Answer:** Option 1
+**Options:**
+1. CURSOR parameter
+2. POSITION parameter
+3. LOCATE parameter
+4. POINT parameter
+
+**Correct Answer:** 1
 
 ---
 
-### Q243. In IMS DC programming, what is the typical size of i/o pcb?
+## Question 243
 
-**Topic:** IMS DC - PCB Masks
-**Difficulty:** Hard
+**Topic:** IMS DC - Screen Handling  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
-1. 148 bytes
-2. 100 bytes
-3. 200 bytes
-4. Variable
+**Question:** What are extended highlighting attributes used for?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Color, blinking, reverse video, underline
+2. Font size changes
+3. Graphics display
+4. Sound effects
+
+**Correct Answer:** 1
 
 ---
 
-### Q244. Which statement is true about 148 bytes?
+## Question 244
 
-**Topic:** IMS DC - PCB Masks
-**Difficulty:** Hard
+**Topic:** IMS DC - Screen Handling  
+**Difficulty:** Easy  
 **Type:** Single Choice
 
-1. It is correctly described in the question
-2. It is not related to IMS DC
-3. It is obsolete
-4. It is optional
+**Question:** What does a protected field prevent?
 
-**Correct Answer:** Option 1
+**Options:**
+1. User from typing into the field
+2. Field from being displayed
+3. Field from being read by program
+4. Field from being colored
+
+**Correct Answer:** 1
 
 ---
 
-### Q245. What is the correct description of 148 bytes?
+## Question 245
 
-**Topic:** IMS DC - PCB Masks
-**Difficulty:** Hard
+**Topic:** IMS DC - Screen Handling  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
-1. What is the typical size of I/O PCB?
-2. Unrelated concept
-3. Deprecated feature
-4. System-only feature
+**Question:** What is the purpose of the ALARM parameter in screen formatting?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Sound terminal alarm/beep on error
+2. Set time limit for user input
+3. Alert operator of system error
+4. Trigger security alarm
+
+**Correct Answer:** 1
 
 ---
 
-### Q246. In IMS DC programming, what is the maximum message segment size?
+## Question 246
 
-**Topic:** IMS DC - Message Formats and Structure
-**Difficulty:** Hard
+**Topic:** IMS DC - Message Field Editing  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
-1. System dependent, typically up to 32KB
-2. 64KB
-3. 1MB
-4. No limit
+**Question:** What MFS editing pattern would format a number with comma separators?
 
-**Correct Answer:** Option 1
+**Options:**
+1. EDIT='999,999,999'
+2. EDIT='FORMAT-COMMA'
+3. EDIT='NUMBER-MASK'
+4. EDIT='SEPARATE'
+
+**Correct Answer:** 1
 
 ---
 
-### Q247. Which statement is true about System dependent, typically up to 32KB?
+## Question 247
 
-**Topic:** IMS DC - Message Formats and Structure
-**Difficulty:** Hard
+**Topic:** IMS DC - Message Field Editing  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
-1. It is correctly described in the question
-2. It is not related to IMS DC
-3. It is obsolete
-4. It is optional
+**Question:** How does MFS handle leading zeros in numeric fields?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Can suppress with appropriate edit pattern
+2. Always displays leading zeros
+3. Always suppresses leading zeros
+4. Requires program logic
+
+**Correct Answer:** 1
 
 ---
 
-### Q248. What is the correct description of system dependent, typically up to 32kb?
+## Question 248
 
-**Topic:** IMS DC - Message Formats and Structure
-**Difficulty:** Hard
+**Topic:** IMS DC - Message Field Editing  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
-1. What is the maximum message segment size?
-2. Unrelated concept
-3. Deprecated feature
-4. System-only feature
+**Question:** What does the 'Z' character in an edit pattern do?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Suppresses leading zeros
+2. Represents zero value
+3. Adds zero padding
+4. Zones numeric field
+
+**Correct Answer:** 1
 
 ---
 
-### Q249. In IMS DC programming, what is a security exit in ims dc?
+## Question 249
 
-**Topic:** IMS DC - Advanced Features
-**Difficulty:** Hard
+**Topic:** IMS DC - Message Field Editing  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
-1. Custom security validation routine
-2. Emergency exit
-3. Logout function
-4. Backup path
+**Question:** How can MFS add a currency symbol to a field?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Include '$' in edit pattern
+2. Use CURRENCY parameter
+3. Requires program code
+4. Use SYMBOL parameter
+
+**Correct Answer:** 1
 
 ---
 
-### Q250. Which statement is true about Custom security validation routine?
+## Question 250
 
-**Topic:** IMS DC - Advanced Features
-**Difficulty:** Hard
+**Topic:** IMS DC - Message Field Editing  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
-1. It is correctly described in the question
-2. It is not related to IMS DC
-3. It is obsolete
-4. It is optional
+**Question:** What editing can MFS perform on date fields?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Reformatting, separator insertion, validation
+2. Date arithmetic only
+3. No date editing available
+4. Century windowing only
+
+**Correct Answer:** 1
 
 ---
 
-### Q251. What is the correct description of custom security validation routine?
+## Question 251
 
-**Topic:** IMS DC - Advanced Features
-**Difficulty:** Hard
+**Topic:** IMS DC - Message Field Editing  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
-1. What is a security exit in IMS DC?
-2. Unrelated concept
-3. Deprecated feature
-4. System-only feature
+**Question:** What does the 'CR' notation in an edit pattern indicate?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Credit (negative) balance indicator
+2. Carriage return control
+3. Create record function
+4. Current rate display
+
+**Correct Answer:** 1
 
 ---
 
-### Q252. In IMS DC programming, how to test transaction load?
+## Question 252
 
-**Topic:** IMS DC - Testing and Debugging
-**Difficulty:** Medium
+**Topic:** IMS DC - Message Field Editing  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
-1. Use load testing tools
-2. One transaction at a time
-3. Not necessary
-4. Production monitoring
+**Question:** How does MFS handle field overflow during editing?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Can truncate, asterisk fill, or error
+2. Always truncates silently
+3. Always errors and abends
+4. Automatically expands field
+
+**Correct Answer:** 1
 
 ---
 
-### Q253. Which statement is true about Use load testing tools?
+## Question 253
 
-**Topic:** IMS DC - Testing and Debugging
-**Difficulty:** Medium
+**Topic:** IMS DC - Message Field Editing  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
-1. It is correctly described in the question
-2. It is not related to IMS DC
-3. It is obsolete
-4. It is optional
+**Question:** Can MFS perform uppercase/lowercase conversion?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Yes, via field attributes
+2. No, requires program logic
+3. Only for alphabetic fields
+4. Only with special hardware
+
+**Correct Answer:** 1
 
 ---
 
-### Q254. What is the correct description of use load testing tools?
+## Question 254
 
-**Topic:** IMS DC - Testing and Debugging
-**Difficulty:** Medium
+**Topic:** IMS DC - Multi-segment Messages  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
-1. How to test transaction load?
-2. Unrelated concept
-3. Deprecated feature
-4. System-only feature
+**Question:** What is a multi-segment message in IMS DC?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Message broken into multiple logical segments
+2. Message sent to multiple terminals
+3. Message with multiple transaction codes
+4. Message split across multiple screens
+
+**Correct Answer:** 1
 
 ---
 
-### Q255. In IMS DC programming, how can transaction performance be monitored?
+## Question 255
 
-**Topic:** IMS DC - Transaction Scheduling
-**Difficulty:** Medium
+**Topic:** IMS DC - Multi-segment Messages  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
-1. IMS monitoring tools and statistics
-2. Manual observation
-3. User feedback
-4. Not possible
+**Question:** How does a program retrieve multiple input message segments?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Issue multiple GU or GN calls to I/O PCB
+2. Single GET-ALL call
+3. Use RETRIEVE SEGMENTS call
+4. Automatic concatenation by IMS
+
+**Correct Answer:** 1
 
 ---
 
-### Q256. Which statement is true about IMS monitoring tools and statistics?
+## Question 256
 
-**Topic:** IMS DC - Transaction Scheduling
-**Difficulty:** Medium
+**Topic:** IMS DC - Multi-segment Messages  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
-1. It is correctly described in the question
-2. It is not related to IMS DC
-3. It is obsolete
-4. It is optional
+**Question:** What status code indicates no more message segments available?
 
-**Correct Answer:** Option 1
+**Options:**
+1. QD status code
+2. QC status code
+3. GB status code
+4. NM status code
+
+**Correct Answer:** 1
 
 ---
 
-### Q257. What is the correct description of ims monitoring tools and statistics?
+## Question 257
 
-**Topic:** IMS DC - Transaction Scheduling
-**Difficulty:** Medium
+**Topic:** IMS DC - Multi-segment Messages  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
-1. How can transaction performance be monitored?
-2. Unrelated concept
-3. Deprecated feature
-4. System-only feature
+**Question:** How does a program send a multi-segment output message?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Issue multiple ISRT calls to I/O PCB
+2. Use SEND-MULTIPLE call
+3. Concatenate segments in program
+4. Use special MOD format
+
+**Correct Answer:** 1
 
 ---
 
-### Q258. In IMS DC programming, what is message edit exit?
+## Question 258
 
-**Topic:** IMS DC - Advanced Features
-**Difficulty:** Hard
+**Topic:** IMS DC - Multi-segment Messages  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
-1. Custom routine for message validation
-2. Message formatting
-3. Message correction
-4. Message deletion
+**Question:** What determines segment boundaries in multi-segment messages?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Segment size defined in MFS or program logic
+2. Fixed 80-byte segments
+3. Screen size limits
+4. Transaction code definition
+
+**Correct Answer:** 1
 
 ---
 
-### Q259. Which statement is true about Custom routine for message validation?
+## Question 259
 
-**Topic:** IMS DC - Advanced Features
-**Difficulty:** Hard
+**Topic:** IMS DC - Multi-segment Messages  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
-1. It is correctly described in the question
-2. It is not related to IMS DC
-3. It is obsolete
-4. It is optional
+**Question:** Can segments within a message have different formats?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Yes, each segment can have unique structure
+2. No, all segments must be identical
+3. Only in conversational transactions
+4. Only with MFS support
+
+**Correct Answer:** 1
 
 ---
 
-### Q260. What is the correct description of custom routine for message validation?
+## Question 260
 
-**Topic:** IMS DC - Advanced Features
-**Difficulty:** Hard
+**Topic:** IMS DC - Multi-segment Messages  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
-1. What is message edit exit?
-2. Unrelated concept
-3. Deprecated feature
-4. System-only feature
+**Question:** What is message chaining in IMS DC?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Linking multiple messages for single transaction
+2. Sending messages sequentially
+3. Connecting terminals together
+4. Database chain processing
+
+**Correct Answer:** 1
 
 ---
 
-### Q261. In IMS DC programming, what does i/o pcb stand for?
+## Question 261
 
-**Topic:** IMS DC - I/O PCB
-**Difficulty:** Easy
+**Topic:** IMS DC - Error Recovery  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
-1. Input/Output Program Communication Block
-2. Interface Output Process Control Block
-3. Internal Operation PCB
-4. Intelligent Output PCB
+**Question:** What should a program do when receiving an unexpected status code?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Check PCB, log error, send user message, rollback if needed
+2. Ignore and continue processing
+3. Always abend immediately
+4. Return to operating system
+
+**Correct Answer:** 1
 
 ---
 
-### Q262. Which statement is true about Input/Output Program Communication Block?
+## Question 262
 
-**Topic:** IMS DC - I/O PCB
-**Difficulty:** Easy
+**Topic:** IMS DC - Error Recovery  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
-1. It is correctly described in the question
-2. It is not related to IMS DC
-3. It is obsolete
-4. It is optional
+**Question:** What IMS call can a program use to signal abnormal termination?
 
-**Correct Answer:** Option 1
+**Options:**
+1. ROLL or ROLB call
+2. ABEND call
+3. TERM call
+4. EXIT call
+
+**Correct Answer:** 1
 
 ---
 
-### Q263. What is the correct description of input/output program communication block?
+## Question 263
 
-**Topic:** IMS DC - I/O PCB
-**Difficulty:** Easy
+**Topic:** IMS DC - Error Recovery  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
-1. What does I/O PCB stand for?
-2. Unrelated concept
-3. Deprecated feature
-4. System-only feature
+**Question:** What does the ROLL call do?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Backs out database and message changes
+2. Rolls forward transaction log
+3. Rotates log datasets
+4. Rolls back operating system
+
+**Correct Answer:** 1
 
 ---
 
-### Q264. In IMS DC programming, what is the difference between inquiry and maintenance?
+## Question 264
 
-**Topic:** IMS DC - Online Program Types
-**Difficulty:** Easy
+**Topic:** IMS DC - Error Recovery  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
-1. Inquiry reads only, maintenance updates
-2. No difference
-3. Inquiry is faster
-4. Maintenance is simpler
+**Question:** After a ROLB call, what happens to the input message?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Can be requeued or discarded based on ROLB type
+2. Always requeued for retry
+3. Always discarded permanently
+4. Sent to error queue
+
+**Correct Answer:** 1
 
 ---
 
-### Q265. Which statement is true about Inquiry reads only, maintenance updates?
+## Question 265
 
-**Topic:** IMS DC - Online Program Types
-**Difficulty:** Easy
+**Topic:** IMS DC - Error Recovery  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
-1. It is correctly described in the question
-2. It is not related to IMS DC
-3. It is obsolete
-4. It is optional
+**Question:** What is the purpose of the SETS and SETO calls?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Set commit point for database and message changes
+2. Set error recovery options
+3. Set terminal output mode
+4. Set security level
+
+**Correct Answer:** 1
 
 ---
 
-### Q266. What is the correct description of inquiry reads only, maintenance updates?
+## Question 266
 
-**Topic:** IMS DC - Online Program Types
-**Difficulty:** Easy
+**Topic:** IMS DC - Error Recovery  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
-1. What is the difference between inquiry and maintenance?
-2. Unrelated concept
-3. Deprecated feature
-4. System-only feature
+**Question:** How should a program handle a database deadlock?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Receive BA status, issue ROLB, retry or exit
+2. Wait indefinitely for lock release
+3. Force lock override
+4. Abend immediately
+
+**Correct Answer:** 1
 
 ---
 
-### Q267. In IMS DC programming, can messages have different priorities?
+## Question 267
 
-**Topic:** IMS DC - Message Queues
-**Difficulty:** Medium
+**Topic:** IMS DC - Error Recovery  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
-1. Yes, 0-9 or 0-15 depending on system
-2. No, all equal priority
-3. Yes, low/medium/high only
-4. Only in batch mode
+**Question:** What information should error messages to users include?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Clear description, action required, contact info if needed
+2. Technical status codes only
+3. Complete abend dump
+4. Database structure details
+
+**Correct Answer:** 1
 
 ---
 
-### Q268. Which statement is true about Yes, 0-9 or 0-15 depending on system?
+## Question 268
 
-**Topic:** IMS DC - Message Queues
-**Difficulty:** Medium
+**Topic:** IMS DC - Error Recovery  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
-1. It is correctly described in the question
-2. It is not related to IMS DC
-3. It is obsolete
-4. It is optional
+**Question:** What happens to output messages after a ROLB?
 
-**Correct Answer:** Option 1
+**Options:**
+1. All output messages are discarded
+2. Output messages are still sent
+3. Only error messages are sent
+4. Output is queued for manual review
+
+**Correct Answer:** 1
 
 ---
 
-### Q269. What is the correct description of yes, 0-9 or 0-15 depending on system?
+## Question 269
 
-**Topic:** IMS DC - Message Queues
-**Difficulty:** Medium
+**Topic:** IMS DC - Program Switching  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
-1. Can messages have different priorities?
-2. Unrelated concept
-3. Deprecated feature
-4. System-only feature
+**Question:** What DL/I call transfers control to another IMS program?
 
-**Correct Answer:** Option 1
+**Options:**
+1. XRST (Transfer)
+2. CALL
+3. LINK
+4. SWITCH
+
+**Correct Answer:** 1
 
 ---
 
-### Q270. In IMS DC programming, what is a pcb mask?
+## Question 270
 
-**Topic:** IMS DC - PCB Masks
-**Difficulty:** Medium
+**Topic:** IMS DC - Program Switching  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
-1. COBOL structure mapping PCB fields
-2. PCB security
-3. PCB filter
-4. PCB template
+**Question:** What happens to database position after program switch (XRST)?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Position is maintained for called program
+2. Position is reset to beginning
+3. Position is lost completely
+4. Depends on PCB type
+
+**Correct Answer:** 1
 
 ---
 
-### Q271. Which statement is true about COBOL structure mapping PCB fields?
+## Question 271
 
-**Topic:** IMS DC - PCB Masks
-**Difficulty:** Medium
+**Topic:** IMS DC - Program Switching  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
-1. It is correctly described in the question
-2. It is not related to IMS DC
-3. It is obsolete
-4. It is optional
+**Question:** Can a program switch return control to the calling program?
 
-**Correct Answer:** Option 1
-
----
-
-### Q272. What is the correct description of cobol structure mapping pcb fields?
-
-**Topic:** IMS DC - PCB Masks
-**Difficulty:** Medium
-**Type:** Single Choice
-
-1. What is a PCB mask?
-2. Unrelated concept
-3. Deprecated feature
-4. System-only feature
-
-**Correct Answer:** Option 1
-
----
-
-### Q273. In IMS DC programming, what is the primary function of an mpp?
-
-**Topic:** IMS DC - Message Processing Programs
-**Difficulty:** Easy
-**Type:** Single Choice
-
-1. Process online transactions
-2. Generate reports
-3. Backup databases
-4. Manage security
-
-**Correct Answer:** Option 1
-
----
-
-### Q274. Which statement is true about Process online transactions?
-
-**Topic:** IMS DC - Message Processing Programs
-**Difficulty:** Easy
-**Type:** Single Choice
-
-1. It is correctly described in the question
-2. It is not related to IMS DC
-3. It is obsolete
-4. It is optional
-
-**Correct Answer:** Option 1
-
----
-
-### Q275. What is the correct description of process online transactions?
-
-**Topic:** IMS DC - Message Processing Programs
-**Difficulty:** Easy
-**Type:** Single Choice
-
-1. What is the primary function of an MPP?
-2. Unrelated concept
-3. Deprecated feature
-4. System-only feature
-
-**Correct Answer:** Option 1
-
----
-
-### Q276. In IMS DC programming, what is message edit/routing?
-
-**Topic:** IMS DC - Message Formats and Structure
-**Difficulty:** Medium
-**Type:** Single Choice
-
-1. Validating and directing messages
-2. Formatting output
-3. Encrypting data
-4. Compressing messages
-
-**Correct Answer:** Option 1
-
----
-
-### Q277. Which statement is true about Validating and directing messages?
-
-**Topic:** IMS DC - Message Formats and Structure
-**Difficulty:** Medium
-**Type:** Single Choice
-
-1. It is correctly described in the question
-2. It is not related to IMS DC
-3. It is obsolete
-4. It is optional
-
-**Correct Answer:** Option 1
-
----
-
-### Q278. What is the correct description of validating and directing messages?
-
-**Topic:** IMS DC - Message Formats and Structure
-**Difficulty:** Medium
-**Type:** Single Choice
-
-1. What is message edit/routing?
-2. Unrelated concept
-3. Deprecated feature
-4. System-only feature
-
-**Correct Answer:** Option 1
-
----
-
-### Q279. In IMS DC programming, which field in i/o pcb contains the logical terminal name?
-
-**Topic:** IMS DC - I/O PCB
-**Difficulty:** Medium
-**Type:** Single Choice
-
-1. LTERM field
-2. NAME field
-3. TERM field
-4. ID field
-
-**Correct Answer:** Option 1
-
----
-
-### Q280. Which statement is true about LTERM field?
-
-**Topic:** IMS DC - I/O PCB
-**Difficulty:** Medium
-**Type:** Single Choice
-
-1. It is correctly described in the question
-2. It is not related to IMS DC
-3. It is obsolete
-4. It is optional
-
-**Correct Answer:** Option 1
-
----
-
-### Q281. What is the correct description of lterm field?
-
-**Topic:** IMS DC - I/O PCB
-**Difficulty:** Medium
-**Type:** Single Choice
-
-1. Which field in I/O PCB contains the logical terminal name?
-2. Unrelated concept
-3. Deprecated feature
-4. System-only feature
-
-**Correct Answer:** Option 1
-
----
-
-### Q282. In IMS DC programming, can you use repl with i/o pcb?
-
-**Topic:** IMS DC - DL/I Calls for Message Processing
-**Difficulty:** Medium
-**Type:** Single Choice
-
-1. No, not applicable for messages
-2. Yes, to replace messages
-3. Yes, for updates
+**Options:**
+1. No, XRST is one-way transfer
+2. Yes, automatically returns
+3. Yes, with RETURN call
 4. Only in conversational mode
 
-**Correct Answer:** Option 1
+**Correct Answer:** 1
 
 ---
 
-### Q283. Which statement is true about No, not applicable for messages?
+## Question 272
 
-**Topic:** IMS DC - DL/I Calls for Message Processing
-**Difficulty:** Medium
+**Topic:** IMS DC - Program Switching  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
-1. It is correctly described in the question
-2. It is not related to IMS DC
-3. It is obsolete
-4. It is optional
+**Question:** What data can be passed to the switched-to program?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Data in I/O area specified on XRST call
+2. No data transfer possible
+3. Complete working storage
+4. Only transaction code
+
+**Correct Answer:** 1
 
 ---
 
-### Q284. What is the correct description of no, not applicable for messages?
+## Question 273
 
-**Topic:** IMS DC - DL/I Calls for Message Processing
-**Difficulty:** Medium
+**Topic:** IMS DC - Program Switching  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
-1. Can you use REPL with I/O PCB?
-2. Unrelated concept
-3. Deprecated feature
-4. System-only feature
+**Question:** Why use program switching instead of COBOL CALL?
 
-**Correct Answer:** Option 1
+**Options:**
+1. XRST provides IMS context and PCB access
+2. XRST is faster
+3. XRST uses less memory
+4. COBOL CALL not supported
+
+**Correct Answer:** 1
 
 ---
 
-### Q285. In IMS DC programming, can pcb mask be modified by program?
+## Question 274
 
-**Topic:** IMS DC - PCB Masks
-**Difficulty:** Medium
+**Topic:** IMS DC - Program Switching  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
-1. Should not modify, except for routing
-2. Yes, freely
-3. No, read-only
-4. Only status code
+**Question:** What security applies when switching programs?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Target program must be authorized for transaction
+2. No security checks performed
+3. Original program security carries over
+4. User must reauthorize
+
+**Correct Answer:** 1
 
 ---
 
-### Q286. Which statement is true about Should not modify, except for routing?
+## Question 275
 
-**Topic:** IMS DC - PCB Masks
-**Difficulty:** Medium
+**Topic:** IMS DC - Transaction Restart  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
-1. It is correctly described in the question
-2. It is not related to IMS DC
-3. It is obsolete
-4. It is optional
+**Question:** What is transaction restart in IMS DC?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Automatic reprocessing of failed transaction
+2. Manual transaction resubmission
+3. System restart after crash
+4. Transaction code redefinition
+
+**Correct Answer:** 1
 
 ---
 
-### Q287. What is the correct description of should not modify, except for routing?
+## Question 276
 
-**Topic:** IMS DC - PCB Masks
-**Difficulty:** Medium
+**Topic:** IMS DC - Transaction Restart  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
-1. Can PCB mask be modified by program?
-2. Unrelated concept
-3. Deprecated feature
-4. System-only feature
+**Question:** When does IMS automatically restart a transaction?
 
-**Correct Answer:** Option 1
+**Options:**
+1. After certain abends or system failures
+2. After every abend
+3. Never automatically
+4. Only during scheduled maintenance
+
+**Correct Answer:** 1
 
 ---
 
-### Q288. In IMS DC programming, how to check status code in cobol?
+## Question 277
 
-**Topic:** IMS DC - COBOL Programming
-**Difficulty:** Easy
+**Topic:** IMS DC - Transaction Restart  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
-1. Test status field in PCB
-2. CHECK STATUS statement
-3. IF DLI-STATUS
-4. INSPECT STATUS
+**Question:** What is a checkpoint in the context of transaction processing?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Point where transaction state is saved for recovery
+2. End of transaction
+3. Security validation point
+4. Performance measurement point
+
+**Correct Answer:** 1
 
 ---
 
-### Q289. Which statement is true about Test status field in PCB?
+## Question 278
 
-**Topic:** IMS DC - COBOL Programming
-**Difficulty:** Easy
+**Topic:** IMS DC - Transaction Restart  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
-1. It is correctly described in the question
-2. It is not related to IMS DC
-3. It is obsolete
-4. It is optional
+**Question:** How can a program make itself non-restartable?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Issue ROLB call or define transaction as non-restartable
+2. Cannot prevent restart
+3. Set NORESTART flag
+4. Use special PCB option
+
+**Correct Answer:** 1
 
 ---
 
-### Q290. What is the correct description of test status field in pcb?
+## Question 279
 
-**Topic:** IMS DC - COBOL Programming
-**Difficulty:** Easy
+**Topic:** IMS DC - Transaction Restart  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
-1. How to check status code in COBOL?
-2. Unrelated concept
-3. Deprecated feature
-4. System-only feature
+**Question:** What programming practice helps ensure clean transaction restart?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Design idempotent operations, avoid external side effects
+2. Use global variables
+3. Cache all data in memory
+4. Disable all error checking
+
+**Correct Answer:** 1
 
 ---
 
-### Q291. In IMS DC programming, how to test error conditions?
+## Question 280
 
-**Topic:** IMS DC - Testing and Debugging
-**Difficulty:** Easy
+**Topic:** IMS DC - Transaction Restart  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
-1. Simulate error scenarios
-2. Wait for real errors
-3. Not necessary
-4. Only in production
+**Question:** What happens to database updates during automatic restart?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Rolled back and reapplied during restart
+2. Lost permanently
+3. Kept as-is from failed run
+4. Manually recovered
+
+**Correct Answer:** 1
 
 ---
 
-### Q292. Which statement is true about Simulate error scenarios?
+## Question 281
 
-**Topic:** IMS DC - Testing and Debugging
-**Difficulty:** Easy
+**Topic:** IMS DC - Data Validation  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
-1. It is correctly described in the question
-2. It is not related to IMS DC
-3. It is obsolete
-4. It is optional
+**Question:** Where should input data validation occur?
 
-**Correct Answer:** Option 1
+**Options:**
+1. As early as possible in application logic
+2. Only at database update time
+3. Only in batch programs
+4. Validation not needed with MFS
+
+**Correct Answer:** 1
 
 ---
 
-### Q293. What is the correct description of simulate error scenarios?
+## Question 282
 
-**Topic:** IMS DC - Testing and Debugging
-**Difficulty:** Easy
+**Topic:** IMS DC - Data Validation  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
-1. How to test error conditions?
-2. Unrelated concept
-3. Deprecated feature
-4. System-only feature
+**Question:** What types of validation should online programs perform?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Format, range, required fields, cross-field edits
+2. Only numeric validation
+3. Only database constraint checking
+4. No validation needed
+
+**Correct Answer:** 1
 
 ---
 
-### Q294. In IMS DC programming, how can you simulate terminal input?
+## Question 283
 
-**Topic:** IMS DC - Testing and Debugging
-**Difficulty:** Medium
+**Topic:** IMS DC - Data Validation  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
-1. Use test harness or automation tools
-2. Manual typing only
-3. Not possible
-4. Batch simulation
+**Question:** How should a program handle multiple validation errors?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Collect all errors and report together
+2. Report first error only
+3. Abend on first error
+4. Ignore all but critical errors
+
+**Correct Answer:** 1
 
 ---
 
-### Q295. Which statement is true about Use test harness or automation tools?
+## Question 284
 
-**Topic:** IMS DC - Testing and Debugging
-**Difficulty:** Medium
+**Topic:** IMS DC - COBOL Program Structure  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
-1. It is correctly described in the question
-2. It is not related to IMS DC
-3. It is obsolete
-4. It is optional
+**Question:** What special COBOL division is used for IMS programs?
 
-**Correct Answer:** Option 1
+**Options:**
+1. No special division, standard COBOL structure
+2. IMS DIVISION
+3. DL/I DIVISION
+4. TRANSACTION DIVISION
+
+**Correct Answer:** 1
 
 ---
 
-### Q296. What is the correct description of use test harness or automation tools?
+## Question 285
 
-**Topic:** IMS DC - Testing and Debugging
-**Difficulty:** Medium
+**Topic:** IMS DC - COBOL Program Structure  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
-1. How can you simulate terminal input?
-2. Unrelated concept
-3. Deprecated feature
-4. System-only feature
+**Question:** Where are PCB masks defined in COBOL?
 
-**Correct Answer:** Option 1
+**Options:**
+1. LINKAGE SECTION
+2. WORKING-STORAGE SECTION
+3. FILE SECTION
+4. LOCAL-STORAGE SECTION
+
+**Correct Answer:** 1
 
 ---
 
-### Q297. In IMS DC programming, what is required before issuing gu to i/o pcb?
+## Question 286
 
-**Topic:** IMS DC - DL/I Calls for Message Processing
-**Difficulty:** Easy
+**Topic:** IMS DC - COBOL Program Structure  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
-1. Nothing, just issue the call
-2. Open the PCB
-3. Initialize message area
-4. Set terminal ID
+**Question:** What is the ENTRY parameter 'DLITCBL' used for?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Entry point for IMS to call COBOL program
+2. Database entry definition
+3. Transaction entry point
+4. Error entry routine
+
+**Correct Answer:** 1
 
 ---
 
-### Q298. Which statement is true about Nothing, just issue the call?
+## Question 287
 
-**Topic:** IMS DC - DL/I Calls for Message Processing
-**Difficulty:** Easy
+**Topic:** IMS DC - COBOL Program Structure  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
-1. It is correctly described in the question
-2. It is not related to IMS DC
-3. It is obsolete
-4. It is optional
+**Question:** How does a COBOL program receive its PCB addresses?
 
-**Correct Answer:** Option 1
+**Options:**
+1. Via ENTRY USING statement parameters
+2. From WORKING-STORAGE
+3. Through ACCEPT statement
+4. From JCL parameters
+
+**Correct Answer:** 1
 
 ---
 
-### Q299. What is the correct description of nothing, just issue the call?
+## Question 288
 
-**Topic:** IMS DC - DL/I Calls for Message Processing
-**Difficulty:** Easy
+**Topic:** IMS DC - COBOL Program Structure  
+**Difficulty:** Hard  
 **Type:** Single Choice
 
-1. What is required before issuing GU to I/O PCB?
-2. Unrelated concept
-3. Deprecated feature
-4. System-only feature
+**Question:** What COBOL statement issues DL/I calls?
 
-**Correct Answer:** Option 1
+**Options:**
+1. CALL 'CBLTDLI' USING...
+2. EXEC DLI
+3. INVOKE DLI
+4. DLI-CALL
+
+**Correct Answer:** 1
 
 ---
 
-### Q300. In IMS DC programming, what affects transaction throughput?
+## Question 289
 
-**Topic:** IMS DC - Transaction Scheduling
-**Difficulty:** Medium
+**Topic:** IMS DC - COBOL Program Structure  
+**Difficulty:** Medium  
 **Type:** Single Choice
 
-1. Number of regions, priorities, resources
-2. Network speed only
-3. Terminal count
-4. Program size
+**Question:** How should a COBOL IMS program terminate normally?
 
-**Correct Answer:** Option 1
+**Options:**
+1. GOBACK or STOP RUN statement
+2. ROLLBACK statement
+3. EXIT PROGRAM only
+4. TERMINATE DLI
+
+**Correct Answer:** 1
+
+---
+
+## Question 290
+
+**Topic:** IMS DC - COBOL Program Structure  
+**Difficulty:** Medium  
+**Type:** Single Choice
+
+**Question:** Can IMS COBOL programs use files (FILE SECTION)?
+
+**Options:**
+1. Generally no, should use DL/I for data access
+2. Yes, fully supported
+3. Only sequential files
+4. Only for output
+
+**Correct Answer:** 1
+
+---
+
+## Question 291
+
+**Topic:** IMS DC - PCB Details  
+**Difficulty:** Hard  
+**Type:** Single Choice
+
+**Question:** What field in the I/O PCB contains the message sequence number?
+
+**Options:**
+1. Not standard in I/O PCB, may be in alternate PCB
+2. MSG-SEQ-NUM field
+3. SEQUENCE-FIELD
+4. TRANS-SEQ field
+
+**Correct Answer:** 1
+
+---
+
+## Question 292
+
+**Topic:** IMS DC - PCB Details  
+**Difficulty:** Medium  
+**Type:** Single Choice
+
+**Question:** What does the LTERM field in I/O PCB identify?
+
+**Options:**
+1. Logical terminal name (8 characters)
+2. Physical terminal address
+3. User ID
+4. Terminal type code
+
+**Correct Answer:** 1
+
+---
+
+## Question 293
+
+**Topic:** IMS DC - Status Codes  
+**Difficulty:** Medium  
+**Type:** Single Choice
+
+**Question:** What does status code 'QC' indicate?
+
+**Options:**
+1. No more input message segments (message complete)
+2. Queue is closed
+3. Query completed
+4. Quick commit performed
+
+**Correct Answer:** 1
+
+---
+
+## Question 294
+
+**Topic:** IMS DC - Status Codes  
+**Difficulty:** Hard  
+**Type:** Single Choice
+
+**Question:** What status code indicates segment not found in database?
+
+**Options:**
+1. GE status code
+2. NF status code
+3. GB status code
+4. NS status code
+
+**Correct Answer:** 1
+
+---
+
+## Question 295
+
+**Topic:** IMS DC - Status Codes  
+**Difficulty:** Hard  
+**Type:** Single Choice
+
+**Question:** What does 'BA' status code mean?
+
+**Options:**
+1. Resource unavailable/deadlock detected
+2. Bad address in call
+3. Batch mode active
+4. Buffer allocation failed
+
+**Correct Answer:** 1
+
+---
+
+## Question 296
+
+**Topic:** IMS DC - Status Codes  
+**Difficulty:** Medium  
+**Type:** Single Choice
+
+**Question:** What status indicates successful database update?
+
+**Options:**
+1. Blank or spaces status code
+2. OK status code
+3. 00 status code
+4. SU status code
+
+**Correct Answer:** 1
+
+---
+
+## Question 297
+
+**Topic:** IMS DC - Best Practices  
+**Difficulty:** Hard  
+**Type:** Single Choice
+
+**Question:** Why should online programs minimize database holds?
+
+**Options:**
+1. Reduce contention and improve concurrency
+2. Save memory
+3. Improve screen response
+4. Reduce network traffic
+
+**Correct Answer:** 1
+
+---
+
+## Question 298
+
+**Topic:** IMS DC - Best Practices  
+**Difficulty:** Medium  
+**Type:** Single Choice
+
+**Question:** What is a common pitfall in IMS DC programming?
+
+**Options:**
+1. Not checking status codes after every DL/I call
+2. Using too many comments
+3. Making programs too modular
+4. Testing too thoroughly
+
+**Correct Answer:** 1
+
+---
+
+## Question 299
+
+**Topic:** IMS DC - Real-world Application  
+**Difficulty:** Hard  
+**Type:** Single Choice
+
+**Question:** In a customer inquiry transaction, what's the recommended approach?
+
+**Options:**
+1. Retrieve data, format output, send to user, no database holds
+2. Hold database locks during user review
+3. Update database with inquiry timestamp
+4. Always use conversational mode
+
+**Correct Answer:** 1
+
+---
+
+## Question 300
+
+**Topic:** IMS DC - Real-world Application  
+**Difficulty:** Hard  
+**Type:** Single Choice
+
+**Question:** For a complex update transaction requiring validation from multiple sources, what's best?
+
+**Options:**
+1. Gather all data, validate completely, then update atomically
+2. Update as you go, validating each piece
+3. Skip validation to improve performance
+4. Use separate transactions for each piece
+
+**Correct Answer:** 1
 
 ---
 

@@ -3095,13 +3095,13 @@
   },
   {
     "questionnumber": 222,
-    "topic": "IMS DC - Additional Concepts",
-    "difficulty": "Medium",
-    "question": "In IMS DC programming, what is transaction commit point?",
-    "option_1": "Point where changes are made permanent",
-    "option_2": "End of transaction",
-    "option_3": "Beginning of transaction",
-    "option_4": "Checkpoint",
+    "topic": "IMS DC - Message Format Services (MFS)",
+    "difficulty": "Easy",
+    "question": "What is the primary purpose of Message Format Services (MFS) in IMS DC?",
+    "option_1": "Format messages between application programs and terminals",
+    "option_2": "Store messages in databases",
+    "option_3": "Route messages to appropriate programs",
+    "option_4": "Compress message data",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3109,13 +3109,13 @@
   },
   {
     "questionnumber": 223,
-    "topic": "IMS DC - Additional Concepts",
+    "topic": "IMS DC - Message Format Services (MFS)",
     "difficulty": "Medium",
-    "question": "Which statement is true about Point where changes are made permanent?",
-    "option_1": "It is correctly described in the question",
-    "option_2": "It is not related to IMS DC",
-    "option_3": "It is obsolete",
-    "option_4": "It is optional",
+    "question": "Which MFS control block defines the physical terminal characteristics?",
+    "option_1": "DIF (Device Input Format)",
+    "option_2": "DOF (Device Output Format)",
+    "option_3": "MID (Message Input Descriptor)",
+    "option_4": "MOD (Message Output Descriptor)",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3123,13 +3123,13 @@
   },
   {
     "questionnumber": 224,
-    "topic": "IMS DC - Additional Concepts",
+    "topic": "IMS DC - Message Format Services (MFS)",
     "difficulty": "Medium",
-    "question": "What is the correct description of point where changes are made permanent?",
-    "option_1": "What is transaction commit point?",
-    "option_2": "Unrelated concept",
-    "option_3": "Deprecated feature",
-    "option_4": "System-only feature",
+    "question": "What does MOD stand for in MFS?",
+    "option_1": "Message Output Descriptor",
+    "option_2": "Module Definition",
+    "option_3": "Message Organizational Data",
+    "option_4": "Multiple Output Device",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3137,13 +3137,13 @@
   },
   {
     "questionnumber": 225,
-    "topic": "IMS DC - Online Program Types",
-    "difficulty": "Easy",
-    "question": "In IMS DC programming, what is a menu-driven program?",
-    "option_1": "Presents options for user selection",
-    "option_2": "Processes menu data",
-    "option_3": "Food ordering system",
-    "option_4": "List display program",
+    "topic": "IMS DC - Message Format Services (MFS)",
+    "difficulty": "Medium",
+    "question": "Which MFS control block maps the application program's view of a message?",
+    "option_1": "MID (Message Input Descriptor)",
+    "option_2": "DIF (Device Input Format)",
+    "option_3": "FMT (Format)",
+    "option_4": "PCB (Program Communication Block)",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3151,13 +3151,13 @@
   },
   {
     "questionnumber": 226,
-    "topic": "IMS DC - Online Program Types",
-    "difficulty": "Easy",
-    "question": "Which statement is true about Presents options for user selection?",
-    "option_1": "It is correctly described in the question",
-    "option_2": "It is not related to IMS DC",
-    "option_3": "It is obsolete",
-    "option_4": "It is optional",
+    "topic": "IMS DC - Message Format Services (MFS)",
+    "difficulty": "Hard",
+    "question": "In MFS, what is the purpose of the DFLD (Device Field) statement?",
+    "option_1": "Define physical field location on screen",
+    "option_2": "Define database field mapping",
+    "option_3": "Define field validation rules",
+    "option_4": "Define field compression",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3165,13 +3165,13 @@
   },
   {
     "questionnumber": 227,
-    "topic": "IMS DC - Online Program Types",
-    "difficulty": "Easy",
-    "question": "What is the correct description of presents options for user selection?",
-    "option_1": "What is a menu-driven program?",
-    "option_2": "Unrelated concept",
-    "option_3": "Deprecated feature",
-    "option_4": "System-only feature",
+    "topic": "IMS DC - Message Format Services (MFS)",
+    "difficulty": "Hard",
+    "question": "What MFS statement defines the logical message field for the application?",
+    "option_1": "MFLD (Message Field)",
+    "option_2": "DFLD (Device Field)",
+    "option_3": "LFLD (Logical Field)",
+    "option_4": "AFLD (Application Field)",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3179,13 +3179,13 @@
   },
   {
     "questionnumber": 228,
-    "topic": "IMS DC - Testing and Debugging",
+    "topic": "IMS DC - Message Format Services (MFS)",
     "difficulty": "Medium",
-    "question": "In IMS DC programming, how to trace dl/i calls?",
-    "option_1": "Enable IMS tracing facilities",
-    "option_2": "Add DISPLAY statements",
-    "option_3": "Use system logs",
-    "option_4": "Not possible",
+    "question": "Which attribute controls whether a field is protected or unprotected on a 3270 screen?",
+    "option_1": "ATTR parameter",
+    "option_2": "PROT parameter",
+    "option_3": "FIELD parameter",
+    "option_4": "SECURE parameter",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3193,13 +3193,13 @@
   },
   {
     "questionnumber": 229,
-    "topic": "IMS DC - Testing and Debugging",
-    "difficulty": "Medium",
-    "question": "Which statement is true about Enable IMS tracing facilities?",
-    "option_1": "It is correctly described in the question",
-    "option_2": "It is not related to IMS DC",
-    "option_3": "It is obsolete",
-    "option_4": "It is optional",
+    "topic": "IMS DC - Message Format Services (MFS)",
+    "difficulty": "Hard",
+    "question": "What does the FILL parameter in MFS specify?",
+    "option_1": "Character to fill unused field positions",
+    "option_2": "Default value for empty fields",
+    "option_3": "Field justification",
+    "option_4": "Field alignment",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3207,13 +3207,13 @@
   },
   {
     "questionnumber": 230,
-    "topic": "IMS DC - Testing and Debugging",
+    "topic": "IMS DC - Message Format Services (MFS)",
     "difficulty": "Medium",
-    "question": "What is the correct description of enable ims tracing facilities?",
-    "option_1": "How to trace DL/I calls?",
-    "option_2": "Unrelated concept",
-    "option_3": "Deprecated feature",
-    "option_4": "System-only feature",
+    "question": "Which MFS format is used for output messages?",
+    "option_1": "DOF and MOD",
+    "option_2": "DIF and MID",
+    "option_3": "FMT and MSG",
+    "option_4": "OUT and DISP",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3221,13 +3221,13 @@
   },
   {
     "questionnumber": 231,
-    "topic": "IMS DC - Conversational vs Non-conversational",
+    "topic": "IMS DC - Message Format Services (MFS)",
     "difficulty": "Easy",
-    "question": "In IMS DC programming, what is the disadvantage of conversational transactions?",
-    "option_1": "Higher resource consumption",
-    "option_2": "Slower response time",
-    "option_3": "Less functionality",
-    "option_4": "More complex programming",
+    "question": "What tool is used to compile MFS source definitions?",
+    "option_1": "MFS Language Utility",
+    "option_2": "IMS Compiler",
+    "option_3": "COBOL Compiler",
+    "option_4": "Assembler",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3235,13 +3235,13 @@
   },
   {
     "questionnumber": 232,
-    "topic": "IMS DC - Conversational vs Non-conversational",
-    "difficulty": "Easy",
-    "question": "Which statement is true about Higher resource consumption?",
-    "option_1": "It is correctly described in the question",
-    "option_2": "It is not related to IMS DC",
-    "option_3": "It is obsolete",
-    "option_4": "It is optional",
+    "topic": "IMS DC - Message Format Services (MFS)",
+    "difficulty": "Medium",
+    "question": "Where are compiled MFS formats stored?",
+    "option_1": "IMS Format Library",
+    "option_2": "IMS Database",
+    "option_3": "Application Library",
+    "option_4": "System Catalog",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3249,13 +3249,13 @@
   },
   {
     "questionnumber": 233,
-    "topic": "IMS DC - Conversational vs Non-conversational",
-    "difficulty": "Easy",
-    "question": "What is the correct description of higher resource consumption?",
-    "option_1": "What is the disadvantage of conversational transactions?",
-    "option_2": "Unrelated concept",
-    "option_3": "Deprecated feature",
-    "option_4": "System-only feature",
+    "topic": "IMS DC - Message Format Services (MFS)",
+    "difficulty": "Hard",
+    "question": "What is the purpose of the LITERAL parameter in DFLD?",
+    "option_1": "Display constant text on screen",
+    "option_2": "Define literal values for comparison",
+    "option_3": "Create literal database fields",
+    "option_4": "Generate literal documentation",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3263,13 +3263,13 @@
   },
   {
     "questionnumber": 234,
-    "topic": "IMS DC - Advanced Features",
-    "difficulty": "Hard",
-    "question": "In IMS DC programming, what is express pcb?",
-    "option_1": "PCB for urgent high-priority messages",
-    "option_2": "Fast processing PCB",
-    "option_3": "Quick response PCB",
-    "option_4": "Expedited PCB",
+    "topic": "IMS DC - Message Format Services (MFS)",
+    "difficulty": "Medium",
+    "question": "Can MFS perform automatic data type conversion?",
+    "option_1": "Yes, between character and numeric formats",
+    "option_2": "No, program must do all conversions",
+    "option_3": "Yes, but only for dates",
+    "option_4": "Only with special hardware",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3277,13 +3277,13 @@
   },
   {
     "questionnumber": 235,
-    "topic": "IMS DC - Advanced Features",
+    "topic": "IMS DC - Message Format Services (MFS)",
     "difficulty": "Hard",
-    "question": "Which statement is true about PCB for urgent high-priority messages?",
-    "option_1": "It is correctly described in the question",
-    "option_2": "It is not related to IMS DC",
-    "option_3": "It is obsolete",
-    "option_4": "It is optional",
+    "question": "What does the JUSTIFY parameter control in MFLD?",
+    "option_1": "Left or right justification of data in field",
+    "option_2": "Vertical alignment on screen",
+    "option_3": "Field validation method",
+    "option_4": "Error message positioning",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3291,13 +3291,13 @@
   },
   {
     "questionnumber": 236,
-    "topic": "IMS DC - Advanced Features",
-    "difficulty": "Hard",
-    "question": "What is the correct description of pcb for urgent high-priority messages?",
-    "option_1": "What is express PCB?",
-    "option_2": "Unrelated concept",
-    "option_3": "Deprecated feature",
-    "option_4": "System-only feature",
+    "topic": "IMS DC - Screen Handling",
+    "difficulty": "Easy",
+    "question": "What is the standard screen size for a 3270 terminal model 2?",
+    "option_1": "24 rows by 80 columns",
+    "option_2": "25 rows by 80 columns",
+    "option_3": "24 rows by 132 columns",
+    "option_4": "32 rows by 80 columns",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3305,13 +3305,13 @@
   },
   {
     "questionnumber": 237,
-    "topic": "IMS DC - COBOL Programming",
+    "topic": "IMS DC - Screen Handling",
     "difficulty": "Medium",
-    "question": "In IMS DC programming, how is i/o pcb defined in cobol?",
-    "option_1": "In LINKAGE SECTION",
-    "option_2": "In WORKING-STORAGE",
-    "option_3": "In FILE SECTION",
-    "option_4": "In PROCEDURE DIVISION",
+    "question": "What does the MDT (Modified Data Tag) attribute indicate?",
+    "option_1": "Field has been modified by user",
+    "option_2": "Field contains master data",
+    "option_3": "Field is mandatory",
+    "option_4": "Field is for date entry",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3319,13 +3319,13 @@
   },
   {
     "questionnumber": 238,
-    "topic": "IMS DC - COBOL Programming",
+    "topic": "IMS DC - Screen Handling",
     "difficulty": "Medium",
-    "question": "Which statement is true about In LINKAGE SECTION?",
-    "option_1": "It is correctly described in the question",
-    "option_2": "It is not related to IMS DC",
-    "option_3": "It is obsolete",
-    "option_4": "It is optional",
+    "question": "Which 3270 attribute makes a field invisible to the user?",
+    "option_1": "Dark/Non-display attribute",
+    "option_2": "Hidden attribute",
+    "option_3": "Protected attribute",
+    "option_4": "Masked attribute",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3333,13 +3333,13 @@
   },
   {
     "questionnumber": 239,
-    "topic": "IMS DC - COBOL Programming",
-    "difficulty": "Medium",
-    "question": "What is the correct description of in linkage section?",
-    "option_1": "How is I/O PCB defined in COBOL?",
-    "option_2": "Unrelated concept",
-    "option_3": "Deprecated feature",
-    "option_4": "System-only feature",
+    "topic": "IMS DC - Screen Handling",
+    "difficulty": "Hard",
+    "question": "What happens when a user presses ENTER on a 3270 screen?",
+    "option_1": "Only fields with MDT on are transmitted",
+    "option_2": "All fields are transmitted",
+    "option_3": "Only unprotected fields are transmitted",
+    "option_4": "Only modified unprotected fields are transmitted",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3347,13 +3347,13 @@
   },
   {
     "questionnumber": 240,
-    "topic": "IMS DC - PCB Masks",
+    "topic": "IMS DC - Screen Handling",
     "difficulty": "Medium",
-    "question": "In IMS DC programming, what fields are in i/o pcb mask?",
-    "option_1": "LTERM, status code, date/time, message length",
-    "option_2": "Only status code",
-    "option_3": "All database fields",
-    "option_4": "User information",
+    "question": "How can a program clear the entire screen?",
+    "option_1": "Send ERASE WRITE command via MFS or control characters",
+    "option_2": "Use CLEAR PCB call",
+    "option_3": "Issue DELETE SCREEN command",
+    "option_4": "Send blank message",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3361,13 +3361,13 @@
   },
   {
     "questionnumber": 241,
-    "topic": "IMS DC - PCB Masks",
-    "difficulty": "Medium",
-    "question": "Which statement is true about LTERM, status code, date/time, message length?",
-    "option_1": "It is correctly described in the question",
-    "option_2": "It is not related to IMS DC",
-    "option_3": "It is obsolete",
-    "option_4": "It is optional",
+    "topic": "IMS DC - Screen Handling",
+    "difficulty": "Hard",
+    "question": "What is cursor positioning in IMS DC screen handling?",
+    "option_1": "Placing cursor at specific screen location for user input",
+    "option_2": "Moving cursor automatically through fields",
+    "option_3": "Cursor blinking control",
+    "option_4": "Cursor shape definition",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3375,13 +3375,13 @@
   },
   {
     "questionnumber": 242,
-    "topic": "IMS DC - PCB Masks",
+    "topic": "IMS DC - Screen Handling",
     "difficulty": "Medium",
-    "question": "What is the correct description of lterm, status code, date/time, message length?",
-    "option_1": "What fields are in I/O PCB mask?",
-    "option_2": "Unrelated concept",
-    "option_3": "Deprecated feature",
-    "option_4": "System-only feature",
+    "question": "Which MFS parameter positions the cursor on a screen?",
+    "option_1": "CURSOR parameter",
+    "option_2": "POSITION parameter",
+    "option_3": "LOCATE parameter",
+    "option_4": "POINT parameter",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3389,13 +3389,13 @@
   },
   {
     "questionnumber": 243,
-    "topic": "IMS DC - PCB Masks",
-    "difficulty": "Hard",
-    "question": "In IMS DC programming, what is the typical size of i/o pcb?",
-    "option_1": "148 bytes",
-    "option_2": "100 bytes",
-    "option_3": "200 bytes",
-    "option_4": "Variable",
+    "topic": "IMS DC - Screen Handling",
+    "difficulty": "Medium",
+    "question": "What are extended highlighting attributes used for?",
+    "option_1": "Color, blinking, reverse video, underline",
+    "option_2": "Font size changes",
+    "option_3": "Graphics display",
+    "option_4": "Sound effects",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3403,13 +3403,13 @@
   },
   {
     "questionnumber": 244,
-    "topic": "IMS DC - PCB Masks",
-    "difficulty": "Hard",
-    "question": "Which statement is true about 148 bytes?",
-    "option_1": "It is correctly described in the question",
-    "option_2": "It is not related to IMS DC",
-    "option_3": "It is obsolete",
-    "option_4": "It is optional",
+    "topic": "IMS DC - Screen Handling",
+    "difficulty": "Easy",
+    "question": "What does a protected field prevent?",
+    "option_1": "User from typing into the field",
+    "option_2": "Field from being displayed",
+    "option_3": "Field from being read by program",
+    "option_4": "Field from being colored",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3417,13 +3417,13 @@
   },
   {
     "questionnumber": 245,
-    "topic": "IMS DC - PCB Masks",
+    "topic": "IMS DC - Screen Handling",
     "difficulty": "Hard",
-    "question": "What is the correct description of 148 bytes?",
-    "option_1": "What is the typical size of I/O PCB?",
-    "option_2": "Unrelated concept",
-    "option_3": "Deprecated feature",
-    "option_4": "System-only feature",
+    "question": "What is the purpose of the ALARM parameter in screen formatting?",
+    "option_1": "Sound terminal alarm/beep on error",
+    "option_2": "Set time limit for user input",
+    "option_3": "Alert operator of system error",
+    "option_4": "Trigger security alarm",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3431,13 +3431,13 @@
   },
   {
     "questionnumber": 246,
-    "topic": "IMS DC - Message Formats and Structure",
-    "difficulty": "Hard",
-    "question": "In IMS DC programming, what is the maximum message segment size?",
-    "option_1": "System dependent, typically up to 32KB",
-    "option_2": "64KB",
-    "option_3": "1MB",
-    "option_4": "No limit",
+    "topic": "IMS DC - Message Field Editing",
+    "difficulty": "Medium",
+    "question": "What MFS editing pattern would format a number with comma separators?",
+    "option_1": "EDIT='999,999,999'",
+    "option_2": "EDIT='FORMAT-COMMA'",
+    "option_3": "EDIT='NUMBER-MASK'",
+    "option_4": "EDIT='SEPARATE'",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3445,13 +3445,13 @@
   },
   {
     "questionnumber": 247,
-    "topic": "IMS DC - Message Formats and Structure",
-    "difficulty": "Hard",
-    "question": "Which statement is true about System dependent, typically up to 32KB?",
-    "option_1": "It is correctly described in the question",
-    "option_2": "It is not related to IMS DC",
-    "option_3": "It is obsolete",
-    "option_4": "It is optional",
+    "topic": "IMS DC - Message Field Editing",
+    "difficulty": "Medium",
+    "question": "How does MFS handle leading zeros in numeric fields?",
+    "option_1": "Can suppress with appropriate edit pattern",
+    "option_2": "Always displays leading zeros",
+    "option_3": "Always suppresses leading zeros",
+    "option_4": "Requires program logic",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3459,13 +3459,13 @@
   },
   {
     "questionnumber": 248,
-    "topic": "IMS DC - Message Formats and Structure",
+    "topic": "IMS DC - Message Field Editing",
     "difficulty": "Hard",
-    "question": "What is the correct description of system dependent, typically up to 32kb?",
-    "option_1": "What is the maximum message segment size?",
-    "option_2": "Unrelated concept",
-    "option_3": "Deprecated feature",
-    "option_4": "System-only feature",
+    "question": "What does the 'Z' character in an edit pattern do?",
+    "option_1": "Suppresses leading zeros",
+    "option_2": "Represents zero value",
+    "option_3": "Adds zero padding",
+    "option_4": "Zones numeric field",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3473,13 +3473,13 @@
   },
   {
     "questionnumber": 249,
-    "topic": "IMS DC - Advanced Features",
-    "difficulty": "Hard",
-    "question": "In IMS DC programming, what is a security exit in ims dc?",
-    "option_1": "Custom security validation routine",
-    "option_2": "Emergency exit",
-    "option_3": "Logout function",
-    "option_4": "Backup path",
+    "topic": "IMS DC - Message Field Editing",
+    "difficulty": "Medium",
+    "question": "How can MFS add a currency symbol to a field?",
+    "option_1": "Include '$' in edit pattern",
+    "option_2": "Use CURRENCY parameter",
+    "option_3": "Requires program code",
+    "option_4": "Use SYMBOL parameter",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3487,13 +3487,13 @@
   },
   {
     "questionnumber": 250,
-    "topic": "IMS DC - Advanced Features",
+    "topic": "IMS DC - Message Field Editing",
     "difficulty": "Hard",
-    "question": "Which statement is true about Custom security validation routine?",
-    "option_1": "It is correctly described in the question",
-    "option_2": "It is not related to IMS DC",
-    "option_3": "It is obsolete",
-    "option_4": "It is optional",
+    "question": "What editing can MFS perform on date fields?",
+    "option_1": "Reformatting, separator insertion, validation",
+    "option_2": "Date arithmetic only",
+    "option_3": "No date editing available",
+    "option_4": "Century windowing only",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3501,13 +3501,13 @@
   },
   {
     "questionnumber": 251,
-    "topic": "IMS DC - Advanced Features",
-    "difficulty": "Hard",
-    "question": "What is the correct description of custom security validation routine?",
-    "option_1": "What is a security exit in IMS DC?",
-    "option_2": "Unrelated concept",
-    "option_3": "Deprecated feature",
-    "option_4": "System-only feature",
+    "topic": "IMS DC - Message Field Editing",
+    "difficulty": "Medium",
+    "question": "What does the 'CR' notation in an edit pattern indicate?",
+    "option_1": "Credit (negative) balance indicator",
+    "option_2": "Carriage return control",
+    "option_3": "Create record function",
+    "option_4": "Current rate display",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3515,13 +3515,13 @@
   },
   {
     "questionnumber": 252,
-    "topic": "IMS DC - Testing and Debugging",
-    "difficulty": "Medium",
-    "question": "In IMS DC programming, how to test transaction load?",
-    "option_1": "Use load testing tools",
-    "option_2": "One transaction at a time",
-    "option_3": "Not necessary",
-    "option_4": "Production monitoring",
+    "topic": "IMS DC - Message Field Editing",
+    "difficulty": "Hard",
+    "question": "How does MFS handle field overflow during editing?",
+    "option_1": "Can truncate, asterisk fill, or error",
+    "option_2": "Always truncates silently",
+    "option_3": "Always errors and abends",
+    "option_4": "Automatically expands field",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3529,13 +3529,13 @@
   },
   {
     "questionnumber": 253,
-    "topic": "IMS DC - Testing and Debugging",
+    "topic": "IMS DC - Message Field Editing",
     "difficulty": "Medium",
-    "question": "Which statement is true about Use load testing tools?",
-    "option_1": "It is correctly described in the question",
-    "option_2": "It is not related to IMS DC",
-    "option_3": "It is obsolete",
-    "option_4": "It is optional",
+    "question": "Can MFS perform uppercase/lowercase conversion?",
+    "option_1": "Yes, via field attributes",
+    "option_2": "No, requires program logic",
+    "option_3": "Only for alphabetic fields",
+    "option_4": "Only with special hardware",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3543,13 +3543,13 @@
   },
   {
     "questionnumber": 254,
-    "topic": "IMS DC - Testing and Debugging",
+    "topic": "IMS DC - Multi-segment Messages",
     "difficulty": "Medium",
-    "question": "What is the correct description of use load testing tools?",
-    "option_1": "How to test transaction load?",
-    "option_2": "Unrelated concept",
-    "option_3": "Deprecated feature",
-    "option_4": "System-only feature",
+    "question": "What is a multi-segment message in IMS DC?",
+    "option_1": "Message broken into multiple logical segments",
+    "option_2": "Message sent to multiple terminals",
+    "option_3": "Message with multiple transaction codes",
+    "option_4": "Message split across multiple screens",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3557,13 +3557,13 @@
   },
   {
     "questionnumber": 255,
-    "topic": "IMS DC - Transaction Scheduling",
+    "topic": "IMS DC - Multi-segment Messages",
     "difficulty": "Medium",
-    "question": "In IMS DC programming, how can transaction performance be monitored?",
-    "option_1": "IMS monitoring tools and statistics",
-    "option_2": "Manual observation",
-    "option_3": "User feedback",
-    "option_4": "Not possible",
+    "question": "How does a program retrieve multiple input message segments?",
+    "option_1": "Issue multiple GU or GN calls to I/O PCB",
+    "option_2": "Single GET-ALL call",
+    "option_3": "Use RETRIEVE SEGMENTS call",
+    "option_4": "Automatic concatenation by IMS",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3571,13 +3571,13 @@
   },
   {
     "questionnumber": 256,
-    "topic": "IMS DC - Transaction Scheduling",
-    "difficulty": "Medium",
-    "question": "Which statement is true about IMS monitoring tools and statistics?",
-    "option_1": "It is correctly described in the question",
-    "option_2": "It is not related to IMS DC",
-    "option_3": "It is obsolete",
-    "option_4": "It is optional",
+    "topic": "IMS DC - Multi-segment Messages",
+    "difficulty": "Hard",
+    "question": "What status code indicates no more message segments available?",
+    "option_1": "QD status code",
+    "option_2": "QC status code",
+    "option_3": "GB status code",
+    "option_4": "NM status code",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3585,13 +3585,13 @@
   },
   {
     "questionnumber": 257,
-    "topic": "IMS DC - Transaction Scheduling",
+    "topic": "IMS DC - Multi-segment Messages",
     "difficulty": "Medium",
-    "question": "What is the correct description of ims monitoring tools and statistics?",
-    "option_1": "How can transaction performance be monitored?",
-    "option_2": "Unrelated concept",
-    "option_3": "Deprecated feature",
-    "option_4": "System-only feature",
+    "question": "How does a program send a multi-segment output message?",
+    "option_1": "Issue multiple ISRT calls to I/O PCB",
+    "option_2": "Use SEND-MULTIPLE call",
+    "option_3": "Concatenate segments in program",
+    "option_4": "Use special MOD format",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3599,13 +3599,13 @@
   },
   {
     "questionnumber": 258,
-    "topic": "IMS DC - Advanced Features",
+    "topic": "IMS DC - Multi-segment Messages",
     "difficulty": "Hard",
-    "question": "In IMS DC programming, what is message edit exit?",
-    "option_1": "Custom routine for message validation",
-    "option_2": "Message formatting",
-    "option_3": "Message correction",
-    "option_4": "Message deletion",
+    "question": "What determines segment boundaries in multi-segment messages?",
+    "option_1": "Segment size defined in MFS or program logic",
+    "option_2": "Fixed 80-byte segments",
+    "option_3": "Screen size limits",
+    "option_4": "Transaction code definition",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3613,13 +3613,13 @@
   },
   {
     "questionnumber": 259,
-    "topic": "IMS DC - Advanced Features",
-    "difficulty": "Hard",
-    "question": "Which statement is true about Custom routine for message validation?",
-    "option_1": "It is correctly described in the question",
-    "option_2": "It is not related to IMS DC",
-    "option_3": "It is obsolete",
-    "option_4": "It is optional",
+    "topic": "IMS DC - Multi-segment Messages",
+    "difficulty": "Medium",
+    "question": "Can segments within a message have different formats?",
+    "option_1": "Yes, each segment can have unique structure",
+    "option_2": "No, all segments must be identical",
+    "option_3": "Only in conversational transactions",
+    "option_4": "Only with MFS support",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3627,13 +3627,13 @@
   },
   {
     "questionnumber": 260,
-    "topic": "IMS DC - Advanced Features",
+    "topic": "IMS DC - Multi-segment Messages",
     "difficulty": "Hard",
-    "question": "What is the correct description of custom routine for message validation?",
-    "option_1": "What is message edit exit?",
-    "option_2": "Unrelated concept",
-    "option_3": "Deprecated feature",
-    "option_4": "System-only feature",
+    "question": "What is message chaining in IMS DC?",
+    "option_1": "Linking multiple messages for single transaction",
+    "option_2": "Sending messages sequentially",
+    "option_3": "Connecting terminals together",
+    "option_4": "Database chain processing",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3641,13 +3641,13 @@
   },
   {
     "questionnumber": 261,
-    "topic": "IMS DC - I/O PCB",
-    "difficulty": "Easy",
-    "question": "In IMS DC programming, what does i/o pcb stand for?",
-    "option_1": "Input/Output Program Communication Block",
-    "option_2": "Interface Output Process Control Block",
-    "option_3": "Internal Operation PCB",
-    "option_4": "Intelligent Output PCB",
+    "topic": "IMS DC - Error Recovery",
+    "difficulty": "Medium",
+    "question": "What should a program do when receiving an unexpected status code?",
+    "option_1": "Check PCB, log error, send user message, rollback if needed",
+    "option_2": "Ignore and continue processing",
+    "option_3": "Always abend immediately",
+    "option_4": "Return to operating system",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3655,13 +3655,13 @@
   },
   {
     "questionnumber": 262,
-    "topic": "IMS DC - I/O PCB",
-    "difficulty": "Easy",
-    "question": "Which statement is true about Input/Output Program Communication Block?",
-    "option_1": "It is correctly described in the question",
-    "option_2": "It is not related to IMS DC",
-    "option_3": "It is obsolete",
-    "option_4": "It is optional",
+    "topic": "IMS DC - Error Recovery",
+    "difficulty": "Hard",
+    "question": "What IMS call can a program use to signal abnormal termination?",
+    "option_1": "ROLL or ROLB call",
+    "option_2": "ABEND call",
+    "option_3": "TERM call",
+    "option_4": "EXIT call",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3669,13 +3669,13 @@
   },
   {
     "questionnumber": 263,
-    "topic": "IMS DC - I/O PCB",
-    "difficulty": "Easy",
-    "question": "What is the correct description of input/output program communication block?",
-    "option_1": "What does I/O PCB stand for?",
-    "option_2": "Unrelated concept",
-    "option_3": "Deprecated feature",
-    "option_4": "System-only feature",
+    "topic": "IMS DC - Error Recovery",
+    "difficulty": "Medium",
+    "question": "What does the ROLL call do?",
+    "option_1": "Backs out database and message changes",
+    "option_2": "Rolls forward transaction log",
+    "option_3": "Rotates log datasets",
+    "option_4": "Rolls back operating system",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3683,13 +3683,13 @@
   },
   {
     "questionnumber": 264,
-    "topic": "IMS DC - Online Program Types",
-    "difficulty": "Easy",
-    "question": "In IMS DC programming, what is the difference between inquiry and maintenance?",
-    "option_1": "Inquiry reads only, maintenance updates",
-    "option_2": "No difference",
-    "option_3": "Inquiry is faster",
-    "option_4": "Maintenance is simpler",
+    "topic": "IMS DC - Error Recovery",
+    "difficulty": "Hard",
+    "question": "After a ROLB call, what happens to the input message?",
+    "option_1": "Can be requeued or discarded based on ROLB type",
+    "option_2": "Always requeued for retry",
+    "option_3": "Always discarded permanently",
+    "option_4": "Sent to error queue",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3697,13 +3697,13 @@
   },
   {
     "questionnumber": 265,
-    "topic": "IMS DC - Online Program Types",
-    "difficulty": "Easy",
-    "question": "Which statement is true about Inquiry reads only, maintenance updates?",
-    "option_1": "It is correctly described in the question",
-    "option_2": "It is not related to IMS DC",
-    "option_3": "It is obsolete",
-    "option_4": "It is optional",
+    "topic": "IMS DC - Error Recovery",
+    "difficulty": "Medium",
+    "question": "What is the purpose of the SETS and SETO calls?",
+    "option_1": "Set commit point for database and message changes",
+    "option_2": "Set error recovery options",
+    "option_3": "Set terminal output mode",
+    "option_4": "Set security level",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3711,13 +3711,13 @@
   },
   {
     "questionnumber": 266,
-    "topic": "IMS DC - Online Program Types",
-    "difficulty": "Easy",
-    "question": "What is the correct description of inquiry reads only, maintenance updates?",
-    "option_1": "What is the difference between inquiry and maintenance?",
-    "option_2": "Unrelated concept",
-    "option_3": "Deprecated feature",
-    "option_4": "System-only feature",
+    "topic": "IMS DC - Error Recovery",
+    "difficulty": "Hard",
+    "question": "How should a program handle a database deadlock?",
+    "option_1": "Receive BA status, issue ROLB, retry or exit",
+    "option_2": "Wait indefinitely for lock release",
+    "option_3": "Force lock override",
+    "option_4": "Abend immediately",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3725,13 +3725,13 @@
   },
   {
     "questionnumber": 267,
-    "topic": "IMS DC - Message Queues",
+    "topic": "IMS DC - Error Recovery",
     "difficulty": "Medium",
-    "question": "In IMS DC programming, can messages have different priorities?",
-    "option_1": "Yes, 0-9 or 0-15 depending on system",
-    "option_2": "No, all equal priority",
-    "option_3": "Yes, low/medium/high only",
-    "option_4": "Only in batch mode",
+    "question": "What information should error messages to users include?",
+    "option_1": "Clear description, action required, contact info if needed",
+    "option_2": "Technical status codes only",
+    "option_3": "Complete abend dump",
+    "option_4": "Database structure details",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3739,13 +3739,13 @@
   },
   {
     "questionnumber": 268,
-    "topic": "IMS DC - Message Queues",
-    "difficulty": "Medium",
-    "question": "Which statement is true about Yes, 0-9 or 0-15 depending on system?",
-    "option_1": "It is correctly described in the question",
-    "option_2": "It is not related to IMS DC",
-    "option_3": "It is obsolete",
-    "option_4": "It is optional",
+    "topic": "IMS DC - Error Recovery",
+    "difficulty": "Hard",
+    "question": "What happens to output messages after a ROLB?",
+    "option_1": "All output messages are discarded",
+    "option_2": "Output messages are still sent",
+    "option_3": "Only error messages are sent",
+    "option_4": "Output is queued for manual review",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3753,13 +3753,13 @@
   },
   {
     "questionnumber": 269,
-    "topic": "IMS DC - Message Queues",
+    "topic": "IMS DC - Program Switching",
     "difficulty": "Medium",
-    "question": "What is the correct description of yes, 0-9 or 0-15 depending on system?",
-    "option_1": "Can messages have different priorities?",
-    "option_2": "Unrelated concept",
-    "option_3": "Deprecated feature",
-    "option_4": "System-only feature",
+    "question": "What DL/I call transfers control to another IMS program?",
+    "option_1": "XRST (Transfer)",
+    "option_2": "CALL",
+    "option_3": "LINK",
+    "option_4": "SWITCH",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3767,13 +3767,13 @@
   },
   {
     "questionnumber": 270,
-    "topic": "IMS DC - PCB Masks",
-    "difficulty": "Medium",
-    "question": "In IMS DC programming, what is a pcb mask?",
-    "option_1": "COBOL structure mapping PCB fields",
-    "option_2": "PCB security",
-    "option_3": "PCB filter",
-    "option_4": "PCB template",
+    "topic": "IMS DC - Program Switching",
+    "difficulty": "Hard",
+    "question": "What happens to database position after program switch (XRST)?",
+    "option_1": "Position is maintained for called program",
+    "option_2": "Position is reset to beginning",
+    "option_3": "Position is lost completely",
+    "option_4": "Depends on PCB type",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3781,166 +3781,12 @@
   },
   {
     "questionnumber": 271,
-    "topic": "IMS DC - PCB Masks",
+    "topic": "IMS DC - Program Switching",
     "difficulty": "Medium",
-    "question": "Which statement is true about COBOL structure mapping PCB fields?",
-    "option_1": "It is correctly described in the question",
-    "option_2": "It is not related to IMS DC",
-    "option_3": "It is obsolete",
-    "option_4": "It is optional",
-    "choice_type": "Single Choice",
-    "correct_answer": [
-      "option_1"
-    ]
-  },
-  {
-    "questionnumber": 272,
-    "topic": "IMS DC - PCB Masks",
-    "difficulty": "Medium",
-    "question": "What is the correct description of cobol structure mapping pcb fields?",
-    "option_1": "What is a PCB mask?",
-    "option_2": "Unrelated concept",
-    "option_3": "Deprecated feature",
-    "option_4": "System-only feature",
-    "choice_type": "Single Choice",
-    "correct_answer": [
-      "option_1"
-    ]
-  },
-  {
-    "questionnumber": 273,
-    "topic": "IMS DC - Message Processing Programs",
-    "difficulty": "Easy",
-    "question": "In IMS DC programming, what is the primary function of an mpp?",
-    "option_1": "Process online transactions",
-    "option_2": "Generate reports",
-    "option_3": "Backup databases",
-    "option_4": "Manage security",
-    "choice_type": "Single Choice",
-    "correct_answer": [
-      "option_1"
-    ]
-  },
-  {
-    "questionnumber": 274,
-    "topic": "IMS DC - Message Processing Programs",
-    "difficulty": "Easy",
-    "question": "Which statement is true about Process online transactions?",
-    "option_1": "It is correctly described in the question",
-    "option_2": "It is not related to IMS DC",
-    "option_3": "It is obsolete",
-    "option_4": "It is optional",
-    "choice_type": "Single Choice",
-    "correct_answer": [
-      "option_1"
-    ]
-  },
-  {
-    "questionnumber": 275,
-    "topic": "IMS DC - Message Processing Programs",
-    "difficulty": "Easy",
-    "question": "What is the correct description of process online transactions?",
-    "option_1": "What is the primary function of an MPP?",
-    "option_2": "Unrelated concept",
-    "option_3": "Deprecated feature",
-    "option_4": "System-only feature",
-    "choice_type": "Single Choice",
-    "correct_answer": [
-      "option_1"
-    ]
-  },
-  {
-    "questionnumber": 276,
-    "topic": "IMS DC - Message Formats and Structure",
-    "difficulty": "Medium",
-    "question": "In IMS DC programming, what is message edit/routing?",
-    "option_1": "Validating and directing messages",
-    "option_2": "Formatting output",
-    "option_3": "Encrypting data",
-    "option_4": "Compressing messages",
-    "choice_type": "Single Choice",
-    "correct_answer": [
-      "option_1"
-    ]
-  },
-  {
-    "questionnumber": 277,
-    "topic": "IMS DC - Message Formats and Structure",
-    "difficulty": "Medium",
-    "question": "Which statement is true about Validating and directing messages?",
-    "option_1": "It is correctly described in the question",
-    "option_2": "It is not related to IMS DC",
-    "option_3": "It is obsolete",
-    "option_4": "It is optional",
-    "choice_type": "Single Choice",
-    "correct_answer": [
-      "option_1"
-    ]
-  },
-  {
-    "questionnumber": 278,
-    "topic": "IMS DC - Message Formats and Structure",
-    "difficulty": "Medium",
-    "question": "What is the correct description of validating and directing messages?",
-    "option_1": "What is message edit/routing?",
-    "option_2": "Unrelated concept",
-    "option_3": "Deprecated feature",
-    "option_4": "System-only feature",
-    "choice_type": "Single Choice",
-    "correct_answer": [
-      "option_1"
-    ]
-  },
-  {
-    "questionnumber": 279,
-    "topic": "IMS DC - I/O PCB",
-    "difficulty": "Medium",
-    "question": "In IMS DC programming, which field in i/o pcb contains the logical terminal name?",
-    "option_1": "LTERM field",
-    "option_2": "NAME field",
-    "option_3": "TERM field",
-    "option_4": "ID field",
-    "choice_type": "Single Choice",
-    "correct_answer": [
-      "option_1"
-    ]
-  },
-  {
-    "questionnumber": 280,
-    "topic": "IMS DC - I/O PCB",
-    "difficulty": "Medium",
-    "question": "Which statement is true about LTERM field?",
-    "option_1": "It is correctly described in the question",
-    "option_2": "It is not related to IMS DC",
-    "option_3": "It is obsolete",
-    "option_4": "It is optional",
-    "choice_type": "Single Choice",
-    "correct_answer": [
-      "option_1"
-    ]
-  },
-  {
-    "questionnumber": 281,
-    "topic": "IMS DC - I/O PCB",
-    "difficulty": "Medium",
-    "question": "What is the correct description of lterm field?",
-    "option_1": "Which field in I/O PCB contains the logical terminal name?",
-    "option_2": "Unrelated concept",
-    "option_3": "Deprecated feature",
-    "option_4": "System-only feature",
-    "choice_type": "Single Choice",
-    "correct_answer": [
-      "option_1"
-    ]
-  },
-  {
-    "questionnumber": 282,
-    "topic": "IMS DC - DL/I Calls for Message Processing",
-    "difficulty": "Medium",
-    "question": "In IMS DC programming, can you use repl with i/o pcb?",
-    "option_1": "No, not applicable for messages",
-    "option_2": "Yes, to replace messages",
-    "option_3": "Yes, for updates",
+    "question": "Can a program switch return control to the calling program?",
+    "option_1": "No, XRST is one-way transfer",
+    "option_2": "Yes, automatically returns",
+    "option_3": "Yes, with RETURN call",
     "option_4": "Only in conversational mode",
     "choice_type": "Single Choice",
     "correct_answer": [
@@ -3948,14 +3794,168 @@
     ]
   },
   {
-    "questionnumber": 283,
-    "topic": "IMS DC - DL/I Calls for Message Processing",
+    "questionnumber": 272,
+    "topic": "IMS DC - Program Switching",
+    "difficulty": "Hard",
+    "question": "What data can be passed to the switched-to program?",
+    "option_1": "Data in I/O area specified on XRST call",
+    "option_2": "No data transfer possible",
+    "option_3": "Complete working storage",
+    "option_4": "Only transaction code",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 273,
+    "topic": "IMS DC - Program Switching",
     "difficulty": "Medium",
-    "question": "Which statement is true about No, not applicable for messages?",
-    "option_1": "It is correctly described in the question",
-    "option_2": "It is not related to IMS DC",
-    "option_3": "It is obsolete",
-    "option_4": "It is optional",
+    "question": "Why use program switching instead of COBOL CALL?",
+    "option_1": "XRST provides IMS context and PCB access",
+    "option_2": "XRST is faster",
+    "option_3": "XRST uses less memory",
+    "option_4": "COBOL CALL not supported",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 274,
+    "topic": "IMS DC - Program Switching",
+    "difficulty": "Hard",
+    "question": "What security applies when switching programs?",
+    "option_1": "Target program must be authorized for transaction",
+    "option_2": "No security checks performed",
+    "option_3": "Original program security carries over",
+    "option_4": "User must reauthorize",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 275,
+    "topic": "IMS DC - Transaction Restart",
+    "difficulty": "Medium",
+    "question": "What is transaction restart in IMS DC?",
+    "option_1": "Automatic reprocessing of failed transaction",
+    "option_2": "Manual transaction resubmission",
+    "option_3": "System restart after crash",
+    "option_4": "Transaction code redefinition",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 276,
+    "topic": "IMS DC - Transaction Restart",
+    "difficulty": "Hard",
+    "question": "When does IMS automatically restart a transaction?",
+    "option_1": "After certain abends or system failures",
+    "option_2": "After every abend",
+    "option_3": "Never automatically",
+    "option_4": "Only during scheduled maintenance",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 277,
+    "topic": "IMS DC - Transaction Restart",
+    "difficulty": "Hard",
+    "question": "What is a checkpoint in the context of transaction processing?",
+    "option_1": "Point where transaction state is saved for recovery",
+    "option_2": "End of transaction",
+    "option_3": "Security validation point",
+    "option_4": "Performance measurement point",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 278,
+    "topic": "IMS DC - Transaction Restart",
+    "difficulty": "Medium",
+    "question": "How can a program make itself non-restartable?",
+    "option_1": "Issue ROLB call or define transaction as non-restartable",
+    "option_2": "Cannot prevent restart",
+    "option_3": "Set NORESTART flag",
+    "option_4": "Use special PCB option",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 279,
+    "topic": "IMS DC - Transaction Restart",
+    "difficulty": "Hard",
+    "question": "What programming practice helps ensure clean transaction restart?",
+    "option_1": "Design idempotent operations, avoid external side effects",
+    "option_2": "Use global variables",
+    "option_3": "Cache all data in memory",
+    "option_4": "Disable all error checking",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 280,
+    "topic": "IMS DC - Transaction Restart",
+    "difficulty": "Medium",
+    "question": "What happens to database updates during automatic restart?",
+    "option_1": "Rolled back and reapplied during restart",
+    "option_2": "Lost permanently",
+    "option_3": "Kept as-is from failed run",
+    "option_4": "Manually recovered",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 281,
+    "topic": "IMS DC - Data Validation",
+    "difficulty": "Medium",
+    "question": "Where should input data validation occur?",
+    "option_1": "As early as possible in application logic",
+    "option_2": "Only at database update time",
+    "option_3": "Only in batch programs",
+    "option_4": "Validation not needed with MFS",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 282,
+    "topic": "IMS DC - Data Validation",
+    "difficulty": "Medium",
+    "question": "What types of validation should online programs perform?",
+    "option_1": "Format, range, required fields, cross-field edits",
+    "option_2": "Only numeric validation",
+    "option_3": "Only database constraint checking",
+    "option_4": "No validation needed",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 283,
+    "topic": "IMS DC - Data Validation",
+    "difficulty": "Hard",
+    "question": "How should a program handle multiple validation errors?",
+    "option_1": "Collect all errors and report together",
+    "option_2": "Report first error only",
+    "option_3": "Abend on first error",
+    "option_4": "Ignore all but critical errors",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3963,13 +3963,13 @@
   },
   {
     "questionnumber": 284,
-    "topic": "IMS DC - DL/I Calls for Message Processing",
+    "topic": "IMS DC - COBOL Program Structure",
     "difficulty": "Medium",
-    "question": "What is the correct description of no, not applicable for messages?",
-    "option_1": "Can you use REPL with I/O PCB?",
-    "option_2": "Unrelated concept",
-    "option_3": "Deprecated feature",
-    "option_4": "System-only feature",
+    "question": "What special COBOL division is used for IMS programs?",
+    "option_1": "No special division, standard COBOL structure",
+    "option_2": "IMS DIVISION",
+    "option_3": "DL/I DIVISION",
+    "option_4": "TRANSACTION DIVISION",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3977,13 +3977,13 @@
   },
   {
     "questionnumber": 285,
-    "topic": "IMS DC - PCB Masks",
+    "topic": "IMS DC - COBOL Program Structure",
     "difficulty": "Medium",
-    "question": "In IMS DC programming, can pcb mask be modified by program?",
-    "option_1": "Should not modify, except for routing",
-    "option_2": "Yes, freely",
-    "option_3": "No, read-only",
-    "option_4": "Only status code",
+    "question": "Where are PCB masks defined in COBOL?",
+    "option_1": "LINKAGE SECTION",
+    "option_2": "WORKING-STORAGE SECTION",
+    "option_3": "FILE SECTION",
+    "option_4": "LOCAL-STORAGE SECTION",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3991,13 +3991,13 @@
   },
   {
     "questionnumber": 286,
-    "topic": "IMS DC - PCB Masks",
-    "difficulty": "Medium",
-    "question": "Which statement is true about Should not modify, except for routing?",
-    "option_1": "It is correctly described in the question",
-    "option_2": "It is not related to IMS DC",
-    "option_3": "It is obsolete",
-    "option_4": "It is optional",
+    "topic": "IMS DC - COBOL Program Structure",
+    "difficulty": "Hard",
+    "question": "What is the ENTRY parameter 'DLITCBL' used for?",
+    "option_1": "Entry point for IMS to call COBOL program",
+    "option_2": "Database entry definition",
+    "option_3": "Transaction entry point",
+    "option_4": "Error entry routine",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -4005,13 +4005,13 @@
   },
   {
     "questionnumber": 287,
-    "topic": "IMS DC - PCB Masks",
+    "topic": "IMS DC - COBOL Program Structure",
     "difficulty": "Medium",
-    "question": "What is the correct description of should not modify, except for routing?",
-    "option_1": "Can PCB mask be modified by program?",
-    "option_2": "Unrelated concept",
-    "option_3": "Deprecated feature",
-    "option_4": "System-only feature",
+    "question": "How does a COBOL program receive its PCB addresses?",
+    "option_1": "Via ENTRY USING statement parameters",
+    "option_2": "From WORKING-STORAGE",
+    "option_3": "Through ACCEPT statement",
+    "option_4": "From JCL parameters",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -4019,13 +4019,13 @@
   },
   {
     "questionnumber": 288,
-    "topic": "IMS DC - COBOL Programming",
-    "difficulty": "Easy",
-    "question": "In IMS DC programming, how to check status code in cobol?",
-    "option_1": "Test status field in PCB",
-    "option_2": "CHECK STATUS statement",
-    "option_3": "IF DLI-STATUS",
-    "option_4": "INSPECT STATUS",
+    "topic": "IMS DC - COBOL Program Structure",
+    "difficulty": "Hard",
+    "question": "What COBOL statement issues DL/I calls?",
+    "option_1": "CALL 'CBLTDLI' USING...",
+    "option_2": "EXEC DLI",
+    "option_3": "INVOKE DLI",
+    "option_4": "DLI-CALL",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -4033,13 +4033,13 @@
   },
   {
     "questionnumber": 289,
-    "topic": "IMS DC - COBOL Programming",
-    "difficulty": "Easy",
-    "question": "Which statement is true about Test status field in PCB?",
-    "option_1": "It is correctly described in the question",
-    "option_2": "It is not related to IMS DC",
-    "option_3": "It is obsolete",
-    "option_4": "It is optional",
+    "topic": "IMS DC - COBOL Program Structure",
+    "difficulty": "Medium",
+    "question": "How should a COBOL IMS program terminate normally?",
+    "option_1": "GOBACK or STOP RUN statement",
+    "option_2": "ROLLBACK statement",
+    "option_3": "EXIT PROGRAM only",
+    "option_4": "TERMINATE DLI",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -4047,13 +4047,13 @@
   },
   {
     "questionnumber": 290,
-    "topic": "IMS DC - COBOL Programming",
-    "difficulty": "Easy",
-    "question": "What is the correct description of test status field in pcb?",
-    "option_1": "How to check status code in COBOL?",
-    "option_2": "Unrelated concept",
-    "option_3": "Deprecated feature",
-    "option_4": "System-only feature",
+    "topic": "IMS DC - COBOL Program Structure",
+    "difficulty": "Medium",
+    "question": "Can IMS COBOL programs use files (FILE SECTION)?",
+    "option_1": "Generally no, should use DL/I for data access",
+    "option_2": "Yes, fully supported",
+    "option_3": "Only sequential files",
+    "option_4": "Only for output",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -4061,13 +4061,13 @@
   },
   {
     "questionnumber": 291,
-    "topic": "IMS DC - Testing and Debugging",
-    "difficulty": "Easy",
-    "question": "In IMS DC programming, how to test error conditions?",
-    "option_1": "Simulate error scenarios",
-    "option_2": "Wait for real errors",
-    "option_3": "Not necessary",
-    "option_4": "Only in production",
+    "topic": "IMS DC - PCB Details",
+    "difficulty": "Hard",
+    "question": "What field in the I/O PCB contains the message sequence number?",
+    "option_1": "Not standard in I/O PCB, may be in alternate PCB",
+    "option_2": "MSG-SEQ-NUM field",
+    "option_3": "SEQUENCE-FIELD",
+    "option_4": "TRANS-SEQ field",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -4075,13 +4075,13 @@
   },
   {
     "questionnumber": 292,
-    "topic": "IMS DC - Testing and Debugging",
-    "difficulty": "Easy",
-    "question": "Which statement is true about Simulate error scenarios?",
-    "option_1": "It is correctly described in the question",
-    "option_2": "It is not related to IMS DC",
-    "option_3": "It is obsolete",
-    "option_4": "It is optional",
+    "topic": "IMS DC - PCB Details",
+    "difficulty": "Medium",
+    "question": "What does the LTERM field in I/O PCB identify?",
+    "option_1": "Logical terminal name (8 characters)",
+    "option_2": "Physical terminal address",
+    "option_3": "User ID",
+    "option_4": "Terminal type code",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -4089,13 +4089,13 @@
   },
   {
     "questionnumber": 293,
-    "topic": "IMS DC - Testing and Debugging",
-    "difficulty": "Easy",
-    "question": "What is the correct description of simulate error scenarios?",
-    "option_1": "How to test error conditions?",
-    "option_2": "Unrelated concept",
-    "option_3": "Deprecated feature",
-    "option_4": "System-only feature",
+    "topic": "IMS DC - Status Codes",
+    "difficulty": "Medium",
+    "question": "What does status code 'QC' indicate?",
+    "option_1": "No more input message segments (message complete)",
+    "option_2": "Queue is closed",
+    "option_3": "Query completed",
+    "option_4": "Quick commit performed",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -4103,13 +4103,13 @@
   },
   {
     "questionnumber": 294,
-    "topic": "IMS DC - Testing and Debugging",
-    "difficulty": "Medium",
-    "question": "In IMS DC programming, how can you simulate terminal input?",
-    "option_1": "Use test harness or automation tools",
-    "option_2": "Manual typing only",
-    "option_3": "Not possible",
-    "option_4": "Batch simulation",
+    "topic": "IMS DC - Status Codes",
+    "difficulty": "Hard",
+    "question": "What status code indicates segment not found in database?",
+    "option_1": "GE status code",
+    "option_2": "NF status code",
+    "option_3": "GB status code",
+    "option_4": "NS status code",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -4117,13 +4117,13 @@
   },
   {
     "questionnumber": 295,
-    "topic": "IMS DC - Testing and Debugging",
-    "difficulty": "Medium",
-    "question": "Which statement is true about Use test harness or automation tools?",
-    "option_1": "It is correctly described in the question",
-    "option_2": "It is not related to IMS DC",
-    "option_3": "It is obsolete",
-    "option_4": "It is optional",
+    "topic": "IMS DC - Status Codes",
+    "difficulty": "Hard",
+    "question": "What does 'BA' status code mean?",
+    "option_1": "Resource unavailable/deadlock detected",
+    "option_2": "Bad address in call",
+    "option_3": "Batch mode active",
+    "option_4": "Buffer allocation failed",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -4131,13 +4131,13 @@
   },
   {
     "questionnumber": 296,
-    "topic": "IMS DC - Testing and Debugging",
+    "topic": "IMS DC - Status Codes",
     "difficulty": "Medium",
-    "question": "What is the correct description of use test harness or automation tools?",
-    "option_1": "How can you simulate terminal input?",
-    "option_2": "Unrelated concept",
-    "option_3": "Deprecated feature",
-    "option_4": "System-only feature",
+    "question": "What status indicates successful database update?",
+    "option_1": "Blank or spaces status code",
+    "option_2": "OK status code",
+    "option_3": "00 status code",
+    "option_4": "SU status code",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -4145,13 +4145,13 @@
   },
   {
     "questionnumber": 297,
-    "topic": "IMS DC - DL/I Calls for Message Processing",
-    "difficulty": "Easy",
-    "question": "In IMS DC programming, what is required before issuing gu to i/o pcb?",
-    "option_1": "Nothing, just issue the call",
-    "option_2": "Open the PCB",
-    "option_3": "Initialize message area",
-    "option_4": "Set terminal ID",
+    "topic": "IMS DC - Best Practices",
+    "difficulty": "Hard",
+    "question": "Why should online programs minimize database holds?",
+    "option_1": "Reduce contention and improve concurrency",
+    "option_2": "Save memory",
+    "option_3": "Improve screen response",
+    "option_4": "Reduce network traffic",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -4159,13 +4159,13 @@
   },
   {
     "questionnumber": 298,
-    "topic": "IMS DC - DL/I Calls for Message Processing",
-    "difficulty": "Easy",
-    "question": "Which statement is true about Nothing, just issue the call?",
-    "option_1": "It is correctly described in the question",
-    "option_2": "It is not related to IMS DC",
-    "option_3": "It is obsolete",
-    "option_4": "It is optional",
+    "topic": "IMS DC - Best Practices",
+    "difficulty": "Medium",
+    "question": "What is a common pitfall in IMS DC programming?",
+    "option_1": "Not checking status codes after every DL/I call",
+    "option_2": "Using too many comments",
+    "option_3": "Making programs too modular",
+    "option_4": "Testing too thoroughly",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -4173,13 +4173,13 @@
   },
   {
     "questionnumber": 299,
-    "topic": "IMS DC - DL/I Calls for Message Processing",
-    "difficulty": "Easy",
-    "question": "What is the correct description of nothing, just issue the call?",
-    "option_1": "What is required before issuing GU to I/O PCB?",
-    "option_2": "Unrelated concept",
-    "option_3": "Deprecated feature",
-    "option_4": "System-only feature",
+    "topic": "IMS DC - Real-world Application",
+    "difficulty": "Hard",
+    "question": "In a customer inquiry transaction, what's the recommended approach?",
+    "option_1": "Retrieve data, format output, send to user, no database holds",
+    "option_2": "Hold database locks during user review",
+    "option_3": "Update database with inquiry timestamp",
+    "option_4": "Always use conversational mode",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -4187,13 +4187,13 @@
   },
   {
     "questionnumber": 300,
-    "topic": "IMS DC - Transaction Scheduling",
-    "difficulty": "Medium",
-    "question": "In IMS DC programming, what affects transaction throughput?",
-    "option_1": "Number of regions, priorities, resources",
-    "option_2": "Network speed only",
-    "option_3": "Terminal count",
-    "option_4": "Program size",
+    "topic": "IMS DC - Real-world Application",
+    "difficulty": "Hard",
+    "question": "For a complex update transaction requiring validation from multiple sources, what's best?",
+    "option_1": "Gather all data, validate completely, then update atomically",
+    "option_2": "Update as you go, validating each piece",
+    "option_3": "Skip validation to improve performance",
+    "option_4": "Use separate transactions for each piece",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
