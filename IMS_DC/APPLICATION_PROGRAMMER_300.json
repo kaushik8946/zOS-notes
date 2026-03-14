@@ -1,0 +1,4205 @@
+[
+  {
+    "questionnumber": 1,
+    "topic": "IMS DC - Fundamentals",
+    "difficulty": "Easy",
+    "question": "What does IMS DC stand for?",
+    "option_1": "IMS Data Communication",
+    "option_2": "IMS Database Control",
+    "option_3": "IMS Data Collection",
+    "option_4": "IMS Direct Control",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 2,
+    "topic": "IMS DC - Fundamentals",
+    "difficulty": "Easy",
+    "question": "What is the primary purpose of IMS DC?",
+    "option_1": "Facilitates online transactions through interactive programs",
+    "option_2": "Batch processing of data",
+    "option_3": "System administration",
+    "option_4": "Database backup",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 3,
+    "topic": "IMS DC - Online Programs",
+    "difficulty": "Easy",
+    "question": "How many types of online programs are there in IMS DC?",
+    "option_1": "4",
+    "option_2": "3",
+    "option_3": "5",
+    "option_4": "6",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 4,
+    "topic": "IMS DC - Online Programs",
+    "difficulty": "Easy",
+    "question": "Which of the following are types of online programs in IMS DC?",
+    "option_1": "Inquiry programs",
+    "option_2": "Data entry programs",
+    "option_3": "Maintenance programs",
+    "option_4": "Menu-driven programs",
+    "choice_type": "Multiple Choice",
+    "correct_answer": [
+      "option_1",
+      "option_2",
+      "option_3",
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 5,
+    "topic": "IMS DC - Inquiry Programs",
+    "difficulty": "Easy",
+    "question": "What is the primary function of an Inquiry program?",
+    "option_1": "Respond to user's questions by retrieving data",
+    "option_2": "Add new data to database",
+    "option_3": "Delete segments from database",
+    "option_4": "Update database records",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 6,
+    "topic": "IMS DC - Inquiry Programs",
+    "difficulty": "Medium",
+    "question": "In an inquiry program, what is the typical flow of operations?",
+    "option_1": "Operator requests data, program retrieves data, program displays data",
+    "option_2": "Program retrieves data, operator requests data, program displays data",
+    "option_3": "Operator enters data, program updates database",
+    "option_4": "Program displays menu, operator selects option",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 7,
+    "topic": "IMS DC - Data Entry Programs",
+    "difficulty": "Easy",
+    "question": "What is the main limitation of inquiry programs?",
+    "option_1": "They don't let users key in data that's added to the database",
+    "option_2": "They are too slow",
+    "option_3": "They can't retrieve data",
+    "option_4": "They require special terminals",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 8,
+    "topic": "IMS DC - Data Entry Programs",
+    "difficulty": "Easy",
+    "question": "What does a data entry program do?",
+    "option_1": "Updates databases with data entered by operator",
+    "option_2": "Only retrieves data from database",
+    "option_3": "Deletes data from database",
+    "option_4": "Displays menu options",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 9,
+    "topic": "IMS DC - Maintenance Programs",
+    "difficulty": "Medium",
+    "question": "What operations can a maintenance program perform?",
+    "option_1": "Adding segments",
+    "option_2": "Replacing segments",
+    "option_3": "Deleting segments",
+    "option_4": "All of the above",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 10,
+    "topic": "IMS DC - Maintenance Programs",
+    "difficulty": "Hard",
+    "question": "What is the typical flow in a maintenance program?",
+    "option_1": "Request data, retrieve data, display data, enter changes, rewrite changes",
+    "option_2": "Enter data, update database",
+    "option_3": "Display menu, select option",
+    "option_4": "Request data, display data",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 11,
+    "topic": "IMS DC - Menu Programs",
+    "difficulty": "Easy",
+    "question": "What does a menu program allow an operator to do?",
+    "option_1": "Select the functions to perform",
+    "option_2": "Only view data",
+    "option_3": "Only enter data",
+    "option_4": "Only delete data",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 12,
+    "topic": "IMS DC - Menu Programs",
+    "difficulty": "Medium",
+    "question": "What is a menu-driven system?",
+    "option_1": "Application built around a set of menu programs",
+    "option_2": "Application that uses only inquiry programs",
+    "option_3": "Application that uses batch processing",
+    "option_4": "Application without user interface",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 13,
+    "topic": "IMS DC - Menu Programs",
+    "difficulty": "Medium",
+    "question": "What is a command-driven system?",
+    "option_1": "System where operator invokes programs using explicit commands",
+    "option_2": "System that uses only menus",
+    "option_3": "System that uses batch processing",
+    "option_4": "System without terminals",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 14,
+    "topic": "IMS DC - Transaction Processing",
+    "difficulty": "Easy",
+    "question": "What is a transaction in IMS DC?",
+    "option_1": "A unit of work processed by an application program",
+    "option_2": "A database record",
+    "option_3": "A program module",
+    "option_4": "A terminal device",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 15,
+    "topic": "IMS DC - Transaction Processing",
+    "difficulty": "Medium",
+    "question": "What is a transaction code?",
+    "option_1": "Identifier used to invoke a specific application program",
+    "option_2": "Password for terminal access",
+    "option_3": "Database key",
+    "option_4": "Program compilation code",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 16,
+    "topic": "IMS DC - Message Processing",
+    "difficulty": "Easy",
+    "question": "What is MPP in IMS DC?",
+    "option_1": "Message Processing Program",
+    "option_2": "Master Program Process",
+    "option_3": "Multiple Program Process",
+    "option_4": "Message Protocol Program",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 17,
+    "topic": "IMS DC - Message Processing",
+    "difficulty": "Medium",
+    "question": "What is the primary function of a Message Processing Program?",
+    "option_1": "Process messages from terminals and provide responses",
+    "option_2": "Compile application programs",
+    "option_3": "Manage database backups",
+    "option_4": "Configure IMS system",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 18,
+    "topic": "IMS DC - Message Queues",
+    "difficulty": "Easy",
+    "question": "What is a message queue in IMS DC?",
+    "option_1": "Storage area for messages waiting to be processed",
+    "option_2": "Database table",
+    "option_3": "Program library",
+    "option_4": "Terminal buffer",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 19,
+    "topic": "IMS DC - Message Queues",
+    "difficulty": "Medium",
+    "question": "What happens to input messages before program processing?",
+    "option_1": "They are placed in message queues",
+    "option_2": "They are directly processed",
+    "option_3": "They are stored in database",
+    "option_4": "They are deleted",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 20,
+    "topic": "IMS DC - I/O PCB",
+    "difficulty": "Easy",
+    "question": "What does I/O PCB stand for?",
+    "option_1": "Input/Output Program Communication Block",
+    "option_2": "Internal Output Process Control Block",
+    "option_3": "Interface Object Program Control Buffer",
+    "option_4": "Input Operation Primary Control Base",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 21,
+    "topic": "IMS DC - I/O PCB",
+    "difficulty": "Medium",
+    "question": "What is the purpose of I/O PCB in IMS DC applications?",
+    "option_1": "Handle communication between application program and terminal",
+    "option_2": "Manage database access",
+    "option_3": "Control system resources",
+    "option_4": "Configure network settings",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 22,
+    "topic": "IMS DC - Message Retrieval",
+    "difficulty": "Easy",
+    "question": "Which DL/I call is used to retrieve an input message?",
+    "option_1": "GU (Get Unique)",
+    "option_2": "ISRT (Insert)",
+    "option_3": "REPL (Replace)",
+    "option_4": "DLET (Delete)",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 23,
+    "topic": "IMS DC - Message Retrieval",
+    "difficulty": "Medium",
+    "question": "Which call retrieves the next message segment from the queue?",
+    "option_1": "GN (Get Next)",
+    "option_2": "GU (Get Unique)",
+    "option_3": "ISRT (Insert)",
+    "option_4": "REPL (Replace)",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 24,
+    "topic": "IMS DC - Message Output",
+    "difficulty": "Easy",
+    "question": "Which DL/I call sends output messages to the terminal?",
+    "option_1": "ISRT (Insert)",
+    "option_2": "GU (Get Unique)",
+    "option_3": "GN (Get Next)",
+    "option_4": "DLET (Delete)",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 25,
+    "topic": "IMS DC - Message Output",
+    "difficulty": "Medium",
+    "question": "When issuing ISRT for output, which PCB is used?",
+    "option_1": "I/O PCB",
+    "option_2": "Database PCB",
+    "option_3": "Alternate PCB",
+    "option_4": "Express PCB",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 26,
+    "topic": "IMS DC - Transaction Types",
+    "difficulty": "Easy",
+    "question": "What is a non-conversational transaction?",
+    "option_1": "Transaction that completes in one input-output cycle",
+    "option_2": "Transaction that maintains context across multiple inputs",
+    "option_3": "Transaction that doesn't use terminals",
+    "option_4": "Transaction that only reads data",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 27,
+    "topic": "IMS DC - Transaction Types",
+    "difficulty": "Easy",
+    "question": "What is a conversational transaction?",
+    "option_1": "Transaction that maintains context across multiple terminal interactions",
+    "option_2": "Transaction completed in single cycle",
+    "option_3": "Transaction without user input",
+    "option_4": "Transaction for batch processing",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 28,
+    "topic": "IMS DC - Transaction Types",
+    "difficulty": "Medium",
+    "question": "Which type of transaction is more resource-efficient?",
+    "option_1": "Non-conversational",
+    "option_2": "Conversational",
+    "option_3": "Both are equal",
+    "option_4": "Depends on terminal type",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 29,
+    "topic": "IMS DC - Message Switching",
+    "difficulty": "Medium",
+    "question": "What is message switching in IMS DC?",
+    "option_1": "Routing messages from one terminal to another",
+    "option_2": "Converting message formats",
+    "option_3": "Deleting messages",
+    "option_4": "Storing messages permanently",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 30,
+    "topic": "IMS DC - Program Scheduling",
+    "difficulty": "Medium",
+    "question": "How are application programs scheduled in IMS DC?",
+    "option_1": "Based on transaction codes and message availability",
+    "option_2": "Fixed time intervals",
+    "option_3": "Random selection",
+    "option_4": "Manual operator control only",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 31,
+    "topic": "IMS DC - Message Formats",
+    "difficulty": "Easy",
+    "question": "What is a message segment?",
+    "option_1": "A logical unit of data in a message",
+    "option_2": "A database record",
+    "option_3": "A program module",
+    "option_4": "A terminal screen",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 32,
+    "topic": "IMS DC - Message Formats",
+    "difficulty": "Medium",
+    "question": "What is the maximum length of a message segment?",
+    "option_1": "Implementation dependent, typically up to 32K",
+    "option_2": "Always 80 bytes",
+    "option_3": "Always 256 bytes",
+    "option_4": "Unlimited",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 33,
+    "topic": "IMS DC - Message Formats",
+    "difficulty": "Easy",
+    "question": "What are the two main types of messages in IMS DC?",
+    "option_1": "Input and output messages",
+    "option_2": "System and user messages",
+    "option_3": "Short and long messages",
+    "option_4": "Text and binary messages",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 34,
+    "topic": "IMS DC - Message Formats",
+    "difficulty": "Medium",
+    "question": "What does ZZ field represent in a message?",
+    "option_1": "Transaction code",
+    "option_2": "Message priority",
+    "option_3": "Terminal ID",
+    "option_4": "Message length",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 35,
+    "topic": "IMS DC - Message Formats",
+    "difficulty": "Easy",
+    "question": "Can a single transaction have multiple input message segments?",
+    "option_1": "Yes",
+    "option_2": "No",
+    "option_3": "Only for conversational transactions",
+    "option_4": "Only for batch transactions",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 36,
+    "topic": "IMS DC - Message Formats",
+    "difficulty": "Medium",
+    "question": "Can a program send multiple output message segments?",
+    "option_1": "Yes, by issuing multiple ISRT calls",
+    "option_2": "No, only one output allowed",
+    "option_3": "Yes, but only for conversational transactions",
+    "option_4": "No, system limitation prevents this",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 37,
+    "topic": "IMS DC - Input Messages",
+    "difficulty": "Easy",
+    "question": "Where do input messages originate from?",
+    "option_1": "Terminals or other programs",
+    "option_2": "Only from terminals",
+    "option_3": "Only from databases",
+    "option_4": "Only from batch jobs",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 38,
+    "topic": "IMS DC - Input Messages",
+    "difficulty": "Medium",
+    "question": "What happens to input messages when no program is available?",
+    "option_1": "Messages are queued for later processing",
+    "option_2": "Messages are immediately deleted",
+    "option_3": "Messages are returned to sender",
+    "option_4": "System shuts down",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 39,
+    "topic": "IMS DC - Output Messages",
+    "difficulty": "Easy",
+    "question": "Where are output messages sent?",
+    "option_1": "To terminals or message queues",
+    "option_2": "Only to terminals",
+    "option_3": "Only to databases",
+    "option_4": "Only to printers",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 40,
+    "topic": "IMS DC - Output Messages",
+    "difficulty": "Medium",
+    "question": "Can output messages be sent to a different terminal than the input terminal?",
+    "option_1": "Yes, using alternate PCBs",
+    "option_2": "No, must go to same terminal",
+    "option_3": "Yes, but only for conversational transactions",
+    "option_4": "No, system limitation prevents this",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 41,
+    "topic": "IMS DC - Message Processing Logic",
+    "difficulty": "Easy",
+    "question": "What is the first step in message processing?",
+    "option_1": "Retrieve input message using GU",
+    "option_2": "Send output message using ISRT",
+    "option_3": "Access database",
+    "option_4": "Display menu",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 42,
+    "topic": "IMS DC - Message Processing Logic",
+    "difficulty": "Medium",
+    "question": "What is the typical sequence for processing a transaction?",
+    "option_1": "Retrieve message, process business logic, access database if needed, send response",
+    "option_2": "Access database, retrieve message, process logic, send response",
+    "option_3": "Send response, retrieve message, process logic",
+    "option_4": "Process logic, retrieve message, access database",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 43,
+    "topic": "IMS DC - Message Processing Logic",
+    "difficulty": "Hard",
+    "question": "What should a program do if it receives multiple input segments?",
+    "option_1": "Issue GU for first segment, then GN for subsequent segments",
+    "option_2": "Issue multiple GU calls",
+    "option_3": "Use only ISRT calls",
+    "option_4": "Process only the first segment",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 44,
+    "topic": "IMS DC - Message Processing Logic",
+    "difficulty": "Medium",
+    "question": "When should a program issue a commit point?",
+    "option_1": "After completing all processing for a transaction",
+    "option_2": "Before retrieving input message",
+    "option_3": "After each database call",
+    "option_4": "Never, system handles it automatically",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 45,
+    "topic": "IMS DC - Message Queuing",
+    "difficulty": "Easy",
+    "question": "What is the purpose of message queuing?",
+    "option_1": "Buffer messages between arrival and processing",
+    "option_2": "Delete unwanted messages",
+    "option_3": "Encrypt messages",
+    "option_4": "Convert message formats",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 46,
+    "topic": "IMS DC - Message Queuing",
+    "difficulty": "Medium",
+    "question": "What determines the order of message processing from the queue?",
+    "option_1": "Message priority and arrival time",
+    "option_2": "Alphabetical order of transaction codes",
+    "option_3": "Terminal location",
+    "option_4": "Random selection",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 47,
+    "topic": "IMS DC - Message Priority",
+    "difficulty": "Medium",
+    "question": "Can messages have different processing priorities?",
+    "option_1": "Yes, priority can be assigned to transactions",
+    "option_2": "No, all messages are equal priority",
+    "option_3": "Yes, but only for conversational transactions",
+    "option_4": "No, priority is determined by terminal type",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 48,
+    "topic": "IMS DC - Message Priority",
+    "difficulty": "Hard",
+    "question": "What factors can affect message priority?",
+    "option_1": "Transaction code priority level",
+    "option_2": "Terminal priority",
+    "option_3": "Message class",
+    "option_4": "All of the above",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_4"
+    ]
+  },
+  {
+    "questionnumber": 49,
+    "topic": "IMS DC - Transaction Codes",
+    "difficulty": "Easy",
+    "question": "What is the maximum length of a transaction code?",
+    "option_1": "8 characters",
+    "option_2": "4 characters",
+    "option_3": "16 characters",
+    "option_4": "32 characters",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 50,
+    "topic": "IMS DC - Transaction Codes",
+    "difficulty": "Medium",
+    "question": "Can a transaction code be associated with multiple programs?",
+    "option_1": "No, one-to-one relationship between transaction code and program",
+    "option_2": "Yes, always",
+    "option_3": "Yes, but only for batch programs",
+    "option_4": "Yes, but only for system programs",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 51,
+    "topic": "IMS DC - Transaction Codes",
+    "difficulty": "Medium",
+    "question": "Where is the transaction code specified in the input message?",
+    "option_1": "At the beginning of the message",
+    "option_2": "At the end of the message",
+    "option_3": "In the middle of the message",
+    "option_4": "Not in the message, but in system tables",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 52,
+    "topic": "IMS DC - Program Scheduling",
+    "difficulty": "Medium",
+    "question": "What triggers the scheduling of a message processing program?",
+    "option_1": "Arrival of message with corresponding transaction code",
+    "option_2": "Fixed time schedule",
+    "option_3": "Manual operator command only",
+    "option_4": "System startup only",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 53,
+    "topic": "IMS DC - Program Scheduling",
+    "difficulty": "Hard",
+    "question": "Can multiple instances of the same program run concurrently?",
+    "option_1": "Yes, to process multiple messages",
+    "option_2": "No, only one instance allowed",
+    "option_3": "Yes, but only for batch programs",
+    "option_4": "No, system limitation prevents this",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 54,
+    "topic": "IMS DC - Program Scheduling",
+    "difficulty": "Medium",
+    "question": "What happens when a program completes processing a message?",
+    "option_1": "Program terminates or waits for next message",
+    "option_2": "Program always terminates",
+    "option_3": "Program continues running indefinitely",
+    "option_4": "System restarts",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 55,
+    "topic": "IMS DC - Conversational Transactions",
+    "difficulty": "Medium",
+    "question": "How does a conversational transaction maintain context?",
+    "option_1": "Using scratchpad area (SPA)",
+    "option_2": "Using database",
+    "option_3": "Using terminal memory",
+    "option_4": "Using system files",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 56,
+    "topic": "IMS DC - Conversational Transactions",
+    "difficulty": "Hard",
+    "question": "What is the disadvantage of conversational transactions?",
+    "option_1": "Hold resources while waiting for terminal input",
+    "option_2": "Cannot access database",
+    "option_3": "Cannot send output messages",
+    "option_4": "Cannot use transaction codes",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 57,
+    "topic": "IMS DC - Non-Conversational Transactions",
+    "difficulty": "Easy",
+    "question": "What is the main advantage of non-conversational transactions?",
+    "option_1": "Release resources immediately after processing",
+    "option_2": "Maintain context automatically",
+    "option_3": "Faster terminal response",
+    "option_4": "Use less memory",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 58,
+    "topic": "IMS DC - Non-Conversational Transactions",
+    "difficulty": "Medium",
+    "question": "How do non-conversational transactions maintain state across interactions?",
+    "option_1": "Using database records or passed data",
+    "option_2": "Using scratchpad area automatically",
+    "option_3": "Using terminal memory",
+    "option_4": "They don't maintain state",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 59,
+    "topic": "IMS DC - Message Switching",
+    "difficulty": "Medium",
+    "question": "What is the benefit of message switching?",
+    "option_1": "Route messages between different destinations",
+    "option_2": "Improve program performance",
+    "option_3": "Reduce database access",
+    "option_4": "Increase terminal speed",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 60,
+    "topic": "IMS DC - Message Switching",
+    "difficulty": "Hard",
+    "question": "How is message switching implemented in application programs?",
+    "option_1": "By specifying alternate destination in ISRT call",
+    "option_2": "Automatically by IMS system",
+    "option_3": "Using special transaction codes",
+    "option_4": "Using database triggers",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 61,
+    "topic": "IMS DC - Response Messages",
+    "difficulty": "Easy",
+    "question": "What is a response message?",
+    "option_1": "Output message sent in reply to input message",
+    "option_2": "Error message only",
+    "option_3": "System status message",
+    "option_4": "Database query result",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 62,
+    "topic": "IMS DC - Response Messages",
+    "difficulty": "Medium",
+    "question": "Can a program send multiple response messages?",
+    "option_1": "Yes, by issuing multiple ISRT calls",
+    "option_2": "No, only one response allowed",
+    "option_3": "Yes, but only for conversational transactions",
+    "option_4": "No, system limitation prevents this",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 63,
+    "topic": "IMS DC - Response Messages",
+    "difficulty": "Medium",
+    "question": "What happens if a program doesn't send a response message?",
+    "option_1": "Terminal receives no output for that transaction",
+    "option_2": "System sends default message",
+    "option_3": "Transaction is rolled back",
+    "option_4": "Program abends",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 64,
+    "topic": "IMS DC - Express Messages",
+    "difficulty": "Medium",
+    "question": "What is an express message?",
+    "option_1": "High-priority message that bypasses normal queuing",
+    "option_2": "Short message",
+    "option_3": "Fast message",
+    "option_4": "System message",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 65,
+    "topic": "IMS DC - Express Messages",
+    "difficulty": "Hard",
+    "question": "When should express messages be used?",
+    "option_1": "For critical system notifications or urgent transactions",
+    "option_2": "For all transactions",
+    "option_3": "For batch processing",
+    "option_4": "For database queries only",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 66,
+    "topic": "IMS DC - Message Editing",
+    "difficulty": "Easy",
+    "question": "Can application programs edit input messages?",
+    "option_1": "Yes, after retrieving them",
+    "option_2": "No, messages are read-only",
+    "option_3": "Yes, but only conversational programs",
+    "option_4": "No, only system programs can edit",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 67,
+    "topic": "IMS DC - Message Editing",
+    "difficulty": "Medium",
+    "question": "What validation should programs perform on input messages?",
+    "option_1": "Check for valid data, format, and business rules",
+    "option_2": "No validation needed",
+    "option_3": "Only length validation",
+    "option_4": "System performs all validation",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 68,
+    "topic": "IMS DC - Error Handling",
+    "difficulty": "Medium",
+    "question": "What should a program do if input message validation fails?",
+    "option_1": "Send error response message to terminal",
+    "option_2": "Abend immediately",
+    "option_3": "Ignore the error",
+    "option_4": "Delete the message",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 69,
+    "topic": "IMS DC - Error Handling",
+    "difficulty": "Hard",
+    "question": "How should programs handle database errors during message processing?",
+    "option_1": "Send error message to terminal and rollback if needed",
+    "option_2": "Always abend",
+    "option_3": "Ignore and continue",
+    "option_4": "Retry indefinitely",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 70,
+    "topic": "IMS DC - Message Segmentation",
+    "difficulty": "Medium",
+    "question": "Why might a message be split into multiple segments?",
+    "option_1": "When message data exceeds single segment size limit",
+    "option_2": "To improve performance",
+    "option_3": "System requirement for all messages",
+    "option_4": "To support multiple terminals",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 71,
+    "topic": "IMS DC - DL/I Calls",
+    "difficulty": "Easy",
+    "question": "What does DL/I stand for?",
+    "option_1": "Data Language/Interface",
+    "option_2": "Database Link Interface",
+    "option_3": "Direct Line Input",
+    "option_4": "Data List Inquiry",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 72,
+    "topic": "IMS DC - DL/I Calls",
+    "difficulty": "Easy",
+    "question": "Which DL/I calls are used in message processing programs?",
+    "option_1": "GU, GN, ISRT",
+    "option_2": "Only GU",
+    "option_3": "Only ISRT",
+    "option_4": "REPL, DLET",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 73,
+    "topic": "IMS DC - GU Call",
+    "difficulty": "Easy",
+    "question": "What does GU call do in message processing?",
+    "option_1": "Retrieves the first input message segment",
+    "option_2": "Sends output message",
+    "option_3": "Deletes message",
+    "option_4": "Updates message queue",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 74,
+    "topic": "IMS DC - GU Call",
+    "difficulty": "Medium",
+    "question": "What PCB is used with GU call for message retrieval?",
+    "option_1": "I/O PCB",
+    "option_2": "Database PCB",
+    "option_3": "Alternate PCB",
+    "option_4": "Express PCB",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 75,
+    "topic": "IMS DC - GU Call",
+    "difficulty": "Medium",
+    "question": "What happens if GU call returns a not-found status?",
+    "option_1": "No more input messages available",
+    "option_2": "Error in program logic",
+    "option_3": "Database is empty",
+    "option_4": "Terminal is disconnected",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 76,
+    "topic": "IMS DC - GN Call",
+    "difficulty": "Easy",
+    "question": "What does GN call do in message processing?",
+    "option_1": "Retrieves the next message segment",
+    "option_2": "Retrieves the first message segment",
+    "option_3": "Sends output message",
+    "option_4": "Deletes message",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 77,
+    "topic": "IMS DC - GN Call",
+    "difficulty": "Medium",
+    "question": "When should GN call be used?",
+    "option_1": "After GU call, to retrieve additional message segments",
+    "option_2": "Before GU call",
+    "option_3": "Instead of GU call",
+    "option_4": "Only for conversational transactions",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 78,
+    "topic": "IMS DC - GN Call",
+    "difficulty": "Hard",
+    "question": "What is the typical pattern for retrieving multi-segment messages?",
+    "option_1": "Issue GU for first segment, then loop with GN until no more segments",
+    "option_2": "Issue multiple GU calls",
+    "option_3": "Issue single GN call",
+    "option_4": "Use ISRT call",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 79,
+    "topic": "IMS DC - ISRT Call",
+    "difficulty": "Easy",
+    "question": "What does ISRT call do in message processing?",
+    "option_1": "Sends output message to terminal",
+    "option_2": "Retrieves input message",
+    "option_3": "Deletes message",
+    "option_4": "Updates message queue",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 80,
+    "topic": "IMS DC - ISRT Call",
+    "difficulty": "Medium",
+    "question": "What PCB is used with ISRT call for sending output?",
+    "option_1": "I/O PCB",
+    "option_2": "Database PCB",
+    "option_3": "Input PCB",
+    "option_4": "System PCB",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 81,
+    "topic": "IMS DC - ISRT Call",
+    "difficulty": "Medium",
+    "question": "Can multiple ISRT calls be issued in a single program execution?",
+    "option_1": "Yes, to send multiple output segments",
+    "option_2": "No, only one ISRT allowed",
+    "option_3": "Yes, but only for conversational transactions",
+    "option_4": "No, system limitation prevents this",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 82,
+    "topic": "IMS DC - ISRT Call",
+    "difficulty": "Hard",
+    "question": "What happens if ISRT call fails?",
+    "option_1": "Check status code and handle error appropriately",
+    "option_2": "Message is lost",
+    "option_3": "Program continues normally",
+    "option_4": "System automatically retries",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 83,
+    "topic": "IMS DC - Status Codes",
+    "difficulty": "Easy",
+    "question": "What status code indicates successful DL/I call?",
+    "option_1": "Blanks or spaces",
+    "option_2": "GB",
+    "option_3": "GE",
+    "option_4": "OK",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 84,
+    "topic": "IMS DC - Status Codes",
+    "difficulty": "Medium",
+    "question": "What does status code GB indicate?",
+    "option_1": "End of database or no more segments",
+    "option_2": "Successful operation",
+    "option_3": "Segment not found",
+    "option_4": "System error",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 85,
+    "topic": "IMS DC - Status Codes",
+    "difficulty": "Medium",
+    "question": "What does status code GE indicate?",
+    "option_1": "Segment not found",
+    "option_2": "Successful operation",
+    "option_3": "End of database",
+    "option_4": "System error",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 86,
+    "topic": "IMS DC - Status Codes",
+    "difficulty": "Hard",
+    "question": "How should programs check status codes after DL/I calls?",
+    "option_1": "Check after every DL/I call and handle appropriately",
+    "option_2": "Only check after first call",
+    "option_3": "No need to check, system handles errors",
+    "option_4": "Only check before program termination",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 87,
+    "topic": "IMS DC - I/O PCB Fields",
+    "difficulty": "Easy",
+    "question": "What information does I/O PCB contain?",
+    "option_1": "Message processing status and control information",
+    "option_2": "Database keys",
+    "option_3": "Program source code",
+    "option_4": "Terminal hardware details",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 88,
+    "topic": "IMS DC - I/O PCB Fields",
+    "difficulty": "Medium",
+    "question": "Which field in I/O PCB contains the terminal identifier?",
+    "option_1": "LTERM field",
+    "option_2": "STATUS field",
+    "option_3": "TRANCODE field",
+    "option_4": "USERID field",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 89,
+    "topic": "IMS DC - I/O PCB Fields",
+    "difficulty": "Medium",
+    "question": "What is stored in the STATUS field of I/O PCB?",
+    "option_1": "Status code from last DL/I call",
+    "option_2": "Terminal name",
+    "option_3": "Transaction code",
+    "option_4": "User ID",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 90,
+    "topic": "IMS DC - I/O PCB Fields",
+    "difficulty": "Hard",
+    "question": "Can programs modify I/O PCB fields?",
+    "option_1": "No, I/O PCB is maintained by IMS system",
+    "option_2": "Yes, all fields can be modified",
+    "option_3": "Yes, but only STATUS field",
+    "option_4": "Yes, but only LTERM field",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 91,
+    "topic": "IMS DC - Alternate PCB",
+    "difficulty": "Medium",
+    "question": "What is an alternate PCB used for?",
+    "option_1": "Send messages to destinations other than originating terminal",
+    "option_2": "Access alternate databases",
+    "option_3": "Backup message processing",
+    "option_4": "System administration",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 92,
+    "topic": "IMS DC - Alternate PCB",
+    "difficulty": "Hard",
+    "question": "How does a program specify alternate destination for messages?",
+    "option_1": "Use alternate PCB with ISRT call",
+    "option_2": "Change I/O PCB LTERM field",
+    "option_3": "Use special transaction code",
+    "option_4": "System routes automatically",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 93,
+    "topic": "IMS DC - Express PCB",
+    "difficulty": "Medium",
+    "question": "What is an express PCB?",
+    "option_1": "Special PCB for high-priority messages",
+    "option_2": "PCB for fast database access",
+    "option_3": "PCB for system messages only",
+    "option_4": "Backup PCB",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 94,
+    "topic": "IMS DC - Express PCB",
+    "difficulty": "Hard",
+    "question": "When should express PCB be used?",
+    "option_1": "For urgent notifications that need immediate delivery",
+    "option_2": "For all messages",
+    "option_3": "For batch processing",
+    "option_4": "For database updates only",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 95,
+    "topic": "IMS DC - Message I/O Area",
+    "difficulty": "Easy",
+    "question": "What is the message I/O area?",
+    "option_1": "Program storage area for message data",
+    "option_2": "System buffer",
+    "option_3": "Database field",
+    "option_4": "Terminal screen",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 96,
+    "topic": "IMS DC - Message I/O Area",
+    "difficulty": "Medium",
+    "question": "How should the message I/O area be defined in COBOL programs?",
+    "option_1": "As a working storage area with appropriate structure",
+    "option_2": "In file section",
+    "option_3": "In linkage section",
+    "option_4": "Not needed, system provides it",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 97,
+    "topic": "IMS DC - Message I/O Area",
+    "difficulty": "Medium",
+    "question": "What should be the size of message I/O area?",
+    "option_1": "Large enough to hold largest expected message segment",
+    "option_2": "Always 80 bytes",
+    "option_3": "Always 256 bytes",
+    "option_4": "System determines size automatically",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 98,
+    "topic": "IMS DC - LL and ZZ Fields",
+    "difficulty": "Medium",
+    "question": "What is the LL field in a message?",
+    "option_1": "Length field indicating segment length",
+    "option_2": "Line number field",
+    "option_3": "Logical link field",
+    "option_4": "Last line field",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 99,
+    "topic": "IMS DC - LL and ZZ Fields",
+    "difficulty": "Medium",
+    "question": "What is the ZZ field in a message?",
+    "option_1": "Reserved field for IMS use",
+    "option_2": "Zone field",
+    "option_3": "Zero field",
+    "option_4": "Last zone field",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 100,
+    "topic": "IMS DC - LL and ZZ Fields",
+    "difficulty": "Hard",
+    "question": "Should application programs modify LL and ZZ fields?",
+    "option_1": "Programs must set LL correctly for output; ZZ is set by IMS",
+    "option_2": "Programs should not touch these fields",
+    "option_3": "Programs must set both fields",
+    "option_4": "Only conversational programs set these",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 101,
+    "topic": "IMS DC - CHNG Call",
+    "difficulty": "Medium",
+    "question": "What is the CHNG call used for?",
+    "option_1": "Change destination for output messages",
+    "option_2": "Change database PCB",
+    "option_3": "Change transaction code",
+    "option_4": "Change terminal type",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 102,
+    "topic": "IMS DC - CHNG Call",
+    "difficulty": "Hard",
+    "question": "When should CHNG call be issued?",
+    "option_1": "Before ISRT calls to change destination",
+    "option_2": "After ISRT calls",
+    "option_3": "Before GU call",
+    "option_4": "At program termination",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 103,
+    "topic": "IMS DC - PURG Call",
+    "difficulty": "Medium",
+    "question": "What is the PURG call used for?",
+    "option_1": "Force immediate delivery of output messages",
+    "option_2": "Delete messages",
+    "option_3": "Purge database",
+    "option_4": "Clear terminal screen",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 104,
+    "topic": "IMS DC - PURG Call",
+    "difficulty": "Hard",
+    "question": "When is PURG call typically used?",
+    "option_1": "To send messages before commit point or program termination",
+    "option_2": "Before retrieving input messages",
+    "option_3": "After every ISRT call",
+    "option_4": "Only in error conditions",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 105,
+    "topic": "IMS DC - ROLB Call",
+    "difficulty": "Medium",
+    "question": "What does ROLB call do?",
+    "option_1": "Roll back database changes and discard output messages",
+    "option_2": "Commit changes",
+    "option_3": "Send messages",
+    "option_4": "Retrieve messages",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 106,
+    "topic": "IMS DC - ROLB Call",
+    "difficulty": "Hard",
+    "question": "When should ROLB call be used?",
+    "option_1": "When error occurs and transaction must be backed out",
+    "option_2": "After successful processing",
+    "option_3": "Before every GU call",
+    "option_4": "At program startup",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 107,
+    "topic": "IMS DC - Commit Point",
+    "difficulty": "Easy",
+    "question": "What is a commit point?",
+    "option_1": "Point where database changes are made permanent",
+    "option_2": "Program entry point",
+    "option_3": "Message retrieval point",
+    "option_4": "Terminal connection point",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 108,
+    "topic": "IMS DC - Commit Point",
+    "difficulty": "Medium",
+    "question": "When does commit occur in message processing programs?",
+    "option_1": "At program termination or explicit commit call",
+    "option_2": "After every DL/I call",
+    "option_3": "After every database update",
+    "option_4": "Never, messages don't use commits",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 109,
+    "topic": "IMS DC - Commit Point",
+    "difficulty": "Hard",
+    "question": "What happens to output messages at commit point?",
+    "option_1": "Messages are delivered to destinations",
+    "option_2": "Messages are deleted",
+    "option_3": "Messages are returned to queue",
+    "option_4": "Nothing, messages are independent of commits",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 110,
+    "topic": "IMS DC - Program Termination",
+    "difficulty": "Easy",
+    "question": "How does a message processing program terminate?",
+    "option_1": "By returning to IMS system (GOBACK in COBOL)",
+    "option_2": "Using STOP RUN",
+    "option_3": "By issuing TERM call",
+    "option_4": "System terminates it automatically",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 111,
+    "topic": "IMS DC - Program Termination",
+    "difficulty": "Medium",
+    "question": "What happens at program termination?",
+    "option_1": "Commit occurs and control returns to IMS",
+    "option_2": "Database is rolled back",
+    "option_3": "Messages are deleted",
+    "option_4": "Terminal is disconnected",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 112,
+    "topic": "IMS DC - Program Termination",
+    "difficulty": "Hard",
+    "question": "What is wrong with using STOP RUN in IMS programs?",
+    "option_1": "It doesn't properly return control to IMS system",
+    "option_2": "It causes database corruption",
+    "option_3": "It deletes all messages",
+    "option_4": "Nothing, it's the correct way",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 113,
+    "topic": "IMS DC - Multiple Segments",
+    "difficulty": "Medium",
+    "question": "How does a program know when all input segments have been retrieved?",
+    "option_1": "By checking for GB status code on GN call",
+    "option_2": "By counting segments",
+    "option_3": "System notifies automatically",
+    "option_4": "By checking message length",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 114,
+    "topic": "IMS DC - Multiple Segments",
+    "difficulty": "Hard",
+    "question": "What is the correct logic for processing multi-segment input?",
+    "option_1": "GU first segment, loop with GN until GB status",
+    "option_2": "Multiple GU calls",
+    "option_3": "Single GN call retrieves all",
+    "option_4": "ISRT call retrieves segments",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 115,
+    "topic": "IMS DC - Multiple Segments",
+    "difficulty": "Medium",
+    "question": "Can output messages contain multiple segments?",
+    "option_1": "Yes, by issuing multiple ISRT calls",
+    "option_2": "No, single segment only",
+    "option_3": "Yes, but only for conversational",
+    "option_4": "No, system limitation",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 116,
+    "topic": "IMS DC - COBOL Interface",
+    "difficulty": "Easy",
+    "question": "How are DL/I calls coded in COBOL programs?",
+    "option_1": "Using CALL statement with specific format",
+    "option_2": "Using READ statement",
+    "option_3": "Using WRITE statement",
+    "option_4": "Using PERFORM statement",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 117,
+    "topic": "IMS DC - COBOL Interface",
+    "difficulty": "Medium",
+    "question": "What parameters are passed in DL/I call?",
+    "option_1": "Function code, PCB mask, I/O area, SSA (if needed)",
+    "option_2": "Only function code",
+    "option_3": "Only I/O area",
+    "option_4": "Transaction code and message",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 118,
+    "topic": "IMS DC - COBOL Interface",
+    "difficulty": "Hard",
+    "question": "How is the PCB mask defined in COBOL programs?",
+    "option_1": "In working storage or linkage section matching PCB structure",
+    "option_2": "In file section",
+    "option_3": "In procedure division",
+    "option_4": "Not needed, system provides it",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 119,
+    "topic": "IMS DC - Function Codes",
+    "difficulty": "Easy",
+    "question": "What is the function code for Get Unique?",
+    "option_1": "GU",
+    "option_2": "GN",
+    "option_3": "GNP",
+    "option_4": "GHU",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 120,
+    "topic": "IMS DC - Function Codes",
+    "difficulty": "Easy",
+    "question": "What is the function code for Get Next?",
+    "option_1": "GN",
+    "option_2": "GU",
+    "option_3": "GNP",
+    "option_4": "GHN",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 121,
+    "topic": "IMS DC - Transaction Flow",
+    "difficulty": "Easy",
+    "question": "What initiates a transaction in IMS DC?",
+    "option_1": "User input at terminal",
+    "option_2": "System timer",
+    "option_3": "Batch job",
+    "option_4": "Database trigger",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 122,
+    "topic": "IMS DC - Transaction Flow",
+    "difficulty": "Medium",
+    "question": "What is the sequence of events when a transaction is entered?",
+    "option_1": "Message queued, program scheduled, message processed, response sent",
+    "option_2": "Program started, message queued, processed",
+    "option_3": "Response sent, message queued",
+    "option_4": "Database updated first",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 123,
+    "topic": "IMS DC - Message Queue Management",
+    "difficulty": "Easy",
+    "question": "Where are messages stored before processing?",
+    "option_1": "In message queues",
+    "option_2": "In database",
+    "option_3": "In terminal buffer",
+    "option_4": "In program memory",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 124,
+    "topic": "IMS DC - Message Queue Management",
+    "difficulty": "Medium",
+    "question": "What determines when a queued message is processed?",
+    "option_1": "Message priority and program availability",
+    "option_2": "Time of day",
+    "option_3": "Terminal location",
+    "option_4": "Message size",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 125,
+    "topic": "IMS DC - Program Execution",
+    "difficulty": "Easy",
+    "question": "Can the same program process multiple transactions?",
+    "option_1": "Yes",
+    "option_2": "No",
+    "option_3": "Only conversational",
+    "option_4": "Only non-conversational",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 126,
+    "topic": "IMS DC - Program Execution",
+    "difficulty": "Medium",
+    "question": "How does IMS know which program to execute for a transaction?",
+    "option_1": "Transaction code is mapped to program in system definition",
+    "option_2": "Program name in message",
+    "option_3": "User specifies program",
+    "option_4": "Random selection",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 127,
+    "topic": "IMS DC - Response Time",
+    "difficulty": "Easy",
+    "question": "What affects transaction response time?",
+    "option_1": "Queue depth, program complexity, database access, system load",
+    "option_2": "Only queue depth",
+    "option_3": "Only program size",
+    "option_4": "Only terminal speed",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 128,
+    "topic": "IMS DC - Response Time",
+    "difficulty": "Medium",
+    "question": "How can response time be improved?",
+    "option_1": "Optimize program logic, increase program instances, prioritize transactions",
+    "option_2": "Only by faster hardware",
+    "option_3": "By limiting users",
+    "option_4": "Cannot be improved",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 129,
+    "topic": "IMS DC - Transaction Security",
+    "difficulty": "Medium",
+    "question": "Can transaction access be restricted?",
+    "option_1": "Yes, through security definitions",
+    "option_2": "No, all users have access",
+    "option_3": "Only by program logic",
+    "option_4": "Only by terminal type",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 130,
+    "topic": "IMS DC - Transaction Security",
+    "difficulty": "Hard",
+    "question": "What security mechanisms are available for transactions?",
+    "option_1": "User authorization, transaction security, terminal security",
+    "option_2": "Only passwords",
+    "option_3": "Only terminal location",
+    "option_4": "No security available",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 131,
+    "topic": "IMS DC - Transaction Flow",
+    "difficulty": "Easy",
+    "question": "What initiates a transaction in IMS DC?",
+    "option_1": "User input at terminal",
+    "option_2": "System timer",
+    "option_3": "Batch job",
+    "option_4": "Database trigger",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 132,
+    "topic": "IMS DC - Transaction Flow",
+    "difficulty": "Medium",
+    "question": "What is the sequence of events when a transaction is entered?",
+    "option_1": "Message queued, program scheduled, message processed, response sent",
+    "option_2": "Program started, message queued, processed",
+    "option_3": "Response sent, message queued",
+    "option_4": "Database updated first",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 133,
+    "topic": "IMS DC - Message Queue Management",
+    "difficulty": "Easy",
+    "question": "Where are messages stored before processing?",
+    "option_1": "In message queues",
+    "option_2": "In database",
+    "option_3": "In terminal buffer",
+    "option_4": "In program memory",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 134,
+    "topic": "IMS DC - Message Queue Management",
+    "difficulty": "Medium",
+    "question": "What determines when a queued message is processed?",
+    "option_1": "Message priority and program availability",
+    "option_2": "Time of day",
+    "option_3": "Terminal location",
+    "option_4": "Message size",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 135,
+    "topic": "IMS DC - Program Execution",
+    "difficulty": "Easy",
+    "question": "Can the same program process multiple transactions?",
+    "option_1": "Yes",
+    "option_2": "No",
+    "option_3": "Only conversational",
+    "option_4": "Only non-conversational",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 136,
+    "topic": "IMS DC - Program Execution",
+    "difficulty": "Medium",
+    "question": "How does IMS know which program to execute for a transaction?",
+    "option_1": "Transaction code is mapped to program in system definition",
+    "option_2": "Program name in message",
+    "option_3": "User specifies program",
+    "option_4": "Random selection",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 137,
+    "topic": "IMS DC - Response Time",
+    "difficulty": "Easy",
+    "question": "What affects transaction response time?",
+    "option_1": "Queue depth, program complexity, database access, system load",
+    "option_2": "Only queue depth",
+    "option_3": "Only program size",
+    "option_4": "Only terminal speed",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 138,
+    "topic": "IMS DC - Response Time",
+    "difficulty": "Medium",
+    "question": "How can response time be improved?",
+    "option_1": "Optimize program logic, increase program instances, prioritize transactions",
+    "option_2": "Only by faster hardware",
+    "option_3": "By limiting users",
+    "option_4": "Cannot be improved",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 139,
+    "topic": "IMS DC - Transaction Security",
+    "difficulty": "Medium",
+    "question": "Can transaction access be restricted?",
+    "option_1": "Yes, through security definitions",
+    "option_2": "No, all users have access",
+    "option_3": "Only by program logic",
+    "option_4": "Only by terminal type",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 140,
+    "topic": "IMS DC - Transaction Security",
+    "difficulty": "Hard",
+    "question": "What security mechanisms are available for transactions?",
+    "option_1": "User authorization, transaction security, terminal security",
+    "option_2": "Only passwords",
+    "option_3": "Only terminal location",
+    "option_4": "No security available",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 141,
+    "topic": "IMS DC - Transaction Flow",
+    "difficulty": "Easy",
+    "question": "What initiates a transaction in IMS DC?",
+    "option_1": "User input at terminal",
+    "option_2": "System timer",
+    "option_3": "Batch job",
+    "option_4": "Database trigger",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 142,
+    "topic": "IMS DC - Transaction Flow",
+    "difficulty": "Medium",
+    "question": "What is the sequence of events when a transaction is entered?",
+    "option_1": "Message queued, program scheduled, message processed, response sent",
+    "option_2": "Program started, message queued, processed",
+    "option_3": "Response sent, message queued",
+    "option_4": "Database updated first",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 143,
+    "topic": "IMS DC - Message Queue Management",
+    "difficulty": "Easy",
+    "question": "Where are messages stored before processing?",
+    "option_1": "In message queues",
+    "option_2": "In database",
+    "option_3": "In terminal buffer",
+    "option_4": "In program memory",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 144,
+    "topic": "IMS DC - Message Queue Management",
+    "difficulty": "Medium",
+    "question": "What determines when a queued message is processed?",
+    "option_1": "Message priority and program availability",
+    "option_2": "Time of day",
+    "option_3": "Terminal location",
+    "option_4": "Message size",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 145,
+    "topic": "IMS DC - Program Execution",
+    "difficulty": "Easy",
+    "question": "Can the same program process multiple transactions?",
+    "option_1": "Yes",
+    "option_2": "No",
+    "option_3": "Only conversational",
+    "option_4": "Only non-conversational",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 146,
+    "topic": "IMS DC - Program Execution",
+    "difficulty": "Medium",
+    "question": "How does IMS know which program to execute for a transaction?",
+    "option_1": "Transaction code is mapped to program in system definition",
+    "option_2": "Program name in message",
+    "option_3": "User specifies program",
+    "option_4": "Random selection",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 147,
+    "topic": "IMS DC - Response Time",
+    "difficulty": "Easy",
+    "question": "What affects transaction response time?",
+    "option_1": "Queue depth, program complexity, database access, system load",
+    "option_2": "Only queue depth",
+    "option_3": "Only program size",
+    "option_4": "Only terminal speed",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 148,
+    "topic": "IMS DC - Response Time",
+    "difficulty": "Medium",
+    "question": "How can response time be improved?",
+    "option_1": "Optimize program logic, increase program instances, prioritize transactions",
+    "option_2": "Only by faster hardware",
+    "option_3": "By limiting users",
+    "option_4": "Cannot be improved",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 149,
+    "topic": "IMS DC - Transaction Security",
+    "difficulty": "Medium",
+    "question": "Can transaction access be restricted?",
+    "option_1": "Yes, through security definitions",
+    "option_2": "No, all users have access",
+    "option_3": "Only by program logic",
+    "option_4": "Only by terminal type",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 150,
+    "topic": "IMS DC - Transaction Security",
+    "difficulty": "Hard",
+    "question": "What security mechanisms are available for transactions?",
+    "option_1": "User authorization, transaction security, terminal security",
+    "option_2": "Only passwords",
+    "option_3": "Only terminal location",
+    "option_4": "No security available",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 151,
+    "topic": "IMS DC - Transaction Flow",
+    "difficulty": "Easy",
+    "question": "What initiates a transaction in IMS DC?",
+    "option_1": "User input at terminal",
+    "option_2": "System timer",
+    "option_3": "Batch job",
+    "option_4": "Database trigger",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 152,
+    "topic": "IMS DC - Transaction Flow",
+    "difficulty": "Medium",
+    "question": "What is the sequence of events when a transaction is entered?",
+    "option_1": "Message queued, program scheduled, message processed, response sent",
+    "option_2": "Program started, message queued, processed",
+    "option_3": "Response sent, message queued",
+    "option_4": "Database updated first",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 153,
+    "topic": "IMS DC - Message Queue Management",
+    "difficulty": "Easy",
+    "question": "Where are messages stored before processing?",
+    "option_1": "In message queues",
+    "option_2": "In database",
+    "option_3": "In terminal buffer",
+    "option_4": "In program memory",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 154,
+    "topic": "IMS DC - Message Queue Management",
+    "difficulty": "Medium",
+    "question": "What determines when a queued message is processed?",
+    "option_1": "Message priority and program availability",
+    "option_2": "Time of day",
+    "option_3": "Terminal location",
+    "option_4": "Message size",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 155,
+    "topic": "IMS DC - Program Execution",
+    "difficulty": "Easy",
+    "question": "Can the same program process multiple transactions?",
+    "option_1": "Yes",
+    "option_2": "No",
+    "option_3": "Only conversational",
+    "option_4": "Only non-conversational",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 156,
+    "topic": "IMS DC - Program Execution",
+    "difficulty": "Medium",
+    "question": "How does IMS know which program to execute for a transaction?",
+    "option_1": "Transaction code is mapped to program in system definition",
+    "option_2": "Program name in message",
+    "option_3": "User specifies program",
+    "option_4": "Random selection",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 157,
+    "topic": "IMS DC - Response Time",
+    "difficulty": "Easy",
+    "question": "What affects transaction response time?",
+    "option_1": "Queue depth, program complexity, database access, system load",
+    "option_2": "Only queue depth",
+    "option_3": "Only program size",
+    "option_4": "Only terminal speed",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 158,
+    "topic": "IMS DC - Response Time",
+    "difficulty": "Medium",
+    "question": "How can response time be improved?",
+    "option_1": "Optimize program logic, increase program instances, prioritize transactions",
+    "option_2": "Only by faster hardware",
+    "option_3": "By limiting users",
+    "option_4": "Cannot be improved",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 159,
+    "topic": "IMS DC - Transaction Security",
+    "difficulty": "Medium",
+    "question": "Can transaction access be restricted?",
+    "option_1": "Yes, through security definitions",
+    "option_2": "No, all users have access",
+    "option_3": "Only by program logic",
+    "option_4": "Only by terminal type",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 160,
+    "topic": "IMS DC - Transaction Security",
+    "difficulty": "Hard",
+    "question": "What security mechanisms are available for transactions?",
+    "option_1": "User authorization, transaction security, terminal security",
+    "option_2": "Only passwords",
+    "option_3": "Only terminal location",
+    "option_4": "No security available",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 161,
+    "topic": "IMS DC - Transaction Flow",
+    "difficulty": "Easy",
+    "question": "What initiates a transaction in IMS DC?",
+    "option_1": "User input at terminal",
+    "option_2": "System timer",
+    "option_3": "Batch job",
+    "option_4": "Database trigger",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 162,
+    "topic": "IMS DC - Transaction Flow",
+    "difficulty": "Medium",
+    "question": "What is the sequence of events when a transaction is entered?",
+    "option_1": "Message queued, program scheduled, message processed, response sent",
+    "option_2": "Program started, message queued, processed",
+    "option_3": "Response sent, message queued",
+    "option_4": "Database updated first",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 163,
+    "topic": "IMS DC - Message Queue Management",
+    "difficulty": "Easy",
+    "question": "Where are messages stored before processing?",
+    "option_1": "In message queues",
+    "option_2": "In database",
+    "option_3": "In terminal buffer",
+    "option_4": "In program memory",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 164,
+    "topic": "IMS DC - Message Queue Management",
+    "difficulty": "Medium",
+    "question": "What determines when a queued message is processed?",
+    "option_1": "Message priority and program availability",
+    "option_2": "Time of day",
+    "option_3": "Terminal location",
+    "option_4": "Message size",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 165,
+    "topic": "IMS DC - Program Execution",
+    "difficulty": "Easy",
+    "question": "Can the same program process multiple transactions?",
+    "option_1": "Yes",
+    "option_2": "No",
+    "option_3": "Only conversational",
+    "option_4": "Only non-conversational",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 166,
+    "topic": "IMS DC - Program Execution",
+    "difficulty": "Medium",
+    "question": "How does IMS know which program to execute for a transaction?",
+    "option_1": "Transaction code is mapped to program in system definition",
+    "option_2": "Program name in message",
+    "option_3": "User specifies program",
+    "option_4": "Random selection",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 167,
+    "topic": "IMS DC - Response Time",
+    "difficulty": "Easy",
+    "question": "What affects transaction response time?",
+    "option_1": "Queue depth, program complexity, database access, system load",
+    "option_2": "Only queue depth",
+    "option_3": "Only program size",
+    "option_4": "Only terminal speed",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 168,
+    "topic": "IMS DC - Response Time",
+    "difficulty": "Medium",
+    "question": "How can response time be improved?",
+    "option_1": "Optimize program logic, increase program instances, prioritize transactions",
+    "option_2": "Only by faster hardware",
+    "option_3": "By limiting users",
+    "option_4": "Cannot be improved",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 169,
+    "topic": "IMS DC - Transaction Security",
+    "difficulty": "Medium",
+    "question": "Can transaction access be restricted?",
+    "option_1": "Yes, through security definitions",
+    "option_2": "No, all users have access",
+    "option_3": "Only by program logic",
+    "option_4": "Only by terminal type",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 170,
+    "topic": "IMS DC - Transaction Security",
+    "difficulty": "Hard",
+    "question": "What security mechanisms are available for transactions?",
+    "option_1": "User authorization, transaction security, terminal security",
+    "option_2": "Only passwords",
+    "option_3": "Only terminal location",
+    "option_4": "No security available",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 171,
+    "topic": "IMS DC - COBOL Structure",
+    "difficulty": "Easy",
+    "question": "What division is unique to IMS DC COBOL programs?",
+    "option_1": "No unique division, standard COBOL structure",
+    "option_2": "IMS DIVISION",
+    "option_3": "MESSAGE DIVISION",
+    "option_4": "DC DIVISION",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 172,
+    "topic": "IMS DC - COBOL Structure",
+    "difficulty": "Medium",
+    "question": "Where should DL/I calls be coded?",
+    "option_1": "In PROCEDURE DIVISION",
+    "option_2": "In DATA DIVISION",
+    "option_3": "In IDENTIFICATION DIVISION",
+    "option_4": "In ENVIRONMENT DIVISION",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 173,
+    "topic": "IMS DC - Working Storage",
+    "difficulty": "Easy",
+    "question": "Where is message I/O area defined?",
+    "option_1": "In WORKING-STORAGE SECTION",
+    "option_2": "In FILE SECTION",
+    "option_3": "In LINKAGE SECTION",
+    "option_4": "In PROCEDURE DIVISION",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 174,
+    "topic": "IMS DC - Working Storage",
+    "difficulty": "Medium",
+    "question": "Where should PCB masks be defined?",
+    "option_1": "In WORKING-STORAGE or LINKAGE SECTION",
+    "option_2": "In FILE SECTION",
+    "option_3": "In PROCEDURE DIVISION",
+    "option_4": "Not needed",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 175,
+    "topic": "IMS DC - Program Logic",
+    "difficulty": "Easy",
+    "question": "What is typical main logic structure?",
+    "option_1": "Retrieve message, process, access DB if needed, send response",
+    "option_2": "Access DB, retrieve message, send response",
+    "option_3": "Send response first",
+    "option_4": "No standard structure",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 176,
+    "topic": "IMS DC - Program Logic",
+    "difficulty": "Medium",
+    "question": "Should programs use STOP RUN?",
+    "option_1": "No, use GOBACK instead",
+    "option_2": "Yes, always",
+    "option_3": "Yes, for error conditions",
+    "option_4": "Either is fine",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 177,
+    "topic": "IMS DC - Error Handling",
+    "difficulty": "Medium",
+    "question": "How should programs handle DL/I errors?",
+    "option_1": "Check status codes and handle appropriately",
+    "option_2": "Ignore errors",
+    "option_3": "Always abend",
+    "option_4": "Let IMS handle",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 178,
+    "topic": "IMS DC - Error Handling",
+    "difficulty": "Hard",
+    "question": "What should program do when ISRT fails?",
+    "option_1": "Check status, log error, possibly rollback",
+    "option_2": "Ignore and continue",
+    "option_3": "Always abend",
+    "option_4": "Retry indefinitely",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 179,
+    "topic": "IMS DC - Message Validation",
+    "difficulty": "Easy",
+    "question": "Should programs validate input messages?",
+    "option_1": "Yes, always validate input",
+    "option_2": "No, not needed",
+    "option_3": "Only for numeric data",
+    "option_4": "Only for long messages",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 180,
+    "topic": "IMS DC - Message Validation",
+    "difficulty": "Medium",
+    "question": "What validations are commonly needed?",
+    "option_1": "Data type, length, format, business rules",
+    "option_2": "Only length",
+    "option_3": "Only data type",
+    "option_4": "No validation needed",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 181,
+    "topic": "IMS DC - COBOL Structure",
+    "difficulty": "Easy",
+    "question": "What division is unique to IMS DC COBOL programs?",
+    "option_1": "No unique division, standard COBOL structure",
+    "option_2": "IMS DIVISION",
+    "option_3": "MESSAGE DIVISION",
+    "option_4": "DC DIVISION",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 182,
+    "topic": "IMS DC - COBOL Structure",
+    "difficulty": "Medium",
+    "question": "Where should DL/I calls be coded?",
+    "option_1": "In PROCEDURE DIVISION",
+    "option_2": "In DATA DIVISION",
+    "option_3": "In IDENTIFICATION DIVISION",
+    "option_4": "In ENVIRONMENT DIVISION",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 183,
+    "topic": "IMS DC - Working Storage",
+    "difficulty": "Easy",
+    "question": "Where is message I/O area defined?",
+    "option_1": "In WORKING-STORAGE SECTION",
+    "option_2": "In FILE SECTION",
+    "option_3": "In LINKAGE SECTION",
+    "option_4": "In PROCEDURE DIVISION",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 184,
+    "topic": "IMS DC - Working Storage",
+    "difficulty": "Medium",
+    "question": "Where should PCB masks be defined?",
+    "option_1": "In WORKING-STORAGE or LINKAGE SECTION",
+    "option_2": "In FILE SECTION",
+    "option_3": "In PROCEDURE DIVISION",
+    "option_4": "Not needed",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 185,
+    "topic": "IMS DC - Program Logic",
+    "difficulty": "Easy",
+    "question": "What is typical main logic structure?",
+    "option_1": "Retrieve message, process, access DB if needed, send response",
+    "option_2": "Access DB, retrieve message, send response",
+    "option_3": "Send response first",
+    "option_4": "No standard structure",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 186,
+    "topic": "IMS DC - Program Logic",
+    "difficulty": "Medium",
+    "question": "Should programs use STOP RUN?",
+    "option_1": "No, use GOBACK instead",
+    "option_2": "Yes, always",
+    "option_3": "Yes, for error conditions",
+    "option_4": "Either is fine",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 187,
+    "topic": "IMS DC - Error Handling",
+    "difficulty": "Medium",
+    "question": "How should programs handle DL/I errors?",
+    "option_1": "Check status codes and handle appropriately",
+    "option_2": "Ignore errors",
+    "option_3": "Always abend",
+    "option_4": "Let IMS handle",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 188,
+    "topic": "IMS DC - Error Handling",
+    "difficulty": "Hard",
+    "question": "What should program do when ISRT fails?",
+    "option_1": "Check status, log error, possibly rollback",
+    "option_2": "Ignore and continue",
+    "option_3": "Always abend",
+    "option_4": "Retry indefinitely",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 189,
+    "topic": "IMS DC - Message Validation",
+    "difficulty": "Easy",
+    "question": "Should programs validate input messages?",
+    "option_1": "Yes, always validate input",
+    "option_2": "No, not needed",
+    "option_3": "Only for numeric data",
+    "option_4": "Only for long messages",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 190,
+    "topic": "IMS DC - Message Validation",
+    "difficulty": "Medium",
+    "question": "What validations are commonly needed?",
+    "option_1": "Data type, length, format, business rules",
+    "option_2": "Only length",
+    "option_3": "Only data type",
+    "option_4": "No validation needed",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 191,
+    "topic": "IMS DC - COBOL Structure",
+    "difficulty": "Easy",
+    "question": "What division is unique to IMS DC COBOL programs?",
+    "option_1": "No unique division, standard COBOL structure",
+    "option_2": "IMS DIVISION",
+    "option_3": "MESSAGE DIVISION",
+    "option_4": "DC DIVISION",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 192,
+    "topic": "IMS DC - COBOL Structure",
+    "difficulty": "Medium",
+    "question": "Where should DL/I calls be coded?",
+    "option_1": "In PROCEDURE DIVISION",
+    "option_2": "In DATA DIVISION",
+    "option_3": "In IDENTIFICATION DIVISION",
+    "option_4": "In ENVIRONMENT DIVISION",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 193,
+    "topic": "IMS DC - Working Storage",
+    "difficulty": "Easy",
+    "question": "Where is message I/O area defined?",
+    "option_1": "In WORKING-STORAGE SECTION",
+    "option_2": "In FILE SECTION",
+    "option_3": "In LINKAGE SECTION",
+    "option_4": "In PROCEDURE DIVISION",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 194,
+    "topic": "IMS DC - Working Storage",
+    "difficulty": "Medium",
+    "question": "Where should PCB masks be defined?",
+    "option_1": "In WORKING-STORAGE or LINKAGE SECTION",
+    "option_2": "In FILE SECTION",
+    "option_3": "In PROCEDURE DIVISION",
+    "option_4": "Not needed",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 195,
+    "topic": "IMS DC - Program Logic",
+    "difficulty": "Easy",
+    "question": "What is typical main logic structure?",
+    "option_1": "Retrieve message, process, access DB if needed, send response",
+    "option_2": "Access DB, retrieve message, send response",
+    "option_3": "Send response first",
+    "option_4": "No standard structure",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 196,
+    "topic": "IMS DC - Program Logic",
+    "difficulty": "Medium",
+    "question": "Should programs use STOP RUN?",
+    "option_1": "No, use GOBACK instead",
+    "option_2": "Yes, always",
+    "option_3": "Yes, for error conditions",
+    "option_4": "Either is fine",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 197,
+    "topic": "IMS DC - Error Handling",
+    "difficulty": "Medium",
+    "question": "How should programs handle DL/I errors?",
+    "option_1": "Check status codes and handle appropriately",
+    "option_2": "Ignore errors",
+    "option_3": "Always abend",
+    "option_4": "Let IMS handle",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 198,
+    "topic": "IMS DC - Error Handling",
+    "difficulty": "Hard",
+    "question": "What should program do when ISRT fails?",
+    "option_1": "Check status, log error, possibly rollback",
+    "option_2": "Ignore and continue",
+    "option_3": "Always abend",
+    "option_4": "Retry indefinitely",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 199,
+    "topic": "IMS DC - Message Validation",
+    "difficulty": "Easy",
+    "question": "Should programs validate input messages?",
+    "option_1": "Yes, always validate input",
+    "option_2": "No, not needed",
+    "option_3": "Only for numeric data",
+    "option_4": "Only for long messages",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 200,
+    "topic": "IMS DC - Message Validation",
+    "difficulty": "Medium",
+    "question": "What validations are commonly needed?",
+    "option_1": "Data type, length, format, business rules",
+    "option_2": "Only length",
+    "option_3": "Only data type",
+    "option_4": "No validation needed",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 201,
+    "topic": "IMS DC - COBOL Structure",
+    "difficulty": "Easy",
+    "question": "What division is unique to IMS DC COBOL programs?",
+    "option_1": "No unique division, standard COBOL structure",
+    "option_2": "IMS DIVISION",
+    "option_3": "MESSAGE DIVISION",
+    "option_4": "DC DIVISION",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 202,
+    "topic": "IMS DC - COBOL Structure",
+    "difficulty": "Medium",
+    "question": "Where should DL/I calls be coded?",
+    "option_1": "In PROCEDURE DIVISION",
+    "option_2": "In DATA DIVISION",
+    "option_3": "In IDENTIFICATION DIVISION",
+    "option_4": "In ENVIRONMENT DIVISION",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 203,
+    "topic": "IMS DC - Working Storage",
+    "difficulty": "Easy",
+    "question": "Where is message I/O area defined?",
+    "option_1": "In WORKING-STORAGE SECTION",
+    "option_2": "In FILE SECTION",
+    "option_3": "In LINKAGE SECTION",
+    "option_4": "In PROCEDURE DIVISION",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 204,
+    "topic": "IMS DC - Working Storage",
+    "difficulty": "Medium",
+    "question": "Where should PCB masks be defined?",
+    "option_1": "In WORKING-STORAGE or LINKAGE SECTION",
+    "option_2": "In FILE SECTION",
+    "option_3": "In PROCEDURE DIVISION",
+    "option_4": "Not needed",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 205,
+    "topic": "IMS DC - Program Logic",
+    "difficulty": "Easy",
+    "question": "What is typical main logic structure?",
+    "option_1": "Retrieve message, process, access DB if needed, send response",
+    "option_2": "Access DB, retrieve message, send response",
+    "option_3": "Send response first",
+    "option_4": "No standard structure",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 206,
+    "topic": "IMS DC - Program Logic",
+    "difficulty": "Medium",
+    "question": "Should programs use STOP RUN?",
+    "option_1": "No, use GOBACK instead",
+    "option_2": "Yes, always",
+    "option_3": "Yes, for error conditions",
+    "option_4": "Either is fine",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 207,
+    "topic": "IMS DC - Error Handling",
+    "difficulty": "Medium",
+    "question": "How should programs handle DL/I errors?",
+    "option_1": "Check status codes and handle appropriately",
+    "option_2": "Ignore errors",
+    "option_3": "Always abend",
+    "option_4": "Let IMS handle",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 208,
+    "topic": "IMS DC - Error Handling",
+    "difficulty": "Hard",
+    "question": "What should program do when ISRT fails?",
+    "option_1": "Check status, log error, possibly rollback",
+    "option_2": "Ignore and continue",
+    "option_3": "Always abend",
+    "option_4": "Retry indefinitely",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 209,
+    "topic": "IMS DC - Message Validation",
+    "difficulty": "Easy",
+    "question": "Should programs validate input messages?",
+    "option_1": "Yes, always validate input",
+    "option_2": "No, not needed",
+    "option_3": "Only for numeric data",
+    "option_4": "Only for long messages",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 210,
+    "topic": "IMS DC - Message Validation",
+    "difficulty": "Medium",
+    "question": "What validations are commonly needed?",
+    "option_1": "Data type, length, format, business rules",
+    "option_2": "Only length",
+    "option_3": "Only data type",
+    "option_4": "No validation needed",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 211,
+    "topic": "IMS DC - COBOL Structure",
+    "difficulty": "Easy",
+    "question": "What division is unique to IMS DC COBOL programs?",
+    "option_1": "No unique division, standard COBOL structure",
+    "option_2": "IMS DIVISION",
+    "option_3": "MESSAGE DIVISION",
+    "option_4": "DC DIVISION",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 212,
+    "topic": "IMS DC - COBOL Structure",
+    "difficulty": "Medium",
+    "question": "Where should DL/I calls be coded?",
+    "option_1": "In PROCEDURE DIVISION",
+    "option_2": "In DATA DIVISION",
+    "option_3": "In IDENTIFICATION DIVISION",
+    "option_4": "In ENVIRONMENT DIVISION",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 213,
+    "topic": "IMS DC - Working Storage",
+    "difficulty": "Easy",
+    "question": "Where is message I/O area defined?",
+    "option_1": "In WORKING-STORAGE SECTION",
+    "option_2": "In FILE SECTION",
+    "option_3": "In LINKAGE SECTION",
+    "option_4": "In PROCEDURE DIVISION",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 214,
+    "topic": "IMS DC - Working Storage",
+    "difficulty": "Medium",
+    "question": "Where should PCB masks be defined?",
+    "option_1": "In WORKING-STORAGE or LINKAGE SECTION",
+    "option_2": "In FILE SECTION",
+    "option_3": "In PROCEDURE DIVISION",
+    "option_4": "Not needed",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 215,
+    "topic": "IMS DC - Program Logic",
+    "difficulty": "Easy",
+    "question": "What is typical main logic structure?",
+    "option_1": "Retrieve message, process, access DB if needed, send response",
+    "option_2": "Access DB, retrieve message, send response",
+    "option_3": "Send response first",
+    "option_4": "No standard structure",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 216,
+    "topic": "IMS DC - Program Logic",
+    "difficulty": "Medium",
+    "question": "Should programs use STOP RUN?",
+    "option_1": "No, use GOBACK instead",
+    "option_2": "Yes, always",
+    "option_3": "Yes, for error conditions",
+    "option_4": "Either is fine",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 217,
+    "topic": "IMS DC - Error Handling",
+    "difficulty": "Medium",
+    "question": "How should programs handle DL/I errors?",
+    "option_1": "Check status codes and handle appropriately",
+    "option_2": "Ignore errors",
+    "option_3": "Always abend",
+    "option_4": "Let IMS handle",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 218,
+    "topic": "IMS DC - Error Handling",
+    "difficulty": "Hard",
+    "question": "What should program do when ISRT fails?",
+    "option_1": "Check status, log error, possibly rollback",
+    "option_2": "Ignore and continue",
+    "option_3": "Always abend",
+    "option_4": "Retry indefinitely",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 219,
+    "topic": "IMS DC - Message Validation",
+    "difficulty": "Easy",
+    "question": "Should programs validate input messages?",
+    "option_1": "Yes, always validate input",
+    "option_2": "No, not needed",
+    "option_3": "Only for numeric data",
+    "option_4": "Only for long messages",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 220,
+    "topic": "IMS DC - Message Validation",
+    "difficulty": "Medium",
+    "question": "What validations are commonly needed?",
+    "option_1": "Data type, length, format, business rules",
+    "option_2": "Only length",
+    "option_3": "Only data type",
+    "option_4": "No validation needed",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 221,
+    "topic": "IMS DC - Scratchpad Area",
+    "difficulty": "Medium",
+    "question": "What is SPA used for?",
+    "option_1": "Store conversational transaction context",
+    "option_2": "Store database keys",
+    "option_3": "Store system parameters",
+    "option_4": "Temporary calculations",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 222,
+    "topic": "IMS DC - Scratchpad Area",
+    "difficulty": "Hard",
+    "question": "How is SPA managed?",
+    "option_1": "Automatically by IMS for conversational programs",
+    "option_2": "Manually by program",
+    "option_3": "By database",
+    "option_4": "Not used in DC",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 223,
+    "topic": "IMS DC - Modified Output",
+    "difficulty": "Medium",
+    "question": "What is modified output message?",
+    "option_1": "Message sent with data-sensitive field protection",
+    "option_2": "Short message",
+    "option_3": "Encrypted message",
+    "option_4": "Compressed message",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 224,
+    "topic": "IMS DC - Modified Output",
+    "difficulty": "Hard",
+    "question": "When is modified output used?",
+    "option_1": "For terminal display with protected fields",
+    "option_2": "For all output",
+    "option_3": "For error messages only",
+    "option_4": "Never used",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 225,
+    "topic": "IMS DC - Message Format Service",
+    "difficulty": "Medium",
+    "question": "What does MFS provide?",
+    "option_1": "Message formatting and screen layout control",
+    "option_2": "Message encryption",
+    "option_3": "Message compression",
+    "option_4": "Message routing",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 226,
+    "topic": "IMS DC - Message Format Service",
+    "difficulty": "Hard",
+    "question": "Is MFS required for all programs?",
+    "option_1": "No, programs can work without MFS",
+    "option_2": "Yes, always required",
+    "option_3": "Only for conversational",
+    "option_4": "Only for batch",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 227,
+    "topic": "IMS DC - Fast Path",
+    "difficulty": "Medium",
+    "question": "What is Fast Path in IMS DC?",
+    "option_1": "High-performance transaction processing option",
+    "option_2": "Quick database access method",
+    "option_3": "Fast network protocol",
+    "option_4": "Shortcut command",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 228,
+    "topic": "IMS DC - Fast Path",
+    "difficulty": "Hard",
+    "question": "When should Fast Path be used?",
+    "option_1": "For high-volume, time-critical transactions",
+    "option_2": "For all transactions",
+    "option_3": "Never, it's obsolete",
+    "option_4": "Only for batch",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 229,
+    "topic": "IMS DC - DEDB",
+    "difficulty": "Medium",
+    "question": "What is DEDB?",
+    "option_1": "Data Entry Database for Fast Path",
+    "option_2": "Distributed Entry Database",
+    "option_3": "Dynamic Entry Database",
+    "option_4": "Default Entry Database",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 230,
+    "topic": "IMS DC - DEDB",
+    "difficulty": "Hard",
+    "question": "What are DEDB characteristics?",
+    "option_1": "Fast access, main storage resident, for Fast Path",
+    "option_2": "Slow but reliable",
+    "option_3": "For batch only",
+    "option_4": "Network database",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 231,
+    "topic": "IMS DC - Scratchpad Area",
+    "difficulty": "Medium",
+    "question": "What is SPA used for?",
+    "option_1": "Store conversational transaction context",
+    "option_2": "Store database keys",
+    "option_3": "Store system parameters",
+    "option_4": "Temporary calculations",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 232,
+    "topic": "IMS DC - Scratchpad Area",
+    "difficulty": "Hard",
+    "question": "How is SPA managed?",
+    "option_1": "Automatically by IMS for conversational programs",
+    "option_2": "Manually by program",
+    "option_3": "By database",
+    "option_4": "Not used in DC",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 233,
+    "topic": "IMS DC - Modified Output",
+    "difficulty": "Medium",
+    "question": "What is modified output message?",
+    "option_1": "Message sent with data-sensitive field protection",
+    "option_2": "Short message",
+    "option_3": "Encrypted message",
+    "option_4": "Compressed message",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 234,
+    "topic": "IMS DC - Modified Output",
+    "difficulty": "Hard",
+    "question": "When is modified output used?",
+    "option_1": "For terminal display with protected fields",
+    "option_2": "For all output",
+    "option_3": "For error messages only",
+    "option_4": "Never used",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 235,
+    "topic": "IMS DC - Message Format Service",
+    "difficulty": "Medium",
+    "question": "What does MFS provide?",
+    "option_1": "Message formatting and screen layout control",
+    "option_2": "Message encryption",
+    "option_3": "Message compression",
+    "option_4": "Message routing",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 236,
+    "topic": "IMS DC - Message Format Service",
+    "difficulty": "Hard",
+    "question": "Is MFS required for all programs?",
+    "option_1": "No, programs can work without MFS",
+    "option_2": "Yes, always required",
+    "option_3": "Only for conversational",
+    "option_4": "Only for batch",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 237,
+    "topic": "IMS DC - Fast Path",
+    "difficulty": "Medium",
+    "question": "What is Fast Path in IMS DC?",
+    "option_1": "High-performance transaction processing option",
+    "option_2": "Quick database access method",
+    "option_3": "Fast network protocol",
+    "option_4": "Shortcut command",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 238,
+    "topic": "IMS DC - Fast Path",
+    "difficulty": "Hard",
+    "question": "When should Fast Path be used?",
+    "option_1": "For high-volume, time-critical transactions",
+    "option_2": "For all transactions",
+    "option_3": "Never, it's obsolete",
+    "option_4": "Only for batch",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 239,
+    "topic": "IMS DC - DEDB",
+    "difficulty": "Medium",
+    "question": "What is DEDB?",
+    "option_1": "Data Entry Database for Fast Path",
+    "option_2": "Distributed Entry Database",
+    "option_3": "Dynamic Entry Database",
+    "option_4": "Default Entry Database",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 240,
+    "topic": "IMS DC - DEDB",
+    "difficulty": "Hard",
+    "question": "What are DEDB characteristics?",
+    "option_1": "Fast access, main storage resident, for Fast Path",
+    "option_2": "Slow but reliable",
+    "option_3": "For batch only",
+    "option_4": "Network database",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 241,
+    "topic": "IMS DC - Scratchpad Area",
+    "difficulty": "Medium",
+    "question": "What is SPA used for?",
+    "option_1": "Store conversational transaction context",
+    "option_2": "Store database keys",
+    "option_3": "Store system parameters",
+    "option_4": "Temporary calculations",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 242,
+    "topic": "IMS DC - Scratchpad Area",
+    "difficulty": "Hard",
+    "question": "How is SPA managed?",
+    "option_1": "Automatically by IMS for conversational programs",
+    "option_2": "Manually by program",
+    "option_3": "By database",
+    "option_4": "Not used in DC",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 243,
+    "topic": "IMS DC - Modified Output",
+    "difficulty": "Medium",
+    "question": "What is modified output message?",
+    "option_1": "Message sent with data-sensitive field protection",
+    "option_2": "Short message",
+    "option_3": "Encrypted message",
+    "option_4": "Compressed message",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 244,
+    "topic": "IMS DC - Modified Output",
+    "difficulty": "Hard",
+    "question": "When is modified output used?",
+    "option_1": "For terminal display with protected fields",
+    "option_2": "For all output",
+    "option_3": "For error messages only",
+    "option_4": "Never used",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 245,
+    "topic": "IMS DC - Message Format Service",
+    "difficulty": "Medium",
+    "question": "What does MFS provide?",
+    "option_1": "Message formatting and screen layout control",
+    "option_2": "Message encryption",
+    "option_3": "Message compression",
+    "option_4": "Message routing",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 246,
+    "topic": "IMS DC - Message Format Service",
+    "difficulty": "Hard",
+    "question": "Is MFS required for all programs?",
+    "option_1": "No, programs can work without MFS",
+    "option_2": "Yes, always required",
+    "option_3": "Only for conversational",
+    "option_4": "Only for batch",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 247,
+    "topic": "IMS DC - Fast Path",
+    "difficulty": "Medium",
+    "question": "What is Fast Path in IMS DC?",
+    "option_1": "High-performance transaction processing option",
+    "option_2": "Quick database access method",
+    "option_3": "Fast network protocol",
+    "option_4": "Shortcut command",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 248,
+    "topic": "IMS DC - Fast Path",
+    "difficulty": "Hard",
+    "question": "When should Fast Path be used?",
+    "option_1": "For high-volume, time-critical transactions",
+    "option_2": "For all transactions",
+    "option_3": "Never, it's obsolete",
+    "option_4": "Only for batch",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 249,
+    "topic": "IMS DC - DEDB",
+    "difficulty": "Medium",
+    "question": "What is DEDB?",
+    "option_1": "Data Entry Database for Fast Path",
+    "option_2": "Distributed Entry Database",
+    "option_3": "Dynamic Entry Database",
+    "option_4": "Default Entry Database",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 250,
+    "topic": "IMS DC - DEDB",
+    "difficulty": "Hard",
+    "question": "What are DEDB characteristics?",
+    "option_1": "Fast access, main storage resident, for Fast Path",
+    "option_2": "Slow but reliable",
+    "option_3": "For batch only",
+    "option_4": "Network database",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 251,
+    "topic": "IMS DC - Scratchpad Area",
+    "difficulty": "Medium",
+    "question": "What is SPA used for?",
+    "option_1": "Store conversational transaction context",
+    "option_2": "Store database keys",
+    "option_3": "Store system parameters",
+    "option_4": "Temporary calculations",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 252,
+    "topic": "IMS DC - Scratchpad Area",
+    "difficulty": "Hard",
+    "question": "How is SPA managed?",
+    "option_1": "Automatically by IMS for conversational programs",
+    "option_2": "Manually by program",
+    "option_3": "By database",
+    "option_4": "Not used in DC",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 253,
+    "topic": "IMS DC - Modified Output",
+    "difficulty": "Medium",
+    "question": "What is modified output message?",
+    "option_1": "Message sent with data-sensitive field protection",
+    "option_2": "Short message",
+    "option_3": "Encrypted message",
+    "option_4": "Compressed message",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 254,
+    "topic": "IMS DC - Modified Output",
+    "difficulty": "Hard",
+    "question": "When is modified output used?",
+    "option_1": "For terminal display with protected fields",
+    "option_2": "For all output",
+    "option_3": "For error messages only",
+    "option_4": "Never used",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 255,
+    "topic": "IMS DC - Message Format Service",
+    "difficulty": "Medium",
+    "question": "What does MFS provide?",
+    "option_1": "Message formatting and screen layout control",
+    "option_2": "Message encryption",
+    "option_3": "Message compression",
+    "option_4": "Message routing",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 256,
+    "topic": "IMS DC - Message Format Service",
+    "difficulty": "Hard",
+    "question": "Is MFS required for all programs?",
+    "option_1": "No, programs can work without MFS",
+    "option_2": "Yes, always required",
+    "option_3": "Only for conversational",
+    "option_4": "Only for batch",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 257,
+    "topic": "IMS DC - Fast Path",
+    "difficulty": "Medium",
+    "question": "What is Fast Path in IMS DC?",
+    "option_1": "High-performance transaction processing option",
+    "option_2": "Quick database access method",
+    "option_3": "Fast network protocol",
+    "option_4": "Shortcut command",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 258,
+    "topic": "IMS DC - Fast Path",
+    "difficulty": "Hard",
+    "question": "When should Fast Path be used?",
+    "option_1": "For high-volume, time-critical transactions",
+    "option_2": "For all transactions",
+    "option_3": "Never, it's obsolete",
+    "option_4": "Only for batch",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 259,
+    "topic": "IMS DC - DEDB",
+    "difficulty": "Medium",
+    "question": "What is DEDB?",
+    "option_1": "Data Entry Database for Fast Path",
+    "option_2": "Distributed Entry Database",
+    "option_3": "Dynamic Entry Database",
+    "option_4": "Default Entry Database",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 260,
+    "topic": "IMS DC - DEDB",
+    "difficulty": "Hard",
+    "question": "What are DEDB characteristics?",
+    "option_1": "Fast access, main storage resident, for Fast Path",
+    "option_2": "Slow but reliable",
+    "option_3": "For batch only",
+    "option_4": "Network database",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 261,
+    "topic": "IMS DC - Scratchpad Area",
+    "difficulty": "Medium",
+    "question": "What is SPA used for?",
+    "option_1": "Store conversational transaction context",
+    "option_2": "Store database keys",
+    "option_3": "Store system parameters",
+    "option_4": "Temporary calculations",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 262,
+    "topic": "IMS DC - Scratchpad Area",
+    "difficulty": "Hard",
+    "question": "How is SPA managed?",
+    "option_1": "Automatically by IMS for conversational programs",
+    "option_2": "Manually by program",
+    "option_3": "By database",
+    "option_4": "Not used in DC",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 263,
+    "topic": "IMS DC - Modified Output",
+    "difficulty": "Medium",
+    "question": "What is modified output message?",
+    "option_1": "Message sent with data-sensitive field protection",
+    "option_2": "Short message",
+    "option_3": "Encrypted message",
+    "option_4": "Compressed message",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 264,
+    "topic": "IMS DC - Modified Output",
+    "difficulty": "Hard",
+    "question": "When is modified output used?",
+    "option_1": "For terminal display with protected fields",
+    "option_2": "For all output",
+    "option_3": "For error messages only",
+    "option_4": "Never used",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 265,
+    "topic": "IMS DC - Message Format Service",
+    "difficulty": "Medium",
+    "question": "What does MFS provide?",
+    "option_1": "Message formatting and screen layout control",
+    "option_2": "Message encryption",
+    "option_3": "Message compression",
+    "option_4": "Message routing",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 266,
+    "topic": "IMS DC - Message Format Service",
+    "difficulty": "Hard",
+    "question": "Is MFS required for all programs?",
+    "option_1": "No, programs can work without MFS",
+    "option_2": "Yes, always required",
+    "option_3": "Only for conversational",
+    "option_4": "Only for batch",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 267,
+    "topic": "IMS DC - Fast Path",
+    "difficulty": "Medium",
+    "question": "What is Fast Path in IMS DC?",
+    "option_1": "High-performance transaction processing option",
+    "option_2": "Quick database access method",
+    "option_3": "Fast network protocol",
+    "option_4": "Shortcut command",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 268,
+    "topic": "IMS DC - Fast Path",
+    "difficulty": "Hard",
+    "question": "When should Fast Path be used?",
+    "option_1": "For high-volume, time-critical transactions",
+    "option_2": "For all transactions",
+    "option_3": "Never, it's obsolete",
+    "option_4": "Only for batch",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 269,
+    "topic": "IMS DC - DEDB",
+    "difficulty": "Medium",
+    "question": "What is DEDB?",
+    "option_1": "Data Entry Database for Fast Path",
+    "option_2": "Distributed Entry Database",
+    "option_3": "Dynamic Entry Database",
+    "option_4": "Default Entry Database",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 270,
+    "topic": "IMS DC - DEDB",
+    "difficulty": "Hard",
+    "question": "What are DEDB characteristics?",
+    "option_1": "Fast access, main storage resident, for Fast Path",
+    "option_2": "Slow but reliable",
+    "option_3": "For batch only",
+    "option_4": "Network database",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 271,
+    "topic": "IMS DC - Testing",
+    "difficulty": "Easy",
+    "question": "How can DC programs be tested?",
+    "option_1": "Using test terminals or test harness programs",
+    "option_2": "Only in production",
+    "option_3": "Cannot be tested",
+    "option_4": "Only with batch jobs",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 272,
+    "topic": "IMS DC - Testing",
+    "difficulty": "Medium",
+    "question": "What should be tested in DC programs?",
+    "option_1": "Message handling, business logic, database access, error conditions",
+    "option_2": "Only business logic",
+    "option_3": "Only database access",
+    "option_4": "Only normal path",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 273,
+    "topic": "IMS DC - Debugging",
+    "difficulty": "Medium",
+    "question": "What tools help debug DC programs?",
+    "option_1": "IMS logs, COBOL debugging, trace facilities",
+    "option_2": "No tools available",
+    "option_3": "Only manual inspection",
+    "option_4": "Only system dumps",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 274,
+    "topic": "IMS DC - Debugging",
+    "difficulty": "Hard",
+    "question": "How to debug message processing issues?",
+    "option_1": "Check IMS logs, verify PCB status, trace message flow",
+    "option_2": "Guess and retry",
+    "option_3": "Cannot debug DC programs",
+    "option_4": "Only by code review",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 275,
+    "topic": "IMS DC - Error Messages",
+    "difficulty": "Easy",
+    "question": "Where are program error messages logged?",
+    "option_1": "IMS system log and message queues",
+    "option_2": "Only terminal",
+    "option_3": "Only database",
+    "option_4": "Not logged",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 276,
+    "topic": "IMS DC - Error Messages",
+    "difficulty": "Medium",
+    "question": "Should programs log custom error information?",
+    "option_1": "Yes, to aid in problem diagnosis",
+    "option_2": "No, not needed",
+    "option_3": "Only in production",
+    "option_4": "Only for critical errors",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 277,
+    "topic": "IMS DC - Performance Testing",
+    "difficulty": "Medium",
+    "question": "What should be measured in performance testing?",
+    "option_1": "Response time, throughput, resource usage",
+    "option_2": "Only response time",
+    "option_3": "Only CPU usage",
+    "option_4": "Nothing to measure",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 278,
+    "topic": "IMS DC - Performance Testing",
+    "difficulty": "Hard",
+    "question": "How can DC program performance be improved?",
+    "option_1": "Optimize database access, efficient logic, minimize messages",
+    "option_2": "Only by faster hardware",
+    "option_3": "Cannot be improved",
+    "option_4": "Only by adding memory",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 279,
+    "topic": "IMS DC - Best Practices",
+    "difficulty": "Medium",
+    "question": "What are coding best practices?",
+    "option_1": "Validate input, check status codes, handle errors, document code",
+    "option_2": "No best practices needed",
+    "option_3": "Write minimal code",
+    "option_4": "Copy from examples",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 280,
+    "topic": "IMS DC - Best Practices",
+    "difficulty": "Hard",
+    "question": "What makes a well-designed DC program?",
+    "option_1": "Modular, efficient, robust error handling, maintainable",
+    "option_2": "Short code",
+    "option_3": "Complex logic",
+    "option_4": "Many features",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 281,
+    "topic": "IMS DC - Testing",
+    "difficulty": "Easy",
+    "question": "How can DC programs be tested?",
+    "option_1": "Using test terminals or test harness programs",
+    "option_2": "Only in production",
+    "option_3": "Cannot be tested",
+    "option_4": "Only with batch jobs",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 282,
+    "topic": "IMS DC - Testing",
+    "difficulty": "Medium",
+    "question": "What should be tested in DC programs?",
+    "option_1": "Message handling, business logic, database access, error conditions",
+    "option_2": "Only business logic",
+    "option_3": "Only database access",
+    "option_4": "Only normal path",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 283,
+    "topic": "IMS DC - Debugging",
+    "difficulty": "Medium",
+    "question": "What tools help debug DC programs?",
+    "option_1": "IMS logs, COBOL debugging, trace facilities",
+    "option_2": "No tools available",
+    "option_3": "Only manual inspection",
+    "option_4": "Only system dumps",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 284,
+    "topic": "IMS DC - Debugging",
+    "difficulty": "Hard",
+    "question": "How to debug message processing issues?",
+    "option_1": "Check IMS logs, verify PCB status, trace message flow",
+    "option_2": "Guess and retry",
+    "option_3": "Cannot debug DC programs",
+    "option_4": "Only by code review",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 285,
+    "topic": "IMS DC - Error Messages",
+    "difficulty": "Easy",
+    "question": "Where are program error messages logged?",
+    "option_1": "IMS system log and message queues",
+    "option_2": "Only terminal",
+    "option_3": "Only database",
+    "option_4": "Not logged",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 286,
+    "topic": "IMS DC - Error Messages",
+    "difficulty": "Medium",
+    "question": "Should programs log custom error information?",
+    "option_1": "Yes, to aid in problem diagnosis",
+    "option_2": "No, not needed",
+    "option_3": "Only in production",
+    "option_4": "Only for critical errors",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 287,
+    "topic": "IMS DC - Performance Testing",
+    "difficulty": "Medium",
+    "question": "What should be measured in performance testing?",
+    "option_1": "Response time, throughput, resource usage",
+    "option_2": "Only response time",
+    "option_3": "Only CPU usage",
+    "option_4": "Nothing to measure",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 288,
+    "topic": "IMS DC - Performance Testing",
+    "difficulty": "Hard",
+    "question": "How can DC program performance be improved?",
+    "option_1": "Optimize database access, efficient logic, minimize messages",
+    "option_2": "Only by faster hardware",
+    "option_3": "Cannot be improved",
+    "option_4": "Only by adding memory",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 289,
+    "topic": "IMS DC - Best Practices",
+    "difficulty": "Medium",
+    "question": "What are coding best practices?",
+    "option_1": "Validate input, check status codes, handle errors, document code",
+    "option_2": "No best practices needed",
+    "option_3": "Write minimal code",
+    "option_4": "Copy from examples",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 290,
+    "topic": "IMS DC - Best Practices",
+    "difficulty": "Hard",
+    "question": "What makes a well-designed DC program?",
+    "option_1": "Modular, efficient, robust error handling, maintainable",
+    "option_2": "Short code",
+    "option_3": "Complex logic",
+    "option_4": "Many features",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 291,
+    "topic": "IMS DC - Testing",
+    "difficulty": "Easy",
+    "question": "How can DC programs be tested?",
+    "option_1": "Using test terminals or test harness programs",
+    "option_2": "Only in production",
+    "option_3": "Cannot be tested",
+    "option_4": "Only with batch jobs",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 292,
+    "topic": "IMS DC - Testing",
+    "difficulty": "Medium",
+    "question": "What should be tested in DC programs?",
+    "option_1": "Message handling, business logic, database access, error conditions",
+    "option_2": "Only business logic",
+    "option_3": "Only database access",
+    "option_4": "Only normal path",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 293,
+    "topic": "IMS DC - Debugging",
+    "difficulty": "Medium",
+    "question": "What tools help debug DC programs?",
+    "option_1": "IMS logs, COBOL debugging, trace facilities",
+    "option_2": "No tools available",
+    "option_3": "Only manual inspection",
+    "option_4": "Only system dumps",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 294,
+    "topic": "IMS DC - Debugging",
+    "difficulty": "Hard",
+    "question": "How to debug message processing issues?",
+    "option_1": "Check IMS logs, verify PCB status, trace message flow",
+    "option_2": "Guess and retry",
+    "option_3": "Cannot debug DC programs",
+    "option_4": "Only by code review",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 295,
+    "topic": "IMS DC - Error Messages",
+    "difficulty": "Easy",
+    "question": "Where are program error messages logged?",
+    "option_1": "IMS system log and message queues",
+    "option_2": "Only terminal",
+    "option_3": "Only database",
+    "option_4": "Not logged",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 296,
+    "topic": "IMS DC - Error Messages",
+    "difficulty": "Medium",
+    "question": "Should programs log custom error information?",
+    "option_1": "Yes, to aid in problem diagnosis",
+    "option_2": "No, not needed",
+    "option_3": "Only in production",
+    "option_4": "Only for critical errors",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 297,
+    "topic": "IMS DC - Performance Testing",
+    "difficulty": "Medium",
+    "question": "What should be measured in performance testing?",
+    "option_1": "Response time, throughput, resource usage",
+    "option_2": "Only response time",
+    "option_3": "Only CPU usage",
+    "option_4": "Nothing to measure",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 298,
+    "topic": "IMS DC - Performance Testing",
+    "difficulty": "Hard",
+    "question": "How can DC program performance be improved?",
+    "option_1": "Optimize database access, efficient logic, minimize messages",
+    "option_2": "Only by faster hardware",
+    "option_3": "Cannot be improved",
+    "option_4": "Only by adding memory",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 299,
+    "topic": "IMS DC - Best Practices",
+    "difficulty": "Medium",
+    "question": "What are coding best practices?",
+    "option_1": "Validate input, check status codes, handle errors, document code",
+    "option_2": "No best practices needed",
+    "option_3": "Write minimal code",
+    "option_4": "Copy from examples",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  },
+  {
+    "questionnumber": 300,
+    "topic": "IMS DC - Best Practices",
+    "difficulty": "Hard",
+    "question": "What makes a well-designed DC program?",
+    "option_1": "Modular, efficient, robust error handling, maintainable",
+    "option_2": "Short code",
+    "option_3": "Complex logic",
+    "option_4": "Many features",
+    "choice_type": "Single Choice",
+    "correct_answer": [
+      "option_1"
+    ]
+  }
+]
