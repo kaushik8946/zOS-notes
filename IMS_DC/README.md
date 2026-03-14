@@ -5,7 +5,7 @@ This directory contains 300 unique questions for IMS DC Application Programmer c
 ## Files
 
 - **APPLICATION_PROGRAMMER_300.json** - Questions in JSON format (123 KB)
-- **APPLICATION_PROGRAMMER_300.md** - Questions in Markdown format (83 KB)
+- **APPLICATION_PROGRAMMER_300.md** - Questions in Markdown format (92 KB)
 - **IMS DC PD.pdf** - Source reference material (1.3 MB)
 
 ## Question Distribution
