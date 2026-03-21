@@ -4,13 +4,13 @@
     "topic": "IMS DC - Fundamentals and Concepts",
     "difficulty": "Easy",
     "question": "What does IMS DC stand for?",
-    "option_1": "Data Communications",
+    "option_1": "Direct Connection",
     "option_2": "Database Control",
-    "option_3": "Direct Connection",
-    "option_4": "Data Center",
+    "option_3": "Data Center",
+    "option_4": "Data Communications",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -18,13 +18,13 @@
     "topic": "IMS DC - Fundamentals and Concepts",
     "difficulty": "Easy",
     "question": "What is the primary purpose of IMS DC?",
-    "option_1": "Online transaction processing",
-    "option_2": "Batch processing only",
-    "option_3": "File management",
-    "option_4": "Network routing",
+    "option_1": "Network routing",
+    "option_2": "File management",
+    "option_3": "Online transaction processing",
+    "option_4": "Batch processing only",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -32,13 +32,13 @@
     "topic": "IMS DC - Fundamentals and Concepts",
     "difficulty": "Medium",
     "question": "Which component manages message flow in IMS DC?",
-    "option_1": "IMS Control Region",
-    "option_2": "Message Processing Region",
+    "option_1": "Message Processing Region",
+    "option_2": "Transaction Manager",
     "option_3": "Batch Message Processing",
-    "option_4": "Transaction Manager",
+    "option_4": "IMS Control Region",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_4"
+      "option_2"
     ]
   },
   {
@@ -46,13 +46,13 @@
     "topic": "IMS DC - Fundamentals and Concepts",
     "difficulty": "Easy",
     "question": "What is a terminal in IMS DC context?",
-    "option_1": "Any input/output device",
-    "option_2": "Only physical terminals",
-    "option_3": "Logical unit of work",
+    "option_1": "Only physical terminals",
+    "option_2": "Logical unit of work",
+    "option_3": "Any input/output device",
     "option_4": "Database connection",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -60,13 +60,13 @@
     "topic": "IMS DC - Fundamentals and Concepts",
     "difficulty": "Easy",
     "question": "IMS DC supports which processing modes?",
-    "option_1": "Online only",
-    "option_2": "Batch only",
-    "option_3": "Both online and batch",
-    "option_4": "Real-time only",
+    "option_1": "Batch only",
+    "option_2": "Both online and batch",
+    "option_3": "Real-time only",
+    "option_4": "Online only",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_3"
+      "option_2"
     ]
   },
   {
@@ -74,13 +74,13 @@
     "topic": "IMS DC - Fundamentals and Concepts",
     "difficulty": "Easy",
     "question": "What is the IMS DC environment primarily designed for?",
-    "option_1": "High-volume transaction processing",
-    "option_2": "Report generation",
+    "option_1": "Report generation",
+    "option_2": "File transfers",
     "option_3": "Data warehousing",
-    "option_4": "File transfers",
+    "option_4": "High-volume transaction processing",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -88,9 +88,9 @@
     "topic": "IMS DC - Fundamentals and Concepts",
     "difficulty": "Medium",
     "question": "Which layer handles communication with terminals?",
-    "option_1": "Application layer",
+    "option_1": "Database layer",
     "option_2": "Communication layer",
-    "option_3": "Database layer",
+    "option_3": "Application layer",
     "option_4": "Control layer",
     "choice_type": "Single Choice",
     "correct_answer": [
@@ -102,13 +102,13 @@
     "topic": "IMS DC - Fundamentals and Concepts",
     "difficulty": "Medium",
     "question": "What does LTERM represent?",
-    "option_1": "Logical terminal",
-    "option_2": "Last terminal",
-    "option_3": "Local terminal",
-    "option_4": "Link terminal",
+    "option_1": "Last terminal",
+    "option_2": "Link terminal",
+    "option_3": "Logical terminal",
+    "option_4": "Local terminal",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -117,8 +117,8 @@
     "difficulty": "Easy",
     "question": "What is the purpose of transaction codes?",
     "option_1": "Identify and route transactions to appropriate programs",
-    "option_2": "Encrypt messages",
-    "option_3": "Validate user credentials",
+    "option_2": "Validate user credentials",
+    "option_3": "Encrypt messages",
     "option_4": "Store transaction history",
     "choice_type": "Single Choice",
     "correct_answer": [
@@ -130,13 +130,13 @@
     "topic": "IMS DC - Fundamentals and Concepts",
     "difficulty": "Easy",
     "question": "IMS DC can process how many transactions?",
-    "option_1": "Thousands per second",
-    "option_2": "Hundreds per minute",
-    "option_3": "Tens per hour",
-    "option_4": "One at a time",
+    "option_1": "Tens per hour",
+    "option_2": "One at a time",
+    "option_3": "Thousands per second",
+    "option_4": "Hundreds per minute",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -144,13 +144,13 @@
     "topic": "IMS DC - Message Processing Programs",
     "difficulty": "Easy",
     "question": "What does MPP stand for in IMS DC?",
-    "option_1": "Message Processing Program",
+    "option_1": "Master Program Processor",
     "option_2": "Multiple Program Processing",
-    "option_3": "Master Program Processor",
-    "option_4": "Message Protocol Program",
+    "option_3": "Message Protocol Program",
+    "option_4": "Message Processing Program",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -158,13 +158,13 @@
     "topic": "IMS DC - Message Processing Programs",
     "difficulty": "Easy",
     "question": "What is the primary function of an MPP?",
-    "option_1": "Process online transactions",
-    "option_2": "Generate reports",
-    "option_3": "Backup databases",
-    "option_4": "Manage security",
+    "option_1": "Manage security",
+    "option_2": "Backup databases",
+    "option_3": "Generate reports",
+    "option_4": "Process online transactions",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -172,13 +172,13 @@
     "topic": "IMS DC - Message Processing Programs",
     "difficulty": "Medium",
     "question": "How does an MPP receive input?",
-    "option_1": "Through message queues",
+    "option_1": "Command line",
     "option_2": "Direct terminal access",
-    "option_3": "File input",
-    "option_4": "Command line",
+    "option_3": "Through message queues",
+    "option_4": "File input",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -186,13 +186,13 @@
     "topic": "IMS DC - Message Processing Programs",
     "difficulty": "Easy",
     "question": "Can an MPP update databases?",
-    "option_1": "Yes, using DL/I calls",
-    "option_2": "No, read-only access",
-    "option_3": "Only with special authorization",
-    "option_4": "Only in batch mode",
+    "option_1": "Only with special authorization",
+    "option_2": "Only in batch mode",
+    "option_3": "No, read-only access",
+    "option_4": "Yes, using DL/I calls",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -202,8 +202,8 @@
     "question": "What happens when an MPP completes processing?",
     "option_1": "Sends response to output queue",
     "option_2": "Terminates immediately",
-    "option_3": "Waits for next transaction",
-    "option_4": "Restarts the system",
+    "option_3": "Restarts the system",
+    "option_4": "Waits for next transaction",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -214,13 +214,13 @@
     "topic": "IMS DC - Message Processing Programs",
     "difficulty": "Medium",
     "question": "Which PCB does an MPP use for message I/O?",
-    "option_1": "I/O PCB",
-    "option_2": "DB PCB",
+    "option_1": "Express PCB",
+    "option_2": "I/O PCB",
     "option_3": "Alternate PCB",
-    "option_4": "Express PCB",
+    "option_4": "DB PCB",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -228,13 +228,13 @@
     "topic": "IMS DC - Message Processing Programs",
     "difficulty": "Medium",
     "question": "Can multiple MPPs process the same transaction code?",
-    "option_1": "Yes, for load balancing",
-    "option_2": "No, only one MPP per transaction",
+    "option_1": "No, only one MPP per transaction",
+    "option_2": "Only with system approval",
     "option_3": "Only in test environments",
-    "option_4": "Only with system approval",
+    "option_4": "Yes, for load balancing",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -242,13 +242,13 @@
     "topic": "IMS DC - Message Processing Programs",
     "difficulty": "Medium",
     "question": "What is the main difference between MPP and BMP?",
-    "option_1": "MPP processes online messages, BMP runs in batch",
-    "option_2": "MPP is faster",
-    "option_3": "BMP has priority",
-    "option_4": "No difference",
+    "option_1": "MPP is faster",
+    "option_2": "No difference",
+    "option_3": "MPP processes online messages, BMP runs in batch",
+    "option_4": "BMP has priority",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -256,13 +256,13 @@
     "topic": "IMS DC - Message Processing Programs",
     "difficulty": "Medium",
     "question": "How does IMS DC schedule MPPs?",
-    "option_1": "Based on message queue depth and priority",
-    "option_2": "First-come, first-served",
-    "option_3": "Random selection",
-    "option_4": "Alphabetically by name",
+    "option_1": "Alphabetically by name",
+    "option_2": "Random selection",
+    "option_3": "First-come, first-served",
+    "option_4": "Based on message queue depth and priority",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -285,9 +285,9 @@
     "difficulty": "Medium",
     "question": "What is the maximum length of a transaction code?",
     "option_1": "8 characters",
-    "option_2": "4 characters",
-    "option_3": "16 characters",
-    "option_4": "32 characters",
+    "option_2": "16 characters",
+    "option_3": "32 characters",
+    "option_4": "4 characters",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -299,9 +299,9 @@
     "difficulty": "Easy",
     "question": "Where is the transaction code placed in a message?",
     "option_1": "At the beginning",
-    "option_2": "At the end",
+    "option_2": "Anywhere",
     "option_3": "In the middle",
-    "option_4": "Anywhere",
+    "option_4": "At the end",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -312,13 +312,13 @@
     "topic": "IMS DC - Transaction Codes and Processing",
     "difficulty": "Easy",
     "question": "What determines which program processes a transaction?",
-    "option_1": "Transaction code definition",
-    "option_2": "Message content",
+    "option_1": "Message content",
+    "option_2": "User preference",
     "option_3": "Terminal ID",
-    "option_4": "User preference",
+    "option_4": "Transaction code definition",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -326,13 +326,13 @@
     "topic": "IMS DC - Transaction Codes and Processing",
     "difficulty": "Medium",
     "question": "Can a transaction code be associated with multiple programs?",
-    "option_1": "No, one-to-one relationship",
-    "option_2": "Yes, many-to-many",
-    "option_3": "Yes, but not recommended",
-    "option_4": "Only in test mode",
+    "option_1": "Yes, but not recommended",
+    "option_2": "Only in test mode",
+    "option_3": "No, one-to-one relationship",
+    "option_4": "Yes, many-to-many",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -340,13 +340,13 @@
     "topic": "IMS DC - Transaction Codes and Processing",
     "difficulty": "Medium",
     "question": "What is transaction priority?",
-    "option_1": "Determines processing order",
-    "option_2": "Security level",
-    "option_3": "Message size limit",
+    "option_1": "Message size limit",
+    "option_2": "Determines processing order",
+    "option_3": "Security level",
     "option_4": "Response time requirement",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -354,13 +354,13 @@
     "topic": "IMS DC - Transaction Codes and Processing",
     "difficulty": "Easy",
     "question": "What happens if an invalid transaction code is entered?",
-    "option_1": "Error message returned to terminal",
-    "option_2": "System crash",
-    "option_3": "Transaction ignored",
-    "option_4": "Default program executed",
+    "option_1": "System crash",
+    "option_2": "Default program executed",
+    "option_3": "Error message returned to terminal",
+    "option_4": "Transaction ignored",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -368,13 +368,13 @@
     "topic": "IMS DC - Transaction Codes and Processing",
     "difficulty": "Medium",
     "question": "Can transaction codes be defined dynamically?",
-    "option_1": "No, must be pre-defined in system definition",
-    "option_2": "Yes, at runtime",
-    "option_3": "Yes, by any user",
-    "option_4": "Only by system administrator",
+    "option_1": "Only by system administrator",
+    "option_2": "Yes, by any user",
+    "option_3": "Yes, at runtime",
+    "option_4": "No, must be pre-defined in system definition",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -382,13 +382,13 @@
     "topic": "IMS DC - Transaction Codes and Processing",
     "difficulty": "Medium",
     "question": "What is a conversational transaction?",
-    "option_1": "Maintains state between messages",
-    "option_2": "Processes multiple messages",
-    "option_3": "Uses conversation API",
-    "option_4": "Requires user confirmation",
+    "option_1": "Processes multiple messages",
+    "option_2": "Requires user confirmation",
+    "option_3": "Maintains state between messages",
+    "option_4": "Uses conversation API",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -396,13 +396,13 @@
     "topic": "IMS DC - Transaction Codes and Processing",
     "difficulty": "Medium",
     "question": "What is transaction class?",
-    "option_1": "Groups transactions for scheduling",
+    "option_1": "Program language",
     "option_2": "Security classification",
-    "option_3": "Message format type",
-    "option_4": "Program language",
+    "option_3": "Groups transactions for scheduling",
+    "option_4": "Message format type",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -424,13 +424,13 @@
     "topic": "IMS DC - Message Queues",
     "difficulty": "Easy",
     "question": "Where are input messages stored before processing?",
-    "option_1": "Input message queue",
-    "option_2": "Database",
-    "option_3": "Memory buffer",
-    "option_4": "Log file",
+    "option_1": "Memory buffer",
+    "option_2": "Input message queue",
+    "option_3": "Log file",
+    "option_4": "Database",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -439,9 +439,9 @@
     "difficulty": "Medium",
     "question": "What determines message processing order?",
     "option_1": "Priority and arrival time",
-    "option_2": "Message size",
+    "option_2": "Random selection",
     "option_3": "Alphabetical order",
-    "option_4": "Random selection",
+    "option_4": "Message size",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -466,13 +466,13 @@
     "topic": "IMS DC - Message Queues",
     "difficulty": "Medium",
     "question": "Can messages have different priorities?",
-    "option_1": "Yes, 0-9 or 0-15 depending on system",
-    "option_2": "No, all equal priority",
-    "option_3": "Yes, low/medium/high only",
-    "option_4": "Only in batch mode",
+    "option_1": "No, all equal priority",
+    "option_2": "Only in batch mode",
+    "option_3": "Yes, 0-9 or 0-15 depending on system",
+    "option_4": "Yes, low/medium/high only",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -480,13 +480,13 @@
     "topic": "IMS DC - Message Queues",
     "difficulty": "Easy",
     "question": "What is message queuing?",
-    "option_1": "Temporarily storing messages for processing",
-    "option_2": "Sorting messages",
-    "option_3": "Encrypting messages",
+    "option_1": "Sorting messages",
+    "option_2": "Encrypting messages",
+    "option_3": "Temporarily storing messages for processing",
     "option_4": "Archiving messages",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -494,13 +494,13 @@
     "topic": "IMS DC - Message Queues",
     "difficulty": "Medium",
     "question": "Where are queues physically stored?",
-    "option_1": "In IMS queue datasets",
-    "option_2": "In memory only",
-    "option_3": "On tape",
-    "option_4": "In user files",
+    "option_1": "In memory only",
+    "option_2": "On tape",
+    "option_3": "In user files",
+    "option_4": "In IMS queue datasets",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -508,13 +508,13 @@
     "topic": "IMS DC - Message Queues",
     "difficulty": "Hard",
     "question": "What is a scratch pad area (SPA)?",
-    "option_1": "Storage for conversational transaction data",
-    "option_2": "Temporary work area",
+    "option_1": "Temporary work area",
+    "option_2": "Storage for conversational transaction data",
     "option_3": "Message buffer",
     "option_4": "Error log",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -523,8 +523,8 @@
     "difficulty": "Medium",
     "question": "Can messages be retrieved from queues non-destructively?",
     "option_1": "Yes, using browse functions",
-    "option_2": "No, always destructive",
-    "option_3": "Only in test mode",
+    "option_2": "Only in test mode",
+    "option_3": "No, always destructive",
     "option_4": "Only by operators",
     "choice_type": "Single Choice",
     "correct_answer": [
@@ -536,13 +536,13 @@
     "topic": "IMS DC - Message Queues",
     "difficulty": "Medium",
     "question": "What is message flooding?",
-    "option_1": "Queue overflow condition",
-    "option_2": "Multiple duplicate messages",
-    "option_3": "Rapid message arrival",
-    "option_4": "Message corruption",
+    "option_1": "Multiple duplicate messages",
+    "option_2": "Queue overflow condition",
+    "option_3": "Message corruption",
+    "option_4": "Rapid message arrival",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -550,13 +550,13 @@
     "topic": "IMS DC - Message Queues",
     "difficulty": "Medium",
     "question": "How long can messages remain in queues?",
-    "option_1": "Until processed or expired",
+    "option_1": "Until system restart",
     "option_2": "Maximum 24 hours",
     "option_3": "Maximum 1 hour",
-    "option_4": "Until system restart",
+    "option_4": "Until processed or expired",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -564,13 +564,13 @@
     "topic": "IMS DC - I/O PCB",
     "difficulty": "Easy",
     "question": "What does I/O PCB stand for?",
-    "option_1": "Input/Output Program Communication Block",
+    "option_1": "Intelligent Output PCB",
     "option_2": "Interface Output Process Control Block",
-    "option_3": "Internal Operation PCB",
-    "option_4": "Intelligent Output PCB",
+    "option_3": "Input/Output Program Communication Block",
+    "option_4": "Internal Operation PCB",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -578,13 +578,13 @@
     "topic": "IMS DC - I/O PCB",
     "difficulty": "Easy",
     "question": "What is the primary use of I/O PCB?",
-    "option_1": "Message input and output",
+    "option_1": "File operations",
     "option_2": "Database access",
-    "option_3": "File operations",
+    "option_3": "Message input and output",
     "option_4": "Program control",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -592,13 +592,13 @@
     "topic": "IMS DC - I/O PCB",
     "difficulty": "Medium",
     "question": "Which field in I/O PCB contains the logical terminal name?",
-    "option_1": "LTERM field",
+    "option_1": "ID field",
     "option_2": "NAME field",
     "option_3": "TERM field",
-    "option_4": "ID field",
+    "option_4": "LTERM field",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -606,13 +606,13 @@
     "topic": "IMS DC - I/O PCB",
     "difficulty": "Medium",
     "question": "What status code indicates successful message retrieval?",
-    "option_1": "Spaces or blank",
-    "option_2": "00",
+    "option_1": "SUCCESS",
+    "option_2": "Spaces or blank",
     "option_3": "OK",
-    "option_4": "SUCCESS",
+    "option_4": "00",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -620,13 +620,13 @@
     "topic": "IMS DC - I/O PCB",
     "difficulty": "Medium",
     "question": "Which field indicates message length in I/O PCB?",
-    "option_1": "Segment length field",
-    "option_2": "Message length field",
-    "option_3": "Data length field",
-    "option_4": "Size field",
+    "option_1": "Message length field",
+    "option_2": "Segment length field",
+    "option_3": "Size field",
+    "option_4": "Data length field",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -634,13 +634,13 @@
     "topic": "IMS DC - I/O PCB",
     "difficulty": "Easy",
     "question": "Can I/O PCB be used for database operations?",
-    "option_1": "No, only for message I/O",
-    "option_2": "Yes, for any operation",
-    "option_3": "Only for read operations",
-    "option_4": "Only with special setup",
+    "option_1": "Only for read operations",
+    "option_2": "No, only for message I/O",
+    "option_3": "Only with special setup",
+    "option_4": "Yes, for any operation",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -648,13 +648,13 @@
     "topic": "IMS DC - I/O PCB",
     "difficulty": "Hard",
     "question": "What is the status code field length in I/O PCB?",
-    "option_1": "2 bytes",
+    "option_1": "1 byte",
     "option_2": "4 bytes",
     "option_3": "8 bytes",
-    "option_4": "1 byte",
+    "option_4": "2 bytes",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -662,13 +662,13 @@
     "topic": "IMS DC - I/O PCB",
     "difficulty": "Medium",
     "question": "Which field identifies the originating terminal?",
-    "option_1": "LTERM name",
-    "option_2": "Terminal ID",
-    "option_3": "User ID",
+    "option_1": "Terminal ID",
+    "option_2": "User ID",
+    "option_3": "LTERM name",
     "option_4": "Source field",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -676,13 +676,13 @@
     "topic": "IMS DC - I/O PCB",
     "difficulty": "Hard",
     "question": "What does QC status code indicate?",
-    "option_1": "No more messages in queue",
-    "option_2": "Queue corrupted",
-    "option_3": "Quick complete",
-    "option_4": "Query complete",
+    "option_1": "Query complete",
+    "option_2": "No more messages in queue",
+    "option_3": "Queue corrupted",
+    "option_4": "Quick complete",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -690,13 +690,13 @@
     "topic": "IMS DC - I/O PCB",
     "difficulty": "Medium",
     "question": "How many I/O PCBs can a program have?",
-    "option_1": "Typically one, but can have alternate PCBs",
-    "option_2": "Unlimited",
-    "option_3": "Maximum of 5",
-    "option_4": "Exactly one",
+    "option_1": "Unlimited",
+    "option_2": "Maximum of 5",
+    "option_3": "Exactly one",
+    "option_4": "Typically one, but can have alternate PCBs",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -704,13 +704,13 @@
     "topic": "IMS DC - DL/I Calls for Message Processing",
     "difficulty": "Easy",
     "question": "Which DL/I call retrieves the input message?",
-    "option_1": "GU (Get Unique)",
+    "option_1": "REPL (Replace)",
     "option_2": "GN (Get Next)",
     "option_3": "ISRT (Insert)",
-    "option_4": "REPL (Replace)",
+    "option_4": "GU (Get Unique)",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -718,13 +718,13 @@
     "topic": "IMS DC - DL/I Calls for Message Processing",
     "difficulty": "Easy",
     "question": "Which DL/I call sends output to terminal?",
-    "option_1": "ISRT to I/O PCB",
-    "option_2": "REPL to I/O PCB",
+    "option_1": "REPL to I/O PCB",
+    "option_2": "PUT to I/O PCB",
     "option_3": "GU from I/O PCB",
-    "option_4": "PUT to I/O PCB",
+    "option_4": "ISRT to I/O PCB",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -733,9 +733,9 @@
     "difficulty": "Medium",
     "question": "What is the purpose of GU call against I/O PCB?",
     "option_1": "Retrieve input message from queue",
-    "option_2": "Get user information",
+    "option_2": "Get unique record",
     "option_3": "General update",
-    "option_4": "Get unique record",
+    "option_4": "Get user information",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -747,9 +747,9 @@
     "difficulty": "Medium",
     "question": "Can GN be used with I/O PCB?",
     "option_1": "Yes, to retrieve multiple message segments",
-    "option_2": "No, only GU is allowed",
-    "option_3": "Yes, but deprecated",
-    "option_4": "Only in batch mode",
+    "option_2": "Yes, but deprecated",
+    "option_3": "Only in batch mode",
+    "option_4": "No, only GU is allowed",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -760,13 +760,13 @@
     "topic": "IMS DC - DL/I Calls for Message Processing",
     "difficulty": "Hard",
     "question": "How do you send a message to a specific terminal?",
-    "option_1": "ISRT with modified LTERM in I/O PCB",
-    "option_2": "GU to terminal",
+    "option_1": "WRITE to terminal",
+    "option_2": "ISRT with modified LTERM in I/O PCB",
     "option_3": "SEND command",
-    "option_4": "WRITE to terminal",
+    "option_4": "GU to terminal",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -775,9 +775,9 @@
     "difficulty": "Medium",
     "question": "What happens if ISRT fails on I/O PCB?",
     "option_1": "Status code set in I/O PCB",
-    "option_2": "Program abends",
-    "option_3": "Message lost",
-    "option_4": "System restart",
+    "option_2": "System restart",
+    "option_3": "Program abends",
+    "option_4": "Message lost",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -802,13 +802,13 @@
     "topic": "IMS DC - DL/I Calls for Message Processing",
     "difficulty": "Easy",
     "question": "What is required before issuing GU to I/O PCB?",
-    "option_1": "Nothing, just issue the call",
-    "option_2": "Open the PCB",
-    "option_3": "Initialize message area",
-    "option_4": "Set terminal ID",
+    "option_1": "Open the PCB",
+    "option_2": "Initialize message area",
+    "option_3": "Set terminal ID",
+    "option_4": "Nothing, just issue the call",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -816,13 +816,13 @@
     "topic": "IMS DC - DL/I Calls for Message Processing",
     "difficulty": "Medium",
     "question": "How many ISRT calls can send one logical message?",
-    "option_1": "Multiple ISRTs for multi-segment messages",
-    "option_2": "Only one ISRT per message",
-    "option_3": "Maximum of 10",
-    "option_4": "Depends on terminal type",
+    "option_1": "Maximum of 10",
+    "option_2": "Depends on terminal type",
+    "option_3": "Only one ISRT per message",
+    "option_4": "Multiple ISRTs for multi-segment messages",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -830,13 +830,13 @@
     "topic": "IMS DC - DL/I Calls for Message Processing",
     "difficulty": "Hard",
     "question": "What indicates end of input message segments?",
-    "option_1": "QC status code on GN",
-    "option_2": "EOF indicator",
+    "option_1": "Zero length",
+    "option_2": "QC status code on GN",
     "option_3": "Null segment",
-    "option_4": "Zero length",
+    "option_4": "EOF indicator",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -844,13 +844,13 @@
     "topic": "IMS DC - Conversational vs Non-conversational",
     "difficulty": "Easy",
     "question": "What is a non-conversational transaction?",
-    "option_1": "Completes in single input/output cycle",
-    "option_2": "Requires multiple interactions",
-    "option_3": "Has no output",
-    "option_4": "Runs in background",
+    "option_1": "Requires multiple interactions",
+    "option_2": "Has no output",
+    "option_3": "Runs in background",
+    "option_4": "Completes in single input/output cycle",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -858,13 +858,13 @@
     "topic": "IMS DC - Conversational vs Non-conversational",
     "difficulty": "Easy",
     "question": "What characterizes a conversational transaction?",
-    "option_1": "Maintains data between interactions",
-    "option_2": "Processes faster",
-    "option_3": "Uses less memory",
-    "option_4": "Requires no database",
+    "option_1": "Requires no database",
+    "option_2": "Uses less memory",
+    "option_3": "Maintains data between interactions",
+    "option_4": "Processes faster",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -872,13 +872,13 @@
     "topic": "IMS DC - Conversational vs Non-conversational",
     "difficulty": "Medium",
     "question": "Where is conversation state stored?",
-    "option_1": "Scratch Pad Area (SPA)",
-    "option_2": "Database",
-    "option_3": "Program memory",
-    "option_4": "Terminal buffer",
+    "option_1": "Database",
+    "option_2": "Terminal buffer",
+    "option_3": "Scratch Pad Area (SPA)",
+    "option_4": "Program memory",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -888,8 +888,8 @@
     "question": "Which mode is more resource efficient?",
     "option_1": "Non-conversational",
     "option_2": "Conversational",
-    "option_3": "Both equal",
-    "option_4": "Depends on transaction",
+    "option_3": "Depends on transaction",
+    "option_4": "Both equal",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -900,13 +900,13 @@
     "topic": "IMS DC - Conversational vs Non-conversational",
     "difficulty": "Hard",
     "question": "How does SPA get passed between conversations?",
-    "option_1": "IMS automatically includes it in messages",
-    "option_2": "Program must explicitly pass it",
+    "option_1": "Via global memory",
+    "option_2": "IMS automatically includes it in messages",
     "option_3": "Stored in database",
-    "option_4": "Via global memory",
+    "option_4": "Program must explicitly pass it",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -914,13 +914,13 @@
     "topic": "IMS DC - Conversational vs Non-conversational",
     "difficulty": "Medium",
     "question": "What is a typical use for conversational transactions?",
-    "option_1": "Multi-screen data entry",
+    "option_1": "High-volume processing",
     "option_2": "Simple inquiries",
-    "option_3": "High-volume processing",
+    "option_3": "Multi-screen data entry",
     "option_4": "Batch updates",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -928,13 +928,13 @@
     "topic": "IMS DC - Conversational vs Non-conversational",
     "difficulty": "Medium",
     "question": "Can a program switch between conversational modes?",
-    "option_1": "No, determined by transaction definition",
-    "option_2": "Yes, dynamically",
-    "option_3": "Yes, with special flag",
+    "option_1": "Yes, dynamically",
+    "option_2": "Yes, with special flag",
+    "option_3": "No, determined by transaction definition",
     "option_4": "Only once per session",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -942,13 +942,13 @@
     "topic": "IMS DC - Conversational vs Non-conversational",
     "difficulty": "Medium",
     "question": "What happens if user abandons a conversation?",
-    "option_1": "SPA eventually purged by IMS",
+    "option_1": "System error",
     "option_2": "Resources held indefinitely",
     "option_3": "Automatic rollback",
-    "option_4": "System error",
+    "option_4": "SPA eventually purged by IMS",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -957,9 +957,9 @@
     "difficulty": "Medium",
     "question": "How is SPA defined?",
     "option_1": "In the transaction definition",
-    "option_2": "In the program",
-    "option_3": "At runtime",
-    "option_4": "In terminal definition",
+    "option_2": "In terminal definition",
+    "option_3": "In the program",
+    "option_4": "At runtime",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -970,13 +970,13 @@
     "topic": "IMS DC - Conversational vs Non-conversational",
     "difficulty": "Easy",
     "question": "What is the disadvantage of conversational transactions?",
-    "option_1": "Higher resource consumption",
-    "option_2": "Slower response time",
+    "option_1": "Slower response time",
+    "option_2": "Higher resource consumption",
     "option_3": "Less functionality",
     "option_4": "More complex programming",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -984,13 +984,13 @@
     "topic": "IMS DC - Message Formats and Structure",
     "difficulty": "Easy",
     "question": "What is a message segment?",
-    "option_1": "A logical unit of message data",
+    "option_1": "Terminal identifier",
     "option_2": "Transaction code",
-    "option_3": "Terminal identifier",
-    "option_4": "Timestamp",
+    "option_3": "Timestamp",
+    "option_4": "A logical unit of message data",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -998,13 +998,13 @@
     "topic": "IMS DC - Message Formats and Structure",
     "difficulty": "Hard",
     "question": "What is the maximum message segment size?",
-    "option_1": "System dependent, typically up to 32KB",
-    "option_2": "64KB",
-    "option_3": "1MB",
-    "option_4": "No limit",
+    "option_1": "64KB",
+    "option_2": "No limit",
+    "option_3": "System dependent, typically up to 32KB",
+    "option_4": "1MB",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -1012,13 +1012,13 @@
     "topic": "IMS DC - Message Formats and Structure",
     "difficulty": "Medium",
     "question": "How are multi-segment messages identified?",
-    "option_1": "By IMS internally, transparent to application",
-    "option_2": "Sequence numbers",
-    "option_3": "Segment IDs",
-    "option_4": "Message headers",
+    "option_1": "Segment IDs",
+    "option_2": "Message headers",
+    "option_3": "By IMS internally, transparent to application",
+    "option_4": "Sequence numbers",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -1026,13 +1026,13 @@
     "topic": "IMS DC - Message Formats and Structure",
     "difficulty": "Medium",
     "question": "What is message edit/routing?",
-    "option_1": "Validating and directing messages",
-    "option_2": "Formatting output",
-    "option_3": "Encrypting data",
-    "option_4": "Compressing messages",
+    "option_1": "Encrypting data",
+    "option_2": "Validating and directing messages",
+    "option_3": "Compressing messages",
+    "option_4": "Formatting output",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -1040,13 +1040,13 @@
     "topic": "IMS DC - Message Formats and Structure",
     "difficulty": "Medium",
     "question": "Can message format be defined?",
-    "option_1": "Yes, using MFS (Message Format Service)",
-    "option_2": "No, always free format",
-    "option_3": "Yes, but not recommended",
-    "option_4": "Only for output",
+    "option_1": "Only for output",
+    "option_2": "Yes, using MFS (Message Format Service)",
+    "option_3": "No, always free format",
+    "option_4": "Yes, but not recommended",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -1054,13 +1054,13 @@
     "topic": "IMS DC - Message Formats and Structure",
     "difficulty": "Hard",
     "question": "What is the purpose of LL ZZ fields?",
-    "option_1": "Length and reserved fields in message segments",
-    "option_2": "Logical link zones",
-    "option_3": "Load level zones",
-    "option_4": "Location labels",
+    "option_1": "Load level zones",
+    "option_2": "Location labels",
+    "option_3": "Logical link zones",
+    "option_4": "Length and reserved fields in message segments",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -1068,13 +1068,13 @@
     "topic": "IMS DC - Message Formats and Structure",
     "difficulty": "Medium",
     "question": "Where is transaction code in message structure?",
-    "option_1": "First field after LL ZZ",
-    "option_2": "At the end",
+    "option_1": "At the end",
+    "option_2": "Variable position",
     "option_3": "In message header",
-    "option_4": "Variable position",
+    "option_4": "First field after LL ZZ",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -1082,13 +1082,13 @@
     "topic": "IMS DC - Message Formats and Structure",
     "difficulty": "Medium",
     "question": "What is message switching?",
-    "option_1": "Routing messages to different destinations",
-    "option_2": "Changing message format",
-    "option_3": "Swapping message segments",
-    "option_4": "Message encryption",
+    "option_1": "Changing message format",
+    "option_2": "Swapping message segments",
+    "option_3": "Message encryption",
+    "option_4": "Routing messages to different destinations",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -1097,8 +1097,8 @@
     "difficulty": "Medium",
     "question": "Can a message contain binary data?",
     "option_1": "Yes, but requires proper handling",
-    "option_2": "No, text only",
-    "option_3": "Yes, but not recommended",
+    "option_2": "Yes, but not recommended",
+    "option_3": "No, text only",
     "option_4": "Only in file transfers",
     "choice_type": "Single Choice",
     "correct_answer": [
@@ -1110,13 +1110,13 @@
     "topic": "IMS DC - Message Formats and Structure",
     "difficulty": "Medium",
     "question": "What is message class?",
-    "option_1": "Categorization for processing",
-    "option_2": "Priority level",
-    "option_3": "Format type",
-    "option_4": "Security classification",
+    "option_1": "Format type",
+    "option_2": "Categorization for processing",
+    "option_3": "Security classification",
+    "option_4": "Priority level",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -1124,13 +1124,13 @@
     "topic": "IMS DC - COBOL Programming",
     "difficulty": "Medium",
     "question": "How is I/O PCB defined in COBOL?",
-    "option_1": "In LINKAGE SECTION",
-    "option_2": "In WORKING-STORAGE",
-    "option_3": "In FILE SECTION",
-    "option_4": "In PROCEDURE DIVISION",
+    "option_1": "In FILE SECTION",
+    "option_2": "In LINKAGE SECTION",
+    "option_3": "In PROCEDURE DIVISION",
+    "option_4": "In WORKING-STORAGE",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -1139,8 +1139,8 @@
     "difficulty": "Hard",
     "question": "What is the ENTRY statement for IMS program?",
     "option_1": "DLITCBL for DL/I programs",
-    "option_2": "MAIN",
-    "option_3": "START",
+    "option_2": "START",
+    "option_3": "MAIN",
     "option_4": "BEGIN",
     "choice_type": "Single Choice",
     "correct_answer": [
@@ -1153,9 +1153,9 @@
     "difficulty": "Medium",
     "question": "How to issue DL/I call in COBOL?",
     "option_1": "CALL 'CBLTDLI' USING parameters",
-    "option_2": "EXEC DLI command",
-    "option_3": "DLI statement",
-    "option_4": "PERFORM DLI-CALL",
+    "option_2": "PERFORM DLI-CALL",
+    "option_3": "EXEC DLI command",
+    "option_4": "DLI statement",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -1166,13 +1166,13 @@
     "topic": "IMS DC - COBOL Programming",
     "difficulty": "Medium",
     "question": "What parameters are passed to CBLTDLI?",
-    "option_1": "Function code, PCB, I/O area, SSAs",
-    "option_2": "PCB only",
-    "option_3": "Function and I/O area",
-    "option_4": "All PCBs",
+    "option_1": "Function and I/O area",
+    "option_2": "All PCBs",
+    "option_3": "Function code, PCB, I/O area, SSAs",
+    "option_4": "PCB only",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -1180,13 +1180,13 @@
     "topic": "IMS DC - COBOL Programming",
     "difficulty": "Easy",
     "question": "How is message I/O area defined?",
-    "option_1": "In WORKING-STORAGE or LINKAGE",
-    "option_2": "FILE SECTION",
-    "option_3": "SPECIAL-NAMES",
-    "option_4": "CONFIGURATION SECTION",
+    "option_1": "CONFIGURATION SECTION",
+    "option_2": "SPECIAL-NAMES",
+    "option_3": "In WORKING-STORAGE or LINKAGE",
+    "option_4": "FILE SECTION",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -1194,13 +1194,13 @@
     "topic": "IMS DC - COBOL Programming",
     "difficulty": "Easy",
     "question": "What COBOL level for PCB mask?",
-    "option_1": "01 level",
-    "option_2": "05 level",
-    "option_3": "77 level",
-    "option_4": "88 level",
+    "option_1": "05 level",
+    "option_2": "88 level",
+    "option_3": "01 level",
+    "option_4": "77 level",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -1208,13 +1208,13 @@
     "topic": "IMS DC - COBOL Programming",
     "difficulty": "Easy",
     "question": "How to check status code in COBOL?",
-    "option_1": "Test status field in PCB",
-    "option_2": "CHECK STATUS statement",
+    "option_1": "CHECK STATUS statement",
+    "option_2": "Test status field in PCB",
     "option_3": "IF DLI-STATUS",
     "option_4": "INSPECT STATUS",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -1222,13 +1222,13 @@
     "topic": "IMS DC - COBOL Programming",
     "difficulty": "Hard",
     "question": "What is the PCB mask pointer?",
-    "option_1": "Address pointer to PCB in LINKAGE",
-    "option_2": "PCB identifier",
+    "option_1": "PCB identifier",
+    "option_2": "PCB flag",
     "option_3": "PCB counter",
-    "option_4": "PCB flag",
+    "option_4": "Address pointer to PCB in LINKAGE",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -1236,13 +1236,13 @@
     "topic": "IMS DC - COBOL Programming",
     "difficulty": "Medium",
     "question": "How to handle multiple output segments?",
-    "option_1": "Multiple ISRT calls",
-    "option_2": "Single ISRT with array",
-    "option_3": "WRITE-MULTIPLE",
-    "option_4": "SEND-ALL",
+    "option_1": "SEND-ALL",
+    "option_2": "WRITE-MULTIPLE",
+    "option_3": "Multiple ISRT calls",
+    "option_4": "Single ISRT with array",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -1250,13 +1250,13 @@
     "topic": "IMS DC - COBOL Programming",
     "difficulty": "Easy",
     "question": "What is GOBACK used for?",
-    "option_1": "Return control to IMS",
-    "option_2": "Go back in processing",
-    "option_3": "Return to caller",
-    "option_4": "Exit program",
+    "option_1": "Return to caller",
+    "option_2": "Return control to IMS",
+    "option_3": "Exit program",
+    "option_4": "Go back in processing",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -1264,13 +1264,13 @@
     "topic": "IMS DC - Status Codes and Error Handling",
     "difficulty": "Easy",
     "question": "What does blank status code mean?",
-    "option_1": "Successful operation",
-    "option_2": "No status available",
+    "option_1": "Not processed",
+    "option_2": "Successful operation",
     "option_3": "Unknown error",
-    "option_4": "Not processed",
+    "option_4": "No status available",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -1278,13 +1278,13 @@
     "topic": "IMS DC - Status Codes and Error Handling",
     "difficulty": "Medium",
     "question": "What does QD status code mean?",
-    "option_1": "Message not found in queue",
-    "option_2": "Queue destroyed",
-    "option_3": "Quick delete",
-    "option_4": "Query denied",
+    "option_1": "Query denied",
+    "option_2": "Quick delete",
+    "option_3": "Queue destroyed",
+    "option_4": "Message not found in queue",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -1292,13 +1292,13 @@
     "topic": "IMS DC - Status Codes and Error Handling",
     "difficulty": "Hard",
     "question": "What is AI status code?",
-    "option_1": "Indicates potential data integrity issue",
+    "option_1": "Automatic insert",
     "option_2": "All inserted",
-    "option_3": "Application interface error",
-    "option_4": "Automatic insert",
+    "option_3": "Indicates potential data integrity issue",
+    "option_4": "Application interface error",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -1307,9 +1307,9 @@
     "difficulty": "Easy",
     "question": "How should programs handle error status codes?",
     "option_1": "Check after each call and take appropriate action",
-    "option_2": "Ignore non-critical errors",
-    "option_3": "Let IMS handle all errors",
-    "option_4": "Log and continue",
+    "option_2": "Let IMS handle all errors",
+    "option_3": "Log and continue",
+    "option_4": "Ignore non-critical errors",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -1321,9 +1321,9 @@
     "difficulty": "Hard",
     "question": "What does AM status code indicate?",
     "option_1": "Message format error",
-    "option_2": "Access method error",
+    "option_2": "Automatic mode",
     "option_3": "All messages processed",
-    "option_4": "Automatic mode",
+    "option_4": "Access method error",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -1334,13 +1334,13 @@
     "topic": "IMS DC - Status Codes and Error Handling",
     "difficulty": "Medium",
     "question": "When should program issue rollback?",
-    "option_1": "When unrecoverable error occurs",
-    "option_2": "After every transaction",
-    "option_3": "Only at end of day",
+    "option_1": "Only at end of day",
+    "option_2": "When unrecoverable error occurs",
+    "option_3": "After every transaction",
     "option_4": "Never, IMS handles it",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -1348,13 +1348,13 @@
     "topic": "IMS DC - Status Codes and Error Handling",
     "difficulty": "Medium",
     "question": "What is the purpose of checkpoint?",
-    "option_1": "Save transaction state for recovery",
-    "option_2": "Check program status",
-    "option_3": "Verify data",
-    "option_4": "Control program flow",
+    "option_1": "Verify data",
+    "option_2": "Control program flow",
+    "option_3": "Check program status",
+    "option_4": "Save transaction state for recovery",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -1362,13 +1362,13 @@
     "topic": "IMS DC - Status Codes and Error Handling",
     "difficulty": "Medium",
     "question": "How to issue rollback call?",
-    "option_1": "CALL 'CBLTDLI' with ROLL function",
-    "option_2": "EXEC CICS ROLLBACK",
+    "option_1": "EXEC CICS ROLLBACK",
+    "option_2": "UNDO command",
     "option_3": "ROLLBACK statement",
-    "option_4": "UNDO command",
+    "option_4": "CALL 'CBLTDLI' with ROLL function",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -1376,13 +1376,13 @@
     "topic": "IMS DC - Status Codes and Error Handling",
     "difficulty": "Medium",
     "question": "What happens on abnormal termination?",
-    "option_1": "IMS automatically backs out changes",
+    "option_1": "System restart required",
     "option_2": "Changes committed",
-    "option_3": "Database locked",
-    "option_4": "System restart required",
+    "option_3": "IMS automatically backs out changes",
+    "option_4": "Database locked",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -1390,13 +1390,13 @@
     "topic": "IMS DC - Testing and Debugging",
     "difficulty": "Easy",
     "question": "What is the best way to test DC programs?",
-    "option_1": "Use IMS test environment with test terminals",
+    "option_1": "Unit test only",
     "option_2": "Test in production",
-    "option_3": "Unit test only",
-    "option_4": "No testing needed",
+    "option_3": "No testing needed",
+    "option_4": "Use IMS test environment with test terminals",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -1404,13 +1404,13 @@
     "topic": "IMS DC - Testing and Debugging",
     "difficulty": "Medium",
     "question": "How can you simulate terminal input?",
-    "option_1": "Use test harness or automation tools",
+    "option_1": "Batch simulation",
     "option_2": "Manual typing only",
-    "option_3": "Not possible",
-    "option_4": "Batch simulation",
+    "option_3": "Use test harness or automation tools",
+    "option_4": "Not possible",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -1418,13 +1418,13 @@
     "topic": "IMS DC - Testing and Debugging",
     "difficulty": "Easy",
     "question": "What debugging techniques are available?",
-    "option_1": "Source debuggers, dumps, and traces",
-    "option_2": "Printf only",
-    "option_3": "No debugging available",
-    "option_4": "Manual inspection",
+    "option_1": "Printf only",
+    "option_2": "Source debuggers, dumps, and traces",
+    "option_3": "Manual inspection",
+    "option_4": "No debugging available",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -1432,13 +1432,13 @@
     "topic": "IMS DC - Testing and Debugging",
     "difficulty": "Medium",
     "question": "How to trace DL/I calls?",
-    "option_1": "Enable IMS tracing facilities",
-    "option_2": "Add DISPLAY statements",
-    "option_3": "Use system logs",
-    "option_4": "Not possible",
+    "option_1": "Add DISPLAY statements",
+    "option_2": "Enable IMS tracing facilities",
+    "option_3": "Not possible",
+    "option_4": "Use system logs",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -1446,13 +1446,13 @@
     "topic": "IMS DC - Testing and Debugging",
     "difficulty": "Medium",
     "question": "What is a common cause of program failures?",
-    "option_1": "Incorrect status code handling",
-    "option_2": "Too many ISRT calls",
-    "option_3": "Message too small",
-    "option_4": "Terminal disconnected",
+    "option_1": "Message too small",
+    "option_2": "Incorrect status code handling",
+    "option_3": "Terminal disconnected",
+    "option_4": "Too many ISRT calls",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -1460,13 +1460,13 @@
     "topic": "IMS DC - Testing and Debugging",
     "difficulty": "Easy",
     "question": "How to test error conditions?",
-    "option_1": "Simulate error scenarios",
-    "option_2": "Wait for real errors",
+    "option_1": "Wait for real errors",
+    "option_2": "Only in production",
     "option_3": "Not necessary",
-    "option_4": "Only in production",
+    "option_4": "Simulate error scenarios",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -1474,13 +1474,13 @@
     "topic": "IMS DC - Testing and Debugging",
     "difficulty": "Medium",
     "question": "What is program isolation test?",
-    "option_1": "Testing program without affecting production",
-    "option_2": "Testing in isolation ward",
-    "option_3": "Solo testing",
-    "option_4": "Disconnected test",
+    "option_1": "Disconnected test",
+    "option_2": "Testing program without affecting production",
+    "option_3": "Testing in isolation ward",
+    "option_4": "Solo testing",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -1488,13 +1488,13 @@
     "topic": "IMS DC - Testing and Debugging",
     "difficulty": "Medium",
     "question": "How to verify message format?",
-    "option_1": "Inspect message segments with debugging tools",
+    "option_1": "Not necessary",
     "option_2": "Visual inspection",
-    "option_3": "Automated check",
-    "option_4": "Not necessary",
+    "option_3": "Inspect message segments with debugging tools",
+    "option_4": "Automated check",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -1502,13 +1502,13 @@
     "topic": "IMS DC - Testing and Debugging",
     "difficulty": "Medium",
     "question": "What should be tested for conversational transactions?",
-    "option_1": "State preservation across interactions",
-    "option_2": "Speed only",
-    "option_3": "Output format",
+    "option_1": "Output format",
+    "option_2": "State preservation across interactions",
+    "option_3": "Speed only",
     "option_4": "User interface",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -1516,13 +1516,13 @@
     "topic": "IMS DC - Testing and Debugging",
     "difficulty": "Medium",
     "question": "How to test transaction load?",
-    "option_1": "Use load testing tools",
+    "option_1": "Production monitoring",
     "option_2": "One transaction at a time",
     "option_3": "Not necessary",
-    "option_4": "Production monitoring",
+    "option_4": "Use load testing tools",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -1530,13 +1530,13 @@
     "topic": "IMS DC - Online Program Types",
     "difficulty": "Easy",
     "question": "What is an inquiry program?",
-    "option_1": "Read-only program that displays data",
-    "option_2": "Program that asks questions",
-    "option_3": "Update program",
-    "option_4": "Delete program",
+    "option_1": "Program that asks questions",
+    "option_2": "Delete program",
+    "option_3": "Read-only program that displays data",
+    "option_4": "Update program",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -1544,13 +1544,13 @@
     "topic": "IMS DC - Online Program Types",
     "difficulty": "Easy",
     "question": "What characterizes a data entry program?",
-    "option_1": "Accepts and validates input data",
+    "option_1": "Manages terminals",
     "option_2": "Displays reports",
-    "option_3": "Processes batch files",
-    "option_4": "Manages terminals",
+    "option_3": "Accepts and validates input data",
+    "option_4": "Processes batch files",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -1559,9 +1559,9 @@
     "difficulty": "Easy",
     "question": "What is a maintenance program?",
     "option_1": "Updates, inserts, or deletes data",
-    "option_2": "Repairs databases",
+    "option_2": "Backs up data",
     "option_3": "Maintains terminals",
-    "option_4": "Backs up data",
+    "option_4": "Repairs databases",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -1572,13 +1572,13 @@
     "topic": "IMS DC - Online Program Types",
     "difficulty": "Easy",
     "question": "What is a menu-driven program?",
-    "option_1": "Presents options for user selection",
-    "option_2": "Processes menu data",
+    "option_1": "Processes menu data",
+    "option_2": "Presents options for user selection",
     "option_3": "Food ordering system",
     "option_4": "List display program",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -1586,13 +1586,13 @@
     "topic": "IMS DC - Online Program Types",
     "difficulty": "Medium",
     "question": "What is typical of high-volume programs?",
-    "option_1": "Optimized for performance",
-    "option_2": "Complex logic",
-    "option_3": "Large messages",
-    "option_4": "Long running",
+    "option_1": "Complex logic",
+    "option_2": "Large messages",
+    "option_3": "Long running",
+    "option_4": "Optimized for performance",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -1600,13 +1600,13 @@
     "topic": "IMS DC - Online Program Types",
     "difficulty": "Medium",
     "question": "What is a composite transaction?",
-    "option_1": "Combines multiple operations",
-    "option_2": "Complex format",
-    "option_3": "Multiple terminals",
-    "option_4": "Long duration",
+    "option_1": "Multiple terminals",
+    "option_2": "Long duration",
+    "option_3": "Complex format",
+    "option_4": "Combines multiple operations",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -1614,13 +1614,13 @@
     "topic": "IMS DC - Online Program Types",
     "difficulty": "Easy",
     "question": "What security is needed for update programs?",
-    "option_1": "Proper authorization and validation",
-    "option_2": "Password only",
-    "option_3": "None needed",
+    "option_1": "Password only",
+    "option_2": "None needed",
+    "option_3": "Proper authorization and validation",
     "option_4": "Terminal lock",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -1628,13 +1628,13 @@
     "topic": "IMS DC - Online Program Types",
     "difficulty": "Easy",
     "question": "What validation should data entry program perform?",
-    "option_1": "Field format, range, and business rules",
-    "option_2": "Syntax only",
-    "option_3": "No validation needed",
-    "option_4": "User identity only",
+    "option_1": "User identity only",
+    "option_2": "Field format, range, and business rules",
+    "option_3": "Syntax only",
+    "option_4": "No validation needed",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -1642,13 +1642,13 @@
     "topic": "IMS DC - Online Program Types",
     "difficulty": "Medium",
     "question": "What is a report program in DC?",
-    "option_1": "Generates formatted output for display",
-    "option_2": "Batch reporting",
-    "option_3": "Prints reports",
-    "option_4": "Logs activities",
+    "option_1": "Batch reporting",
+    "option_2": "Logs activities",
+    "option_3": "Generates formatted output for display",
+    "option_4": "Prints reports",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -1656,13 +1656,13 @@
     "topic": "IMS DC - Online Program Types",
     "difficulty": "Easy",
     "question": "What is the difference between inquiry and maintenance?",
-    "option_1": "Inquiry reads only, maintenance updates",
-    "option_2": "No difference",
-    "option_3": "Inquiry is faster",
-    "option_4": "Maintenance is simpler",
+    "option_1": "Maintenance is simpler",
+    "option_2": "Inquiry is faster",
+    "option_3": "No difference",
+    "option_4": "Inquiry reads only, maintenance updates",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -1670,13 +1670,13 @@
     "topic": "IMS DC - Advanced Features",
     "difficulty": "Hard",
     "question": "What is alternate PCB?",
-    "option_1": "Additional I/O PCB for message routing",
-    "option_2": "Backup PCB",
-    "option_3": "Alternative database PCB",
-    "option_4": "Secondary PCB",
+    "option_1": "Secondary PCB",
+    "option_2": "Alternative database PCB",
+    "option_3": "Additional I/O PCB for message routing",
+    "option_4": "Backup PCB",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -1684,13 +1684,13 @@
     "topic": "IMS DC - Advanced Features",
     "difficulty": "Hard",
     "question": "What is express PCB?",
-    "option_1": "PCB for urgent high-priority messages",
-    "option_2": "Fast processing PCB",
-    "option_3": "Quick response PCB",
-    "option_4": "Expedited PCB",
+    "option_1": "Quick response PCB",
+    "option_2": "PCB for urgent high-priority messages",
+    "option_3": "Expedited PCB",
+    "option_4": "Fast processing PCB",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -1699,9 +1699,9 @@
     "difficulty": "Hard",
     "question": "What is program-to-program message switching?",
     "option_1": "One program sending message to another program",
-    "option_2": "Inter-program communication",
+    "option_2": "Program linking",
     "option_3": "Message forwarding",
-    "option_4": "Program linking",
+    "option_4": "Inter-program communication",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -1712,13 +1712,13 @@
     "topic": "IMS DC - Advanced Features",
     "difficulty": "Hard",
     "question": "What is asynchronous output?",
-    "option_1": "Output sent after program completion",
-    "option_2": "Non-blocking output",
+    "option_1": "Non-blocking output",
+    "option_2": "Output sent after program completion",
     "option_3": "Delayed output",
     "option_4": "Background output",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -1726,13 +1726,13 @@
     "topic": "IMS DC - Advanced Features",
     "difficulty": "Medium",
     "question": "What is command code usage in DC?",
-    "option_1": "Special processing options for calls",
-    "option_2": "Transaction codes",
-    "option_3": "System commands",
-    "option_4": "Terminal commands",
+    "option_1": "Transaction codes",
+    "option_2": "Terminal commands",
+    "option_3": "Special processing options for calls",
+    "option_4": "System commands",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -1740,13 +1740,13 @@
     "topic": "IMS DC - Advanced Features",
     "difficulty": "Hard",
     "question": "What is dynamic transaction routing?",
-    "option_1": "Runtime determination of transaction destination",
+    "option_1": "Automatic routing",
     "option_2": "Fast routing",
-    "option_3": "Automatic routing",
+    "option_3": "Runtime determination of transaction destination",
     "option_4": "Backup routing",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -1754,13 +1754,13 @@
     "topic": "IMS DC - Advanced Features",
     "difficulty": "Hard",
     "question": "What is transaction affinity?",
-    "option_1": "Related transactions processed by same region",
-    "option_2": "Transaction preference",
-    "option_3": "User preference",
-    "option_4": "Terminal binding",
+    "option_1": "User preference",
+    "option_2": "Terminal binding",
+    "option_3": "Related transactions processed by same region",
+    "option_4": "Transaction preference",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -1768,13 +1768,13 @@
     "topic": "IMS DC - Advanced Features",
     "difficulty": "Hard",
     "question": "What is a security exit in IMS DC?",
-    "option_1": "Custom security validation routine",
-    "option_2": "Emergency exit",
-    "option_3": "Logout function",
-    "option_4": "Backup path",
+    "option_1": "Backup path",
+    "option_2": "Custom security validation routine",
+    "option_3": "Emergency exit",
+    "option_4": "Logout function",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -1782,13 +1782,13 @@
     "topic": "IMS DC - Advanced Features",
     "difficulty": "Hard",
     "question": "What is message edit exit?",
-    "option_1": "Custom routine for message validation",
-    "option_2": "Message formatting",
-    "option_3": "Message correction",
-    "option_4": "Message deletion",
+    "option_1": "Message deletion",
+    "option_2": "Message correction",
+    "option_3": "Custom routine for message validation",
+    "option_4": "Message formatting",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -1797,8 +1797,8 @@
     "difficulty": "Medium",
     "question": "How does IMS schedule transactions?",
     "option_1": "Based on priority, class, and availability",
-    "option_2": "First-in-first-out",
-    "option_3": "Random",
+    "option_2": "Random",
+    "option_3": "First-in-first-out",
     "option_4": "Alphabetical",
     "choice_type": "Single Choice",
     "correct_answer": [
@@ -1810,13 +1810,13 @@
     "topic": "IMS DC - Transaction Scheduling",
     "difficulty": "Medium",
     "question": "What is transaction class scheduling?",
-    "option_1": "Groups transactions for resource management",
-    "option_2": "Priority classification",
-    "option_3": "Type classification",
-    "option_4": "User classification",
+    "option_1": "User classification",
+    "option_2": "Type classification",
+    "option_3": "Priority classification",
+    "option_4": "Groups transactions for resource management",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -1838,13 +1838,13 @@
     "topic": "IMS DC - Transaction Scheduling",
     "difficulty": "Easy",
     "question": "What is transaction queuing?",
-    "option_1": "Waiting for processing resources",
+    "option_1": "Terminal queuing",
     "option_2": "Message queuing",
-    "option_3": "Terminal queuing",
-    "option_4": "Data queuing",
+    "option_3": "Data queuing",
+    "option_4": "Waiting for processing resources",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -1853,9 +1853,9 @@
     "difficulty": "Medium",
     "question": "How can transaction performance be monitored?",
     "option_1": "IMS monitoring tools and statistics",
-    "option_2": "Manual observation",
+    "option_2": "Not possible",
     "option_3": "User feedback",
-    "option_4": "Not possible",
+    "option_4": "Manual observation",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -1866,13 +1866,13 @@
     "topic": "IMS DC - Transaction Scheduling",
     "difficulty": "Medium",
     "question": "What is transaction load balancing?",
-    "option_1": "Distributing work across regions",
+    "option_1": "User distribution",
     "option_2": "Message distribution",
-    "option_3": "User distribution",
-    "option_4": "Terminal balancing",
+    "option_3": "Terminal balancing",
+    "option_4": "Distributing work across regions",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -1882,8 +1882,8 @@
     "question": "What is a transaction timeout?",
     "option_1": "Maximum execution time limit",
     "option_2": "User wait time",
-    "option_3": "Queue wait time",
-    "option_4": "Response time",
+    "option_3": "Response time",
+    "option_4": "Queue wait time",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -1894,13 +1894,13 @@
     "topic": "IMS DC - Transaction Scheduling",
     "difficulty": "Medium",
     "question": "What happens when transaction times out?",
-    "option_1": "IMS may abend the transaction",
-    "option_2": "Automatic retry",
+    "option_1": "Automatic retry",
+    "option_2": "IMS may abend the transaction",
     "option_3": "Extended time granted",
     "option_4": "Nothing",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -1908,13 +1908,13 @@
     "topic": "IMS DC - Transaction Scheduling",
     "difficulty": "Easy",
     "question": "What is parallel transaction processing?",
-    "option_1": "Multiple transactions executing simultaneously",
-    "option_2": "Sequential processing",
+    "option_1": "Sequential processing",
+    "option_2": "Multiple transactions executing simultaneously",
     "option_3": "Batch processing",
     "option_4": "Single threading",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -1922,13 +1922,13 @@
     "topic": "IMS DC - PCB Masks",
     "difficulty": "Medium",
     "question": "What is a PCB mask?",
-    "option_1": "COBOL structure mapping PCB fields",
+    "option_1": "PCB template",
     "option_2": "PCB security",
-    "option_3": "PCB filter",
-    "option_4": "PCB template",
+    "option_3": "COBOL structure mapping PCB fields",
+    "option_4": "PCB filter",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -1936,13 +1936,13 @@
     "topic": "IMS DC - PCB Masks",
     "difficulty": "Medium",
     "question": "What fields are in I/O PCB mask?",
-    "option_1": "LTERM, status code, date/time, message length",
-    "option_2": "Only status code",
+    "option_1": "Only status code",
+    "option_2": "User information",
     "option_3": "All database fields",
-    "option_4": "User information",
+    "option_4": "LTERM, status code, date/time, message length",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -1950,13 +1950,13 @@
     "topic": "IMS DC - PCB Masks",
     "difficulty": "Hard",
     "question": "Why define PCB mask in LINKAGE SECTION?",
-    "option_1": "IMS provides PCB address at runtime",
-    "option_2": "Saves memory",
-    "option_3": "Required by COBOL",
-    "option_4": "Better performance",
+    "option_1": "Better performance",
+    "option_2": "IMS provides PCB address at runtime",
+    "option_3": "Saves memory",
+    "option_4": "Required by COBOL",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -1966,8 +1966,8 @@
     "question": "What is the typical size of I/O PCB?",
     "option_1": "148 bytes",
     "option_2": "100 bytes",
-    "option_3": "200 bytes",
-    "option_4": "Variable",
+    "option_3": "Variable",
+    "option_4": "200 bytes",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -1978,13 +1978,13 @@
     "topic": "IMS DC - PCB Masks",
     "difficulty": "Medium",
     "question": "Can PCB mask be modified by program?",
-    "option_1": "Should not modify, except for routing",
+    "option_1": "Only status code",
     "option_2": "Yes, freely",
     "option_3": "No, read-only",
-    "option_4": "Only status code",
+    "option_4": "Should not modify, except for routing",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -1994,8 +1994,8 @@
     "question": "What is the status code field type?",
     "option_1": "Character field (PIC XX)",
     "option_2": "Numeric field",
-    "option_3": "Binary field",
-    "option_4": "Alphanumeric",
+    "option_3": "Alphanumeric",
+    "option_4": "Binary field",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -2007,9 +2007,9 @@
     "difficulty": "Easy",
     "question": "How to reference PCB fields in COBOL?",
     "option_1": "Through mask variable name",
-    "option_2": "Direct PCB reference",
-    "option_3": "Using POINTER",
-    "option_4": "Not possible",
+    "option_2": "Not possible",
+    "option_3": "Direct PCB reference",
+    "option_4": "Using POINTER",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -2020,13 +2020,13 @@
     "topic": "IMS DC - PCB Masks",
     "difficulty": "Medium",
     "question": "What is PCB list?",
-    "option_1": "Collection of PCBs passed to program",
-    "option_2": "Array of PCBs",
-    "option_3": "PCB directory",
-    "option_4": "PCB index",
+    "option_1": "PCB directory",
+    "option_2": "PCB index",
+    "option_3": "Collection of PCBs passed to program",
+    "option_4": "Array of PCBs",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -2034,13 +2034,13 @@
     "topic": "IMS DC - PCB Masks",
     "difficulty": "Medium",
     "question": "How many PCBs can a program access?",
-    "option_1": "One I/O PCB plus multiple DB PCBs",
-    "option_2": "Only one",
+    "option_1": "Only one",
+    "option_2": "One I/O PCB plus multiple DB PCBs",
     "option_3": "Unlimited",
     "option_4": "Maximum 10",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -2048,13 +2048,13 @@
     "topic": "IMS DC - PCB Masks",
     "difficulty": "Hard",
     "question": "What is modifiable alternate PCB field?",
-    "option_1": "LTERM for message routing",
-    "option_2": "Status code",
-    "option_3": "Date/time",
-    "option_4": "User ID",
+    "option_1": "User ID",
+    "option_2": "LTERM for message routing",
+    "option_3": "Status code",
+    "option_4": "Date/time",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -2062,13 +2062,13 @@
     "topic": "IMS DC - Additional Concepts",
     "difficulty": "Medium",
     "question": "What is a response mode transaction?",
-    "option_1": "Transaction that sends response to originating terminal",
-    "option_2": "Fast response transaction",
-    "option_3": "Acknowledged transaction",
-    "option_4": "Interactive transaction",
+    "option_1": "Interactive transaction",
+    "option_2": "Transaction that sends response to originating terminal",
+    "option_3": "Fast response transaction",
+    "option_4": "Acknowledged transaction",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -2091,8 +2091,8 @@
     "difficulty": "Hard",
     "question": "What is multiple mode transaction?",
     "option_1": "Can process multiple messages per schedule",
-    "option_2": "Has multiple functions",
-    "option_3": "Uses multiple PCBs",
+    "option_2": "Uses multiple PCBs",
+    "option_3": "Has multiple functions",
     "option_4": "Runs multiple times",
     "choice_type": "Single Choice",
     "correct_answer": [
@@ -2105,9 +2105,9 @@
     "difficulty": "Medium",
     "question": "What is transaction commit point?",
     "option_1": "Point where changes are made permanent",
-    "option_2": "End of transaction",
+    "option_2": "Checkpoint",
     "option_3": "Beginning of transaction",
-    "option_4": "Checkpoint",
+    "option_4": "End of transaction",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -2118,13 +2118,13 @@
     "topic": "IMS DC - Additional Concepts",
     "difficulty": "Medium",
     "question": "What is transaction recovery?",
-    "option_1": "Restoring transaction state after failure",
-    "option_2": "Getting transaction back",
+    "option_1": "Restarting transaction",
+    "option_2": "Restoring transaction state after failure",
     "option_3": "Fixing transaction errors",
-    "option_4": "Restarting transaction",
+    "option_4": "Getting transaction back",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -2134,8 +2134,8 @@
     "question": "What is a WFI transaction?",
     "option_1": "Wait-for-input transaction",
     "option_2": "Write file input",
-    "option_3": "Work flow item",
-    "option_4": "Wait for initialization",
+    "option_3": "Wait for initialization",
+    "option_4": "Work flow item",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -2146,13 +2146,13 @@
     "topic": "IMS DC - Additional Concepts",
     "difficulty": "Medium",
     "question": "What is transaction code security?",
-    "option_1": "Authorization control for transactions",
+    "option_1": "Code protection",
     "option_2": "Transaction encryption",
-    "option_3": "Code protection",
-    "option_4": "Terminal security",
+    "option_3": "Terminal security",
+    "option_4": "Authorization control for transactions",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -2160,13 +2160,13 @@
     "topic": "IMS DC - Additional Concepts",
     "difficulty": "Hard",
     "question": "What is transaction serialization?",
-    "option_1": "Ensuring sequential access to resources",
-    "option_2": "Converting to serial format",
-    "option_3": "Transaction logging",
-    "option_4": "Numbering transactions",
+    "option_1": "Numbering transactions",
+    "option_2": "Transaction logging",
+    "option_3": "Ensuring sequential access to resources",
+    "option_4": "Converting to serial format",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -2174,13 +2174,13 @@
     "topic": "IMS DC - Additional Concepts",
     "difficulty": "Hard",
     "question": "What is transaction coupling?",
-    "option_1": "Relationship between transactions",
-    "option_2": "Transaction joining",
-    "option_3": "Transaction linking",
-    "option_4": "Transaction dependency",
+    "option_1": "Transaction joining",
+    "option_2": "Transaction linking",
+    "option_3": "Transaction dependency",
+    "option_4": "Relationship between transactions",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -2188,13 +2188,13 @@
     "topic": "IMS DC - Additional Concepts",
     "difficulty": "Medium",
     "question": "What is transaction integrity?",
-    "option_1": "ACID properties compliance",
-    "option_2": "Data validation",
+    "option_1": "Data validation",
+    "option_2": "ACID properties compliance",
     "option_3": "Security check",
     "option_4": "Error checking",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -2202,13 +2202,13 @@
     "topic": "IMS DC - Fundamentals and Concepts",
     "difficulty": "Medium",
     "question": "What is the role of IMS Control Region?",
-    "option_1": "Manages overall IMS DC operations",
-    "option_2": "Controls terminals only",
-    "option_3": "Manages databases",
+    "option_1": "Manages databases",
+    "option_2": "Manages overall IMS DC operations",
+    "option_3": "Controls terminals only",
     "option_4": "Handles security",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -2217,8 +2217,8 @@
     "difficulty": "Medium",
     "question": "What is a dependent region in IMS DC?",
     "option_1": "Region that processes applications",
-    "option_2": "Backup region",
-    "option_3": "Secondary region",
+    "option_2": "Secondary region",
+    "option_3": "Backup region",
     "option_4": "Test region",
     "choice_type": "Single Choice",
     "correct_answer": [
@@ -2230,13 +2230,13 @@
     "topic": "IMS DC - Message Processing Programs",
     "difficulty": "Medium",
     "question": "What is BMP in IMS?",
-    "option_1": "Batch Message Processing program",
-    "option_2": "Basic MPP",
-    "option_3": "Backup Message Program",
-    "option_4": "Best Message Processor",
+    "option_1": "Best Message Processor",
+    "option_2": "Backup Message Program",
+    "option_3": "Batch Message Processing program",
+    "option_4": "Basic MPP",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -2244,13 +2244,13 @@
     "topic": "IMS DC - Message Processing Programs",
     "difficulty": "Medium",
     "question": "Can an MPP access multiple databases?",
-    "option_1": "Yes, through multiple DB PCBs",
-    "option_2": "No, only one database",
-    "option_3": "Yes, but not recommended",
-    "option_4": "Only in batch mode",
+    "option_1": "Yes, but not recommended",
+    "option_2": "Only in batch mode",
+    "option_3": "No, only one database",
+    "option_4": "Yes, through multiple DB PCBs",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -2259,9 +2259,9 @@
     "difficulty": "Medium",
     "question": "What is a transaction synonym?",
     "option_1": "Alternate name for same transaction",
-    "option_2": "Similar transaction",
+    "option_2": "Related transaction",
     "option_3": "Backup transaction",
-    "option_4": "Related transaction",
+    "option_4": "Similar transaction",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -2272,13 +2272,13 @@
     "topic": "IMS DC - Transaction Codes and Processing",
     "difficulty": "Hard",
     "question": "Can transaction codes contain special characters?",
-    "option_1": "Limited special characters allowed",
-    "option_2": "No, alphanumeric only",
+    "option_1": "No, alphanumeric only",
+    "option_2": "Only underscore",
     "option_3": "Yes, any character",
-    "option_4": "Only underscore",
+    "option_4": "Limited special characters allowed",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -2286,13 +2286,13 @@
     "topic": "IMS DC - Message Queues",
     "difficulty": "Medium",
     "question": "What is the system queue in IMS DC?",
-    "option_1": "IMS internal queue for messages",
-    "option_2": "User queue",
-    "option_3": "Database queue",
-    "option_4": "Terminal queue",
+    "option_1": "Database queue",
+    "option_2": "Terminal queue",
+    "option_3": "User queue",
+    "option_4": "IMS internal queue for messages",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -2328,13 +2328,13 @@
     "topic": "IMS DC - I/O PCB",
     "difficulty": "Medium",
     "question": "How is destination determined for output?",
-    "option_1": "From LTERM field in I/O PCB",
+    "option_1": "System default",
     "option_2": "User specification",
-    "option_3": "System default",
+    "option_3": "From LTERM field in I/O PCB",
     "option_4": "Random assignment",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -2342,13 +2342,13 @@
     "topic": "IMS DC - DL/I Calls for Message Processing",
     "difficulty": "Hard",
     "question": "What is PURG call used for?",
-    "option_1": "Flush output messages immediately",
-    "option_2": "Purge input messages",
-    "option_3": "Delete transactions",
+    "option_1": "Delete transactions",
+    "option_2": "Flush output messages immediately",
+    "option_3": "Purge input messages",
     "option_4": "Clear buffers",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -2358,8 +2358,8 @@
     "question": "What is CHNG call?",
     "option_1": "Change output destination",
     "option_2": "Change transaction",
-    "option_3": "Change priority",
-    "option_4": "Change format",
+    "option_3": "Change format",
+    "option_4": "Change priority",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -2371,9 +2371,9 @@
     "difficulty": "Medium",
     "question": "How is SPA size defined?",
     "option_1": "In transaction definition",
-    "option_2": "At runtime",
-    "option_3": "In program",
-    "option_4": "System default",
+    "option_2": "In program",
+    "option_3": "System default",
+    "option_4": "At runtime",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -2384,13 +2384,13 @@
     "topic": "IMS DC - Conversational vs Non-conversational",
     "difficulty": "Hard",
     "question": "Can SPA be encrypted?",
-    "option_1": "Program can encrypt data in SPA",
+    "option_1": "System encrypts SPA",
     "option_2": "Automatic encryption",
     "option_3": "No encryption possible",
-    "option_4": "System encrypts SPA",
+    "option_4": "Program can encrypt data in SPA",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -2399,9 +2399,9 @@
     "difficulty": "Medium",
     "question": "What is MFS?",
     "option_1": "Message Format Service",
-    "option_2": "Message File System",
-    "option_3": "Multiple Format Structure",
-    "option_4": "Master Format Service",
+    "option_2": "Multiple Format Structure",
+    "option_3": "Master Format Service",
+    "option_4": "Message File System",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -2412,13 +2412,13 @@
     "topic": "IMS DC - Message Formats and Structure",
     "difficulty": "Medium",
     "question": "What is the purpose of MFS?",
-    "option_1": "Format messages for screen display",
-    "option_2": "Store messages",
-    "option_3": "Route messages",
-    "option_4": "Validate messages",
+    "option_1": "Store messages",
+    "option_2": "Format messages for screen display",
+    "option_3": "Validate messages",
+    "option_4": "Route messages",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -2426,13 +2426,13 @@
     "topic": "IMS DC - COBOL Programming",
     "difficulty": "Hard",
     "question": "How many parameters in ENTRY statement?",
-    "option_1": "Varies, typically 2 or more",
-    "option_2": "Always 1",
-    "option_3": "Always 5",
-    "option_4": "No parameters",
+    "option_1": "No parameters",
+    "option_2": "Always 5",
+    "option_3": "Varies, typically 2 or more",
+    "option_4": "Always 1",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -2440,13 +2440,13 @@
     "topic": "IMS DC - COBOL Programming",
     "difficulty": "Hard",
     "question": "What is PCB address list?",
-    "option_1": "List of pointers to PCBs",
-    "option_2": "PCB names",
+    "option_1": "PCB names",
+    "option_2": "List of pointers to PCBs",
     "option_3": "PCB contents",
     "option_4": "PCB structure",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -2454,13 +2454,13 @@
     "topic": "IMS DC - Status Codes and Error Handling",
     "difficulty": "Hard",
     "question": "What is GA status code?",
-    "option_1": "Segment not found at specified level",
-    "option_2": "Get again",
-    "option_3": "General access",
-    "option_4": "Good answer",
+    "option_1": "General access",
+    "option_2": "Good answer",
+    "option_3": "Segment not found at specified level",
+    "option_4": "Get again",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -2469,8 +2469,8 @@
     "difficulty": "Medium",
     "question": "What is GE status code?",
     "option_1": "End of database",
-    "option_2": "General error",
-    "option_3": "Get error",
+    "option_2": "Get error",
+    "option_3": "General error",
     "option_4": "Good end",
     "choice_type": "Single Choice",
     "correct_answer": [
@@ -2482,13 +2482,13 @@
     "topic": "IMS DC - Testing and Debugging",
     "difficulty": "Medium",
     "question": "What is IMS Test Tool?",
-    "option_1": "Tool for testing IMS applications",
-    "option_2": "Terminal test",
-    "option_3": "Database test",
+    "option_1": "Terminal test",
+    "option_2": "Database test",
+    "option_3": "Tool for testing IMS applications",
     "option_4": "Performance test",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -2496,13 +2496,13 @@
     "topic": "IMS DC - Testing and Debugging",
     "difficulty": "Medium",
     "question": "How to generate test transactions?",
-    "option_1": "Use terminal emulator or test tools",
-    "option_2": "Manual entry only",
-    "option_3": "Batch generation",
+    "option_1": "Batch generation",
+    "option_2": "Use terminal emulator or test tools",
+    "option_3": "Manual entry only",
     "option_4": "Automatic generation",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -2510,13 +2510,13 @@
     "topic": "IMS DC - Online Program Types",
     "difficulty": "Medium",
     "question": "What validation is critical for maintenance programs?",
-    "option_1": "Authorization, data validity, referential integrity",
-    "option_2": "Syntax only",
-    "option_3": "Format only",
+    "option_1": "Format only",
+    "option_2": "Authorization, data validity, referential integrity",
+    "option_3": "Syntax only",
     "option_4": "Length only",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -2525,9 +2525,9 @@
     "difficulty": "Easy",
     "question": "Should inquiry programs use database updates?",
     "option_1": "No, read-only access",
-    "option_2": "Yes, for logging",
-    "option_3": "Sometimes",
-    "option_4": "Not applicable",
+    "option_2": "Not applicable",
+    "option_3": "Yes, for logging",
+    "option_4": "Sometimes",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -2538,13 +2538,13 @@
     "topic": "IMS DC - Advanced Features",
     "difficulty": "Hard",
     "question": "What is AOI in IMS DC?",
-    "option_1": "Automated Operator Interface",
-    "option_2": "Application Output Interface",
+    "option_1": "Application Output Interface",
+    "option_2": "Automated Operator Interface",
     "option_3": "Advanced Online Interface",
     "option_4": "Automatic Operation Initiator",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -2552,13 +2552,13 @@
     "topic": "IMS DC - Advanced Features",
     "difficulty": "Medium",
     "question": "What are command codes?",
-    "option_1": "Special indicators for DL/I processing options",
+    "option_1": "Security codes",
     "option_2": "Transaction codes",
-    "option_3": "Security codes",
+    "option_3": "Special indicators for DL/I processing options",
     "option_4": "Format codes",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -2566,13 +2566,13 @@
     "topic": "IMS DC - Transaction Scheduling",
     "difficulty": "Hard",
     "question": "What is WFI time?",
-    "option_1": "Wait-for-input timeout period",
-    "option_2": "Work flow interval",
-    "option_3": "Wait for initialization",
+    "option_1": "Wait for initialization",
+    "option_2": "Wait-for-input timeout period",
+    "option_3": "Work flow interval",
     "option_4": "Work finish indicator",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -2581,8 +2581,8 @@
     "difficulty": "Medium",
     "question": "How does IMS handle transaction backlog?",
     "option_1": "Queues and schedules based on priority",
-    "option_2": "Rejects new transactions",
-    "option_3": "Increases resources automatically",
+    "option_2": "Increases resources automatically",
+    "option_3": "Rejects new transactions",
     "option_4": "Waits indefinitely",
     "choice_type": "Single Choice",
     "correct_answer": [
@@ -2594,13 +2594,13 @@
     "topic": "IMS DC - PCB Masks",
     "difficulty": "Medium",
     "question": "What is the IOPCB in COBOL programs?",
-    "option_1": "First PCB for message I/O",
-    "option_2": "Input Only PCB",
-    "option_3": "Internal Operation PCB",
-    "option_4": "Interactive Online PCB",
+    "option_1": "Internal Operation PCB",
+    "option_2": "First PCB for message I/O",
+    "option_3": "Interactive Online PCB",
+    "option_4": "Input Only PCB",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -2608,13 +2608,13 @@
     "topic": "IMS DC - PCB Masks",
     "difficulty": "Medium",
     "question": "Can programs define their own PCB structure?",
-    "option_1": "No, must match IMS-provided structure",
-    "option_2": "Yes, freely",
-    "option_3": "Yes, with restrictions",
-    "option_4": "Only in test",
+    "option_1": "Yes, with restrictions",
+    "option_2": "Only in test",
+    "option_3": "Yes, freely",
+    "option_4": "No, must match IMS-provided structure",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -2622,13 +2622,13 @@
     "topic": "IMS DC - Additional Concepts",
     "difficulty": "Medium",
     "question": "What is transaction step?",
-    "option_1": "Unit of work within transaction",
+    "option_1": "Commit point",
     "option_2": "Transaction phase",
     "option_3": "Processing stage",
-    "option_4": "Commit point",
+    "option_4": "Unit of work within transaction",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -2636,13 +2636,13 @@
     "topic": "IMS DC - Additional Concepts",
     "difficulty": "Hard",
     "question": "What is dynamic allocation in IMS DC?",
-    "option_1": "Runtime resource assignment",
-    "option_2": "Memory allocation",
-    "option_3": "Terminal assignment",
-    "option_4": "Database allocation",
+    "option_1": "Terminal assignment",
+    "option_2": "Runtime resource assignment",
+    "option_3": "Database allocation",
+    "option_4": "Memory allocation",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -2650,13 +2650,13 @@
     "topic": "IMS DC - Fundamentals and Concepts",
     "difficulty": "Medium",
     "question": "What is VTAM in IMS DC context?",
-    "option_1": "Virtual Telecommunications Access Method",
-    "option_2": "Virtual Terminal Access Manager",
-    "option_3": "Variable Transaction Access Mode",
-    "option_4": "Visual Terminal Application Manager",
+    "option_1": "Visual Terminal Application Manager",
+    "option_2": "Variable Transaction Access Mode",
+    "option_3": "Virtual Terminal Access Manager",
+    "option_4": "Virtual Telecommunications Access Method",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -2664,13 +2664,13 @@
     "topic": "IMS DC - Fundamentals and Concepts",
     "difficulty": "Medium",
     "question": "What is a PTERM?",
-    "option_1": "Physical terminal",
+    "option_1": "Process terminal",
     "option_2": "Program terminal",
-    "option_3": "Primary terminal",
-    "option_4": "Process terminal",
+    "option_3": "Physical terminal",
+    "option_4": "Primary terminal",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -2679,9 +2679,9 @@
     "difficulty": "Medium",
     "question": "What is the transaction manager in IMS?",
     "option_1": "Component that controls transaction execution",
-    "option_2": "User manager",
-    "option_3": "Database manager",
-    "option_4": "Terminal manager",
+    "option_2": "Terminal manager",
+    "option_3": "User manager",
+    "option_4": "Database manager",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -2693,9 +2693,9 @@
     "difficulty": "Medium",
     "question": "Can MPP programs be debugged online?",
     "option_1": "Yes, using appropriate debugging tools",
-    "option_2": "No, batch only",
-    "option_3": "Only in test environment",
-    "option_4": "Not recommended",
+    "option_2": "Not recommended",
+    "option_3": "No, batch only",
+    "option_4": "Only in test environment",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -2706,13 +2706,13 @@
     "topic": "IMS DC - Transaction Codes and Processing",
     "difficulty": "Easy",
     "question": "What is transaction response time?",
-    "option_1": "Time from input to output delivery",
-    "option_2": "Processing time only",
-    "option_3": "Queue time only",
-    "option_4": "Network time",
+    "option_1": "Queue time only",
+    "option_2": "Network time",
+    "option_3": "Processing time only",
+    "option_4": "Time from input to output delivery",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -2720,13 +2720,13 @@
     "topic": "IMS DC - Transaction Codes and Processing",
     "difficulty": "Medium",
     "question": "What factors affect transaction performance?",
-    "option_1": "Program efficiency, database access, queue depth, system load",
-    "option_2": "Program only",
-    "option_3": "Database only",
-    "option_4": "Network only",
+    "option_1": "Database only",
+    "option_2": "Network only",
+    "option_3": "Program only",
+    "option_4": "Program efficiency, database access, queue depth, system load",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -2734,13 +2734,13 @@
     "topic": "IMS DC - Message Queues",
     "difficulty": "Hard",
     "question": "What is a shared queue?",
-    "option_1": "Queue accessible by multiple regions",
-    "option_2": "Common queue",
+    "option_1": "Common queue",
+    "option_2": "Open queue",
     "option_3": "Public queue",
-    "option_4": "Open queue",
+    "option_4": "Queue accessible by multiple regions",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -2748,13 +2748,13 @@
     "topic": "IMS DC - Message Queues",
     "difficulty": "Medium",
     "question": "Can messages expire in queues?",
-    "option_1": "Yes, based on age or system limits",
-    "option_2": "No, permanent",
-    "option_3": "Only after 24 hours",
-    "option_4": "Only manually",
+    "option_1": "No, permanent",
+    "option_2": "Only after 24 hours",
+    "option_3": "Only manually",
+    "option_4": "Yes, based on age or system limits",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -2762,13 +2762,13 @@
     "topic": "IMS DC - I/O PCB",
     "difficulty": "Easy",
     "question": "What information does date/time field provide?",
-    "option_1": "Current system date and time",
-    "option_2": "Transaction timestamp",
+    "option_1": "Transaction timestamp",
+    "option_2": "Processing time",
     "option_3": "Message arrival time",
-    "option_4": "Processing time",
+    "option_4": "Current system date and time",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -2776,13 +2776,13 @@
     "topic": "IMS DC - I/O PCB",
     "difficulty": "Medium",
     "question": "What is the user ID field in I/O PCB?",
-    "option_1": "Identifies user or terminal",
-    "option_2": "Program ID",
-    "option_3": "Transaction ID",
-    "option_4": "System ID",
+    "option_1": "Transaction ID",
+    "option_2": "System ID",
+    "option_3": "Identifies user or terminal",
+    "option_4": "Program ID",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -2790,13 +2790,13 @@
     "topic": "IMS DC - DL/I Calls for Message Processing",
     "difficulty": "Hard",
     "question": "What is GCMD call?",
-    "option_1": "Get Command - for message retrieval",
-    "option_2": "General command",
+    "option_1": "General command",
+    "option_2": "Global command",
     "option_3": "Get command mode",
-    "option_4": "Global command",
+    "option_4": "Get Command - for message retrieval",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -2818,13 +2818,13 @@
     "topic": "IMS DC - Conversational vs Non-conversational",
     "difficulty": "Hard",
     "question": "What is pseudo-conversational processing?",
-    "option_1": "Simulates conversation without holding resources",
-    "option_2": "Fake conversation",
-    "option_3": "Test conversation",
-    "option_4": "Virtual conversation",
+    "option_1": "Fake conversation",
+    "option_2": "Virtual conversation",
+    "option_3": "Simulates conversation without holding resources",
+    "option_4": "Test conversation",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -2832,13 +2832,13 @@
     "topic": "IMS DC - Conversational vs Non-conversational",
     "difficulty": "Medium",
     "question": "When is conversational mode appropriate?",
-    "option_1": "When user interaction requires context",
-    "option_2": "Never",
-    "option_3": "Always",
-    "option_4": "Only for testing",
+    "option_1": "Always",
+    "option_2": "When user interaction requires context",
+    "option_3": "Only for testing",
+    "option_4": "Never",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -2846,13 +2846,13 @@
     "topic": "IMS DC - Message Formats and Structure",
     "difficulty": "Medium",
     "question": "What is device format in MFS?",
-    "option_1": "Screen layout definition",
-    "option_2": "Terminal type",
-    "option_3": "Message format",
-    "option_4": "Data format",
+    "option_1": "Data format",
+    "option_2": "Message format",
+    "option_3": "Terminal type",
+    "option_4": "Screen layout definition",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -2860,13 +2860,13 @@
     "topic": "IMS DC - Message Formats and Structure",
     "difficulty": "Hard",
     "question": "What is message input descriptor (MID)?",
-    "option_1": "Defines input message format",
-    "option_2": "Message ID",
+    "option_1": "Message ID",
+    "option_2": "Defines input message format",
     "option_3": "Message indicator",
     "option_4": "Message identification",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -2874,13 +2874,13 @@
     "topic": "IMS DC - COBOL Programming",
     "difficulty": "Easy",
     "question": "How to declare message I/O area?",
-    "option_1": "01 level in WORKING-STORAGE",
-    "option_2": "05 level",
+    "option_1": "05 level",
+    "option_2": "88 level",
     "option_3": "77 level",
-    "option_4": "88 level",
+    "option_4": "01 level in WORKING-STORAGE",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -2888,13 +2888,13 @@
     "topic": "IMS DC - COBOL Programming",
     "difficulty": "Medium",
     "question": "What is the function code parameter?",
-    "option_1": "First parameter specifying DL/I operation",
+    "option_1": "Status code",
     "option_2": "Program function",
     "option_3": "Transaction code",
-    "option_4": "Status code",
+    "option_4": "First parameter specifying DL/I operation",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -2902,13 +2902,13 @@
     "topic": "IMS DC - Status Codes and Error Handling",
     "difficulty": "Hard",
     "question": "What does II status code mean?",
-    "option_1": "Segment already exists (duplicate key)",
-    "option_2": "Information incomplete",
+    "option_1": "Information incomplete",
+    "option_2": "Insert ignored",
     "option_3": "Invalid input",
-    "option_4": "Insert ignored",
+    "option_4": "Segment already exists (duplicate key)",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -2918,8 +2918,8 @@
     "question": "What is AJ status code?",
     "option_1": "Invalid concatenated key",
     "option_2": "Automatic jump",
-    "option_3": "After job",
-    "option_4": "All joined",
+    "option_3": "All joined",
+    "option_4": "After job",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -2930,13 +2930,13 @@
     "topic": "IMS DC - Testing and Debugging",
     "difficulty": "Easy",
     "question": "What is regression testing for IMS DC?",
-    "option_1": "Retesting after changes",
+    "option_1": "Security testing",
     "option_2": "Performance testing",
-    "option_3": "Load testing",
-    "option_4": "Security testing",
+    "option_3": "Retesting after changes",
+    "option_4": "Load testing",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -2944,13 +2944,13 @@
     "topic": "IMS DC - Testing and Debugging",
     "difficulty": "Medium",
     "question": "How to test concurrent transaction processing?",
-    "option_1": "Multi-user or load testing tools",
-    "option_2": "Single user test",
-    "option_3": "Not possible",
-    "option_4": "Manual testing",
+    "option_1": "Manual testing",
+    "option_2": "Not possible",
+    "option_3": "Single user test",
+    "option_4": "Multi-user or load testing tools",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -2958,13 +2958,13 @@
     "topic": "IMS DC - Online Program Types",
     "difficulty": "Easy",
     "question": "What is a help transaction?",
-    "option_1": "Provides user assistance information",
-    "option_2": "System help",
-    "option_3": "Technical support",
-    "option_4": "Error help",
+    "option_1": "Error help",
+    "option_2": "Technical support",
+    "option_3": "System help",
+    "option_4": "Provides user assistance information",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -2972,13 +2972,13 @@
     "topic": "IMS DC - Online Program Types",
     "difficulty": "Medium",
     "question": "What is audit trail in maintenance programs?",
-    "option_1": "Logging of all changes made",
-    "option_2": "Program trace",
+    "option_1": "Program trace",
+    "option_2": "Logging of all changes made",
     "option_3": "Debug log",
     "option_4": "Error log",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -2986,13 +2986,13 @@
     "topic": "IMS DC - Advanced Features",
     "difficulty": "Hard",
     "question": "What is OTMA?",
-    "option_1": "Open Transaction Manager Access",
+    "option_1": "Output Transaction Management",
     "option_2": "Online Terminal Manager Access",
-    "option_3": "Output Transaction Management",
+    "option_3": "Open Transaction Manager Access",
     "option_4": "Operational Task Management",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -3001,8 +3001,8 @@
     "difficulty": "Medium",
     "question": "What is program restart capability?",
     "option_1": "Resume processing after failure",
-    "option_2": "Rerun program",
-    "option_3": "Reload program",
+    "option_2": "Reload program",
+    "option_3": "Rerun program",
     "option_4": "Reset program",
     "choice_type": "Single Choice",
     "correct_answer": [
@@ -3014,13 +3014,13 @@
     "topic": "IMS DC - Transaction Scheduling",
     "difficulty": "Medium",
     "question": "What is message region?",
-    "option_1": "Region where MPPs execute",
-    "option_2": "Message storage",
-    "option_3": "Message area",
-    "option_4": "Message buffer",
+    "option_1": "Message buffer",
+    "option_2": "Region where MPPs execute",
+    "option_3": "Message storage",
+    "option_4": "Message area",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -3028,13 +3028,13 @@
     "topic": "IMS DC - Transaction Scheduling",
     "difficulty": "Medium",
     "question": "How many message regions can IMS support?",
-    "option_1": "Multiple, based on configuration",
-    "option_2": "Only one",
-    "option_3": "Maximum 10",
-    "option_4": "Unlimited",
+    "option_1": "Unlimited",
+    "option_2": "Maximum 10",
+    "option_3": "Only one",
+    "option_4": "Multiple, based on configuration",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -3043,9 +3043,9 @@
     "difficulty": "Medium",
     "question": "What is segment name field in DB PCB?",
     "option_1": "Name of last accessed segment",
-    "option_2": "Current segment",
-    "option_3": "Target segment",
-    "option_4": "Root segment",
+    "option_2": "Target segment",
+    "option_3": "Root segment",
+    "option_4": "Current segment",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3056,13 +3056,13 @@
     "topic": "IMS DC - PCB Masks",
     "difficulty": "Hard",
     "question": "What is key feedback area?",
-    "option_1": "Contains concatenated key of current position",
+    "option_1": "Result feedback",
     "option_2": "Error feedback",
-    "option_3": "Status feedback",
-    "option_4": "Result feedback",
+    "option_3": "Contains concatenated key of current position",
+    "option_4": "Status feedback",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -3070,13 +3070,13 @@
     "topic": "IMS DC - Additional Concepts",
     "difficulty": "Medium",
     "question": "What is security profile in IMS DC?",
-    "option_1": "Defines access authorizations",
+    "option_1": "Network profile",
     "option_2": "User profile",
-    "option_3": "System profile",
-    "option_4": "Network profile",
+    "option_3": "Defines access authorizations",
+    "option_4": "System profile",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -3085,9 +3085,9 @@
     "difficulty": "Hard",
     "question": "What is terminal preemption?",
     "option_1": "Taking over terminal for urgent message",
-    "option_2": "Terminal disconnect",
-    "option_3": "Terminal reset",
-    "option_4": "Terminal lock",
+    "option_2": "Terminal reset",
+    "option_3": "Terminal lock",
+    "option_4": "Terminal disconnect",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3099,9 +3099,9 @@
     "difficulty": "Easy",
     "question": "What is the primary purpose of Message Format Services (MFS) in IMS DC?",
     "option_1": "Format messages between application programs and terminals",
-    "option_2": "Store messages in databases",
-    "option_3": "Route messages to appropriate programs",
-    "option_4": "Compress message data",
+    "option_2": "Compress message data",
+    "option_3": "Store messages in databases",
+    "option_4": "Route messages to appropriate programs",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3112,13 +3112,13 @@
     "topic": "IMS DC - Message Format Services (MFS)",
     "difficulty": "Medium",
     "question": "Which MFS control block defines the physical terminal characteristics?",
-    "option_1": "DIF (Device Input Format)",
-    "option_2": "DOF (Device Output Format)",
+    "option_1": "DOF (Device Output Format)",
+    "option_2": "MOD (Message Output Descriptor)",
     "option_3": "MID (Message Input Descriptor)",
-    "option_4": "MOD (Message Output Descriptor)",
+    "option_4": "DIF (Device Input Format)",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -3126,13 +3126,13 @@
     "topic": "IMS DC - Message Format Services (MFS)",
     "difficulty": "Medium",
     "question": "What does MOD stand for in MFS?",
-    "option_1": "Message Output Descriptor",
+    "option_1": "Message Organizational Data",
     "option_2": "Module Definition",
-    "option_3": "Message Organizational Data",
-    "option_4": "Multiple Output Device",
+    "option_3": "Multiple Output Device",
+    "option_4": "Message Output Descriptor",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -3140,13 +3140,13 @@
     "topic": "IMS DC - Message Format Services (MFS)",
     "difficulty": "Medium",
     "question": "Which MFS control block maps the application program's view of a message?",
-    "option_1": "MID (Message Input Descriptor)",
-    "option_2": "DIF (Device Input Format)",
+    "option_1": "DIF (Device Input Format)",
+    "option_2": "MID (Message Input Descriptor)",
     "option_3": "FMT (Format)",
     "option_4": "PCB (Program Communication Block)",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -3168,13 +3168,13 @@
     "topic": "IMS DC - Message Format Services (MFS)",
     "difficulty": "Hard",
     "question": "What MFS statement defines the logical message field for the application?",
-    "option_1": "MFLD (Message Field)",
-    "option_2": "DFLD (Device Field)",
-    "option_3": "LFLD (Logical Field)",
+    "option_1": "DFLD (Device Field)",
+    "option_2": "LFLD (Logical Field)",
+    "option_3": "MFLD (Message Field)",
     "option_4": "AFLD (Application Field)",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -3182,13 +3182,13 @@
     "topic": "IMS DC - Message Format Services (MFS)",
     "difficulty": "Medium",
     "question": "Which attribute controls whether a field is protected or unprotected on a 3270 screen?",
-    "option_1": "ATTR parameter",
+    "option_1": "SECURE parameter",
     "option_2": "PROT parameter",
-    "option_3": "FIELD parameter",
-    "option_4": "SECURE parameter",
+    "option_3": "ATTR parameter",
+    "option_4": "FIELD parameter",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -3197,9 +3197,9 @@
     "difficulty": "Hard",
     "question": "What does the FILL parameter in MFS specify?",
     "option_1": "Character to fill unused field positions",
-    "option_2": "Default value for empty fields",
-    "option_3": "Field justification",
-    "option_4": "Field alignment",
+    "option_2": "Field justification",
+    "option_3": "Field alignment",
+    "option_4": "Default value for empty fields",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3240,8 +3240,8 @@
     "question": "Where are compiled MFS formats stored?",
     "option_1": "IMS Format Library",
     "option_2": "IMS Database",
-    "option_3": "Application Library",
-    "option_4": "System Catalog",
+    "option_3": "System Catalog",
+    "option_4": "Application Library",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3253,9 +3253,9 @@
     "difficulty": "Hard",
     "question": "What is the purpose of the LITERAL parameter in DFLD?",
     "option_1": "Display constant text on screen",
-    "option_2": "Define literal values for comparison",
-    "option_3": "Create literal database fields",
-    "option_4": "Generate literal documentation",
+    "option_2": "Generate literal documentation",
+    "option_3": "Define literal values for comparison",
+    "option_4": "Create literal database fields",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3266,13 +3266,13 @@
     "topic": "IMS DC - Message Format Services (MFS)",
     "difficulty": "Medium",
     "question": "Can MFS perform automatic data type conversion?",
-    "option_1": "Yes, between character and numeric formats",
-    "option_2": "No, program must do all conversions",
-    "option_3": "Yes, but only for dates",
-    "option_4": "Only with special hardware",
+    "option_1": "Only with special hardware",
+    "option_2": "Yes, but only for dates",
+    "option_3": "Yes, between character and numeric formats",
+    "option_4": "No, program must do all conversions",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -3280,13 +3280,13 @@
     "topic": "IMS DC - Message Format Services (MFS)",
     "difficulty": "Hard",
     "question": "What does the JUSTIFY parameter control in MFLD?",
-    "option_1": "Left or right justification of data in field",
-    "option_2": "Vertical alignment on screen",
-    "option_3": "Field validation method",
-    "option_4": "Error message positioning",
+    "option_1": "Vertical alignment on screen",
+    "option_2": "Error message positioning",
+    "option_3": "Left or right justification of data in field",
+    "option_4": "Field validation method",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -3294,13 +3294,13 @@
     "topic": "IMS DC - Screen Handling",
     "difficulty": "Easy",
     "question": "What is the standard screen size for a 3270 terminal model 2?",
-    "option_1": "24 rows by 80 columns",
-    "option_2": "25 rows by 80 columns",
-    "option_3": "24 rows by 132 columns",
-    "option_4": "32 rows by 80 columns",
+    "option_1": "24 rows by 132 columns",
+    "option_2": "32 rows by 80 columns",
+    "option_3": "24 rows by 80 columns",
+    "option_4": "25 rows by 80 columns",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -3310,8 +3310,8 @@
     "question": "What does the MDT (Modified Data Tag) attribute indicate?",
     "option_1": "Field has been modified by user",
     "option_2": "Field contains master data",
-    "option_3": "Field is mandatory",
-    "option_4": "Field is for date entry",
+    "option_3": "Field is for date entry",
+    "option_4": "Field is mandatory",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3322,13 +3322,13 @@
     "topic": "IMS DC - Screen Handling",
     "difficulty": "Medium",
     "question": "Which 3270 attribute makes a field invisible to the user?",
-    "option_1": "Dark/Non-display attribute",
+    "option_1": "Protected attribute",
     "option_2": "Hidden attribute",
-    "option_3": "Protected attribute",
-    "option_4": "Masked attribute",
+    "option_3": "Masked attribute",
+    "option_4": "Dark/Non-display attribute",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -3336,13 +3336,13 @@
     "topic": "IMS DC - Screen Handling",
     "difficulty": "Hard",
     "question": "What happens when a user presses ENTER on a 3270 screen?",
-    "option_1": "Only fields with MDT on are transmitted",
-    "option_2": "All fields are transmitted",
-    "option_3": "Only unprotected fields are transmitted",
-    "option_4": "Only modified unprotected fields are transmitted",
+    "option_1": "Only unprotected fields are transmitted",
+    "option_2": "Only fields with MDT on are transmitted",
+    "option_3": "Only modified unprotected fields are transmitted",
+    "option_4": "All fields are transmitted",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -3350,13 +3350,13 @@
     "topic": "IMS DC - Screen Handling",
     "difficulty": "Medium",
     "question": "How can a program clear the entire screen?",
-    "option_1": "Send ERASE WRITE command via MFS or control characters",
-    "option_2": "Use CLEAR PCB call",
-    "option_3": "Issue DELETE SCREEN command",
-    "option_4": "Send blank message",
+    "option_1": "Use CLEAR PCB call",
+    "option_2": "Send blank message",
+    "option_3": "Send ERASE WRITE command via MFS or control characters",
+    "option_4": "Issue DELETE SCREEN command",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -3364,13 +3364,13 @@
     "topic": "IMS DC - Screen Handling",
     "difficulty": "Hard",
     "question": "What is cursor positioning in IMS DC screen handling?",
-    "option_1": "Placing cursor at specific screen location for user input",
-    "option_2": "Moving cursor automatically through fields",
-    "option_3": "Cursor blinking control",
-    "option_4": "Cursor shape definition",
+    "option_1": "Moving cursor automatically through fields",
+    "option_2": "Cursor shape definition",
+    "option_3": "Placing cursor at specific screen location for user input",
+    "option_4": "Cursor blinking control",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -3378,13 +3378,13 @@
     "topic": "IMS DC - Screen Handling",
     "difficulty": "Medium",
     "question": "Which MFS parameter positions the cursor on a screen?",
-    "option_1": "CURSOR parameter",
-    "option_2": "POSITION parameter",
-    "option_3": "LOCATE parameter",
-    "option_4": "POINT parameter",
+    "option_1": "POSITION parameter",
+    "option_2": "CURSOR parameter",
+    "option_3": "POINT parameter",
+    "option_4": "LOCATE parameter",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -3392,13 +3392,13 @@
     "topic": "IMS DC - Screen Handling",
     "difficulty": "Medium",
     "question": "What are extended highlighting attributes used for?",
-    "option_1": "Color, blinking, reverse video, underline",
-    "option_2": "Font size changes",
-    "option_3": "Graphics display",
+    "option_1": "Font size changes",
+    "option_2": "Graphics display",
+    "option_3": "Color, blinking, reverse video, underline",
     "option_4": "Sound effects",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -3407,9 +3407,9 @@
     "difficulty": "Easy",
     "question": "What does a protected field prevent?",
     "option_1": "User from typing into the field",
-    "option_2": "Field from being displayed",
-    "option_3": "Field from being read by program",
-    "option_4": "Field from being colored",
+    "option_2": "Field from being colored",
+    "option_3": "Field from being displayed",
+    "option_4": "Field from being read by program",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3420,13 +3420,13 @@
     "topic": "IMS DC - Screen Handling",
     "difficulty": "Hard",
     "question": "What is the purpose of the ALARM parameter in screen formatting?",
-    "option_1": "Sound terminal alarm/beep on error",
-    "option_2": "Set time limit for user input",
-    "option_3": "Alert operator of system error",
+    "option_1": "Alert operator of system error",
+    "option_2": "Sound terminal alarm/beep on error",
+    "option_3": "Set time limit for user input",
     "option_4": "Trigger security alarm",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -3434,13 +3434,13 @@
     "topic": "IMS DC - Message Field Editing",
     "difficulty": "Medium",
     "question": "What MFS editing pattern would format a number with comma separators?",
-    "option_1": "EDIT='999,999,999'",
-    "option_2": "EDIT='FORMAT-COMMA'",
-    "option_3": "EDIT='NUMBER-MASK'",
-    "option_4": "EDIT='SEPARATE'",
+    "option_1": "EDIT='SEPARATE'",
+    "option_2": "EDIT='NUMBER-MASK'",
+    "option_3": "EDIT='FORMAT-COMMA'",
+    "option_4": "EDIT='999,999,999'",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -3448,13 +3448,13 @@
     "topic": "IMS DC - Message Field Editing",
     "difficulty": "Medium",
     "question": "How does MFS handle leading zeros in numeric fields?",
-    "option_1": "Can suppress with appropriate edit pattern",
+    "option_1": "Always suppresses leading zeros",
     "option_2": "Always displays leading zeros",
-    "option_3": "Always suppresses leading zeros",
-    "option_4": "Requires program logic",
+    "option_3": "Requires program logic",
+    "option_4": "Can suppress with appropriate edit pattern",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -3462,13 +3462,13 @@
     "topic": "IMS DC - Message Field Editing",
     "difficulty": "Hard",
     "question": "What does the 'Z' character in an edit pattern do?",
-    "option_1": "Suppresses leading zeros",
-    "option_2": "Represents zero value",
-    "option_3": "Adds zero padding",
+    "option_1": "Represents zero value",
+    "option_2": "Adds zero padding",
+    "option_3": "Suppresses leading zeros",
     "option_4": "Zones numeric field",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -3476,13 +3476,13 @@
     "topic": "IMS DC - Message Field Editing",
     "difficulty": "Medium",
     "question": "How can MFS add a currency symbol to a field?",
-    "option_1": "Include '$' in edit pattern",
-    "option_2": "Use CURRENCY parameter",
-    "option_3": "Requires program code",
-    "option_4": "Use SYMBOL parameter",
+    "option_1": "Requires program code",
+    "option_2": "Use SYMBOL parameter",
+    "option_3": "Include '$' in edit pattern",
+    "option_4": "Use CURRENCY parameter",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -3490,13 +3490,13 @@
     "topic": "IMS DC - Message Field Editing",
     "difficulty": "Hard",
     "question": "What editing can MFS perform on date fields?",
-    "option_1": "Reformatting, separator insertion, validation",
-    "option_2": "Date arithmetic only",
-    "option_3": "No date editing available",
-    "option_4": "Century windowing only",
+    "option_1": "Date arithmetic only",
+    "option_2": "No date editing available",
+    "option_3": "Century windowing only",
+    "option_4": "Reformatting, separator insertion, validation",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -3504,13 +3504,13 @@
     "topic": "IMS DC - Message Field Editing",
     "difficulty": "Medium",
     "question": "What does the 'CR' notation in an edit pattern indicate?",
-    "option_1": "Credit (negative) balance indicator",
-    "option_2": "Carriage return control",
+    "option_1": "Carriage return control",
+    "option_2": "Credit (negative) balance indicator",
     "option_3": "Create record function",
     "option_4": "Current rate display",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -3519,8 +3519,8 @@
     "difficulty": "Hard",
     "question": "How does MFS handle field overflow during editing?",
     "option_1": "Can truncate, asterisk fill, or error",
-    "option_2": "Always truncates silently",
-    "option_3": "Always errors and abends",
+    "option_2": "Always errors and abends",
+    "option_3": "Always truncates silently",
     "option_4": "Automatically expands field",
     "choice_type": "Single Choice",
     "correct_answer": [
@@ -3534,8 +3534,8 @@
     "question": "Can MFS perform uppercase/lowercase conversion?",
     "option_1": "Yes, via field attributes",
     "option_2": "No, requires program logic",
-    "option_3": "Only for alphabetic fields",
-    "option_4": "Only with special hardware",
+    "option_3": "Only with special hardware",
+    "option_4": "Only for alphabetic fields",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3546,13 +3546,13 @@
     "topic": "IMS DC - Multi-segment Messages",
     "difficulty": "Medium",
     "question": "What is a multi-segment message in IMS DC?",
-    "option_1": "Message broken into multiple logical segments",
-    "option_2": "Message sent to multiple terminals",
-    "option_3": "Message with multiple transaction codes",
-    "option_4": "Message split across multiple screens",
+    "option_1": "Message sent to multiple terminals",
+    "option_2": "Message broken into multiple logical segments",
+    "option_3": "Message split across multiple screens",
+    "option_4": "Message with multiple transaction codes",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -3560,13 +3560,13 @@
     "topic": "IMS DC - Multi-segment Messages",
     "difficulty": "Medium",
     "question": "How does a program retrieve multiple input message segments?",
-    "option_1": "Issue multiple GU or GN calls to I/O PCB",
-    "option_2": "Single GET-ALL call",
-    "option_3": "Use RETRIEVE SEGMENTS call",
-    "option_4": "Automatic concatenation by IMS",
+    "option_1": "Single GET-ALL call",
+    "option_2": "Use RETRIEVE SEGMENTS call",
+    "option_3": "Automatic concatenation by IMS",
+    "option_4": "Issue multiple GU or GN calls to I/O PCB",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -3574,13 +3574,13 @@
     "topic": "IMS DC - Multi-segment Messages",
     "difficulty": "Hard",
     "question": "What status code indicates no more message segments available?",
-    "option_1": "QD status code",
-    "option_2": "QC status code",
-    "option_3": "GB status code",
-    "option_4": "NM status code",
+    "option_1": "QC status code",
+    "option_2": "QD status code",
+    "option_3": "NM status code",
+    "option_4": "GB status code",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -3588,13 +3588,13 @@
     "topic": "IMS DC - Multi-segment Messages",
     "difficulty": "Medium",
     "question": "How does a program send a multi-segment output message?",
-    "option_1": "Issue multiple ISRT calls to I/O PCB",
-    "option_2": "Use SEND-MULTIPLE call",
-    "option_3": "Concatenate segments in program",
-    "option_4": "Use special MOD format",
+    "option_1": "Use special MOD format",
+    "option_2": "Concatenate segments in program",
+    "option_3": "Issue multiple ISRT calls to I/O PCB",
+    "option_4": "Use SEND-MULTIPLE call",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -3602,13 +3602,13 @@
     "topic": "IMS DC - Multi-segment Messages",
     "difficulty": "Hard",
     "question": "What determines segment boundaries in multi-segment messages?",
-    "option_1": "Segment size defined in MFS or program logic",
-    "option_2": "Fixed 80-byte segments",
-    "option_3": "Screen size limits",
-    "option_4": "Transaction code definition",
+    "option_1": "Fixed 80-byte segments",
+    "option_2": "Screen size limits",
+    "option_3": "Transaction code definition",
+    "option_4": "Segment size defined in MFS or program logic",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -3617,8 +3617,8 @@
     "difficulty": "Medium",
     "question": "Can segments within a message have different formats?",
     "option_1": "Yes, each segment can have unique structure",
-    "option_2": "No, all segments must be identical",
-    "option_3": "Only in conversational transactions",
+    "option_2": "Only in conversational transactions",
+    "option_3": "No, all segments must be identical",
     "option_4": "Only with MFS support",
     "choice_type": "Single Choice",
     "correct_answer": [
@@ -3630,13 +3630,13 @@
     "topic": "IMS DC - Multi-segment Messages",
     "difficulty": "Hard",
     "question": "What is message chaining in IMS DC?",
-    "option_1": "Linking multiple messages for single transaction",
-    "option_2": "Sending messages sequentially",
-    "option_3": "Connecting terminals together",
-    "option_4": "Database chain processing",
+    "option_1": "Sending messages sequentially",
+    "option_2": "Database chain processing",
+    "option_3": "Linking multiple messages for single transaction",
+    "option_4": "Connecting terminals together",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -3646,8 +3646,8 @@
     "question": "What should a program do when receiving an unexpected status code?",
     "option_1": "Check PCB, log error, send user message, rollback if needed",
     "option_2": "Ignore and continue processing",
-    "option_3": "Always abend immediately",
-    "option_4": "Return to operating system",
+    "option_3": "Return to operating system",
+    "option_4": "Always abend immediately",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3658,13 +3658,13 @@
     "topic": "IMS DC - Error Recovery",
     "difficulty": "Hard",
     "question": "What IMS call can a program use to signal abnormal termination?",
-    "option_1": "ROLL or ROLB call",
-    "option_2": "ABEND call",
-    "option_3": "TERM call",
+    "option_1": "ABEND call",
+    "option_2": "TERM call",
+    "option_3": "ROLL or ROLB call",
     "option_4": "EXIT call",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -3672,13 +3672,13 @@
     "topic": "IMS DC - Error Recovery",
     "difficulty": "Medium",
     "question": "What does the ROLL call do?",
-    "option_1": "Backs out database and message changes",
-    "option_2": "Rolls forward transaction log",
-    "option_3": "Rotates log datasets",
-    "option_4": "Rolls back operating system",
+    "option_1": "Rolls forward transaction log",
+    "option_2": "Backs out database and message changes",
+    "option_3": "Rolls back operating system",
+    "option_4": "Rotates log datasets",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -3686,13 +3686,13 @@
     "topic": "IMS DC - Error Recovery",
     "difficulty": "Hard",
     "question": "After a ROLB call, what happens to the input message?",
-    "option_1": "Can be requeued or discarded based on ROLB type",
-    "option_2": "Always requeued for retry",
-    "option_3": "Always discarded permanently",
+    "option_1": "Always requeued for retry",
+    "option_2": "Always discarded permanently",
+    "option_3": "Can be requeued or discarded based on ROLB type",
     "option_4": "Sent to error queue",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -3700,13 +3700,13 @@
     "topic": "IMS DC - Error Recovery",
     "difficulty": "Medium",
     "question": "What is the purpose of the SETS and SETO calls?",
-    "option_1": "Set commit point for database and message changes",
-    "option_2": "Set error recovery options",
-    "option_3": "Set terminal output mode",
-    "option_4": "Set security level",
+    "option_1": "Set terminal output mode",
+    "option_2": "Set commit point for database and message changes",
+    "option_3": "Set security level",
+    "option_4": "Set error recovery options",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -3714,13 +3714,13 @@
     "topic": "IMS DC - Error Recovery",
     "difficulty": "Hard",
     "question": "How should a program handle a database deadlock?",
-    "option_1": "Receive BA status, issue ROLB, retry or exit",
-    "option_2": "Wait indefinitely for lock release",
-    "option_3": "Force lock override",
-    "option_4": "Abend immediately",
+    "option_1": "Wait indefinitely for lock release",
+    "option_2": "Force lock override",
+    "option_3": "Abend immediately",
+    "option_4": "Receive BA status, issue ROLB, retry or exit",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -3730,8 +3730,8 @@
     "question": "What information should error messages to users include?",
     "option_1": "Clear description, action required, contact info if needed",
     "option_2": "Technical status codes only",
-    "option_3": "Complete abend dump",
-    "option_4": "Database structure details",
+    "option_3": "Database structure details",
+    "option_4": "Complete abend dump",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3742,13 +3742,13 @@
     "topic": "IMS DC - Error Recovery",
     "difficulty": "Hard",
     "question": "What happens to output messages after a ROLB?",
-    "option_1": "All output messages are discarded",
+    "option_1": "Only error messages are sent",
     "option_2": "Output messages are still sent",
-    "option_3": "Only error messages are sent",
+    "option_3": "All output messages are discarded",
     "option_4": "Output is queued for manual review",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -3758,8 +3758,8 @@
     "question": "What DL/I call transfers control to another IMS program?",
     "option_1": "XRST (Transfer)",
     "option_2": "CALL",
-    "option_3": "LINK",
-    "option_4": "SWITCH",
+    "option_3": "SWITCH",
+    "option_4": "LINK",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3772,8 +3772,8 @@
     "question": "What happens to database position after program switch (XRST)?",
     "option_1": "Position is maintained for called program",
     "option_2": "Position is reset to beginning",
-    "option_3": "Position is lost completely",
-    "option_4": "Depends on PCB type",
+    "option_3": "Depends on PCB type",
+    "option_4": "Position is lost completely",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3784,13 +3784,13 @@
     "topic": "IMS DC - Program Switching",
     "difficulty": "Medium",
     "question": "Can a program switch return control to the calling program?",
-    "option_1": "No, XRST is one-way transfer",
-    "option_2": "Yes, automatically returns",
-    "option_3": "Yes, with RETURN call",
+    "option_1": "Yes, automatically returns",
+    "option_2": "Yes, with RETURN call",
+    "option_3": "No, XRST is one-way transfer",
     "option_4": "Only in conversational mode",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -3812,13 +3812,13 @@
     "topic": "IMS DC - Program Switching",
     "difficulty": "Medium",
     "question": "Why use program switching instead of COBOL CALL?",
-    "option_1": "XRST provides IMS context and PCB access",
-    "option_2": "XRST is faster",
-    "option_3": "XRST uses less memory",
-    "option_4": "COBOL CALL not supported",
+    "option_1": "XRST is faster",
+    "option_2": "COBOL CALL not supported",
+    "option_3": "XRST provides IMS context and PCB access",
+    "option_4": "XRST uses less memory",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -3826,13 +3826,13 @@
     "topic": "IMS DC - Program Switching",
     "difficulty": "Hard",
     "question": "What security applies when switching programs?",
-    "option_1": "Target program must be authorized for transaction",
-    "option_2": "No security checks performed",
+    "option_1": "User must reauthorize",
+    "option_2": "Target program must be authorized for transaction",
     "option_3": "Original program security carries over",
-    "option_4": "User must reauthorize",
+    "option_4": "No security checks performed",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -3840,13 +3840,13 @@
     "topic": "IMS DC - Transaction Restart",
     "difficulty": "Medium",
     "question": "What is transaction restart in IMS DC?",
-    "option_1": "Automatic reprocessing of failed transaction",
-    "option_2": "Manual transaction resubmission",
-    "option_3": "System restart after crash",
-    "option_4": "Transaction code redefinition",
+    "option_1": "Manual transaction resubmission",
+    "option_2": "Automatic reprocessing of failed transaction",
+    "option_3": "Transaction code redefinition",
+    "option_4": "System restart after crash",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -3855,9 +3855,9 @@
     "difficulty": "Hard",
     "question": "When does IMS automatically restart a transaction?",
     "option_1": "After certain abends or system failures",
-    "option_2": "After every abend",
-    "option_3": "Never automatically",
-    "option_4": "Only during scheduled maintenance",
+    "option_2": "Never automatically",
+    "option_3": "Only during scheduled maintenance",
+    "option_4": "After every abend",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3868,13 +3868,13 @@
     "topic": "IMS DC - Transaction Restart",
     "difficulty": "Hard",
     "question": "What is a checkpoint in the context of transaction processing?",
-    "option_1": "Point where transaction state is saved for recovery",
+    "option_1": "Performance measurement point",
     "option_2": "End of transaction",
-    "option_3": "Security validation point",
-    "option_4": "Performance measurement point",
+    "option_3": "Point where transaction state is saved for recovery",
+    "option_4": "Security validation point",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -3882,13 +3882,13 @@
     "topic": "IMS DC - Transaction Restart",
     "difficulty": "Medium",
     "question": "How can a program make itself non-restartable?",
-    "option_1": "Issue ROLB call or define transaction as non-restartable",
+    "option_1": "Set NORESTART flag",
     "option_2": "Cannot prevent restart",
-    "option_3": "Set NORESTART flag",
+    "option_3": "Issue ROLB call or define transaction as non-restartable",
     "option_4": "Use special PCB option",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -3897,9 +3897,9 @@
     "difficulty": "Hard",
     "question": "What programming practice helps ensure clean transaction restart?",
     "option_1": "Design idempotent operations, avoid external side effects",
-    "option_2": "Use global variables",
-    "option_3": "Cache all data in memory",
-    "option_4": "Disable all error checking",
+    "option_2": "Disable all error checking",
+    "option_3": "Use global variables",
+    "option_4": "Cache all data in memory",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3910,13 +3910,13 @@
     "topic": "IMS DC - Transaction Restart",
     "difficulty": "Medium",
     "question": "What happens to database updates during automatic restart?",
-    "option_1": "Rolled back and reapplied during restart",
-    "option_2": "Lost permanently",
-    "option_3": "Kept as-is from failed run",
-    "option_4": "Manually recovered",
+    "option_1": "Lost permanently",
+    "option_2": "Rolled back and reapplied during restart",
+    "option_3": "Manually recovered",
+    "option_4": "Kept as-is from failed run",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -3925,9 +3925,9 @@
     "difficulty": "Medium",
     "question": "Where should input data validation occur?",
     "option_1": "As early as possible in application logic",
-    "option_2": "Only at database update time",
-    "option_3": "Only in batch programs",
-    "option_4": "Validation not needed with MFS",
+    "option_2": "Only in batch programs",
+    "option_3": "Validation not needed with MFS",
+    "option_4": "Only at database update time",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3939,8 +3939,8 @@
     "difficulty": "Medium",
     "question": "What types of validation should online programs perform?",
     "option_1": "Format, range, required fields, cross-field edits",
-    "option_2": "Only numeric validation",
-    "option_3": "Only database constraint checking",
+    "option_2": "Only database constraint checking",
+    "option_3": "Only numeric validation",
     "option_4": "No validation needed",
     "choice_type": "Single Choice",
     "correct_answer": [
@@ -3952,13 +3952,13 @@
     "topic": "IMS DC - Data Validation",
     "difficulty": "Hard",
     "question": "How should a program handle multiple validation errors?",
-    "option_1": "Collect all errors and report together",
-    "option_2": "Report first error only",
-    "option_3": "Abend on first error",
-    "option_4": "Ignore all but critical errors",
+    "option_1": "Abend on first error",
+    "option_2": "Ignore all but critical errors",
+    "option_3": "Report first error only",
+    "option_4": "Collect all errors and report together",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -3967,9 +3967,9 @@
     "difficulty": "Medium",
     "question": "What special COBOL division is used for IMS programs?",
     "option_1": "No special division, standard COBOL structure",
-    "option_2": "IMS DIVISION",
-    "option_3": "DL/I DIVISION",
-    "option_4": "TRANSACTION DIVISION",
+    "option_2": "TRANSACTION DIVISION",
+    "option_3": "IMS DIVISION",
+    "option_4": "DL/I DIVISION",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -3980,13 +3980,13 @@
     "topic": "IMS DC - COBOL Program Structure",
     "difficulty": "Medium",
     "question": "Where are PCB masks defined in COBOL?",
-    "option_1": "LINKAGE SECTION",
-    "option_2": "WORKING-STORAGE SECTION",
-    "option_3": "FILE SECTION",
-    "option_4": "LOCAL-STORAGE SECTION",
+    "option_1": "FILE SECTION",
+    "option_2": "LOCAL-STORAGE SECTION",
+    "option_3": "WORKING-STORAGE SECTION",
+    "option_4": "LINKAGE SECTION",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -3994,13 +3994,13 @@
     "topic": "IMS DC - COBOL Program Structure",
     "difficulty": "Hard",
     "question": "What is the ENTRY parameter 'DLITCBL' used for?",
-    "option_1": "Entry point for IMS to call COBOL program",
-    "option_2": "Database entry definition",
-    "option_3": "Transaction entry point",
+    "option_1": "Transaction entry point",
+    "option_2": "Entry point for IMS to call COBOL program",
+    "option_3": "Database entry definition",
     "option_4": "Error entry routine",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -4009,9 +4009,9 @@
     "difficulty": "Medium",
     "question": "How does a COBOL program receive its PCB addresses?",
     "option_1": "Via ENTRY USING statement parameters",
-    "option_2": "From WORKING-STORAGE",
+    "option_2": "From JCL parameters",
     "option_3": "Through ACCEPT statement",
-    "option_4": "From JCL parameters",
+    "option_4": "From WORKING-STORAGE",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -4036,13 +4036,13 @@
     "topic": "IMS DC - COBOL Program Structure",
     "difficulty": "Medium",
     "question": "How should a COBOL IMS program terminate normally?",
-    "option_1": "GOBACK or STOP RUN statement",
+    "option_1": "EXIT PROGRAM only",
     "option_2": "ROLLBACK statement",
-    "option_3": "EXIT PROGRAM only",
-    "option_4": "TERMINATE DLI",
+    "option_3": "TERMINATE DLI",
+    "option_4": "GOBACK or STOP RUN statement",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -4051,9 +4051,9 @@
     "difficulty": "Medium",
     "question": "Can IMS COBOL programs use files (FILE SECTION)?",
     "option_1": "Generally no, should use DL/I for data access",
-    "option_2": "Yes, fully supported",
-    "option_3": "Only sequential files",
-    "option_4": "Only for output",
+    "option_2": "Only sequential files",
+    "option_3": "Only for output",
+    "option_4": "Yes, fully supported",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -4064,13 +4064,13 @@
     "topic": "IMS DC - PCB Details",
     "difficulty": "Hard",
     "question": "What field in the I/O PCB contains the message sequence number?",
-    "option_1": "Not standard in I/O PCB, may be in alternate PCB",
-    "option_2": "MSG-SEQ-NUM field",
-    "option_3": "SEQUENCE-FIELD",
+    "option_1": "MSG-SEQ-NUM field",
+    "option_2": "SEQUENCE-FIELD",
+    "option_3": "Not standard in I/O PCB, may be in alternate PCB",
     "option_4": "TRANS-SEQ field",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -4078,13 +4078,13 @@
     "topic": "IMS DC - PCB Details",
     "difficulty": "Medium",
     "question": "What does the LTERM field in I/O PCB identify?",
-    "option_1": "Logical terminal name (8 characters)",
-    "option_2": "Physical terminal address",
+    "option_1": "Terminal type code",
+    "option_2": "Logical terminal name (8 characters)",
     "option_3": "User ID",
-    "option_4": "Terminal type code",
+    "option_4": "Physical terminal address",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -4092,13 +4092,13 @@
     "topic": "IMS DC - Status Codes",
     "difficulty": "Medium",
     "question": "What does status code 'QC' indicate?",
-    "option_1": "No more input message segments (message complete)",
-    "option_2": "Queue is closed",
-    "option_3": "Query completed",
-    "option_4": "Quick commit performed",
+    "option_1": "Queue is closed",
+    "option_2": "No more input message segments (message complete)",
+    "option_3": "Quick commit performed",
+    "option_4": "Query completed",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -4106,13 +4106,13 @@
     "topic": "IMS DC - Status Codes",
     "difficulty": "Hard",
     "question": "What status code indicates segment not found in database?",
-    "option_1": "GE status code",
-    "option_2": "NF status code",
-    "option_3": "GB status code",
+    "option_1": "NF status code",
+    "option_2": "GB status code",
+    "option_3": "GE status code",
     "option_4": "NS status code",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -4120,13 +4120,13 @@
     "topic": "IMS DC - Status Codes",
     "difficulty": "Hard",
     "question": "What does 'BA' status code mean?",
-    "option_1": "Resource unavailable/deadlock detected",
-    "option_2": "Bad address in call",
-    "option_3": "Batch mode active",
-    "option_4": "Buffer allocation failed",
+    "option_1": "Batch mode active",
+    "option_2": "Buffer allocation failed",
+    "option_3": "Bad address in call",
+    "option_4": "Resource unavailable/deadlock detected",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_4"
     ]
   },
   {
@@ -4135,9 +4135,9 @@
     "difficulty": "Medium",
     "question": "What status indicates successful database update?",
     "option_1": "Blank or spaces status code",
-    "option_2": "OK status code",
-    "option_3": "00 status code",
-    "option_4": "SU status code",
+    "option_2": "00 status code",
+    "option_3": "SU status code",
+    "option_4": "OK status code",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -4149,9 +4149,9 @@
     "difficulty": "Hard",
     "question": "Why should online programs minimize database holds?",
     "option_1": "Reduce contention and improve concurrency",
-    "option_2": "Save memory",
-    "option_3": "Improve screen response",
-    "option_4": "Reduce network traffic",
+    "option_2": "Reduce network traffic",
+    "option_3": "Save memory",
+    "option_4": "Improve screen response",
     "choice_type": "Single Choice",
     "correct_answer": [
       "option_1"
@@ -4162,13 +4162,13 @@
     "topic": "IMS DC - Best Practices",
     "difficulty": "Medium",
     "question": "What is a common pitfall in IMS DC programming?",
-    "option_1": "Not checking status codes after every DL/I call",
+    "option_1": "Making programs too modular",
     "option_2": "Using too many comments",
-    "option_3": "Making programs too modular",
+    "option_3": "Not checking status codes after every DL/I call",
     "option_4": "Testing too thoroughly",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   },
   {
@@ -4176,13 +4176,13 @@
     "topic": "IMS DC - Real-world Application",
     "difficulty": "Hard",
     "question": "In a customer inquiry transaction, what's the recommended approach?",
-    "option_1": "Retrieve data, format output, send to user, no database holds",
-    "option_2": "Hold database locks during user review",
-    "option_3": "Update database with inquiry timestamp",
-    "option_4": "Always use conversational mode",
+    "option_1": "Update database with inquiry timestamp",
+    "option_2": "Retrieve data, format output, send to user, no database holds",
+    "option_3": "Always use conversational mode",
+    "option_4": "Hold database locks during user review",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_2"
     ]
   },
   {
@@ -4190,13 +4190,13 @@
     "topic": "IMS DC - Real-world Application",
     "difficulty": "Hard",
     "question": "For a complex update transaction requiring validation from multiple sources, what's best?",
-    "option_1": "Gather all data, validate completely, then update atomically",
-    "option_2": "Update as you go, validating each piece",
-    "option_3": "Skip validation to improve performance",
-    "option_4": "Use separate transactions for each piece",
+    "option_1": "Skip validation to improve performance",
+    "option_2": "Use separate transactions for each piece",
+    "option_3": "Gather all data, validate completely, then update atomically",
+    "option_4": "Update as you go, validating each piece",
     "choice_type": "Single Choice",
     "correct_answer": [
-      "option_1"
+      "option_3"
     ]
   }
 ]
