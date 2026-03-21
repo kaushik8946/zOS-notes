@@ -2,19 +2,6 @@
 
 **Total Questions:** 300
 
-**Distribution by Module:**
-- Module 1 (Hierarchical Structures): 40 questions
-- Module 2 (Control Blocks - DBD/PSB/PCB): 40 questions
-- Module 3 (COBOL DL/I Programming): 35 questions
-- Module 4 (SSAs): 45 questions
-- Module 5 (Data Retrieval - GU/GN/GNP/GHU/GHN/GHNP): 45 questions
-- Module 6 (Modification - ISRT/REPL/DLET): 40 questions
-- Module 7 (Secondary Indexing): 20 questions
-- Module 8 (Logical Databases): 10 questions
-- Module 9 (Recovery/Restart): 10 questions
-- Module 10 (Database Organizations): 10 questions
-- Module 11 (Advanced Features): 5 questions
-
 ---
 
 ### Q1. What is the top segment in an IMS hierarchy called?
@@ -23,12 +10,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Root segment
+1. Master segment
 2. Parent segment
-3. Master segment
-4. Top segment
+3. Top segment
+4. Root segment
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -38,12 +25,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Only one
-2. Two
-3. Unlimited
-4. Depends on DBD
+1. Depends on DBD
+2. Unlimited
+3. Only one
+4. Two
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -53,12 +40,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Segments with same parent and segment type
-2. Identical segments
+1. Identical segments
+2. Backup segments
 3. Duplicate segments
-4. Backup segments
+4. Segments with same parent and segment type
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -68,12 +55,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Physical child pointer
-2. Logical pointer
-3. DBD specification
+1. Logical pointer
+2. DBD specification
+3. Physical child pointer
 4. PSB mapping
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -83,12 +70,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. A segment below root in hierarchy
-2. A deleted segment
-3. A backup segment
-4. An indexed segment
+1. A deleted segment
+2. A backup segment
+3. An indexed segment
+4. A segment below root in hierarchy
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -98,12 +85,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. 15
-2. 20
+1. 20
+2. 255
 3. 10
-4. 255
+4. 15
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -113,12 +100,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Segment directly connected in DBD
+1. Root segment
 2. Any descendant
-3. Root segment
+3. Segment directly connected in DBD
 4. Indexed segment
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -128,12 +115,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Route from root to target segment
-2. All segments
-3. Database structure
-4. Index path
+1. All segments
+2. Index path
+3. Route from root to target segment
+4. Database structure
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -144,8 +131,8 @@
 **Type:** Single Choice
 
 1. Instance of segment type
-2. Segment definition
-3. Segment pointer
+2. Segment pointer
+3. Segment definition
 4. Segment buffer
 
 **Correct Answer:** Option 1
@@ -158,12 +145,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. By sequence field or insertion
-2. Randomly
-3. By size
-4. Alphabetically
+1. By size
+2. Alphabetically
+3. By sequence field or insertion
+4. Randomly
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -173,12 +160,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Segment one level below parent
+1. Root segment
 2. Any dependent
-3. Root segment
-4. Last segment
+3. Last segment
+4. Segment one level below parent
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -188,12 +175,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Top to bottom, left to right order
-2. Random order
-3. Size order
-4. Time order
+1. Time order
+2. Size order
+3. Random order
+4. Top to bottom, left to right order
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -203,12 +190,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Sequence field or FIRST/LAST/HERE
+1. Creation time
 2. Random
-3. Size
-4. Creation time
+3. Sequence field or FIRST/LAST/HERE
+4. Size
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -218,12 +205,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Segment with no children
-2. Root segment
-3. First segment
-4. Deleted segment
+1. First segment
+2. Deleted segment
+3. Root segment
+4. Segment with no children
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -235,8 +222,8 @@
 
 1. Segments sharing same parent
 2. Any related segments
-3. Root segments
-4. Deleted segments
+3. Deleted segments
+4. Root segments
 
 **Correct Answer:** Option 1
 
@@ -248,12 +235,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Root and all dependents
-2. Single segment
+1. PCB entry
+2. Root and all dependents
 3. Database definition
-4. PCB entry
+4. Single segment
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -263,12 +250,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Any segment below in hierarchy
-2. Direct child only
+1. Direct child only
+2. Peer segment
 3. Root segment
-4. Peer segment
+4. Any segment below in hierarchy
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -278,12 +265,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Pointer systems in database
-2. DBD only
-3. PSB only
-4. Application code
+1. DBD only
+2. Application code
+3. Pointer systems in database
+4. PSB only
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -293,12 +280,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Physical or logical pointers
-2. Keys only
-3. Names only
-4. Indexes
+1. Indexes
+2. Names only
+3. Keys only
+4. Physical or logical pointers
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -324,9 +311,9 @@
 **Type:** Single Choice
 
 1. Processing order in hierarchy
-2. Segment priority
-3. Access method
-4. Database type
+2. Access method
+3. Database type
+4. Segment priority
 
 **Correct Answer:** Option 1
 
@@ -339,9 +326,9 @@
 **Type:** Single Choice
 
 1. Distance from root
-2. Segment size
+2. Processing order
 3. Number of children
-4. Processing order
+4. Segment size
 
 **Correct Answer:** Option 1
 
@@ -353,12 +340,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Always one
-2. Multiple allowed
+1. Multiple allowed
+2. Depends on organization
 3. Zero allowed
-4. Depends on organization
+4. Always one
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -368,12 +355,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Sequence field value
-2. Memory address
-3. Creation time
-4. Segment name
+1. Creation time
+2. Segment name
+3. Sequence field value
+4. Memory address
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -383,12 +370,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. DBD
-2. PSB
-3. PCB
+1. PCB
+2. DBD
+3. PSB
 4. ACB
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -398,12 +385,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Segment defined as parent in DBD
-2. Any ancestor
-3. Root segment
-4. Previous segment
+1. Any ancestor
+2. Previous segment
+3. Segment defined as parent in DBD
+4. Root segment
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -413,12 +400,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Segment name definition in DBD
-2. Segment instance
-3. Segment value
-4. Segment pointer
+1. Segment pointer
+2. Segment value
+3. Segment instance
+4. Segment name definition in DBD
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -428,12 +415,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Order twins uniquely
-2. Index database
-3. Point to parent
-4. Store data
+1. Index database
+2. Store data
+3. Order twins uniquely
+4. Point to parent
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -443,12 +430,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. All sequence fields from root to segment
+1. Foreign key
 2. Multiple keys
-3. Compound key
-4. Foreign key
+3. All sequence fields from root to segment
+4. Compound key
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -473,12 +460,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Parent-child relationships maintained
-2. No duplicates
-3. Indexed properly
-4. Backed up
+1. Indexed properly
+2. Parent-child relationships maintained
+3. Backed up
+4. No duplicates
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -489,9 +476,9 @@
 **Type:** Single Choice
 
 1. All dependents automatically
-2. Root only
+2. Requires manual deletion
 3. Nothing
-4. Requires manual deletion
+4. Root only
 
 **Correct Answer:** Option 1
 
@@ -518,12 +505,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. All keys from root to segment
-2. Segment key only
-3. Parent key only
-4. All segment keys
+1. Segment key only
+2. All segment keys
+3. All keys from root to segment
+4. Parent key only
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -533,12 +520,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Parent-child and twin relationships
-2. Data only
-3. Index only
+1. Data only
+2. Index only
+3. Parent-child and twin relationships
 4. Nothing
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -548,12 +535,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. Segment and all ancestors
-2. Segment only
-3. All descendants
-4. Root only
+1. Segment only
+2. All descendants
+3. Root only
+4. Segment and all ancestors
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -563,12 +550,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Parent must exist
-2. Root exists only
+1. Root exists only
+2. Parent must exist
 3. Nothing
 4. Index exists
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -579,8 +566,8 @@
 **Type:** Single Choice
 
 1. Linked list of same segment type under parent
-2. Any segments
-3. Root segments
+2. Root segments
+3. Any segments
 4. Index entries
 
 **Correct Answer:** Option 1
@@ -593,12 +580,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Must traverse from root
-2. Direct access only
-3. Random access
-4. Sequential only
+1. Direct access only
+2. Must traverse from root
+3. Sequential only
+4. Random access
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -608,12 +595,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. Which segments application can access
+1. Nothing
 2. Segment size
 3. Segment location
-4. Nothing
+4. Which segments application can access
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -623,12 +610,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Database Description
+1. Direct Block Data
 2. Database Definition
-3. Data Block Description
-4. Direct Block Data
+3. Database Description
+4. Data Block Description
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -638,12 +625,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Program Specification Block
+1. Processing Segment Block
 2. Program Structure Block
-3. Processing Segment Block
+3. Program Specification Block
 4. Program Status Block
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -653,12 +640,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Program Communication Block
+1. Program Code Block
 2. Program Control Block
 3. Processing Control Block
-4. Program Code Block
+4. Program Communication Block
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -668,12 +655,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. DBDGEN utility
-2. PSBGEN utility
+1. Compiler
+2. DBDGEN utility
 3. ACBGEN utility
-4. Compiler
+4. PSBGEN utility
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -683,12 +670,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. PSBGEN utility
-2. DBDGEN utility
-3. Compiler
-4. Linkage editor
+1. DBDGEN utility
+2. PSBGEN utility
+3. Linkage editor
+4. Compiler
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -698,12 +685,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. PSB
-2. DBD
-3. ACB
-4. Application code
+1. ACB
+2. PSB
+3. Application code
+4. DBD
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -713,12 +700,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Physical database structure
+1. Processing options
 2. Program view
 3. Application logic
-4. Processing options
+4. Physical database structure
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -728,12 +715,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Application's view of database
-2. Physical structure
-3. Storage method
+1. Physical structure
+2. Storage method
+3. Application's view of database
 4. Access method
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -743,12 +730,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. One or more
-2. Always one
-3. Exactly two
-4. Maximum five
+1. Maximum five
+2. One or more
+3. Always one
+4. Exactly two
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -758,12 +745,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Database view for specific processing
-2. Physical structure
-3. All databases
-4. Storage allocation
+1. Physical structure
+2. All databases
+3. Storage allocation
+4. Database view for specific processing
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -773,12 +760,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Sensitive segment
+1. Secondary segment
 2. Sensor segment
 3. Sequential segment
-4. Secondary segment
+4. Sensitive segment
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -788,12 +775,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. G, I, R, D, A
-2. Read, Write
+1. Read, Write
+2. Get, Put
 3. Input, Output
-4. Get, Put
+4. G, I, R, D, A
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -804,9 +791,9 @@
 **Type:** Single Choice
 
 1. Get (read only)
-2. Get and Insert
+2. Generate
 3. General processing
-4. Generate
+4. Get and Insert
 
 **Correct Answer:** Option 1
 
@@ -819,9 +806,9 @@
 **Type:** Single Choice
 
 1. Get and Insert
-2. Get Index
-3. General Insert
-4. Get Information
+2. General Insert
+3. Get Information
+4. Get Index
 
 **Correct Answer:** Option 1
 
@@ -833,12 +820,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Get, Insert, Replace, Delete
-2. General processing
+1. Get Insert Retrieve Data
+2. Get, Insert, Replace, Delete
 3. Get Index Read Delete
-4. Get Insert Retrieve Data
+4. General processing
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -849,9 +836,9 @@
 **Type:** Single Choice
 
 1. Application Control Block
-2. Access Control Block
-3. Active Control Block
-4. Application Code Block
+2. Application Code Block
+3. Access Control Block
+4. Active Control Block
 
 **Correct Answer:** Option 1
 
@@ -878,12 +865,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. PCB definitions
-2. DBD definitions
-3. Segments
-4. Applications
+1. DBD definitions
+2. Segments
+3. Applications
+4. PCB definitions
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -893,12 +880,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Returns concatenated key
-2. Returns status code
-3. Returns segment name
-4. Returns nothing
+1. Returns segment name
+2. Returns nothing
+3. Returns status code
+4. Returns concatenated key
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -908,12 +895,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. PCB status code field
-2. Working storage
+1. File section
+2. PCB status code field
 3. Linkage section
-4. File section
+4. Working storage
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -923,12 +910,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Blank or spaces
-2. OK
-3. 00
-4. SUCCESS
+1. OK
+2. 00
+3. SUCCESS
+4. Blank or spaces
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -938,12 +925,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Segment not found
-2. Get error
-3. General error
-4. Good entry
+1. Good entry
+2. General error
+3. Segment not found
+4. Get error
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -953,12 +940,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. End of database
-2. Get blank
-3. Good batch
-4. Go back
+1. Get blank
+2. Go back
+3. End of database
+4. Good batch
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -970,8 +957,8 @@
 
 1. Insert error - segment exists
 2. Invalid insert
-3. Index issue
-4. Insert incomplete
+3. Insert incomplete
+4. Index issue
 
 **Correct Answer:** Option 1
 
@@ -983,12 +970,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Database name
-2. Dataset name
+1. Segment name
+2. Database name
 3. Program name
-4. Segment name
+4. Dataset name
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -998,12 +985,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Segment type
+1. Program view
 2. Processing option
-3. Program view
+3. Segment type
 4. Storage size
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -1013,12 +1000,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Field within segment
-2. Entire segment
-3. Database
+1. Entire segment
+2. Database
+3. Field within segment
 4. Processing option
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -1028,12 +1015,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Physical dataset name
+1. Segment name
 2. Logical dataset
 3. Program name
-4. Segment name
+4. Physical dataset name
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -1044,9 +1031,9 @@
 **Type:** Single Choice
 
 1. 01 level structure in linkage
-2. Working storage field
-3. File definition
-4. Procedure division item
+2. Procedure division item
+3. Working storage field
+4. File definition
 
 **Correct Answer:** Option 1
 
@@ -1058,12 +1045,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. One
-2. Two
+1. Two
+2. One
 3. Multiple
 4. Depends on size
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -1073,12 +1060,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Multiple allowed
+1. Two only
 2. One only
-3. Two only
-4. None
+3. None
+4. Multiple allowed
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -1088,12 +1075,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. All processing options
-2. Add only
-3. Alter only
-4. Access only
+1. Add only
+2. Access only
+3. All processing options
+4. Alter only
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -1103,12 +1090,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Application can access it
-2. Segment is protected
-3. Segment is indexed
-4. Segment is deleted
+1. Segment is indexed
+2. Segment is deleted
+3. Application can access it
+4. Segment is protected
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -1118,12 +1105,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Application cannot access it
-2. Segment is public
-3. Segment is unprotected
-4. Segment is optional
+1. Segment is unprotected
+2. Application cannot access it
+3. Segment is optional
+4. Segment is public
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -1133,12 +1120,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. Database organization type
-2. Processing option
-3. Application access
-4. Security level
+1. Security level
+2. Database organization type
+3. Processing option
+4. Application access
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -1148,12 +1135,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. Logical child relationship
-2. Last child
-3. Linked child
-4. Lower child
+1. Linked child
+2. Lower child
+3. Last child
+4. Logical child relationship
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -1163,12 +1150,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. Secondary index field
-2. Extra field
+1. Extra field
+2. External field
 3. Extended field
-4. External field
+4. Secondary index field
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -1178,12 +1165,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. COBOL, PL/I, ASSEM, etc.
-2. English only
-3. Any language
-4. Compiled language
+1. English only
+2. Any language
+3. Compiled language
+4. COBOL, PL/I, ASSEM, etc.
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -1194,8 +1181,8 @@
 **Type:** Single Choice
 
 1. Allowed in one PSB
-2. Not allowed
-3. Maximum two
+2. Maximum two
+3. Not allowed
 4. Requires special DBDGEN
 
 **Correct Answer:** Option 1
@@ -1208,12 +1195,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Hold segment data for DL/I call
-2. Store PCB
-3. Store DBD
-4. Store status
+1. Store DBD
+2. Hold segment data for DL/I call
+3. Store status
+4. Store PCB
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -1223,12 +1210,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. CALL 'CBLTDLI' USING...
-2. CALL 'DLITCBL' USING...
-3. EXEC DLI
-4. CALL DLI
+1. EXEC DLI
+2. CALL 'CBLTDLI' USING...
+3. CALL DLI
+4. CALL 'DLITCBL' USING...
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -1239,8 +1226,8 @@
 **Type:** Single Choice
 
 1. Function code
-2. PCB
-3. I/O area
+2. I/O area
+3. PCB
 4. SSA
 
 **Correct Answer:** Option 1
@@ -1254,9 +1241,9 @@
 **Type:** Single Choice
 
 1. PCB mask
-2. Function code
-3. I/O area
-4. SSA
+2. SSA
+3. Function code
+4. I/O area
 
 **Correct Answer:** Option 1
 
@@ -1268,12 +1255,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. I/O area
-2. Function code
-3. PCB
-4. SSA
+1. PCB
+2. SSA
+3. I/O area
+4. Function code
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -1283,12 +1270,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. LINKAGE SECTION
-2. WORKING-STORAGE
-3. PROCEDURE DIVISION
-4. FILE SECTION
+1. FILE SECTION
+2. PROCEDURE DIVISION
+3. LINKAGE SECTION
+4. WORKING-STORAGE
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -1298,12 +1285,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. WORKING-STORAGE SECTION
-2. LINKAGE SECTION
-3. PROCEDURE DIVISION
-4. FILE SECTION
+1. LINKAGE SECTION
+2. FILE SECTION
+3. WORKING-STORAGE SECTION
+4. PROCEDURE DIVISION
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -1313,12 +1300,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. PCB addresses
-2. PCB values
+1. PCB values
+2. PCB addresses
 3. Segment data
 4. Status codes
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -1328,12 +1315,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Receives PCB pointers from IMS
-2. Defines entry point
+1. Defines entry point
+2. Exits program
 3. Calls DL/I
-4. Exits program
+4. Receives PCB pointers from IMS
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -1343,12 +1330,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Returns control to IMS
-2. Goes to previous call
-3. Restarts program
-4. Calls subroutine
+1. Calls subroutine
+2. Restarts program
+3. Returns control to IMS
+4. Goes to previous call
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -1358,12 +1345,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Every DL/I call
-2. Program start only
-3. End of program
-4. Not required
+1. End of program
+2. Every DL/I call
+3. Not required
+4. Program start only
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -1373,12 +1360,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Spaces or blank
-2. Zero
+1. 00
+2. Spaces or blank
 3. OK
-4. 00
+4. Zero
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -1388,12 +1375,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. IF DB-STATUS = SPACES
-2. IF STATUS = 0
-3. IF RC = 0
-4. IF DLI-OK
+1. IF DLI-OK
+2. IF RC = 0
+3. IF STATUS = 0
+4. IF DB-STATUS = SPACES
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -1403,12 +1390,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. 01 level in WORKING-STORAGE
+1. In FILE SECTION
 2. 77 level field
-3. In LINKAGE
-4. In FILE SECTION
+3. 01 level in WORKING-STORAGE
+4. In LINKAGE
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -1419,9 +1406,9 @@
 **Type:** Single Choice
 
 1. 01 level with defined fields
-2. 77 level field
-3. Array
-4. Table
+2. Array
+3. Table
+4. 77 level field
 
 **Correct Answer:** Option 1
 
@@ -1434,9 +1421,9 @@
 **Type:** Single Choice
 
 1. PIC X(8) field
-2. PIC X(4) field
+2. PIC X(16)
 3. PIC 9(8) field
-4. PIC X(16)
+4. PIC X(4) field
 
 **Correct Answer:** Option 1
 
@@ -1448,12 +1435,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. PIC XX field
-2. PIC 9(4) field
-3. PIC X(4) field
+1. PIC X(4) field
+2. PIC XX field
+3. PIC 9(4) field
 4. PIC S9(4)
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -1463,12 +1450,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. PIC XX field
-2. PIC X(4) field
-3. PIC 9(2) field
-4. PIC S9(4)
+1. PIC 9(2) field
+2. PIC S9(4)
+3. PIC X(4) field
+4. PIC XX field
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -1478,12 +1465,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. PIC X(4) field
-2. PIC XX field
+1. PIC XX field
+2. PIC X(8)
 3. PIC 9(4) field
-4. PIC X(8)
+4. PIC X(4) field
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -1493,12 +1480,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. PIC S9(4) COMP
+1. PIC XX
 2. PIC X(4)
-3. PIC 9(4)
-4. PIC XX
+3. PIC S9(4) COMP
+4. PIC 9(4)
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -1508,12 +1495,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. PIC X field in WORKING-STORAGE
+1. In PCB
 2. In LINKAGE
-3. In PCB
-4. In I/O area
+3. In I/O area
+4. PIC X field in WORKING-STORAGE
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -1523,12 +1510,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. 9 bytes
+1. Variable
 2. 8 bytes
-3. 10 bytes
-4. Variable
+3. 9 bytes
+4. 10 bytes
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -1538,12 +1525,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. Segment-name + open-paren + qualification + close-paren
-2. Segment-name only
-3. Qualification only
-4. Command code only
+1. Segment-name only
+2. Segment-name + open-paren + qualification + close-paren
+3. Command code only
+4. Qualification only
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -1553,12 +1540,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. 4 bytes
-2. 2 bytes
-3. 8 bytes
-4. Variable
+1. 2 bytes
+2. 4 bytes
+3. Variable
+4. 8 bytes
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -1568,12 +1555,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. 'GU  '
-2. 'GET '
-3. 'GETU'
-4. 'GNUN'
+1. 'GETU'
+2. 'GU  '
+3. 'GNUN'
+4. 'GET '
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -1583,12 +1570,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. 'GN  '
-2. 'GNET'
+1. 'GNET'
+2. 'NEXT'
 3. 'GNXT'
-4. 'NEXT'
+4. 'GN  '
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -1598,12 +1585,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. 'ISRT'
-2. 'INS '
-3. 'ADD '
-4. 'PUT '
+1. 'PUT '
+2. 'ISRT'
+3. 'INS '
+4. 'ADD '
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -1613,12 +1600,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. Implicitly by number of SSAs
+1. In function code
 2. Explicit count parameter
-3. In PCB
-4. In function code
+3. Implicitly by number of SSAs
+4. In PCB
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -1628,12 +1615,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. None specific required
-2. DYNAM
-3. DLI
+1. DLI
+2. None specific required
+3. DYNAM
 4. IMS
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -1643,12 +1630,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. DFSLI000 or appropriate stub
+1. IMSDLI
 2. ILBDLI00
 3. CBLDLI
-4. IMSDLI
+4. DFSLI000 or appropriate stub
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -1658,12 +1645,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. PROCEDURE DIVISION USING
-2. WORKING-STORAGE
-3. LINKAGE SECTION
-4. IDENTIFICATION DIVISION
+1. WORKING-STORAGE
+2. IDENTIFICATION DIVISION
+3. PROCEDURE DIVISION USING
+4. LINKAGE SECTION
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -1673,12 +1660,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. Position in ENTRY USING list
+1. DBD name
 2. PCB name
-3. PCB number
-4. DBD name
+3. Position in ENTRY USING list
+4. PCB number
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -1689,9 +1676,9 @@
 **Type:** Single Choice
 
 1. PCB list in ENTRY
-2. I/O area
+2. Function code
 3. SSA
-4. Function code
+4. I/O area
 
 **Correct Answer:** Option 1
 
@@ -1703,12 +1690,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Binary numeric
-2. Packed decimal
+1. Packed decimal
+2. Binary numeric
 3. Display numeric
 4. ASCII
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -1718,12 +1705,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. Function, PCB, I/O area, SSAs
-2. PCB, Function, I/O, SSAs
-3. I/O, PCB, Function, SSAs
-4. SSAs, Function, PCB, I/O
+1. PCB, Function, I/O, SSAs
+2. I/O, PCB, Function, SSAs
+3. SSAs, Function, PCB, I/O
+4. Function, PCB, I/O area, SSAs
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -1733,12 +1720,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. DB-PCB-STATUS in PCB mask
-2. RETURN-CODE special register
-3. I/O area
-4. SSA
+1. I/O area
+2. SSA
+3. RETURN-CODE special register
+4. DB-PCB-STATUS in PCB mask
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -1748,12 +1735,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Segment Search Argument
-2. Segment Selection Area
-3. System Search Argument
+1. Segment Selection Area
+2. System Search Argument
+3. Segment Search Argument
 4. Sequential Search Area
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -1763,12 +1750,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Segment name only
-2. Segment name and qualification
-3. Qualification only
-4. Command codes only
+1. Command codes only
+2. Segment name only
+3. Segment name and qualification
+4. Qualification only
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -1778,12 +1765,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Segment name and field qualification
-2. Segment name only
-3. Command codes only
-4. Nothing
+1. Segment name only
+2. Nothing
+3. Segment name and field qualification
+4. Command codes only
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -1793,12 +1780,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. 8 bytes
-2. 4 bytes
-3. 10 bytes
-4. Variable
+1. Variable
+2. 10 bytes
+3. 4 bytes
+4. 8 bytes
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -1808,12 +1795,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. SEGNAME + space
-2. SEGNAME*
-3. SEGNAME()
-4. SEGNAME
+1. SEGNAME
+2. SEGNAME()
+3. SEGNAME + space
+4. SEGNAME*
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -1823,12 +1810,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Segment name + left paren
-2. Segment name + asterisk
-3. Segment name + space
-4. Just field name
+1. Segment name + space
+2. Segment name + left paren
+3. Just field name
+4. Segment name + asterisk
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -1839,9 +1826,9 @@
 **Type:** Single Choice
 
 1. Right paren + space
-2. Right paren only
+2. Asterisk
 3. Space only
-4. Asterisk
+4. Right paren only
 
 **Correct Answer:** Option 1
 
@@ -1853,12 +1840,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. FIELDNAME OPERATOR VALUE
-2. OPERATOR FIELDNAME VALUE
+1. OPERATOR FIELDNAME VALUE
+2. FIELDNAME OPERATOR VALUE
 3. VALUE OPERATOR FIELDNAME
 4. FIELDNAME VALUE
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -1868,12 +1855,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. = (EQ)
-2. EQ only
-3. == (EQ)
-4. .EQ.
+1. EQ only
+2. .EQ.
+3. = (EQ)
+4. == (EQ)
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -1883,12 +1870,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. > (GT)
+1. .GT.
 2. GT only
-3. .GT.
+3. > (GT)
 4. =>
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -1898,12 +1885,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. < (LT)
-2. LT only
-3. .LT.
-4. =<
+1. .LT.
+2. =<
+3. < (LT)
+4. LT only
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -1913,12 +1900,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. >= (GE)
-2. GE only
-3. .GE.
-4. =>
+1. =>
+2. >= (GE)
+3. GE only
+4. .GE.
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -1928,12 +1915,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. <= (LE)
-2. LE only
-3. .LE.
-4. =<
+1. =<
+2. .LE.
+3. <= (LE)
+4. LE only
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -1944,8 +1931,8 @@
 **Type:** Single Choice
 
 1. ¬= (NE)
-2. NE only
-3. .NE.
+2. .NE.
+3. NE only
 4. <>
 
 **Correct Answer:** Option 1
@@ -1958,12 +1945,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. After segment name, before paren
-2. Before segment name
-3. After paren
-4. At end
+1. At end
+2. After paren
+3. Before segment name
+4. After segment name, before paren
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -1988,12 +1975,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. No separator, consecutive
+1. Space
 2. Comma
-3. Space
-4. Semicolon
+3. Semicolon
+4. No separator, consecutive
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -2004,9 +1991,9 @@
 **Type:** Single Choice
 
 1. First occurrence
-2. Find
+2. Fast
 3. Forward
-4. Fast
+4. Find
 
 **Correct Answer:** Option 1
 
@@ -2018,12 +2005,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Last occurrence
+1. Link
 2. Locate
-3. Link
-4. Loop
+3. Loop
+4. Last occurrence
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -2035,8 +2022,8 @@
 
 1. Path call
 2. Delete
-3. Direct
-4. Data
+3. Data
+4. Direct
 
 **Correct Answer:** Option 1
 
@@ -2048,12 +2035,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. Set parentage
-2. Path
+1. Path
+2. Set parentage
 3. Parent
 4. Position
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -2063,12 +2050,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. Maintain position
-2. Update
+1. Update
+2. Maintain position
 3. Unload
 4. Unique
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -2078,12 +2065,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. Use current position
+1. View
 2. Verify
-3. Value
-4. View
+3. Use current position
+4. Value
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -2093,12 +2080,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. Concatenated key
-2. Continue
+1. Continue
+2. Count
 3. Check
-4. Count
+4. Concatenated key
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -2108,12 +2095,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. Path call, this level only
-2. Next
-3. Null
-4. Navigate
+1. Navigate
+2. Path call, this level only
+3. Next
+4. Null
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -2125,8 +2112,8 @@
 
 1. Enqueue segment
 2. Query
-3. Queue
-4. Qualified
+3. Qualified
+4. Queue
 
 **Correct Answer:** Option 1
 
@@ -2138,12 +2125,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. Boolean operators
+1. OR operator
 2. Comma separator
 3. AND implied
-4. OR operator
+4. Boolean operators
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -2155,8 +2142,8 @@
 
 1. * (ampersand &)
 2. AND
-3. +
-4. .AND.
+3. .AND.
+4. +
 
 **Correct Answer:** Option 1
 
@@ -2169,9 +2156,9 @@
 **Type:** Single Choice
 
 1. + (plus)
-2. OR
-3. |
-4. .OR.
+2. .OR.
+3. OR
+4. |
 
 **Correct Answer:** Option 1
 
@@ -2183,12 +2170,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. 8 bytes
-2. 4 bytes
-3. 10 bytes
-4. Variable
+1. 10 bytes
+2. Variable
+3. 8 bytes
+4. 4 bytes
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -2198,12 +2185,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Variable, field dependent
-2. Fixed 8 bytes
+1. Fixed 8 bytes
+2. Variable, field dependent
 3. Fixed 4 bytes
 4. Fixed 10 bytes
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -2213,12 +2200,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. *= operator
-2. %= operator
-3. ~= operator
-4. &= operator
+1. &= operator
+2. *= operator
+3. %= operator
+4. ~= operator
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -2228,12 +2215,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Root segment name
-2. Empty SSA
-3. NULL
-4. Not required
+1. Not required
+2. Root segment name
+3. Empty SSA
+4. NULL
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -2259,8 +2246,8 @@
 **Type:** Single Choice
 
 1. Database hierarchy
-2. PSB hierarchy
-3. PCB hierarchy
+2. PCB hierarchy
+3. PSB hierarchy
 4. Application hierarchy
 
 **Correct Answer:** Option 1
@@ -2274,9 +2261,9 @@
 **Type:** Single Choice
 
 1. Status code error
-2. Compilation error
+2. Warning only
 3. Runtime crash
-4. Warning only
+4. Compilation error
 
 **Correct Answer:** Option 1
 
@@ -2288,12 +2275,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Defined in DBD
-2. In PCB
+1. In I/O area
+2. Defined in DBD
 3. In PSB
-4. In I/O area
+4. In PCB
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -2305,8 +2292,8 @@
 
 1. Specifies hierarchical path
 2. Not allowed
-3. Optional only
-4. For parallel processing
+3. For parallel processing
+4. Optional only
 
 **Correct Answer:** Option 1
 
@@ -2318,12 +2305,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. Use current position
+1. Error
 2. Get root
-3. Error
-4. Get all
+3. Get all
+4. Use current position
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -2333,12 +2320,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Positions in database
-2. Updates segment
-3. Deletes segment
-4. Inserts segment
+1. Inserts segment
+2. Deletes segment
+3. Positions in database
+4. Updates segment
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -2348,12 +2335,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Continues sequential retrieval
-2. Gets unique
-3. Gets next root
-4. Gets parent
+1. Gets unique
+2. Gets next root
+3. Gets parent
+4. Continues sequential retrieval
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -2363,12 +2350,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Gets next occurrence of segment type
-2. Gets specific segment
+1. Gets specific segment
+2. Gets next occurrence of segment type
 3. Gets root
 4. Gets all
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -2378,12 +2365,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. After segment name, before paren
-2. Before segment name
-3. After value
+1. After value
+2. After segment name, before paren
+3. Before segment name
 4. In qualification
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -2394,8 +2381,8 @@
 **Type:** Single Choice
 
 1. Required to fill segment name field
-2. Not required
-3. Optional
+2. Optional
+3. Not required
 4. Forbidden
 
 **Correct Answer:** Option 1
@@ -2408,12 +2395,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Segment names must match DBD
-2. Case insensitive
-3. Upper case only
-4. Lower case only
+1. Lower case only
+2. Upper case only
+3. Segment names must match DBD
+4. Case insensitive
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -2423,12 +2410,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Get Unique
-2. Get Unit
-3. General Update
-4. Get Universal
+1. General Update
+2. Get Universal
+3. Get Unit
+4. Get Unique
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -2439,9 +2426,9 @@
 **Type:** Single Choice
 
 1. Get Next
-2. Get New
+2. Get Now
 3. General Navigation
-4. Get Now
+4. Get New
 
 **Correct Answer:** Option 1
 
@@ -2453,12 +2440,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Get Next within Parent
-2. Get Next Path
+1. Get Next Path
+2. Get New Parent
 3. Get Next Position
-4. Get New Parent
+4. Get Next within Parent
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -2468,12 +2455,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Get Hold Unique
-2. Get Hold Unit
-3. General Hold Update
-4. Get High Unique
+1. General Hold Update
+2. Get High Unique
+3. Get Hold Unit
+4. Get Hold Unique
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -2513,12 +2500,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Initial position in database
+1. Insert position
 2. Update mode
-3. Insert position
+3. Initial position in database
 4. Delete position
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -2528,12 +2515,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Sequential retrieval from current position
-2. From start
-3. From end
+1. From end
+2. Sequential retrieval from current position
+3. From start
 4. Random retrieval
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -2545,8 +2532,8 @@
 
 1. Current parent's children
 2. All database
-3. Current level
-4. Root segments
+3. Root segments
+4. Current level
 
 **Correct Answer:** Option 1
 
@@ -2559,9 +2546,9 @@
 **Type:** Single Choice
 
 1. Gets next root segment
-2. Causes error
-3. Gets any segment
-4. Gets first root
+2. Gets any segment
+3. Gets first root
+4. Causes error
 
 **Correct Answer:** Option 1
 
@@ -2573,12 +2560,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Gets next segment in hierarchical sequence
+1. Gets random segment
 2. Causes error
 3. Gets root
-4. Gets random segment
+4. Gets next segment in hierarchical sequence
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -2589,9 +2576,9 @@
 **Type:** Single Choice
 
 1. Enables subsequent update/delete
-2. Holds position only
-3. Locks database
-4. Holds memory
+2. Locks database
+3. Holds memory
+4. Holds position only
 
 **Correct Answer:** Option 1
 
@@ -2603,12 +2590,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. REPL or DLET of retrieved segment
-2. Retrieval only
-3. Insert only
-4. Nothing special
+1. Retrieval only
+2. REPL or DLET of retrieved segment
+3. Nothing special
+4. Insert only
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -2618,12 +2605,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Position set at retrieved segment
-2. Position at root
-3. Position unchanged
-4. Position undefined
+1. Position undefined
+2. Position unchanged
+3. Position set at retrieved segment
+4. Position at root
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -2633,12 +2620,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Position advances in hierarchical order
-2. Position at root
+1. Position at root
+2. Position advances in hierarchical order
 3. Position unchanged
 4. Position at end
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -2648,12 +2635,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Gets next segment in sequence
-2. Gets same segment
-3. Causes error
-4. Restarts from root
+1. Causes error
+2. Restarts from root
+3. Gets next segment in sequence
+4. Gets same segment
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -2664,8 +2651,8 @@
 **Type:** Single Choice
 
 1. Current parent's children only
-2. Entire database
-3. Current level
+2. Current level
+3. Entire database
 4. All descendants
 
 **Correct Answer:** Option 1
@@ -2678,12 +2665,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. Returns GB status code
-2. Continues to next parent
-3. Causes error
+1. Continues to next parent
+2. Causes error
+3. Returns GB status code
 4. Wraps to start
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -2693,12 +2680,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. End of database/parent boundary
-2. Good batch
-3. Get blank
+1. Get blank
+2. End of database/parent boundary
+3. Good batch
 4. Go back
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -2708,12 +2695,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Segment not found
-2. General error
-3. Get error
+1. Get error
+2. Segment not found
+3. General error
 4. Good entry
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -2724,9 +2711,9 @@
 **Type:** Single Choice
 
 1. GU followed by GN calls
-2. Multiple GU calls
-3. GNP only
-4. Random GU calls
+2. Random GU calls
+3. Multiple GU calls
+4. GNP only
 
 **Correct Answer:** Option 1
 
@@ -2738,12 +2725,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. Segment and all parents
-2. Segment only
+1. Segment only
+2. Segment and all parents
 3. All children
 4. Nothing special
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -2753,12 +2740,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. Returns segment and parents in I/O area
+1. Direct access
 2. Deletes segment
-3. Direct access
+3. Returns segment and parents in I/O area
 4. Data only
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -2768,12 +2755,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Retrieves specific segment matching criteria
-2. Retrieves any segment
-3. Causes error
+1. Causes error
+2. Retrieves specific segment matching criteria
+3. Retrieves any segment
 4. Retrieves root
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -2784,8 +2771,8 @@
 **Type:** Single Choice
 
 1. Establishes hierarchical path to target
-2. Not allowed
-3. Optional
+2. Optional
+3. Not allowed
 4. For multiple segments
 
 **Correct Answer:** Option 1
@@ -2798,12 +2785,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Gets next matching segment
-2. Gets any next
-3. Causes error
-4. Resets position
+1. Causes error
+2. Gets next matching segment
+3. Resets position
+4. Gets any next
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -2813,12 +2800,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. After successful retrieval
-2. Always reset
-3. Never maintained
-4. Only with U command
+1. Never maintained
+2. Only with U command
+3. Always reset
+4. After successful retrieval
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -2828,12 +2815,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Root to leaf, left to right
+1. By size
 2. Random
 3. Reverse
-4. By size
+4. Root to leaf, left to right
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -2843,12 +2830,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Sequential GN calls
-2. Multiple GU calls
-3. Special command
-4. Not possible
+1. Special command
+2. Sequential GN calls
+3. Not possible
+4. Multiple GU calls
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -2858,12 +2845,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Gets first occurrence of twin
-2. Fast retrieval
-3. Full retrieval
-4. Forward only
+1. Forward only
+2. Full retrieval
+3. Fast retrieval
+4. Gets first occurrence of twin
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -2873,12 +2860,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Gets last occurrence of twin
+1. Last in database
 2. Locked retrieval
-3. Leaf only
-4. Last in database
+3. Gets last occurrence of twin
+4. Leaf only
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -2889,9 +2876,9 @@
 **Type:** Single Choice
 
 1. Position undefined
-2. Position unchanged
-3. Position at root
-4. Position at end
+2. Position at end
+3. Position unchanged
+4. Position at root
 
 **Correct Answer:** Option 1
 
@@ -2904,9 +2891,9 @@
 **Type:** Single Choice
 
 1. Returns GB status
-2. Wraps to start
-3. Causes error
-4. Returns blank
+2. Returns blank
+3. Wraps to start
+4. Causes error
 
 **Correct Answer:** Option 1
 
@@ -2918,12 +2905,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. GU with qualified SSA on key field
-2. GN with key
-3. Special call
-4. Not supported
+1. Special call
+2. Not supported
+3. GN with key
+4. GU with qualified SSA on key field
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -2933,12 +2920,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. C command code required
-2. Automatically handled
-3. Not supported
-4. Optional
+1. Not supported
+2. Optional
+3. Automatically handled
+4. C command code required
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -2948,12 +2935,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. Unchanged from before GNP
-2. At next parent
+1. At next parent
+2. Undefined
 3. At root
-4. Undefined
+4. Unchanged from before GNP
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -2963,12 +2950,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. GU parent, then GNP loop
-2. Multiple GU
-3. GN loop
-4. Special call
+1. Multiple GU
+2. GN loop
+3. Special call
+4. GU parent, then GNP loop
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -2978,12 +2965,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. Count with loop, check GB
-2. COUNT function
+1. COUNT function
+2. Not possible
 3. Special call
-4. Not possible
+4. Count with loop, check GB
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -2993,12 +2980,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Not directly supported by calls
-2. GN with reverse
-3. Special call
-4. GNPREV call
+1. Special call
+2. GNPREV call
+3. Not directly supported by calls
+4. GN with reverse
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -3008,12 +2995,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Issue same call again
-2. Not possible
+1. Not possible
+2. Use cache
 3. Special call
-4. Use cache
+4. Issue same call again
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -3038,12 +3025,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Concatenated key of retrieved segment
-2. Segment data
-3. Status code
-4. Position
+1. Segment data
+2. Position
+3. Concatenated key of retrieved segment
+4. Status code
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -3053,12 +3040,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Allowed
-2. Not allowed
-3. Causes warning
-4. Conditional
+1. Causes warning
+2. Allowed
+3. Conditional
+4. Not allowed
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -3068,12 +3055,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Not allowed, requires R
-2. Allowed
-3. Causes warning
-4. Conditional
+1. Conditional
+2. Causes warning
+3. Allowed
+4. Not allowed, requires R
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -3083,12 +3070,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. Returns GE status
-2. Returns segment
+1. Returns segment
+2. Returns GE status
 3. Causes error
 4. Returns GB
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -3098,12 +3085,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Insert
-2. Initial Set Record Transaction
+1. Initial Set Record Transaction
+2. Initialize Record
 3. Insert Sorted Record Transaction
-4. Initialize Record
+4. Insert
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -3113,12 +3100,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Replace
+1. Report
 2. Replicate
 3. Reply
-4. Report
+4. Replace
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -3128,12 +3115,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Delete
-2. Detail
+1. Detail
+2. Deliver
 3. Delay
-4. Deliver
+4. Delete
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -3145,8 +3132,8 @@
 
 1. I (Insert)
 2. G (Get)
-3. R (Replace)
-4. D (Delete)
+3. D (Delete)
+4. R (Replace)
 
 **Correct Answer:** Option 1
 
@@ -3158,12 +3145,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. R (Replace)
+1. D (Delete)
 2. I (Insert)
-3. G (Get)
-4. D (Delete)
+3. R (Replace)
+4. G (Get)
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -3173,12 +3160,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. D (Delete)
-2. I (Insert)
-3. R (Replace)
-4. G (Get)
+1. G (Get)
+2. R (Replace)
+3. I (Insert)
+4. D (Delete)
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -3188,12 +3175,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Get Hold call
-2. Get call
-3. Insert call
-4. Nothing
+1. Nothing
+2. Insert call
+3. Get call
+4. Get Hold call
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -3203,12 +3190,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Get Hold call
-2. Get call
+1. Get call
+2. Get Hold call
 3. Insert call
 4. Nothing
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -3218,12 +3205,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Parent must exist
+1. Root exists
 2. Nothing
-3. Root exists
+3. Parent must exist
 4. Index exists
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -3234,8 +3221,8 @@
 **Type:** Single Choice
 
 1. Creates new database record
-2. Requires existing root
-3. Not allowed
+2. Not allowed
+3. Requires existing root
 4. Special processing
 
 **Correct Answer:** Option 1
@@ -3248,12 +3235,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. Qualified SSA path to parent
-2. Root SSA only
-3. No SSA
-4. Delete old parent
+1. Delete old parent
+2. Qualified SSA path to parent
+3. Root SSA only
+4. No SSA
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -3263,12 +3250,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. Specifies where to insert in hierarchy
-2. Not allowed
-3. Optional
-4. For multiple inserts
+1. For multiple inserts
+2. Optional
+3. Not allowed
+4. Specifies where to insert in hierarchy
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -3279,9 +3266,9 @@
 **Type:** Single Choice
 
 1. Returns II status code
-2. Overwrites
-3. Causes error
-4. Returns GB
+2. Causes error
+3. Returns GB
+4. Overwrites
 
 **Correct Answer:** Option 1
 
@@ -3293,12 +3280,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Insert failed, duplicate
+1. Insert index
 2. Insert incomplete
-3. Invalid insert
-4. Insert index
+3. Insert failed, duplicate
+4. Invalid insert
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -3308,12 +3295,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. Data fields only, not key
+1. Key only
 2. Everything including key
-3. Nothing
-4. Key only
+3. Data fields only, not key
+4. Nothing
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -3324,9 +3311,9 @@
 **Type:** Single Choice
 
 1. Causes LK status code error
-2. Allowed if unique
-3. Allowed always
-4. Deletes segment
+2. Allowed always
+3. Deletes segment
+4. Allowed if unique
 
 **Correct Answer:** Option 1
 
@@ -3339,9 +3326,9 @@
 **Type:** Single Choice
 
 1. Key field change attempted in REPL
-2. Lock error
-3. Link error
-4. Last key
+2. Last key
+3. Lock error
+4. Link error
 
 **Correct Answer:** Option 1
 
@@ -3353,12 +3340,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Segment and all dependents
-2. Segment only
+1. Segment only
+2. Parent also
 3. Nothing
-4. Parent also
+4. Segment and all dependents
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -3368,12 +3355,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Deletes entire database record
+1. Not allowed
 2. Deletes root only
-3. Not allowed
-4. Requires parameter
+3. Requires parameter
+4. Deletes entire database record
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -3383,12 +3370,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Required
-2. Optional
+1. Optional
+2. Required
 3. Not allowed
 4. Recommended
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -3413,12 +3400,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. No segment found for DLET/REPL
-2. Data available
-3. Direct access
+1. Data available
+2. Direct access
+3. No segment found for DLET/REPL
 4. Delete all
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -3428,12 +3415,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. FIRST, LAST, HERE options
+1. Not controllable
 2. Random only
-3. Automatic
-4. Not controllable
+3. FIRST, LAST, HERE options
+4. Automatic
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -3444,9 +3431,9 @@
 **Type:** Single Choice
 
 1. Insert at start of twin chain
-2. Insert rule one
-3. Insert first segment
-4. Insert in root
+2. Insert first segment
+3. Insert in root
+4. Insert rule one
 
 **Correct Answer:** Option 1
 
@@ -3490,8 +3477,8 @@
 
 1. Must be unique for keyed insertion
 2. Not required
-3. Optional
-4. Ignored
+3. Ignored
+4. Optional
 
 **Correct Answer:** Option 1
 
@@ -3504,9 +3491,9 @@
 **Type:** Single Choice
 
 1. Returns DA status code
-2. Allowed
-3. Causes error
-4. Updates next segment
+2. Updates next segment
+3. Allowed
+4. Causes error
 
 **Correct Answer:** Option 1
 
@@ -3518,12 +3505,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Returns DA status code
-2. Allowed
-3. Causes error
-4. Deletes next segment
+1. Deletes next segment
+2. Causes error
+3. Returns DA status code
+4. Allowed
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -3533,12 +3520,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Data for segment to insert
-2. Nothing
-3. Key only
-4. Parent data
+1. Nothing
+2. Parent data
+3. Data for segment to insert
+4. Key only
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -3548,12 +3535,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. New segment data
-2. Nothing
-3. Key only
-4. Status
+1. Key only
+2. Status
+3. New segment data
+4. Nothing
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -3565,8 +3552,8 @@
 
 1. Not used
 2. Segment to delete
-3. Key
-4. Status
+3. Status
+4. Key
 
 **Correct Answer:** Option 1
 
@@ -3578,12 +3565,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Not required (uses held segment)
+1. Optional
 2. Required
-3. Optional
-4. For multiple replaces
+3. For multiple replaces
+4. Not required (uses held segment)
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -3593,12 +3580,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Not required (uses held segment)
-2. Required
-3. Optional
-4. For multiple deletes
+1. Optional
+2. Not required (uses held segment)
+3. For multiple deletes
+4. Required
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -3608,12 +3595,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Must provide unique values
-2. Random values
-3. Not possible
-4. Automatic
+1. Random values
+2. Automatic
+3. Must provide unique values
+4. Not possible
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -3623,12 +3610,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. At checkpoint or termination
-2. Immediately
-3. At COMMIT call
-4. Never auto
+1. Immediately
+2. Never auto
+3. At checkpoint or termination
+4. At COMMIT call
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -3638,12 +3625,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. Checkpoint/restart facilities
-2. ROLLBACK call
-3. Not possible
-4. Automatic
+1. ROLLBACK call
+2. Checkpoint/restart facilities
+3. Automatic
+4. Not possible
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -3653,12 +3640,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. All operations I, R, D, G
-2. Get only
-3. Insert only
+1. Get only
+2. Insert only
+3. All operations I, R, D, G
 4. Delete only
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -3669,9 +3656,9 @@
 **Type:** Single Choice
 
 1. Same calls as online
-2. Different calls
-3. Not allowed
-4. Special mode
+2. Special mode
+3. Different calls
+4. Not allowed
 
 **Correct Answer:** Option 1
 
@@ -3683,12 +3670,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. After commit point
-2. Immediately visible
-3. After program end
+1. After program end
+2. After commit point
+3. Immediately visible
 4. After restart
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -3698,12 +3685,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Alternate access path to data
-2. Backup index
-3. Second copy of data
-4. Security feature
+1. Security feature
+2. Second copy of data
+3. Backup index
+4. Alternate access path to data
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -3713,12 +3700,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. DBD using XDFLD
+1. PCB
 2. PSB
-3. PCB
-4. Application
+3. Application
+4. DBD using XDFLD
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -3728,12 +3715,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Index source field
-2. External field
-3. Extra field
+1. External field
+2. Extra field
+3. Index source field
 4. Index dataset
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -3743,12 +3730,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. Points to target data segment
-2. Stores index data
-3. Root segment
-4. Control segment
+1. Root segment
+2. Control segment
+3. Points to target data segment
+4. Stores index data
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -3758,12 +3745,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Any segment in hierarchy
-2. Root only
-3. Leaf only
-4. Parent only
+1. Root only
+2. Leaf only
+3. Parent only
+4. Any segment in hierarchy
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -3773,12 +3760,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Direct access by non-key field
-2. Faster sequential access
+1. Faster sequential access
+2. Direct access by non-key field
 3. Data duplication
 4. Security
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -3789,8 +3776,8 @@
 **Type:** Single Choice
 
 1. Separate physical database
-2. Part of data database
-3. Logical database
+2. Logical database
+3. Part of data database
 4. Virtual database
 
 **Correct Answer:** Option 1
@@ -3805,8 +3792,8 @@
 
 1. Automatic by IMS
 2. Manual by program
-3. Batch only
-4. Optional
+3. Optional
+4. Batch only
 
 **Correct Answer:** Option 1
 
@@ -3818,12 +3805,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Standard DL/I calls
-2. Special index calls
-3. SQL queries
-4. Utility
+1. Special index calls
+2. Standard DL/I calls
+3. Utility
+4. SQL queries
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -3833,12 +3820,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. Can specify index or data DBD
-2. Must specify both
-3. Index DBD only
-4. Data DBD only
+1. Must specify both
+2. Index DBD only
+3. Data DBD only
+4. Can specify index or data DBD
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -3848,12 +3835,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. Key value and pointer
-2. Complete data
-3. Key only
-4. Pointer only
+1. Complete data
+2. Key value and pointer
+3. Pointer only
+4. Key only
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -3863,12 +3850,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Allowed on same database
-2. Only one allowed
-3. Maximum two
-4. Not supported
+1. Not supported
+2. Maximum two
+3. Allowed on same database
+4. Only one allowed
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -3878,12 +3865,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. When source field changes
-2. Manual only
-3. Batch only
-4. Never auto
+1. Manual only
+2. Batch only
+3. Never auto
+4. When source field changes
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -3894,8 +3881,8 @@
 **Type:** Single Choice
 
 1. Allowed
-2. Not allowed
-3. Causes error
+2. Causes error
+3. Not allowed
 4. Merged
 
 **Correct Answer:** Option 1
@@ -3908,12 +3895,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Direct retrieval performance
-2. Sequential performance
-3. Update performance
-4. Delete performance
+1. Sequential performance
+2. Delete performance
+3. Direct retrieval performance
+4. Update performance
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -3925,8 +3912,8 @@
 
 1. Index database name
 2. Field name
-3. Segment name
-4. Dataset name
+3. Dataset name
+4. Segment name
 
 **Correct Answer:** Option 1
 
@@ -3938,12 +3925,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. Subset of segments
-2. All segments
-3. Root only
+1. All segments
+2. Root only
+3. Subset of segments
 4. No segments
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -3953,12 +3940,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Overhead on updates
-2. Slower retrieval
-3. More storage
-4. Both 1 and 3
+1. Slower retrieval
+2. Overhead on updates
+3. Both 1 and 3
+4. More storage
 
-**Correct Answer:** Option 4
+**Correct Answer:** Option 3
 
 ---
 
@@ -3968,12 +3955,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. Transparent or explicit based on PCB
-2. Always transparent
-3. Always explicit
+1. Always transparent
+2. Always explicit
+3. Transparent or explicit based on PCB
 4. Not visible
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -3983,12 +3970,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. Supported with XDFLD
-2. Not supported
-3. Manual only
-4. Requires utility
+1. Manual only
+2. Supported with XDFLD
+3. Requires utility
+4. Not supported
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -3998,12 +3985,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Combine multiple physical databases
-2. Backup database
-3. Logical view only
-4. Index database
+1. Backup database
+2. Logical view only
+3. Index database
+4. Combine multiple physical databases
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -4015,8 +4002,8 @@
 
 1. Segments across physical databases
 2. Segments in same database
-3. Databases to files
-4. Applications to data
+3. Applications to data
+4. Databases to files
 
 **Correct Answer:** Option 1
 
@@ -4028,12 +4015,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Segment with logical parent
+1. Index segment
 2. Virtual segment
-3. Index segment
+3. Segment with logical parent
 4. Backup segment
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -4045,8 +4032,8 @@
 
 1. Different physical database
 2. Same database
-3. Index database
-4. No parent
+3. No parent
+4. Index database
 
 **Correct Answer:** Option 1
 
@@ -4060,8 +4047,8 @@
 
 1. Combines multiple physical DBDs
 2. Standard DBD
-3. Special LDBDGEN
-4. Not needed
+3. Not needed
+4. Special LDBDGEN
 
 **Correct Answer:** Option 1
 
@@ -4073,12 +4060,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Using standard DL/I calls
-2. Special logical calls
-3. SQL only
+1. Special logical calls
+2. SQL only
+3. Using standard DL/I calls
 4. Read-only
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -4103,12 +4090,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. Supported with paired segments
-2. Not supported
-3. One way only
-4. Automatic
+1. Not supported
+2. Automatic
+3. Supported with paired segments
+4. One way only
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -4118,12 +4105,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. Twins via logical relationship
-2. Physical twins
+1. Virtual twins
+2. Twins via logical relationship
 3. Index twins
-4. Virtual twins
+4. Physical twins
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -4133,12 +4120,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Data independence and integration
-2. Faster access
-3. Less storage
-4. Simplified DBD
+1. Faster access
+2. Data independence and integration
+3. Simplified DBD
+4. Less storage
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -4149,9 +4136,9 @@
 **Type:** Single Choice
 
 1. CHKP or SYMCHKP
-2. CKPT
-3. CHECKPOINT
-4. SYNC
+2. CHECKPOINT
+3. SYNC
+4. CKPT
 
 **Correct Answer:** Option 1
 
@@ -4163,12 +4150,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. Extended restart
+1. Exit restart
 2. Extra restart
-3. Execute restart
-4. Exit restart
+3. Extended restart
+4. Execute restart
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -4178,12 +4165,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Point for restart
+1. Lock
 2. Backup
-3. Lock
+3. Point for restart
 4. Commit
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -4194,9 +4181,9 @@
 **Type:** Single Choice
 
 1. Programmer determined
-2. Automatic only
-3. Not needed
-4. Fixed interval
+2. Fixed interval
+3. Automatic only
+4. Not needed
 
 **Correct Answer:** Option 1
 
@@ -4208,12 +4195,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. From last checkpoint
-2. From beginning
-3. Not possible
-4. Manual only
+1. From beginning
+2. From last checkpoint
+3. Manual only
+4. Not possible
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -4224,9 +4211,9 @@
 **Type:** Single Choice
 
 1. In checkpoint dataset
-2. In database
-3. In log
-4. In PSB
+2. In log
+3. In PSB
+4. In database
 
 **Correct Answer:** Option 1
 
@@ -4239,8 +4226,8 @@
 **Type:** Single Choice
 
 1. Checkpoint data
-2. Restart point
-3. Status codes
+2. Status codes
+3. Restart point
 4. Database position
 
 **Correct Answer:** Option 1
@@ -4253,12 +4240,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. Dynamic backout
-2. Roll forward
-3. Rollback all
-4. Rotate log
+1. Rollback all
+2. Rotate log
+3. Roll forward
+4. Dynamic backout
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -4269,9 +4256,9 @@
 **Type:** Single Choice
 
 1. Recovery and restart
-2. Performance
-3. Security
-4. Reporting
+2. Reporting
+3. Performance
+4. Security
 
 **Correct Answer:** Option 1
 
@@ -4283,12 +4270,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Issue CHKP and handle restart logic
-2. Nothing, automatic
-3. Manual recovery
-4. Log management
+1. Manual recovery
+2. Log management
+3. Nothing, automatic
+4. Issue CHKP and handle restart logic
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -4298,12 +4285,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. Randomizing routine
-2. Sequential
-3. Index
+1. Index
+2. Randomizing routine
+3. Sequential
 4. Linked list
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -4314,9 +4301,9 @@
 **Type:** Single Choice
 
 1. Index on root key
-2. Randomizing
+2. Hash
 3. Sequential only
-4. Hash
+4. Randomizing
 
 **Correct Answer:** Option 1
 
@@ -4343,12 +4330,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. Sequential access
+1. Index
 2. Hash
-3. Index
-4. Random
+3. Random
+4. Sequential access
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -4359,9 +4346,9 @@
 **Type:** Single Choice
 
 1. HDAM and HIDAM
-2. HISAM only
-3. HSAM only
-4. All types
+2. HSAM only
+3. All types
+4. HISAM only
 
 **Correct Answer:** Option 1
 
@@ -4373,12 +4360,12 @@
 **Difficulty:** Easy
 **Type:** Single Choice
 
-1. HSAM
-2. HDAM
-3. HIDAM
+1. HDAM
+2. HIDAM
+3. HSAM
 4. All types
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -4388,12 +4375,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. HDAM and HIDAM
-2. HISAM and HSAM
+1. None
+2. HDAM and HIDAM
 3. All types
-4. None
+4. HISAM and HSAM
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -4403,12 +4390,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. No, DL/I abstracts it
-2. Yes, affects calls
-3. Only for tuning
-4. Yes, must code differently
+1. Yes, affects calls
+2. No, DL/I abstracts it
+3. Yes, must code differently
+4. Only for tuning
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -4418,12 +4405,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. HDAM with good randomizer
-2. HIDAM
-3. HISAM
+1. HIDAM
+2. HISAM
+3. HDAM with good randomizer
 4. HSAM
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -4433,12 +4420,12 @@
 **Difficulty:** Medium
 **Type:** Single Choice
 
-1. HIDAM
-2. HDAM
-3. HSAM
-4. All types
+1. HSAM
+2. All types
+3. HDAM
+4. HIDAM
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 4
 
 ---
 
@@ -4449,9 +4436,9 @@
 **Type:** Single Choice
 
 1. Control access to specific fields
-2. Segment sensitivity
-3. Database sensitivity
-4. PCB sensitivity
+2. Database sensitivity
+3. PCB sensitivity
+4. Segment sensitivity
 
 **Correct Answer:** Option 1
 
@@ -4464,9 +4451,9 @@
 **Type:** Single Choice
 
 1. Multiple concurrent positions in DB
-2. One position only
-3. Position stacking
-4. No positioning
+2. No positioning
+3. One position only
+4. Position stacking
 
 **Correct Answer:** Option 1
 
@@ -4478,12 +4465,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. Get next message (GN)
+1. Special calls
 2. Standard DL/I calls
-3. Special calls
+3. Get next message (GN)
 4. Not in DL/I
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
 
@@ -4493,12 +4480,12 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. User exit for database changes
-2. Entry point
-3. Exit program
-4. Checkpoint
+1. Exit program
+2. User exit for database changes
+3. Checkpoint
+4. Entry point
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 2
 
 ---
 
@@ -4508,12 +4495,11 @@
 **Difficulty:** Hard
 **Type:** Single Choice
 
-1. Sequential dataset access via DL/I
-2. IMS database type
-3. Security module
-4. Utility
+1. Security module
+2. Utility
+3. Sequential dataset access via DL/I
+4. IMS database type
 
-**Correct Answer:** Option 1
+**Correct Answer:** Option 3
 
 ---
-
